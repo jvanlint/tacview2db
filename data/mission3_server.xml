@@ -1,0 +1,5362 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TacviewDebriefing Version="1.2.6">
+	<!--Flight Recording Properties-->
+	<FlightRecording>
+		<Source>DCS 2.5.6.55960</Source>
+		<Recorder>DCS2ACMI 1.8.3.200</Recorder>
+		<RecordingTime>2020-10-28T09:05:56.63Z</RecordingTime>
+		<Author>Server_Admin</Author>
+	</FlightRecording>
+	<!--Mission Properties-->
+	<Mission>
+		<Title>NS_Phase_1_Mission_3_final</Title>
+		<MissionTime>2008-04-08T02:20:00Z</MissionTime>
+		<Duration>6647.14</Duration>
+	</Mission>
+	<!--Flight Log-->
+	<Events>
+		<Event>
+			<Time>2.49</Time>
+			<PrimaryObject ID="20">
+				<Type>Car</Type>
+				<Name>ZIL-131 KUNG</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM Signals Company</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2.49</Time>
+			<PrimaryObject ID="21">
+				<Type>Car</Type>
+				<Name>ZIL-131 KUNG</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM Signals Company #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2.49</Time>
+			<PrimaryObject ID="48">
+				<Type>Car</Type>
+				<Name>ZIL-131 KUNG</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM HQ Platoon-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2.49</Time>
+			<PrimaryObject ID="49">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM HQ Platoon #002-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2.49</Time>
+			<PrimaryObject ID="50">
+				<Type>Car</Type>
+				<Name>Ural-4320T</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM HQ Platoon #003-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2.49</Time>
+			<PrimaryObject ID="51">
+				<Type>Car</Type>
+				<Name>UAZ-469</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM HQ Platoon #001-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2.49</Time>
+			<PrimaryObject ID="324">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM Reg Signals Air Defence</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2.49</Time>
+			<PrimaryObject ID="325">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM Reg Signals Air Defence</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2.49</Time>
+			<PrimaryObject ID="326">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM Reg Signals Air Defence</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2.49</Time>
+			<PrimaryObject ID="428">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>LGM Reg HQ Platoon Air Defence -1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM Reg HQ Platoon Air Defence -1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2.49</Time>
+			<PrimaryObject ID="429">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>LGM Reg HQ Platoon Air Defence -1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM Reg HQ Platoon Air Defence -1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2.49</Time>
+			<PrimaryObject ID="430">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>LGM Reg HQ Platoon Air Defence -1-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM Reg HQ Platoon Air Defence -1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2.49</Time>
+			<PrimaryObject ID="431">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>LGM Reg HQ Platoon Air Defence -1-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM Reg HQ Platoon Air Defence -1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4.65</Time>
+			<PrimaryObject ID="896">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>SSV8TE/BERSERKER 1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4.65</Time>
+			<PrimaryObject ID="895">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>4.65</Time>
+			<PrimaryObject ID="894">
+				<Type>Helicopter</Type>
+				<Name>SA 342M Gazelle</Name>
+				<Pilot>AEF Sharkie | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>EDGE</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="8">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4.65</Time>
+			<PrimaryObject ID="893">
+				<Type>Helicopter</Type>
+				<Name>Ka-50 Black Shark</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>BADGE</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="9">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4.65</Time>
+			<PrimaryObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>34.36</Time>
+			<PrimaryObject ID="897">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF SneakyBastd | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>44.30</Time>
+			<PrimaryObject ID="899">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#001-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#001</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>44.30</Time>
+			<PrimaryObject ID="898">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#001-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#001</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>107.43</Time>
+			<PrimaryObject ID="900">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>114.33</Time>
+			<PrimaryObject ID="901">
+				<Type>Helicopter</Type>
+				<Name>Ka-50 Black Shark</Name>
+				<Pilot>H.Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>BADGE</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="9">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>160.21</Time>
+			<PrimaryObject ID="216">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>RU 27 Sortie-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU 27 Sortie</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:URKW">
+				<Name>Krymsk</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>164.97</Time>
+			<PrimaryObject ID="902">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF ZyfrNZ | 161 SQNLDR</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>183.62</Time>
+			<PrimaryObject ID="217">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>RU 27 Sortie-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU 27 Sortie</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:URKW">
+				<Name>Krymsk</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>207.47</Time>
+			<PrimaryObject ID="218">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>RU 27 Sortie-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU 27 Sortie</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:URKW">
+				<Name>Krymsk</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>221.92</Time>
+			<PrimaryObject ID="212">
+				<Type>Aircraft</Type>
+				<Name>Su-24M Fencer-D</Name>
+				<Pilot>SU-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-24 Reposition 2</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:URKL">
+				<Name>Krasnodar-Center</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>231.45</Time>
+			<PrimaryObject ID="900">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>244.69</Time>
+			<PrimaryObject ID="213">
+				<Type>Aircraft</Type>
+				<Name>Su-24M Fencer-D</Name>
+				<Pilot>SU-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-24 Reposition 2</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:URKL">
+				<Name>Krasnodar-Center</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>267.83</Time>
+			<PrimaryObject ID="214">
+				<Type>Aircraft</Type>
+				<Name>Su-24M Fencer-D</Name>
+				<Pilot>SU-1-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-24 Reposition 2</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:URKL">
+				<Name>Krasnodar-Center</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>275.34</Time>
+			<PrimaryObject ID="219">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>RU 27 Sortie-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU 27 Sortie-1</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:URKW">
+				<Name>Krymsk</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>298.90</Time>
+			<PrimaryObject ID="220">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>RU 27 Sortie-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU 27 Sortie-1</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:URKW">
+				<Name>Krymsk</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>319.68</Time>
+			<PrimaryObject ID="215">
+				<Type>Aircraft</Type>
+				<Name>Il-76MD Candid</Name>
+				<Pilot>Aerial-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Reposition</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:URKL">
+				<Name>Krasnodar-Center</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>323.27</Time>
+			<PrimaryObject ID="221">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>RU 27 Sortie-1-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU 27 Sortie-1</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:URKW">
+				<Name>Krymsk</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>327.14</Time>
+			<PrimaryObject ID="903">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>365.28</Time>
+			<PrimaryObject ID="222">
+				<Type>Aircraft</Type>
+				<Name>Su-24MR Fencer-E</Name>
+				<Pilot>Aerial-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Aerial-1</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:URKL">
+				<Name>Krasnodar-Center</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>414.43</Time>
+			<PrimaryObject ID="209">
+				<Type>Aircraft</Type>
+				<Name>Su-24M Fencer-D</Name>
+				<Pilot>SU-24 Reposition-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-24 Reposition 1</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:URKL">
+				<Name>Krasnodar-Center</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>438.13</Time>
+			<PrimaryObject ID="210">
+				<Type>Aircraft</Type>
+				<Name>Su-24M Fencer-D</Name>
+				<Pilot>SU-24 Reposition-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-24 Reposition 1</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:URKL">
+				<Name>Krasnodar-Center</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>454.70</Time>
+			<PrimaryObject ID="467">
+				<Type>Aircraft</Type>
+				<Name>Su-25 Frogfoot</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>ABK SU-25 Group Two</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UGSS">
+				<Name>Sukhumi-Babushara</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>461.30</Time>
+			<PrimaryObject ID="211">
+				<Type>Aircraft</Type>
+				<Name>Su-24M Fencer-D</Name>
+				<Pilot>SU-24 Reposition-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-24 Reposition 1</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:URKL">
+				<Name>Krasnodar-Center</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>481.48</Time>
+			<PrimaryObject ID="468">
+				<Type>Aircraft</Type>
+				<Name>Su-25 Frogfoot</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>ABK SU-25 Group Two</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UGSS">
+				<Name>Sukhumi-Babushara</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>494.31</Time>
+			<PrimaryObject ID="912">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#002-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#002</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>494.31</Time>
+			<PrimaryObject ID="911">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#002-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#002</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>496.03</Time>
+			<PrimaryObject ID="243">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #004</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="910">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M256_120_HE</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>820</Parent>
+			</SecondaryObject>
+			<ParentObject ID="820">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>3 EU MBT Coy #1-2</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>496.03</Time>
+			<PrimaryObject ID="239">
+				<Type>Tank</Type>
+				<Name>BMP-2</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #004</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>496.03</Time>
+			<PrimaryObject ID="240">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #004</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>496.03</Time>
+			<PrimaryObject ID="241">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #004</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>496.03</Time>
+			<PrimaryObject ID="242">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #004</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>496.03</Time>
+			<PrimaryObject ID="243">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #004</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="820">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>3 EU MBT Coy #1-2</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>591.30</Time>
+			<PrimaryObject ID="914">
+				<Type>Aircraft</Type>
+				<Name>Su-30 Flanker-C</Name>
+				<Pilot>RU SU-30#001-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU SU-30#001</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>591.30</Time>
+			<PrimaryObject ID="913">
+				<Type>Aircraft</Type>
+				<Name>Su-30 Flanker-C</Name>
+				<Pilot>RU SU-30#001-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU SU-30#001</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>610.81</Time>
+			<PrimaryObject ID="930">
+				<Type>SAM/AAA</Type>
+				<Name>FIM-92 Stinger</Name>
+				<Pilot>4EU Rapier Battery 1-1-16</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU SHORAD Coy evade_</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>610.81</Time>
+			<PrimaryObject ID="929">
+				<Type>SAM/AAA</Type>
+				<Name>FIM-92 Stinger</Name>
+				<Pilot>4EU Rapier Battery 1-1-15</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU SHORAD Coy evade_</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>610.81</Time>
+			<PrimaryObject ID="928">
+				<Type>SAM/AAA</Type>
+				<Name>FIM-92 Stinger</Name>
+				<Pilot>4EU Rapier Battery 1-1-14</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU SHORAD Coy evade_</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>610.81</Time>
+			<PrimaryObject ID="927">
+				<Type>SAM/AAA</Type>
+				<Name>FIM-92 Stinger</Name>
+				<Pilot>4EU Rapier Battery 1-1-13</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU SHORAD Coy evade_</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>610.81</Time>
+			<PrimaryObject ID="926">
+				<Type>SAM/AAA</Type>
+				<Name>FIM-92 Stinger</Name>
+				<Pilot>4EU Rapier Battery 1-1-12</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU SHORAD Coy evade_</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>610.81</Time>
+			<PrimaryObject ID="925">
+				<Type>SAM/AAA</Type>
+				<Name>FIM-92 Support</Name>
+				<Pilot>4EU Rapier Battery 1-1-11</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU SHORAD Coy evade_</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>610.81</Time>
+			<PrimaryObject ID="924">
+				<Type>SAM/AAA</Type>
+				<Name>FIM-92 Stinger</Name>
+				<Pilot>4EU Rapier Battery 1-1-10</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU SHORAD Coy evade_</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>610.81</Time>
+			<PrimaryObject ID="923">
+				<Type>SAM/AAA</Type>
+				<Name>Gepard</Name>
+				<Pilot>4EU Rapier Battery 1-1-9</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU SHORAD Coy evade_</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>610.81</Time>
+			<PrimaryObject ID="922">
+				<Type>SAM/AAA</Type>
+				<Name>Gepard</Name>
+				<Pilot>4EU Rapier Battery 1-1-8</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU SHORAD Coy evade_</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>610.81</Time>
+			<PrimaryObject ID="921">
+				<Type>SAM/AAA</Type>
+				<Name>Gepard</Name>
+				<Pilot>4EU Rapier Battery 1-1-7</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU SHORAD Coy evade_</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>610.81</Time>
+			<PrimaryObject ID="920">
+				<Type>SAM/AAA</Type>
+				<Name>Gepard</Name>
+				<Pilot>4EU Rapier Battery 1-1-6</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU SHORAD Coy evade_</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>610.81</Time>
+			<PrimaryObject ID="919">
+				<Type>SAM/AAA</Type>
+				<Name>Roland ADS</Name>
+				<Pilot>4EU Rapier Battery 1-1-5</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU SHORAD Coy evade_</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>610.81</Time>
+			<PrimaryObject ID="918">
+				<Type>SAM/AAA</Type>
+				<Name>Roland ADS</Name>
+				<Pilot>4EU Rapier Battery 1-1-4</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU SHORAD Coy evade_</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>610.81</Time>
+			<PrimaryObject ID="917">
+				<Type>SAM/AAA</Type>
+				<Name>Roland ADS</Name>
+				<Pilot>4EU Rapier Battery 1-1-3</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU SHORAD Coy evade_</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>610.81</Time>
+			<PrimaryObject ID="916">
+				<Type>SAM/AAA</Type>
+				<Name>Roland ADS</Name>
+				<Pilot>4EU Rapier Battery 1-1-2</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU SHORAD Coy evade_</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>610.81</Time>
+			<PrimaryObject ID="915">
+				<Type>SAM/AAA</Type>
+				<Name>Roland Radar</Name>
+				<Pilot>4EU Rapier Battery 1-1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU SHORAD Coy evade_</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>675.68</Time>
+			<PrimaryObject ID="569">
+				<Type>Car</Type>
+				<Name>GAZ-66</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>LBM MBT Logistics Plt</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="934">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>ge</Country>
+				<Parent>779</Parent>
+			</SecondaryObject>
+			<ParentObject ID="779">
+				<Type>Tank</Type>
+				<Name>BMP-2</Name>
+				<Pilot>2 GE IFV B1 Coy 1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>ge</Country>
+				<Group>2 GE IFV B1 Coy 1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>675.68</Time>
+			<PrimaryObject ID="569">
+				<Type>Car</Type>
+				<Name>GAZ-66</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>LBM MBT Logistics Plt</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="779">
+				<Type>Tank</Type>
+				<Name>BMP-2</Name>
+				<Pilot>2 GE IFV B1 Coy 1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>ge</Country>
+				<Group>2 GE IFV B1 Coy 1</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>698.64</Time>
+			<PrimaryObject ID="570">
+				<Type>Car</Type>
+				<Name>Ural-375</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>LBM MBT Logistics Plt</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>8</Occurrences>
+			<SecondaryObject ID="953">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>ge</Country>
+				<Parent>789</Parent>
+			</SecondaryObject>
+			<ParentObject ID="789">
+				<Type>Tank</Type>
+				<Name>BMP-2</Name>
+				<Pilot>2 GE IFV B1 Coy 3-1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>ge</Country>
+				<Group>2 GE IFV B1 Coy 3-1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>698.64</Time>
+			<PrimaryObject ID="570">
+				<Type>Car</Type>
+				<Name>Ural-375</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>LBM MBT Logistics Plt</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="789">
+				<Type>Tank</Type>
+				<Name>BMP-2</Name>
+				<Pilot>2 GE IFV B1 Coy 3-1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>ge</Country>
+				<Group>2 GE IFV B1 Coy 3-1</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>705.54</Time>
+			<PrimaryObject ID="902">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF ZyfrNZ | 161 SQNLDR</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>706.53</Time>
+			<PrimaryObject ID="897">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF SneakyBastd | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>713.20</Time>
+			<PrimaryObject ID="571">
+				<Type>Car</Type>
+				<Name>Ural-4320T</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>LBM MBT Logistics Plt</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>17</Occurrences>
+			<SecondaryObject ID="963">
+				<Type>Shell</Type>
+				<Name>weapons.shells.Utes_12_7x108_T</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>ge</Country>
+				<Parent>775</Parent>
+			</SecondaryObject>
+			<ParentObject ID="775">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Pilot>2 GE MBT Coy 1-4</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>ge</Country>
+				<Group>2 GE MBT Coy 1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>713.65</Time>
+			<PrimaryObject ID="571">
+				<Type>Car</Type>
+				<Name>Ural-4320T</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>LBM MBT Logistics Plt</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="790">
+				<Type>Tank</Type>
+				<Name>BMP-2</Name>
+				<Pilot>2 GE IFV B1 Coy 3-1-2</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>ge</Country>
+				<Group>2 GE IFV B1 Coy 3-1</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>722.92</Time>
+			<PrimaryObject ID="572">
+				<Type>Car</Type>
+				<Name>Ural-4320T</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>LBM MBT Logistics Plt</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>11</Occurrences>
+			<SecondaryObject ID="997">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>ge</Country>
+				<Parent>790</Parent>
+			</SecondaryObject>
+			<ParentObject ID="790">
+				<Type>Tank</Type>
+				<Name>BMP-2</Name>
+				<Pilot>2 GE IFV B1 Coy 3-1-2</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>ge</Country>
+				<Group>2 GE IFV B1 Coy 3-1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>726.06</Time>
+			<PrimaryObject ID="572">
+				<Type>Car</Type>
+				<Name>Ural-4320T</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>LBM MBT Logistics Plt</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>9</Occurrences>
+			<SecondaryObject ID="1024">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A46M_125_HE</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>ge</Country>
+				<Parent>793</Parent>
+			</SecondaryObject>
+			<ParentObject ID="793">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Pilot>2 GE MBT Coy 2-1-2</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>ge</Country>
+				<Group>2 GE MBT Coy 3</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>726.06</Time>
+			<PrimaryObject ID="572">
+				<Type>Car</Type>
+				<Name>Ural-4320T</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>LBM MBT Logistics Plt</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="790">
+				<Type>Tank</Type>
+				<Name>BMP-2</Name>
+				<Pilot>2 GE IFV B1 Coy 3-1-2</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>ge</Country>
+				<Group>2 GE IFV B1 Coy 3-1</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>730.84</Time>
+			<PrimaryObject ID="896">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>SSV8TE/BERSERKER 1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>775.11</Time>
+			<PrimaryObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>854.42</Time>
+			<PrimaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1314.61</Time>
+			<PrimaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1636.55</Time>
+			<PrimaryObject ID="457">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>RU Picket Group #000-1-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Picket Group #000-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1038">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M256_120_HE</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>820</Parent>
+			</SecondaryObject>
+			<ParentObject ID="820">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>3 EU MBT Coy #1-2</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>1636.55</Time>
+			<PrimaryObject ID="455">
+				<Type>Car</Type>
+				<Name>KAMAZ Truck</Name>
+				<Pilot>RU Picket Group #000-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Picket Group #000-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>1636.55</Time>
+			<PrimaryObject ID="456">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>RU Picket Group #000-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Picket Group #000-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>1636.55</Time>
+			<PrimaryObject ID="457">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>RU Picket Group #000-1-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Picket Group #000-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="820">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>3 EU MBT Coy #1-2</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1636.55</Time>
+			<PrimaryObject ID="458">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>RU Picket Group #000-1-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Picket Group #000-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>1677.95</Time>
+			<PrimaryObject ID="895">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1683.87</Time>
+			<PrimaryObject ID="903">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1720.82</Time>
+			<PrimaryObject ID="467">
+				<Type>Aircraft</Type>
+				<Name>Su-25 Frogfoot</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>ABK SU-25 Group Two</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGSS">
+				<Name>Sukhumi-Babushara</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>2147.42</Time>
+			<PrimaryObject ID="468">
+				<Type>Aircraft</Type>
+				<Name>Su-25 Frogfoot</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>ABK SU-25 Group Two</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGSS">
+				<Name>Sukhumi-Babushara</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>2265.37</Time>
+			<PrimaryObject ID="895">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1046">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.BK90_MJ1</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>895</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2266.39</Time>
+			<PrimaryObject ID="895">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1047">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.BK90_MJ1</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>895</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2276.46</Time>
+			<PrimaryObject ID="1063">
+				<Type>Bomb</Type>
+				<Name>weapons.missiles.BK90_MJ1.client.launcher.cluster</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="6">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2276.46</Time>
+			<PrimaryObject ID="1063">
+				<Type>Bomb</Type>
+				<Name>weapons.missiles.BK90_MJ1.client.launcher.cluster</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1047">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.BK90_MJ1</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>895</Parent>
+			</SecondaryObject>
+			<ParentObject ID="895">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2276.97</Time>
+			<PrimaryObject ID="1064">
+				<Type>Bomb</Type>
+				<Name>weapons.missiles.BK90_MJ1.client.launcher.cluster</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="6">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2276.97</Time>
+			<PrimaryObject ID="1064">
+				<Type>Bomb</Type>
+				<Name>weapons.missiles.BK90_MJ1.client.launcher.cluster</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1046">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.BK90_MJ1</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>895</Parent>
+			</SecondaryObject>
+			<ParentObject ID="895">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2277.83</Time>
+			<PrimaryObject ID="903">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1067">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.BK90_MJ1</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>903</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2278.84</Time>
+			<PrimaryObject ID="903">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1071">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.BK90_MJ1</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>903</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2279.19</Time>
+			<PrimaryObject ID="371">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 1B Coy #004</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1068">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M256_120_AP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>818</Parent>
+			</SecondaryObject>
+			<ParentObject ID="818">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>Ground-1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2279.19</Time>
+			<PrimaryObject ID="371">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 1B Coy #004</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="818">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>Ground-1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2286.23</Time>
+			<PrimaryObject ID="370">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 1B Coy #004</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1084">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M256_120_HE</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>818</Parent>
+			</SecondaryObject>
+			<ParentObject ID="818">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>Ground-1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2286.23</Time>
+			<PrimaryObject ID="370">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 1B Coy #004</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="818">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>Ground-1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2287.71</Time>
+			<PrimaryObject ID="352">
+				<Type>SAM/AAA</Type>
+				<Name>ZSU-23-4 Shilka</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>FARP Defence</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1063">
+				<Type>Bomb</Type>
+				<Name>weapons.missiles.BK90_MJ1.client.launcher.cluster</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2288.06</Time>
+			<PrimaryObject ID="361">
+				<Type>Car</Type>
+				<Name>GAZ-66</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>ABK FARP Support</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1064">
+				<Type>Bomb</Type>
+				<Name>weapons.missiles.BK90_MJ1.client.launcher.cluster</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2292.13</Time>
+			<PrimaryObject ID="1100">
+				<Type>Bomb</Type>
+				<Name>weapons.missiles.BK90_MJ1.client.launcher.cluster</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="6">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2292.13</Time>
+			<PrimaryObject ID="1100">
+				<Type>Bomb</Type>
+				<Name>weapons.missiles.BK90_MJ1.client.launcher.cluster</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1071">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.BK90_MJ1</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>903</Parent>
+			</SecondaryObject>
+			<ParentObject ID="903">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2292.33</Time>
+			<PrimaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1101">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2292.51</Time>
+			<PrimaryObject ID="1104">
+				<Type>Bomb</Type>
+				<Name>weapons.missiles.BK90_MJ1.client.launcher.cluster</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="6">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2292.51</Time>
+			<PrimaryObject ID="1104">
+				<Type>Bomb</Type>
+				<Name>weapons.missiles.BK90_MJ1.client.launcher.cluster</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1067">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.BK90_MJ1</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>903</Parent>
+			</SecondaryObject>
+			<ParentObject ID="903">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2301.34</Time>
+			<PrimaryObject ID="367">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 1B Coy #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1117">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M256_120_HE</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>820</Parent>
+			</SecondaryObject>
+			<ParentObject ID="820">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>3 EU MBT Coy #1-2</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2301.34</Time>
+			<PrimaryObject ID="367">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 1B Coy #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="820">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>3 EU MBT Coy #1-2</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2301.34</Time>
+			<PrimaryObject ID="394">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU MANPADS LGM APC 1B</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="827">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>3 EU TF #1-6</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2301.94</Time>
+			<PrimaryObject ID="394">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU MANPADS LGM APC 1B</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1118">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M256_120_HE</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>818</Parent>
+			</SecondaryObject>
+			<ParentObject ID="818">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>Ground-1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2303.43</Time>
+			<PrimaryObject ID="394">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU MANPADS LGM APC 1B</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1124">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M256_120_HE</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>827</Parent>
+			</SecondaryObject>
+			<ParentObject ID="827">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>3 EU TF #1-6</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2304.31</Time>
+			<PrimaryObject ID="362">
+				<Type>Car</Type>
+				<Name>Ural-375</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>ABK FARP Support</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2304.31</Time>
+			<PrimaryObject ID="363">
+				<Type>Car</Type>
+				<Name>Ural-375</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>ABK FARP Support</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2304.60</Time>
+			<PrimaryObject ID="357">
+				<Type>Car</Type>
+				<Name>ATZ-10</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>ABK FARP Support</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2305.28</Time>
+			<PrimaryObject ID="473">
+				<Type>Helicopter</Type>
+				<Name>Mi-24V Hind-E</Name>
+				<Pilot>Rotary-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>Rotary-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1104">
+				<Type>Bomb</Type>
+				<Name>weapons.missiles.BK90_MJ1.client.launcher.cluster</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2305.72</Time>
+			<PrimaryObject ID="353">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>FARP Defence</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2305.82</Time>
+			<PrimaryObject ID="356">
+				<Type>Car</Type>
+				<Name>Ural-375</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>ABK FARP Support</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2305.82</Time>
+			<PrimaryObject ID="364">
+				<Type>Car</Type>
+				<Name>Ural-375</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>ABK FARP Support</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2305.99</Time>
+			<PrimaryObject ID="358">
+				<Type>Car</Type>
+				<Name>ATZ-10</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>ABK FARP Support</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2305.99</Time>
+			<PrimaryObject ID="359">
+				<Type>Car</Type>
+				<Name>ATZ-10</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>ABK FARP Support</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2306.48</Time>
+			<PrimaryObject ID="359">
+				<Type>Car</Type>
+				<Name>ATZ-10</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>ABK FARP Support</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1100">
+				<Type>Bomb</Type>
+				<Name>weapons.missiles.BK90_MJ1.client.launcher.cluster</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2317.04</Time>
+			<PrimaryObject ID="591">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Pilot>1 ABK MBT 1B Coy 2-1-7</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1101">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+			<ParentObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2317.06</Time>
+			<PrimaryObject ID="591">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Pilot>1 ABK MBT 1B Coy 2-1-7</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2340.19</Time>
+			<PrimaryObject ID="369">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 1B Coy #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1714">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M256_120_HE</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>818</Parent>
+			</SecondaryObject>
+			<ParentObject ID="818">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>Ground-1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2346.89</Time>
+			<PrimaryObject ID="369">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 1B Coy #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1722">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M256_120_HE</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>825</Parent>
+			</SecondaryObject>
+			<ParentObject ID="825">
+				<Type>Tank</Type>
+				<Name>M-113</Name>
+				<Pilot>3 EU TF #1-4</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2370.25</Time>
+			<PrimaryObject ID="369">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 1B Coy #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1848">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M256_120_AP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>826</Parent>
+			</SecondaryObject>
+			<ParentObject ID="826">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>3 EU TF #1-5</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2370.25</Time>
+			<PrimaryObject ID="369">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 1B Coy #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="826">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>3 EU TF #1-5</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2392.40</Time>
+			<PrimaryObject ID="391">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU MANPADS LGM APC 1B</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1874">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M256_120_HE</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>818</Parent>
+			</SecondaryObject>
+			<ParentObject ID="818">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>Ground-1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2392.40</Time>
+			<PrimaryObject ID="391">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU MANPADS LGM APC 1B</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="818">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>Ground-1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2402.45</Time>
+			<PrimaryObject ID="818">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>Ground-1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1883">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A28_73</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>372</Parent>
+			</SecondaryObject>
+			<ParentObject ID="372">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 1B Coy #004</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2405.37</Time>
+			<PrimaryObject ID="372">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 1B Coy #004</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1888">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M256_120_HE</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>818</Parent>
+			</SecondaryObject>
+			<ParentObject ID="818">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>Ground-1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2405.37</Time>
+			<PrimaryObject ID="372">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 1B Coy #004</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="818">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>Ground-1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2535.69</Time>
+			<PrimaryObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1969">
+				<Type>Bomb</Type>
+				<Name>weapons.bombs.CBU_97</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>892</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2545.81</Time>
+			<PrimaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1970">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2566.08</Time>
+			<PrimaryObject ID="1969">
+				<Type>Bomb</Type>
+				<Name>weapons.bombs.CBU_97</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>892</Parent>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1979">
+				<Type>Bomb</Type>
+				<Name>weapons.bombs.CBU_97 Bomblets</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1969</Parent>
+			</SecondaryObject>
+			<ParentObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2570.53</Time>
+			<PrimaryObject ID="412">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU MANPADS 1 ABK APC 1B</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="1979">
+				<Type>Bomb</Type>
+				<Name>weapons.bombs.CBU_97 Bomblets</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1969</Parent>
+			</SecondaryObject>
+			<ParentObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2570.68</Time>
+			<PrimaryObject ID="604">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Pilot>1 ABK APC 1B Coy #003-1-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK APC 1B Coy #004</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="1979">
+				<Type>Bomb</Type>
+				<Name>weapons.bombs.CBU_97 Bomblets</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1969</Parent>
+			</SecondaryObject>
+			<ParentObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2581.42</Time>
+			<PrimaryObject ID="602">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Pilot>1 ABK APC 1B Coy #003-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK APC 1B Coy #004</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2585.12</Time>
+			<PrimaryObject ID="603">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Pilot>1 ABK APC 1B Coy #003-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK APC 1B Coy #004</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1979">
+				<Type>Bomb</Type>
+				<Name>weapons.bombs.CBU_97 Bomblets</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1969</Parent>
+			</SecondaryObject>
+			<ParentObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2595.35</Time>
+			<PrimaryObject ID="463">
+				<Type>Car</Type>
+				<Name>KAMAZ Truck</Name>
+				<Pilot>RU Picket Group #000-3-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Picket Group #000-3</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1982">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M256_120_HE</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>818</Parent>
+			</SecondaryObject>
+			<ParentObject ID="818">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>Ground-1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2595.35</Time>
+			<PrimaryObject ID="463">
+				<Type>Car</Type>
+				<Name>KAMAZ Truck</Name>
+				<Pilot>RU Picket Group #000-3-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Picket Group #000-3</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="818">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>Ground-1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2595.35</Time>
+			<PrimaryObject ID="464">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>RU Picket Group #000-3-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Picket Group #000-3</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2595.35</Time>
+			<PrimaryObject ID="465">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>RU Picket Group #000-3-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Picket Group #000-3</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2595.35</Time>
+			<PrimaryObject ID="466">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>RU Picket Group #000-3-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Picket Group #000-3</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2598.95</Time>
+			<PrimaryObject ID="587">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Pilot>1 ABK MBT 1B Coy 2-1-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1970">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+			<ParentObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2617.92</Time>
+			<PrimaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1985">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2620.02</Time>
+			<PrimaryObject ID="368">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 1B Coy #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1986">
+				<Type>Shell</Type>
+				<Name>weapons.shells.Rh202_20_HE</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>823</Parent>
+			</SecondaryObject>
+			<ParentObject ID="823">
+				<Type>Tank</Type>
+				<Name>Marder</Name>
+				<Pilot>3 EU TF #1-2</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2620.69</Time>
+			<PrimaryObject ID="822">
+				<Type>Tank</Type>
+				<Name>Marder</Name>
+				<Pilot>3 EU TF #1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>6</Occurrences>
+			<SecondaryObject ID="1989">
+				<Type>Shell</Type>
+				<Name>weapons.shells.Rh202_20_AP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>823</Parent>
+			</SecondaryObject>
+			<ParentObject ID="823">
+				<Type>Tank</Type>
+				<Name>Marder</Name>
+				<Pilot>3 EU TF #1-2</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2628.81</Time>
+			<PrimaryObject ID="818">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>Ground-1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2002">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A28_73</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>368</Parent>
+			</SecondaryObject>
+			<ParentObject ID="368">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 1B Coy #003</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2629.96</Time>
+			<PrimaryObject ID="368">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 1B Coy #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2003">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M256_120_HE</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>826</Parent>
+			</SecondaryObject>
+			<ParentObject ID="826">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>3 EU TF #1-5</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2629.96</Time>
+			<PrimaryObject ID="368">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 1B Coy #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="826">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>3 EU TF #1-5</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2657.93</Time>
+			<PrimaryObject ID="585">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Pilot>1 ABK MBT 1B Coy 2-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2657.95</Time>
+			<PrimaryObject ID="585">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Pilot>1 ABK MBT 1B Coy 2-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1985">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+			<ParentObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2753.23</Time>
+			<PrimaryObject ID="212">
+				<Type>Aircraft</Type>
+				<Name>Su-24M Fencer-D</Name>
+				<Pilot>SU-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-24 Reposition 2</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:XRMF">
+				<Name>Mozdok</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>2913.21</Time>
+			<PrimaryObject ID="217">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>RU 27 Sortie-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU 27 Sortie</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:URMO">
+				<Name>Beslan</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>2915.78</Time>
+			<PrimaryObject ID="216">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>RU 27 Sortie-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU 27 Sortie</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:URMO">
+				<Name>Beslan</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>2925.80</Time>
+			<PrimaryObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2004">
+				<Type>Bomb</Type>
+				<Name>GBU-12 Paveway II</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>892</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2958.57</Time>
+			<PrimaryObject ID="588">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Pilot>1 ABK MBT 1B Coy 2-1-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2958.74</Time>
+			<PrimaryObject ID="588">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Pilot>1 ABK MBT 1B Coy 2-1-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2004">
+				<Type>Bomb</Type>
+				<Name>GBU-12 Paveway II</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>892</Parent>
+			</SecondaryObject>
+			<ParentObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3031.46</Time>
+			<PrimaryObject ID="895">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+		</Event>
+		<Event>
+			<Time>3036.54</Time>
+			<PrimaryObject ID="903">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>3087.55</Time>
+			<PrimaryObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2005">
+				<Type>Bomb</Type>
+				<Name>GBU-12 Paveway II</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>892</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3115.73</Time>
+			<PrimaryObject ID="220">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>RU 27 Sortie-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU 27 Sortie-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3115.73</Time>
+			<PrimaryObject ID="221">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>RU 27 Sortie-1-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU 27 Sortie-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3118.81</Time>
+			<PrimaryObject ID="219">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>RU 27 Sortie-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU 27 Sortie-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2016">
+				<Type>Parachutist</Type>
+				<Name>Pilot</Name>
+				<Country>ru</Country>
+				<Parent>219</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3118.83</Time>
+			<PrimaryObject ID="219">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>RU 27 Sortie-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU 27 Sortie-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2017">
+				<Type>Parachutist</Type>
+				<Name>Pilot</Name>
+				<Country>ru</Country>
+				<Parent>219</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3121.65</Time>
+			<PrimaryObject ID="503">
+				<Type>SAM/AAA</Type>
+				<Name>ZSU-23-4 Shilka</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK Air Defence evade_</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3121.72</Time>
+			<PrimaryObject ID="503">
+				<Type>SAM/AAA</Type>
+				<Name>ZSU-23-4 Shilka</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK Air Defence evade_</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2005">
+				<Type>Bomb</Type>
+				<Name>GBU-12 Paveway II</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>892</Parent>
+			</SecondaryObject>
+			<ParentObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3123.84</Time>
+			<PrimaryObject ID="218">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>RU 27 Sortie-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU 27 Sortie</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:URMO">
+				<Name>Beslan</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>3217.67</Time>
+			<PrimaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2019">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3235.05</Time>
+			<PrimaryObject ID="472">
+				<Type>Helicopter</Type>
+				<Name>Mi-24V Hind-E</Name>
+				<Pilot>Rotary-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>Rotary-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3235.59</Time>
+			<PrimaryObject ID="209">
+				<Type>Aircraft</Type>
+				<Name>Su-24M Fencer-D</Name>
+				<Pilot>SU-24 Reposition-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-24 Reposition 1</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:XRMF">
+				<Name>Mozdok</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>3243.74</Time>
+			<PrimaryObject ID="589">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Pilot>1 ABK MBT 1B Coy 2-1-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2019">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+			<ParentObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3243.74</Time>
+			<PrimaryObject ID="589">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Pilot>1 ABK MBT 1B Coy 2-1-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3253.66</Time>
+			<PrimaryObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2020">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>892</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3265.05</Time>
+			<PrimaryObject ID="473">
+				<Type>Helicopter</Type>
+				<Name>Mi-24V Hind-E</Name>
+				<Pilot>Rotary-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>Rotary-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3282.15</Time>
+			<PrimaryObject ID="587">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Pilot>1 ABK MBT 1B Coy 2-1-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2020">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>892</Parent>
+			</SecondaryObject>
+			<ParentObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3282.26</Time>
+			<PrimaryObject ID="587">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Pilot>1 ABK MBT 1B Coy 2-1-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3313.06</Time>
+			<PrimaryObject ID="219">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>RU 27 Sortie-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU 27 Sortie-1</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:URMO">
+				<Name>Beslan</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>3427.51</Time>
+			<PrimaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2021">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3462.17</Time>
+			<PrimaryObject ID="590">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Pilot>1 ABK MBT 1B Coy 2-1-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2021">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+			<ParentObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3528.73</Time>
+			<PrimaryObject ID="584">
+				<Type>Tank</Type>
+				<Name>T-55</Name>
+				<Pilot>LGM MBT 1B Coy 2 -1-7</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK MBT 1B Coy 2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2023">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M256_120_AP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>818</Parent>
+			</SecondaryObject>
+			<ParentObject ID="818">
+				<Type>Tank</Type>
+				<Name>Leopard-2</Name>
+				<Pilot>Ground-1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>3 EU TF</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3554.40</Time>
+			<PrimaryObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2024">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>892</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3577.30</Time>
+			<PrimaryObject ID="590">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Pilot>1 ABK MBT 1B Coy 2-1-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2024">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>892</Parent>
+			</SecondaryObject>
+			<ParentObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3577.37</Time>
+			<PrimaryObject ID="590">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Pilot>1 ABK MBT 1B Coy 2-1-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3628.31</Time>
+			<PrimaryObject ID="2034">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#003-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#003</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>3628.31</Time>
+			<PrimaryObject ID="2033">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#003-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#003</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>3664.15</Time>
+			<PrimaryObject ID="213">
+				<Type>Aircraft</Type>
+				<Name>Su-24M Fencer-D</Name>
+				<Pilot>SU-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-24 Reposition 2</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:XRMF">
+				<Name>Mozdok</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>3731.16</Time>
+			<PrimaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2035">
+				<Type>Bomb</Type>
+				<Name>GBU-12 Paveway II</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3791.33</Time>
+			<PrimaryObject ID="898">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#001-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3807.43</Time>
+			<PrimaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2036">
+				<Type>Bomb</Type>
+				<Name>GBU-12 Paveway II</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3833.78</Time>
+			<PrimaryObject ID="603">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Pilot>1 ABK APC 1B Coy #003-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK APC 1B Coy #004</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2036">
+				<Type>Bomb</Type>
+				<Name>GBU-12 Paveway II</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+			<ParentObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3880.86</Time>
+			<PrimaryObject ID="210">
+				<Type>Aircraft</Type>
+				<Name>Su-24M Fencer-D</Name>
+				<Pilot>SU-24 Reposition-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-24 Reposition 1</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:XRMF">
+				<Name>Mozdok</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>3895.98</Time>
+			<PrimaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2037">
+				<Type>Bomb</Type>
+				<Name>GBU-12 Paveway II</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3912.73</Time>
+			<PrimaryObject ID="248">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Picket Group #001</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>37</Occurrences>
+			<SecondaryObject ID="2040">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>248</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3921.62</Time>
+			<PrimaryObject ID="895">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>3929.09</Time>
+			<PrimaryObject ID="903">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>3945.10</Time>
+			<PrimaryObject ID="899">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#001-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3988.83</Time>
+			<PrimaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2114">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3995.68</Time>
+			<PrimaryObject ID="893">
+				<Type>Helicopter</Type>
+				<Name>Ka-50 Black Shark</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>BADGE</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2115">
+				<Type>Missile</Type>
+				<Name>9K121 Vikhr</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>893</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3999.60</Time>
+			<PrimaryObject ID="248">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Picket Group #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2115">
+				<Type>Missile</Type>
+				<Name>9K121 Vikhr</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>893</Parent>
+			</SecondaryObject>
+			<ParentObject ID="893">
+				<Type>Helicopter</Type>
+				<Name>Ka-50 Black Shark</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>BADGE</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3999.60</Time>
+			<PrimaryObject ID="244">
+				<Type>Tank</Type>
+				<Name>BMP-2</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Picket Group #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3999.60</Time>
+			<PrimaryObject ID="245">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Picket Group #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3999.60</Time>
+			<PrimaryObject ID="246">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Picket Group #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3999.60</Time>
+			<PrimaryObject ID="247">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Picket Group #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3999.60</Time>
+			<PrimaryObject ID="248">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Picket Group #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="893">
+				<Type>Helicopter</Type>
+				<Name>Ka-50 Black Shark</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>BADGE</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4003.62</Time>
+			<PrimaryObject ID="2114">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4156.41</Time>
+			<PrimaryObject ID="211">
+				<Type>Aircraft</Type>
+				<Name>Su-24M Fencer-D</Name>
+				<Pilot>SU-24 Reposition-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-24 Reposition 1</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:XRMF">
+				<Name>Mozdok</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4226.34</Time>
+			<PrimaryObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2116">
+				<Type>Bomb</Type>
+				<Name>weapons.bombs.CBU_97</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>892</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4231.36</Time>
+			<PrimaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2117">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4250.67</Time>
+			<PrimaryObject ID="603">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Pilot>1 ABK APC 1B Coy #003-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK APC 1B Coy #004</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2117">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+			<ParentObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4256.86</Time>
+			<PrimaryObject ID="2116">
+				<Type>Bomb</Type>
+				<Name>weapons.bombs.CBU_97</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>892</Parent>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2118">
+				<Type>Bomb</Type>
+				<Name>weapons.bombs.CBU_97 Bomblets</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>2116</Parent>
+			</SecondaryObject>
+			<ParentObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4264.39</Time>
+			<PrimaryObject ID="601">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Pilot>1 ABK APC 1B Coy #002-1-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK APC 1B Coy #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4265.06</Time>
+			<PrimaryObject ID="600">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Pilot>1 ABK APC 1B Coy #002-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK APC 1B Coy #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4271.15</Time>
+			<PrimaryObject ID="411">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU MANPADS 1 ABK APC 1B</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4292.98</Time>
+			<PrimaryObject ID="214">
+				<Type>Aircraft</Type>
+				<Name>Su-24M Fencer-D</Name>
+				<Pilot>SU-1-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-24 Reposition 2</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:XRMF">
+				<Name>Mozdok</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4295.70</Time>
+			<PrimaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2119">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4299.84</Time>
+			<PrimaryObject ID="893">
+				<Type>Helicopter</Type>
+				<Name>Ka-50 Black Shark</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>BADGE</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2120">
+				<Type>Missile</Type>
+				<Name>9K121 Vikhr</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>893</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4301.90</Time>
+			<PrimaryObject ID="603">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Pilot>1 ABK APC 1B Coy #003-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK APC 1B Coy #004</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2119">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+			<ParentObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4305.69</Time>
+			<PrimaryObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2121">
+				<Type>Bomb</Type>
+				<Name>weapons.bombs.CBU_97</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>892</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4314.60</Time>
+			<PrimaryObject ID="2120">
+				<Type>Missile</Type>
+				<Name>9K121 Vikhr</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>893</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4318.59</Time>
+			<PrimaryObject ID="222">
+				<Type>Aircraft</Type>
+				<Name>Su-24MR Fencer-E</Name>
+				<Pilot>Aerial-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Aerial-1</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:URKL">
+				<Name>Krasnodar-Center</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4334.25</Time>
+			<PrimaryObject ID="2121">
+				<Type>Bomb</Type>
+				<Name>weapons.bombs.CBU_97</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>892</Parent>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2134">
+				<Type>Bomb</Type>
+				<Name>weapons.bombs.CBU_97 Bomblets</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>2121</Parent>
+			</SecondaryObject>
+			<ParentObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4336.08</Time>
+			<PrimaryObject ID="893">
+				<Type>Helicopter</Type>
+				<Name>Ka-50 Black Shark</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>BADGE</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2135">
+				<Type>Missile</Type>
+				<Name>9K121 Vikhr</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>893</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4337.98</Time>
+			<PrimaryObject ID="597">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Pilot>1 ABK APC 1B Coy #001-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK APC 1B Coy #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="2134">
+				<Type>Bomb</Type>
+				<Name>weapons.bombs.CBU_97 Bomblets</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>2121</Parent>
+			</SecondaryObject>
+			<ParentObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4340.31</Time>
+			<PrimaryObject ID="2137">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#004-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#004</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>4340.31</Time>
+			<PrimaryObject ID="2136">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#004-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#004</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>4340.44</Time>
+			<PrimaryObject ID="409">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU MANPADS 1 ABK APC 1B</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4342.51</Time>
+			<PrimaryObject ID="598">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Pilot>1 ABK APC 1B Coy #001-1-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK APC 1B Coy #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4343.42</Time>
+			<PrimaryObject ID="596">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Pilot>1 ABK APC 1B Coy #001-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK APC 1B Coy #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4350.25</Time>
+			<PrimaryObject ID="2135">
+				<Type>Missile</Type>
+				<Name>9K121 Vikhr</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>893</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4406.88</Time>
+			<PrimaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2146">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4414.02</Time>
+			<PrimaryObject ID="603">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Pilot>1 ABK APC 1B Coy #003-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK APC 1B Coy #004</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4414.07</Time>
+			<PrimaryObject ID="603">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Pilot>1 ABK APC 1B Coy #003-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK APC 1B Coy #004</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2146">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+			<ParentObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4414.33</Time>
+			<PrimaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2147">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4419.36</Time>
+			<PrimaryObject ID="2147">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4447.28</Time>
+			<PrimaryObject ID="893">
+				<Type>Helicopter</Type>
+				<Name>Ka-50 Black Shark</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>BADGE</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2152">
+				<Type>Missile</Type>
+				<Name>9K121 Vikhr</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>893</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4461.12</Time>
+			<PrimaryObject ID="2152">
+				<Type>Missile</Type>
+				<Name>9K121 Vikhr</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>893</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4517.42</Time>
+			<PrimaryObject ID="911">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#002-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4527.56</Time>
+			<PrimaryObject ID="912">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#002-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4593.93</Time>
+			<PrimaryObject ID="901">
+				<Type>Helicopter</Type>
+				<Name>Ka-50 Black Shark</Name>
+				<Pilot>H.Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>BADGE</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2163">
+				<Type>Missile</Type>
+				<Name>9K121 Vikhr</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>901</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4599.62</Time>
+			<PrimaryObject ID="894">
+				<Type>Helicopter</Type>
+				<Name>SA 342M Gazelle</Name>
+				<Pilot>AEF Sharkie | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>EDGE</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2164">
+				<Type>Missile</Type>
+				<Name>HOT3</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Parent>894</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4603.32</Time>
+			<PrimaryObject ID="510">
+				<Type>SAM/AAA</Type>
+				<Name>SA-9 Gaskin</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK Air Defence evade_</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="901">
+				<Type>Helicopter</Type>
+				<Name>Ka-50 Black Shark</Name>
+				<Pilot>H.Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>BADGE</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4603.37</Time>
+			<PrimaryObject ID="510">
+				<Type>SAM/AAA</Type>
+				<Name>SA-9 Gaskin</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK Air Defence evade_</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2163">
+				<Type>Missile</Type>
+				<Name>9K121 Vikhr</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Parent>901</Parent>
+			</SecondaryObject>
+			<ParentObject ID="901">
+				<Type>Helicopter</Type>
+				<Name>Ka-50 Black Shark</Name>
+				<Pilot>H.Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>BADGE</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4608.31</Time>
+			<PrimaryObject ID="2164">
+				<Type>Missile</Type>
+				<Name>HOT3</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Parent>894</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4650.29</Time>
+			<PrimaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2165">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4664.90</Time>
+			<PrimaryObject ID="434">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>1 ABK HQ Platoon Air Defence-1-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>1 ABK HQ Platoon Air Defence-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2165">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+			<ParentObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4664.92</Time>
+			<PrimaryObject ID="53">
+				<Type>Car</Type>
+				<Name>ZIL-131 KUNG</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>1 ABK HQ Platoon #004-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4664.92</Time>
+			<PrimaryObject ID="432">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>1 ABK HQ Platoon Air Defence-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>1 ABK HQ Platoon Air Defence-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4664.92</Time>
+			<PrimaryObject ID="434">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>1 ABK HQ Platoon Air Defence-1-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>1 ABK HQ Platoon Air Defence-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4664.92</Time>
+			<PrimaryObject ID="435">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>1 ABK HQ Platoon Air Defence-1-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>1 ABK HQ Platoon Air Defence-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4691.89</Time>
+			<PrimaryObject ID="895">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2166">
+				<Type>Missile</Type>
+				<Name>RB75B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>895</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4707.11</Time>
+			<PrimaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2167">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4709.60</Time>
+			<PrimaryObject ID="361">
+				<Type>Car</Type>
+				<Name>GAZ-66</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>ABK FARP Support</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2166">
+				<Type>Missile</Type>
+				<Name>RB75B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>895</Parent>
+			</SecondaryObject>
+			<ParentObject ID="895">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4717.79</Time>
+			<PrimaryObject ID="2167">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4748.87</Time>
+			<PrimaryObject ID="903">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2168">
+				<Type>Missile</Type>
+				<Name>RB75B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>903</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4771.04</Time>
+			<PrimaryObject ID="361">
+				<Type>Car</Type>
+				<Name>GAZ-66</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>ABK FARP Support</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2168">
+				<Type>Missile</Type>
+				<Name>RB75B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>903</Parent>
+			</SecondaryObject>
+			<ParentObject ID="903">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4826.99</Time>
+			<PrimaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2169">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4832.62</Time>
+			<PrimaryObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2170">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>892</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4842.43</Time>
+			<PrimaryObject ID="216">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>RU 27 Sortie-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU 27 Sortie</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:URMO">
+				<Name>Beslan</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4849.92</Time>
+			<PrimaryObject ID="52">
+				<Type>Car</Type>
+				<Name>Ural-4320T</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>1 ABK HQ Platoon #003-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2169">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>1035</Parent>
+			</SecondaryObject>
+			<ParentObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4849.94</Time>
+			<PrimaryObject ID="52">
+				<Type>Car</Type>
+				<Name>Ural-4320T</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>1 ABK HQ Platoon #003-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4857.44</Time>
+			<PrimaryObject ID="217">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>RU 27 Sortie-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU 27 Sortie</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:URMO">
+				<Name>Beslan</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4857.52</Time>
+			<PrimaryObject ID="55">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>1 ABK HQ Platoon #002-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2170">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>892</Parent>
+			</SecondaryObject>
+			<ParentObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4857.52</Time>
+			<PrimaryObject ID="55">
+				<Type>Tank</Type>
+				<Name>BMP-1</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>1 ABK HQ Platoon #002-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4857.52</Time>
+			<PrimaryObject ID="433">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>1 ABK HQ Platoon Air Defence-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>1 ABK HQ Platoon Air Defence-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4859.89</Time>
+			<PrimaryObject ID="54">
+				<Type>Car</Type>
+				<Name>UAZ-469</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>1 ABK HQ Platoon #005-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4958.70</Time>
+			<PrimaryObject ID="895">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2171">
+				<Type>Missile</Type>
+				<Name>RB75B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>895</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4967.13</Time>
+			<PrimaryObject ID="895">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2172">
+				<Type>Missile</Type>
+				<Name>RB75B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>895</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4994.31</Time>
+			<PrimaryObject ID="471">
+				<Type>Helicopter</Type>
+				<Name>Mi-8MT Hip</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>Transport Flight</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2172">
+				<Type>Missile</Type>
+				<Name>RB75B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>895</Parent>
+			</SecondaryObject>
+			<ParentObject ID="895">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4995.53</Time>
+			<PrimaryObject ID="471">
+				<Type>Helicopter</Type>
+				<Name>Mi-8MT Hip</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>Transport Flight</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2171">
+				<Type>Missile</Type>
+				<Name>RB75B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>895</Parent>
+			</SecondaryObject>
+			<ParentObject ID="895">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>5016.48</Time>
+			<PrimaryObject ID="212">
+				<Type>Aircraft</Type>
+				<Name>Su-24M Fencer-D</Name>
+				<Pilot>SU-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-24 Reposition 2</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+		</Event>
+		<Event>
+			<Time>5045.45</Time>
+			<PrimaryObject ID="903">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2173">
+				<Type>Missile</Type>
+				<Name>RB75B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>903</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5052.84</Time>
+			<PrimaryObject ID="903">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2174">
+				<Type>Missile</Type>
+				<Name>RB75B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>903</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5057.44</Time>
+			<PrimaryObject ID="218">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>RU 27 Sortie-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU 27 Sortie</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:URMO">
+				<Name>Beslan</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5077.52</Time>
+			<PrimaryObject ID="361">
+				<Type>Car</Type>
+				<Name>GAZ-66</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>ABK FARP Support</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2174">
+				<Type>Missile</Type>
+				<Name>RB75B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>903</Parent>
+			</SecondaryObject>
+			<ParentObject ID="903">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>5078.67</Time>
+			<PrimaryObject ID="471">
+				<Type>Helicopter</Type>
+				<Name>Mi-8MT Hip</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>Transport Flight</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2173">
+				<Type>Missile</Type>
+				<Name>RB75B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>903</Parent>
+			</SecondaryObject>
+			<ParentObject ID="903">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>5135.69</Time>
+			<PrimaryObject ID="895">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2207">
+				<Type>Missile</Type>
+				<Name>RB75B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>895</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5160.60</Time>
+			<PrimaryObject ID="470">
+				<Type>Helicopter</Type>
+				<Name>Mi-8MT Hip</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>Transport Flight</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2207">
+				<Type>Missile</Type>
+				<Name>RB75B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>895</Parent>
+			</SecondaryObject>
+			<ParentObject ID="895">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>5216.73</Time>
+			<PrimaryObject ID="903">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2208">
+				<Type>Missile</Type>
+				<Name>RB75B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>903</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5245.30</Time>
+			<PrimaryObject ID="352">
+				<Type>SAM/AAA</Type>
+				<Name>ZSU-23-4 Shilka</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>FARP Defence</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2208">
+				<Type>Missile</Type>
+				<Name>RB75B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>903</Parent>
+			</SecondaryObject>
+			<ParentObject ID="903">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>5245.30</Time>
+			<PrimaryObject ID="352">
+				<Type>SAM/AAA</Type>
+				<Name>ZSU-23-4 Shilka</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>FARP Defence</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="903">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5252.43</Time>
+			<PrimaryObject ID="219">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>RU 27 Sortie-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU 27 Sortie-1</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:URMO">
+				<Name>Beslan</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5277.04</Time>
+			<PrimaryObject ID="901">
+				<Type>Helicopter</Type>
+				<Name>Ka-50 Black Shark</Name>
+				<Pilot>H.Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>BADGE</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5278.16</Time>
+			<PrimaryObject ID="215">
+				<Type>Aircraft</Type>
+				<Name>Il-76MD Candid</Name>
+				<Pilot>Aerial-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Reposition</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:URKL">
+				<Name>Krasnodar-Center</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5295.17</Time>
+			<PrimaryObject ID="893">
+				<Type>Helicopter</Type>
+				<Name>Ka-50 Black Shark</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>BADGE</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5335.20</Time>
+			<PrimaryObject ID="894">
+				<Type>Helicopter</Type>
+				<Name>SA 342M Gazelle</Name>
+				<Pilot>AEF Sharkie | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>EDGE</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5496.48</Time>
+			<PrimaryObject ID="209">
+				<Type>Aircraft</Type>
+				<Name>Su-24M Fencer-D</Name>
+				<Pilot>SU-24 Reposition-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-24 Reposition 1</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+		</Event>
+		<Event>
+			<Time>5880.18</Time>
+			<PrimaryObject ID="895">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5891.47</Time>
+			<PrimaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5891.68</Time>
+			<PrimaryObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5931.48</Time>
+			<PrimaryObject ID="213">
+				<Type>Aircraft</Type>
+				<Name>Su-24M Fencer-D</Name>
+				<Pilot>SU-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-24 Reposition 2</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+		</Event>
+		<Event>
+			<Time>5972.77</Time>
+			<PrimaryObject ID="903">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>6035.80</Time>
+			<PrimaryObject ID="1035">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>6043.75</Time>
+			<PrimaryObject ID="892">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>KELPIE 1-1 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>6146.48</Time>
+			<PrimaryObject ID="210">
+				<Type>Aircraft</Type>
+				<Name>Su-24M Fencer-D</Name>
+				<Pilot>SU-24 Reposition-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-24 Reposition 1</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+		</Event>
+		<Event>
+			<Time>6216.35</Time>
+			<PrimaryObject ID="895">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+		</Event>
+		<Event>
+			<Time>6222.24</Time>
+			<PrimaryObject ID="903">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+		</Event>
+		<Event>
+			<Time>6261.48</Time>
+			<PrimaryObject ID="902">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF ZyfrNZ | 161 SQNLDR</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>6311.26</Time>
+			<PrimaryObject ID="897">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF SneakyBastd | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>6368.05</Time>
+			<PrimaryObject ID="896">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>SSV8TE/BERSERKER 1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>6406.48</Time>
+			<PrimaryObject ID="211">
+				<Type>Aircraft</Type>
+				<Name>Su-24M Fencer-D</Name>
+				<Pilot>SU-24 Reposition-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-24 Reposition 1</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+		</Event>
+		<Event>
+			<Time>6421.84</Time>
+			<PrimaryObject ID="902">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF ZyfrNZ | 161 SQNLDR</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>6481.18</Time>
+			<PrimaryObject ID="897">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF SneakyBastd | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>6541.48</Time>
+			<PrimaryObject ID="214">
+				<Type>Aircraft</Type>
+				<Name>Su-24M Fencer-D</Name>
+				<Pilot>SU-1-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-24 Reposition 2</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+		</Event>
+		<Event>
+			<Time>6579.26</Time>
+			<PrimaryObject ID="896">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>SSV8TE/BERSERKER 1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+	</Events>
+</TacviewDebriefing>

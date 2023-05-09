@@ -1,0 +1,5804 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TacviewDebriefing Version="1.2.6">
+	<!--Flight Recording Properties-->
+	<FlightRecording>
+		<Source>DCS 2.5.6.54046</Source>
+		<Recorder>DCS2ACMI 1.8.3.200</Recorder>
+		<RecordingTime>2020-09-09T10:28:03.094Z</RecordingTime>
+		<Author>Server_Admin</Author>
+	</FlightRecording>
+	<!--Mission Properties-->
+	<Mission>
+		<Title>NS_Phase_1_Mission_1_Final</Title>
+		<MissionTime>2008-04-07T03:00:00Z</MissionTime>
+		<Duration>7384.27</Duration>
+	</Mission>
+	<!--Flight Log-->
+	<Events>
+		<Event>
+			<Time>7.54</Time>
+			<PrimaryObject ID="941">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF ZyfrNZ | 161 SQNLDR</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MONKEY</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>7.54</Time>
+			<PrimaryObject ID="940">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF SneakyBastd | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>7.54</Time>
+			<PrimaryObject ID="939">
+				<Type>Helicopter</Type>
+				<Name>Ka-50 Black Shark</Name>
+				<Pilot>gadget[H]</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>BADGER</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="8">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>7.54</Time>
+			<PrimaryObject ID="938">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF Gimble | Arrow 1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MONKEY</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>7.54</Time>
+			<PrimaryObject ID="937">
+				<Type>Helicopter</Type>
+				<Name>Mi-8MT Hip</Name>
+				<Pilot>Will 1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>VANGUARD</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="9">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>7.54</Time>
+			<PrimaryObject ID="936">
+				<Type>Helicopter</Type>
+				<Name>UH-1H Huey</Name>
+				<Pilot>AEF Aus_Happy | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>GRAPPLER</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="8">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>7.54</Time>
+			<PrimaryObject ID="935">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>7.54</Time>
+			<PrimaryObject ID="934">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>7.54</Time>
+			<PrimaryObject ID="933">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>7.54</Time>
+			<PrimaryObject ID="932">
+				<Type>Aircraft</Type>
+				<Name>Mirage 2000C</Name>
+				<Pilot>Piglet</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>ATARI</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>7.54</Time>
+			<PrimaryObject ID="931">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>7.54</Time>
+			<PrimaryObject ID="930">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>BIG 1-3 | Bants</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>7.54</Time>
+			<PrimaryObject ID="929">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>7.54</Time>
+			<PrimaryObject ID="928">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SSV8TE/BERSERKER 1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>ROOK</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>7.54</Time>
+			<PrimaryObject ID="927">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF AUS_Geoff | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>ROOK</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>7.54</Time>
+			<PrimaryObject ID="926">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF Dec | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>7.54</Time>
+			<PrimaryObject ID="925">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>GORILLA 1-2 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>13.96</Time>
+			<PrimaryObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>18.77</Time>
+			<PrimaryObject ID="943">
+				<Type>Helicopter</Type>
+				<Name>SA 342M Gazelle</Name>
+				<Pilot>AEF kuroneko | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>EDGE</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="9">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>24.73</Time>
+			<PrimaryObject ID="944">
+				<Type>Helicopter</Type>
+				<Name>Ka-50 Black Shark</Name>
+				<Pilot>H.Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>BADGER</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="8">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>28.34</Time>
+			<PrimaryObject ID="945">
+				<Type>Aircraft</Type>
+				<Name>Mirage 2000C</Name>
+				<Pilot>ATARI | Chappy 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>ATARI</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>98.30</Time>
+			<PrimaryObject ID="946">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>287.31</Time>
+			<PrimaryObject ID="948">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#001-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#001</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>287.31</Time>
+			<PrimaryObject ID="947">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#001-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#001</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>303.30</Time>
+			<PrimaryObject ID="950">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#002-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#002</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>303.30</Time>
+			<PrimaryObject ID="949">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#002-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#002</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>390.82</Time>
+			<PrimaryObject ID="946">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>427.09</Time>
+			<PrimaryObject ID="951">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>472.69</Time>
+			<PrimaryObject ID="945">
+				<Type>Aircraft</Type>
+				<Name>Mirage 2000C</Name>
+				<Pilot>ATARI | Chappy 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>ATARI</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>476.31</Time>
+			<PrimaryObject ID="952">
+				<Type>Helicopter</Type>
+				<Name>SA 342M Gazelle</Name>
+				<Pilot>ATARI | Chappy 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>EDGE</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="9">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>478.31</Time>
+			<PrimaryObject ID="954">
+				<Type>Aircraft</Type>
+				<Name>Su-30 Flanker-C</Name>
+				<Pilot>RU SU-30#001-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU SU-30#001</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>478.31</Time>
+			<PrimaryObject ID="953">
+				<Type>Aircraft</Type>
+				<Name>Su-30 Flanker-C</Name>
+				<Pilot>RU SU-30#001-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU SU-30#001</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>486.91</Time>
+			<PrimaryObject ID="952">
+				<Type>Helicopter</Type>
+				<Name>SA 342M Gazelle</Name>
+				<Pilot>ATARI | Chappy 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>EDGE</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<SecondaryObject ID="9">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>489.74</Time>
+			<PrimaryObject ID="955">
+				<Type>Aircraft</Type>
+				<Name>Mirage 2000C</Name>
+				<Pilot>ATARI | Chappy 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>ATARI</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>564.62</Time>
+			<PrimaryObject ID="237">
+				<Type>Aircraft</Type>
+				<Name>Su-24MR Fencer-E</Name>
+				<Pilot>Russian Recce Flight-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Russian Recce Flight Border</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+		</Event>
+		<Event>
+			<Time>605.51</Time>
+			<PrimaryObject ID="936">
+				<Type>Helicopter</Type>
+				<Name>UH-1H Huey</Name>
+				<Pilot>AEF Aus_Happy | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>GRAPPLER</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>613.21</Time>
+			<PrimaryObject ID="238">
+				<Type>Aircraft</Type>
+				<Name>Su-24MR Fencer-E</Name>
+				<Pilot>Russian Recce Flight Border-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Russian Recce Flight Maritime</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+		</Event>
+		<Event>
+			<Time>626.32</Time>
+			<PrimaryObject ID="968">
+				<Type>Helicopter</Type>
+				<Name>UH-1H Huey</Name>
+				<Pilot>AEF Aus_Happy | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>GRAPPLER</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="8">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>717.76</Time>
+			<PrimaryObject ID="938">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF Gimble | Arrow 1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MONKEY</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>724.09</Time>
+			<PrimaryObject ID="926">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF Dec | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>727.85</Time>
+			<PrimaryObject ID="941">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF ZyfrNZ | 161 SQNLDR</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MONKEY</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>738.49</Time>
+			<PrimaryObject ID="935">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>797.69</Time>
+			<PrimaryObject ID="955">
+				<Type>Aircraft</Type>
+				<Name>Mirage 2000C</Name>
+				<Pilot>ATARI | Chappy 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>ATARI</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+		</Event>
+		<Event>
+			<Time>805.57</Time>
+			<PrimaryObject ID="932">
+				<Type>Aircraft</Type>
+				<Name>Mirage 2000C</Name>
+				<Pilot>Piglet</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>ATARI</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+		</Event>
+		<Event>
+			<Time>909.59</Time>
+			<PrimaryObject ID="931">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>911.30</Time>
+			<PrimaryObject ID="925">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>GORILLA 1-2 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1115.41</Time>
+			<PrimaryObject ID="951">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+		</Event>
+		<Event>
+			<Time>1119.43</Time>
+			<PrimaryObject ID="951">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+		</Event>
+		<Event>
+			<Time>1132.65</Time>
+			<PrimaryObject ID="927">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF AUS_Geoff | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>ROOK</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+		</Event>
+		<Event>
+			<Time>1140.01</Time>
+			<PrimaryObject ID="928">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SSV8TE/BERSERKER 1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>ROOK</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+		</Event>
+		<Event>
+			<Time>1149.14</Time>
+			<PrimaryObject ID="940">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF SneakyBastd | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+		</Event>
+		<Event>
+			<Time>1151.02</Time>
+			<PrimaryObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+		</Event>
+		<Event>
+			<Time>1201.81</Time>
+			<PrimaryObject ID="984">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>1201.81</Time>
+			<PrimaryObject ID="983">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>1223.86</Time>
+			<PrimaryObject ID="951">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+		</Event>
+		<Event>
+			<Time>1228.10</Time>
+			<PrimaryObject ID="951">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+		</Event>
+		<Event>
+			<Time>1283.42</Time>
+			<PrimaryObject ID="934">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+		</Event>
+		<Event>
+			<Time>1287.18</Time>
+			<PrimaryObject ID="929">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+		</Event>
+		<Event>
+			<Time>1291.70</Time>
+			<PrimaryObject ID="951">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+		</Event>
+		<Event>
+			<Time>1590.03</Time>
+			<PrimaryObject ID="983">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UG23">
+				<Name>Gudauta</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1613.67</Time>
+			<PrimaryObject ID="984">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UG23">
+				<Name>Gudauta</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1779.66</Time>
+			<PrimaryObject ID="940">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF SneakyBastd | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="987">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>940</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1888.59</Time>
+			<PrimaryObject ID="544">
+				<Type>SAM/AAA</Type>
+				<Name>SA-6 Gainful (LN)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>RU SAM SA-6 South</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1022">
+				<Type>Missile</Type>
+				<Name>3M9M</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Parent>544</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1894.07</Time>
+			<PrimaryObject ID="544">
+				<Type>SAM/AAA</Type>
+				<Name>SA-6 Gainful (LN)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>RU SAM SA-6 South</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1031">
+				<Type>Missile</Type>
+				<Name>3M9M</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Parent>544</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1903.01</Time>
+			<PrimaryObject ID="940">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF SneakyBastd | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1032">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>940</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1903.22</Time>
+			<PrimaryObject ID="927">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF AUS_Geoff | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>ROOK</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1033">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>927</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1906.64</Time>
+			<PrimaryObject ID="1022">
+				<Type>Missile</Type>
+				<Name>3M9M</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Parent>544</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>1926.58</Time>
+			<PrimaryObject ID="984">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1034">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>984</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1932.14</Time>
+			<PrimaryObject ID="1031">
+				<Type>Missile</Type>
+				<Name>3M9M</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Parent>544</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>1956.05</Time>
+			<PrimaryObject ID="935">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1034">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>984</Parent>
+			</SecondaryObject>
+			<ParentObject ID="984">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>1956.05</Time>
+			<PrimaryObject ID="935">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="984">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1967.21</Time>
+			<PrimaryObject ID="1032">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>940</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2008.86</Time>
+			<PrimaryObject ID="934">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1070">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>934</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2031.38</Time>
+			<PrimaryObject ID="446">
+				<Type>Tank</Type>
+				<Name>BTR_D</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM ATGM Coy 1 Plat #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1070">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>934</Parent>
+			</SecondaryObject>
+			<ParentObject ID="934">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2031.42</Time>
+			<PrimaryObject ID="446">
+				<Type>Tank</Type>
+				<Name>BTR_D</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM ATGM Coy 1 Plat #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="934">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2135.20</Time>
+			<PrimaryObject ID="983">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1071">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>983</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2192.38</Time>
+			<PrimaryObject ID="987">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>940</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2197.53</Time>
+			<PrimaryObject ID="1080">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>2202.89</Time>
+			<PrimaryObject ID="933">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>2216.71</Time>
+			<PrimaryObject ID="930">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>BIG 1-3 | Bants</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+		</Event>
+		<Event>
+			<Time>2237.59</Time>
+			<PrimaryObject ID="940">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF SneakyBastd | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1082">
+				<Type>Missile</Type>
+				<Name>AIM-120 AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>940</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2237.86</Time>
+			<PrimaryObject ID="983">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1084">
+				<Type>Missile</Type>
+				<Name>R-27ET (AA-10 Alamo-D)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>983</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2243.19</Time>
+			<PrimaryObject ID="926">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF Dec | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1092">
+				<Type>Missile</Type>
+				<Name>AIM-120 AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>926</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2244.17</Time>
+			<PrimaryObject ID="955">
+				<Type>Aircraft</Type>
+				<Name>Mirage 2000C</Name>
+				<Pilot>ATARI | Chappy 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>ATARI</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1096">
+				<Type>Missile</Type>
+				<Name>M.S530D</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Parent>955</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2248.78</Time>
+			<PrimaryObject ID="1071">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>983</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2251.78</Time>
+			<PrimaryObject ID="926">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF Dec | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1084">
+				<Type>Missile</Type>
+				<Name>R-27ET (AA-10 Alamo-D)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>983</Parent>
+			</SecondaryObject>
+			<ParentObject ID="983">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2251.78</Time>
+			<PrimaryObject ID="926">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF Dec | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="983">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2255.79</Time>
+			<PrimaryObject ID="983">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1092">
+				<Type>Missile</Type>
+				<Name>AIM-120 AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>926</Parent>
+			</SecondaryObject>
+			<ParentObject ID="926">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF Dec | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2267.05</Time>
+			<PrimaryObject ID="934">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1166">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>934</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2272.30</Time>
+			<PrimaryObject ID="983">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1167">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>983</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2275.97</Time>
+			<PrimaryObject ID="541">
+				<Type>SAM/AAA</Type>
+				<Name>SA-6 Gainful (LN)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>RU SAM SA-6 South</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1172">
+				<Type>Missile</Type>
+				<Name>3M9M</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Parent>541</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2289.16</Time>
+			<PrimaryObject ID="1096">
+				<Type>Missile</Type>
+				<Name>M.S530D</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Parent>955</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2296.75</Time>
+			<PrimaryObject ID="932">
+				<Type>Aircraft</Type>
+				<Name>Mirage 2000C</Name>
+				<Pilot>Piglet</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>ATARI</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1186">
+				<Type>Missile</Type>
+				<Name>M.S530D</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Parent>932</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2298.66</Time>
+			<PrimaryObject ID="983">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1188">
+				<Type>Missile</Type>
+				<Name>R-27ET (AA-10 Alamo-D)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>983</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2309.82</Time>
+			<PrimaryObject ID="932">
+				<Type>Aircraft</Type>
+				<Name>Mirage 2000C</Name>
+				<Pilot>Piglet</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>ATARI</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1188">
+				<Type>Missile</Type>
+				<Name>R-27ET (AA-10 Alamo-D)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>983</Parent>
+			</SecondaryObject>
+			<ParentObject ID="983">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2309.82</Time>
+			<PrimaryObject ID="932">
+				<Type>Aircraft</Type>
+				<Name>Mirage 2000C</Name>
+				<Pilot>Piglet</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>ATARI</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="983">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2311.00</Time>
+			<PrimaryObject ID="445">
+				<Type>Tank</Type>
+				<Name>BTR_D</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM ATGM Coy 1 Plat #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="934">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2311.03</Time>
+			<PrimaryObject ID="445">
+				<Type>Tank</Type>
+				<Name>BTR_D</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM ATGM Coy 1 Plat #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1166">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>934</Parent>
+			</SecondaryObject>
+			<ParentObject ID="934">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2335.99</Time>
+			<PrimaryObject ID="1172">
+				<Type>Missile</Type>
+				<Name>3M9M</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Parent>541</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2340.16</Time>
+			<PrimaryObject ID="1033">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>927</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2340.76</Time>
+			<PrimaryObject ID="1082">
+				<Type>Missile</Type>
+				<Name>AIM-120 AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>940</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2341.73</Time>
+			<PrimaryObject ID="1186">
+				<Type>Missile</Type>
+				<Name>M.S530D</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Parent>932</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2360.24</Time>
+			<PrimaryObject ID="1167">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>983</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2403.31</Time>
+			<PrimaryObject ID="1239">
+				<Type>Aircraft</Type>
+				<Name>Su-30 Flanker-C</Name>
+				<Pilot>RU SU-30#002-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU SU-30#002</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>2403.31</Time>
+			<PrimaryObject ID="1238">
+				<Type>Aircraft</Type>
+				<Name>Su-30 Flanker-C</Name>
+				<Pilot>RU SU-30#002-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU SU-30#002</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>2411.95</Time>
+			<PrimaryObject ID="929">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1240">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>929</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2417.57</Time>
+			<PrimaryObject ID="940">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF SneakyBastd | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1244">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>940</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2420.98</Time>
+			<PrimaryObject ID="953">
+				<Type>Aircraft</Type>
+				<Name>Su-30 Flanker-C</Name>
+				<Pilot>RU SU-30#001-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU SU-30#001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2423.08</Time>
+			<PrimaryObject ID="1260">
+				<Type>Parachutist</Type>
+				<Name>Pilot</Name>
+				<Country>ru</Country>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>2438.74</Time>
+			<PrimaryObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1263">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>942</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2442.14</Time>
+			<PrimaryObject ID="984">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1271">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>984</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2443.33</Time>
+			<PrimaryObject ID="447">
+				<Type>Tank</Type>
+				<Name>BTR_D</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM ATGM Coy 1 Plat #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1240">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>929</Parent>
+			</SecondaryObject>
+			<ParentObject ID="929">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2443.43</Time>
+			<PrimaryObject ID="447">
+				<Type>Tank</Type>
+				<Name>BTR_D</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM ATGM Coy 1 Plat #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="929">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2476.63</Time>
+			<PrimaryObject ID="984">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1263">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>942</Parent>
+			</SecondaryObject>
+			<ParentObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2476.66</Time>
+			<PrimaryObject ID="984">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2519.88</Time>
+			<PrimaryObject ID="1313">
+				<Type>Parachutist</Type>
+				<Name>Pilot</Name>
+				<Country>ru</Country>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>2528.19</Time>
+			<PrimaryObject ID="968">
+				<Type>Helicopter</Type>
+				<Name>UH-1H Huey</Name>
+				<Pilot>AEF Aus_Happy | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>GRAPPLER</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2538.52</Time>
+			<PrimaryObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1314">
+				<Type>Missile</Type>
+				<Name>AIM-120 AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>942</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2544.27</Time>
+			<PrimaryObject ID="934">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1319">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>934</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2549.82</Time>
+			<PrimaryObject ID="294">
+				<Type>SAM/AAA</Type>
+				<Name>SA-13 Gopher</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU LGM Air Defence evade_</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1325">
+				<Type>Missile</Type>
+				<Name>9M333</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>294</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2556.96</Time>
+			<PrimaryObject ID="1271">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>984</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2557.73</Time>
+			<PrimaryObject ID="294">
+				<Type>SAM/AAA</Type>
+				<Name>SA-13 Gopher</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU LGM Air Defence evade_</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1319">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>934</Parent>
+			</SecondaryObject>
+			<ParentObject ID="934">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2557.76</Time>
+			<PrimaryObject ID="294">
+				<Type>SAM/AAA</Type>
+				<Name>SA-13 Gopher</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU LGM Air Defence evade_</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="934">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2567.44</Time>
+			<PrimaryObject ID="954">
+				<Type>Aircraft</Type>
+				<Name>Su-30 Flanker-C</Name>
+				<Pilot>RU SU-30#001-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU SU-30#001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2569.54</Time>
+			<PrimaryObject ID="1355">
+				<Type>Parachutist</Type>
+				<Name>Pilot</Name>
+				<Country>ru</Country>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>2571.87</Time>
+			<PrimaryObject ID="1325">
+				<Type>Missile</Type>
+				<Name>9M333</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>294</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2572.30</Time>
+			<PrimaryObject ID="1314">
+				<Type>Missile</Type>
+				<Name>AIM-120 AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>942</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2586.61</Time>
+			<PrimaryObject ID="1355">
+				<Type>Parachutist</Type>
+				<Name>Pilot</Name>
+				<Country>ru</Country>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2626.24</Time>
+			<PrimaryObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1356">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>942</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2693.60</Time>
+			<PrimaryObject ID="983">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1361">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>983</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2714.84</Time>
+			<PrimaryObject ID="941">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF ZyfrNZ | 161 SQNLDR</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MONKEY</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1364">
+				<Type>Missile</Type>
+				<Name>AIM-120 AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>941</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2721.53</Time>
+			<PrimaryObject ID="542">
+				<Type>SAM/AAA</Type>
+				<Name>SA-6 Gainful (LN)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>RU SAM SA-6 South</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1380">
+				<Type>Missile</Type>
+				<Name>3M9M</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Parent>542</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2726.59</Time>
+			<PrimaryObject ID="542">
+				<Type>SAM/AAA</Type>
+				<Name>SA-6 Gainful (LN)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>RU SAM SA-6 South</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1384">
+				<Type>Missile</Type>
+				<Name>3M9M</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Parent>542</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2746.40</Time>
+			<PrimaryObject ID="983">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1364">
+				<Type>Missile</Type>
+				<Name>AIM-120 AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>941</Parent>
+			</SecondaryObject>
+			<ParentObject ID="941">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF ZyfrNZ | 161 SQNLDR</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MONKEY</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2746.51</Time>
+			<PrimaryObject ID="983">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta QRA-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta QRA</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="941">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF ZyfrNZ | 161 SQNLDR</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MONKEY</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2749.59</Time>
+			<PrimaryObject ID="1423">
+				<Type>Parachutist</Type>
+				<Name>Pilot</Name>
+				<Country>ru</Country>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>2751.60</Time>
+			<PrimaryObject ID="1380">
+				<Type>Missile</Type>
+				<Name>3M9M</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Parent>542</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2776.59</Time>
+			<PrimaryObject ID="951">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1444">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>951</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2786.61</Time>
+			<PrimaryObject ID="1384">
+				<Type>Missile</Type>
+				<Name>3M9M</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Parent>542</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2787.53</Time>
+			<PrimaryObject ID="951">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1445">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>951</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2797.06</Time>
+			<PrimaryObject ID="1361">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>983</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2797.52</Time>
+			<PrimaryObject ID="448">
+				<Type>Tank</Type>
+				<Name>BTR_D</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM ATGM Coy 1 Plat #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1444">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>951</Parent>
+			</SecondaryObject>
+			<ParentObject ID="951">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2797.79</Time>
+			<PrimaryObject ID="448">
+				<Type>Tank</Type>
+				<Name>BTR_D</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM ATGM Coy 1 Plat #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="951">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2798.94</Time>
+			<PrimaryObject ID="449">
+				<Type>Tank</Type>
+				<Name>BTR_D</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM ATGM Coy 1 Plat #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="951">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2799.02</Time>
+			<PrimaryObject ID="449">
+				<Type>Tank</Type>
+				<Name>BTR_D</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM ATGM Coy 1 Plat #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1445">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>951</Parent>
+			</SecondaryObject>
+			<ParentObject ID="951">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2813.86</Time>
+			<PrimaryObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1453">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>942</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2827.44</Time>
+			<PrimaryObject ID="940">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF SneakyBastd | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1454">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>940</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2828.21</Time>
+			<PrimaryObject ID="541">
+				<Type>SAM/AAA</Type>
+				<Name>SA-6 Gainful (LN)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>RU SAM SA-6 South</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1455">
+				<Type>Missile</Type>
+				<Name>3M9M</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Parent>541</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2833.30</Time>
+			<PrimaryObject ID="541">
+				<Type>SAM/AAA</Type>
+				<Name>SA-6 Gainful (LN)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>RU SAM SA-6 South</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1470">
+				<Type>Missile</Type>
+				<Name>3M9M</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Parent>541</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2844.70</Time>
+			<PrimaryObject ID="1244">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>940</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2846.29</Time>
+			<PrimaryObject ID="1455">
+				<Type>Missile</Type>
+				<Name>3M9M</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Parent>541</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2847.35</Time>
+			<PrimaryObject ID="1470">
+				<Type>Missile</Type>
+				<Name>3M9M</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Parent>541</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2871.49</Time>
+			<PrimaryObject ID="934">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1524">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>934</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2877.17</Time>
+			<PrimaryObject ID="293">
+				<Type>SAM/AAA</Type>
+				<Name>SA-13 Gopher</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU LGM Air Defence evade_</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1527">
+				<Type>Missile</Type>
+				<Name>9M333</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>293</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2885.64</Time>
+			<PrimaryObject ID="934">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1527">
+				<Type>Missile</Type>
+				<Name>9M333</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>293</Parent>
+			</SecondaryObject>
+			<ParentObject ID="293">
+				<Type>SAM/AAA</Type>
+				<Name>SA-13 Gopher</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU LGM Air Defence evade_</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2894.03</Time>
+			<PrimaryObject ID="540">
+				<Type>SAM/AAA</Type>
+				<Name>SA-6 Gainful (STR)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>RU SAM SA-6 South</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1453">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>942</Parent>
+			</SecondaryObject>
+			<ParentObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2907.93</Time>
+			<PrimaryObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1536">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>942</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2917.76</Time>
+			<PrimaryObject ID="1537">
+				<Type>Missile</Type>
+				<Name>AGM-122 Sidearm</Name>
+				<Coalition>Neutral</Coalition>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>2925.44</Time>
+			<PrimaryObject ID="951">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1539">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>951</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2927.75</Time>
+			<PrimaryObject ID="430">
+				<Type>Tank</Type>
+				<Name>BMP-2</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 2B Coy #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1524">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>934</Parent>
+			</SecondaryObject>
+			<ParentObject ID="934">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2927.81</Time>
+			<PrimaryObject ID="430">
+				<Type>Tank</Type>
+				<Name>BMP-2</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 2B Coy #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="934">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2935.88</Time>
+			<PrimaryObject ID="1537">
+				<Type>Missile</Type>
+				<Name>AGM-122 Sidearm</Name>
+				<Coalition>Neutral</Coalition>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2949.24</Time>
+			<PrimaryObject ID="363">
+				<Type>SAM/AAA</Type>
+				<Name>SA-8 Gecko</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU SAM SA-8 South #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1536">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>942</Parent>
+			</SecondaryObject>
+			<ParentObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2949.27</Time>
+			<PrimaryObject ID="363">
+				<Type>SAM/AAA</Type>
+				<Name>SA-8 Gecko</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU SAM SA-8 South #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2960.96</Time>
+			<PrimaryObject ID="362">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>RU PD-SAM SOCHI</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU PD-SAM SOCHI</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1558">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>362</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2964.58</Time>
+			<PrimaryObject ID="1558">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>362</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1356">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>942</Parent>
+			</SecondaryObject>
+			<ParentObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2964.63</Time>
+			<PrimaryObject ID="1356">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>942</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1558">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>362</Parent>
+			</SecondaryObject>
+			<ParentObject ID="362">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>RU PD-SAM SOCHI</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU PD-SAM SOCHI</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2965.76</Time>
+			<PrimaryObject ID="432">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1539">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>951</Parent>
+			</SecondaryObject>
+			<ParentObject ID="951">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2967.81</Time>
+			<PrimaryObject ID="432">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="951">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3035.52</Time>
+			<PrimaryObject ID="934">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="293">
+				<Type>SAM/AAA</Type>
+				<Name>SA-13 Gopher</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU LGM Air Defence evade_</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3054.20</Time>
+			<PrimaryObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1589">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>942</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3122.83</Time>
+			<PrimaryObject ID="606">
+				<Type>SAM/AAA</Type>
+				<Name>Dog Ear Radar</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>ABK Sukhumi Defence #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1589">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>942</Parent>
+			</SecondaryObject>
+			<ParentObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3123.53</Time>
+			<PrimaryObject ID="606">
+				<Type>SAM/AAA</Type>
+				<Name>Dog Ear Radar</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>ABK Sukhumi Defence #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3167.47</Time>
+			<PrimaryObject ID="1454">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>940</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3173.55</Time>
+			<PrimaryObject ID="925">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>GORILLA 1-2 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1592">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>925</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3208.96</Time>
+			<PrimaryObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>3221.02</Time>
+			<PrimaryObject ID="1080">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>HOWLER</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3225.12</Time>
+			<PrimaryObject ID="264">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1592">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>925</Parent>
+			</SecondaryObject>
+			<ParentObject ID="925">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>GORILLA 1-2 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3225.15</Time>
+			<PrimaryObject ID="263">
+				<Type>Tank</Type>
+				<Name>BRDM-2</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3225.15</Time>
+			<PrimaryObject ID="264">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="925">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>GORILLA 1-2 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3225.15</Time>
+			<PrimaryObject ID="265">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3225.15</Time>
+			<PrimaryObject ID="266">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3225.15</Time>
+			<PrimaryObject ID="267">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3353.60</Time>
+			<PrimaryObject ID="240">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta CAP 1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta CAP 1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1598">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>240</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3357.16</Time>
+			<PrimaryObject ID="938">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF Gimble | Arrow 1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MONKEY</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1599">
+				<Type>Missile</Type>
+				<Name>AIM-120 AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>938</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3464.48</Time>
+			<PrimaryObject ID="1598">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>240</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3478.37</Time>
+			<PrimaryObject ID="1599">
+				<Type>Missile</Type>
+				<Name>AIM-120 AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>938</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3511.95</Time>
+			<PrimaryObject ID="1688">
+				<Type>Missile</Type>
+				<Name>AGM-122 Sidearm</Name>
+				<Coalition>Neutral</Coalition>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>3512.16</Time>
+			<PrimaryObject ID="1690">
+				<Type>Bomb</Type>
+				<Name>Bomb</Name>
+				<Coalition>Neutral</Coalition>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>3512.20</Time>
+			<PrimaryObject ID="1691">
+				<Type>Bomb</Type>
+				<Name>Bomb</Name>
+				<Coalition>Neutral</Coalition>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>3560.67</Time>
+			<PrimaryObject ID="1313">
+				<Type>Parachutist</Type>
+				<Name>Pilot</Name>
+				<Country>ru</Country>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3589.24</Time>
+			<PrimaryObject ID="940">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF SneakyBastd | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>3606.27</Time>
+			<PrimaryObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+		</Event>
+		<Event>
+			<Time>3682.34</Time>
+			<PrimaryObject ID="925">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>GORILLA 1-2 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1735">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>925</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3694.14</Time>
+			<PrimaryObject ID="270">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1735">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>925</Parent>
+			</SecondaryObject>
+			<ParentObject ID="925">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>GORILLA 1-2 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3694.14</Time>
+			<PrimaryObject ID="268">
+				<Type>Tank</Type>
+				<Name>BRDM-2</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3694.14</Time>
+			<PrimaryObject ID="269">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3694.14</Time>
+			<PrimaryObject ID="270">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="925">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>GORILLA 1-2 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3694.14</Time>
+			<PrimaryObject ID="271">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3694.14</Time>
+			<PrimaryObject ID="272">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3728.43</Time>
+			<PrimaryObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>3753.09</Time>
+			<PrimaryObject ID="929">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+		</Event>
+		<Event>
+			<Time>3780.66</Time>
+			<PrimaryObject ID="397">
+				<Type>SAM/AAA</Type>
+				<Name>ZSU-23-4 Shilka</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>FARP Defence</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>36</Occurrences>
+			<SecondaryObject ID="1848">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A7_23_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>397</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3787.86</Time>
+			<PrimaryObject ID="397">
+				<Type>SAM/AAA</Type>
+				<Name>ZSU-23-4 Shilka</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>FARP Defence</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>39</Occurrences>
+			<SecondaryObject ID="1895">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A7_23_AP</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>397</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3789.08</Time>
+			<PrimaryObject ID="930">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>BIG 1-3 | Bants</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>3</Occurrences>
+			<SecondaryObject ID="1895">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A7_23_AP</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>397</Parent>
+			</SecondaryObject>
+			<ParentObject ID="397">
+				<Type>SAM/AAA</Type>
+				<Name>ZSU-23-4 Shilka</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>FARP Defence</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3812.98</Time>
+			<PrimaryObject ID="933">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1959">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.BK90_MJ1</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>933</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3813.97</Time>
+			<PrimaryObject ID="933">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1962">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.BK90_MJ1</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>933</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3825.93</Time>
+			<PrimaryObject ID="929">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>AEF Toppometer | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+		</Event>
+		<Event>
+			<Time>3827.31</Time>
+			<PrimaryObject ID="938">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF Gimble | Arrow 1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MONKEY</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1982">
+				<Type>Missile</Type>
+				<Name>AIM-120 AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>938</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3827.44</Time>
+			<PrimaryObject ID="239">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta CAP 1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta CAP 1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1984">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>239</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3827.72</Time>
+			<PrimaryObject ID="1987">
+				<Type>Bomb</Type>
+				<Name>weapons.missiles.BK90_MJ1.client.launcher.cluster</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>3827.72</Time>
+			<PrimaryObject ID="1987">
+				<Type>Bomb</Type>
+				<Name>weapons.missiles.BK90_MJ1.client.launcher.cluster</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1962">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.BK90_MJ1</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>933</Parent>
+			</SecondaryObject>
+			<ParentObject ID="933">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3827.98</Time>
+			<PrimaryObject ID="1988">
+				<Type>Bomb</Type>
+				<Name>weapons.missiles.BK90_MJ1.client.launcher.cluster</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>3827.98</Time>
+			<PrimaryObject ID="1988">
+				<Type>Bomb</Type>
+				<Name>weapons.missiles.BK90_MJ1.client.launcher.cluster</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1959">
+				<Type>Missile</Type>
+				<Name>weapons.missiles.BK90_MJ1</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Parent>933</Parent>
+			</SecondaryObject>
+			<ParentObject ID="933">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3828.31</Time>
+			<PrimaryObject ID="1990">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#003-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#003</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>3828.31</Time>
+			<PrimaryObject ID="1989">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#003-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#003</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>3834.84</Time>
+			<PrimaryObject ID="30">
+				<Type>Car</Type>
+				<Name>ATMZ-5</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>TP SMITH Truck #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3834.84</Time>
+			<PrimaryObject ID="39">
+				<Type>Car</Type>
+				<Name>ATMZ-5</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>TP SMITH Truck #020</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3835.14</Time>
+			<PrimaryObject ID="33">
+				<Type>Car</Type>
+				<Name>ATMZ-5</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>TP SMITH Truck #008</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3835.14</Time>
+			<PrimaryObject ID="40">
+				<Type>Car</Type>
+				<Name>ATMZ-5</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>TP SMITH Truck #022</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3835.14</Time>
+			<PrimaryObject ID="41">
+				<Type>Car</Type>
+				<Name>ATMZ-5</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>TP SMITH Truck #023</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3835.24</Time>
+			<PrimaryObject ID="39">
+				<Type>Car</Type>
+				<Name>ATMZ-5</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>TP SMITH Truck #020</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1988">
+				<Type>Bomb</Type>
+				<Name>weapons.missiles.BK90_MJ1.client.launcher.cluster</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3835.26</Time>
+			<PrimaryObject ID="29">
+				<Type>Car</Type>
+				<Name>ATMZ-5</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>TP SMITH Truck #001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3835.26</Time>
+			<PrimaryObject ID="36">
+				<Type>Car</Type>
+				<Name>ATMZ-5</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>TP SMITH Truck #016</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3835.37</Time>
+			<PrimaryObject ID="38">
+				<Type>Car</Type>
+				<Name>ATMZ-5</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>TP SMITH Truck #019</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1987">
+				<Type>Bomb</Type>
+				<Name>weapons.missiles.BK90_MJ1.client.launcher.cluster</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3839.69</Time>
+			<PrimaryObject ID="31">
+				<Type>Car</Type>
+				<Name>ATMZ-5</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>TP SMITH Truck #004</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3840.54</Time>
+			<PrimaryObject ID="949">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#002-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3847.63</Time>
+			<PrimaryObject ID="34">
+				<Type>Car</Type>
+				<Name>ATMZ-5</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>TP SMITH Truck #010</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3848.91</Time>
+			<PrimaryObject ID="37">
+				<Type>Car</Type>
+				<Name>ATMZ-5</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>TP SMITH Truck #018</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3854.30</Time>
+			<PrimaryObject ID="950">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#002-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3855.79</Time>
+			<PrimaryObject ID="38">
+				<Type>Car</Type>
+				<Name>ATMZ-5</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>TP SMITH Truck #019</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3862.20</Time>
+			<PrimaryObject ID="32">
+				<Type>Car</Type>
+				<Name>ATMZ-5</Name>
+				<Pilot>static</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>TP SMITH Truck #005</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3926.22</Time>
+			<PrimaryObject ID="947">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#001-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3938.63</Time>
+			<PrimaryObject ID="1982">
+				<Type>Missile</Type>
+				<Name>AIM-120 AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>938</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3941.78</Time>
+			<PrimaryObject ID="1984">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>239</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3967.98</Time>
+			<PrimaryObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2189">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>1593</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3987.31</Time>
+			<PrimaryObject ID="2210">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#004-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#004</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>3987.31</Time>
+			<PrimaryObject ID="2209">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#004-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#004</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>3998.16</Time>
+			<PrimaryObject ID="435">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3998.23</Time>
+			<PrimaryObject ID="435">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2189">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>1593</Parent>
+			</SecondaryObject>
+			<ParentObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4012.21</Time>
+			<PrimaryObject ID="240">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta CAP 1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta CAP 1</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+		</Event>
+		<Event>
+			<Time>4033.94</Time>
+			<PrimaryObject ID="955">
+				<Type>Aircraft</Type>
+				<Name>Mirage 2000C</Name>
+				<Pilot>ATARI | Chappy 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>ATARI</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2234">
+				<Type>Missile</Type>
+				<Name>M.MAGIC</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Parent>955</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4036.66</Time>
+			<PrimaryObject ID="524">
+				<Type>Helicopter</Type>
+				<Name>Mi-24V Hind-E</Name>
+				<Pilot>Rotary-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>Attack Group</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2234">
+				<Type>Missile</Type>
+				<Name>M.MAGIC</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Parent>955</Parent>
+			</SecondaryObject>
+			<ParentObject ID="955">
+				<Type>Aircraft</Type>
+				<Name>Mirage 2000C</Name>
+				<Pilot>ATARI | Chappy 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>ATARI</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4036.66</Time>
+			<PrimaryObject ID="524">
+				<Type>Helicopter</Type>
+				<Name>Mi-24V Hind-E</Name>
+				<Pilot>Rotary-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>Attack Group</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="955">
+				<Type>Aircraft</Type>
+				<Name>Mirage 2000C</Name>
+				<Pilot>ATARI | Chappy 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>ATARI</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4063.08</Time>
+			<PrimaryObject ID="938">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF Gimble | Arrow 1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MONKEY</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2241">
+				<Type>Missile</Type>
+				<Name>AIM-120 AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>938</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4064.00</Time>
+			<PrimaryObject ID="239">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta CAP 1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta CAP 1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2243">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>239</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4092.72</Time>
+			<PrimaryObject ID="948">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#001-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#001</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4106.02</Time>
+			<PrimaryObject ID="239">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta CAP 1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta CAP 1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2296">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>239</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4106.41</Time>
+			<PrimaryObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2297">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>1593</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4108.48</Time>
+			<PrimaryObject ID="941">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF ZyfrNZ | 161 SQNLDR</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MONKEY</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2300">
+				<Type>Missile</Type>
+				<Name>AIM-120 AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>941</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4111.58</Time>
+			<PrimaryObject ID="239">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta CAP 1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta CAP 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2241">
+				<Type>Missile</Type>
+				<Name>AIM-120 AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>938</Parent>
+			</SecondaryObject>
+			<ParentObject ID="938">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF Gimble | Arrow 1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MONKEY</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4111.69</Time>
+			<PrimaryObject ID="239">
+				<Type>Aircraft</Type>
+				<Name>Su-27 Flanker</Name>
+				<Pilot>Gudauta CAP 1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Gudauta CAP 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="938">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF Gimble | Arrow 1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MONKEY</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4119.88</Time>
+			<PrimaryObject ID="2330">
+				<Type>Parachutist</Type>
+				<Name>Pilot</Name>
+				<Country>ru</Country>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>4120.65</Time>
+			<PrimaryObject ID="951">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4127.94</Time>
+			<PrimaryObject ID="433">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2297">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>1593</Parent>
+			</SecondaryObject>
+			<ParentObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4127.94</Time>
+			<PrimaryObject ID="433">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4128.89</Time>
+			<PrimaryObject ID="2300">
+				<Type>Missile</Type>
+				<Name>AIM-120 AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>941</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4134.97</Time>
+			<PrimaryObject ID="955">
+				<Type>Aircraft</Type>
+				<Name>Mirage 2000C</Name>
+				<Pilot>ATARI | Chappy 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>ATARI</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2362">
+				<Type>Missile</Type>
+				<Name>M.MAGIC</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Parent>955</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4138.04</Time>
+			<PrimaryObject ID="525">
+				<Type>Helicopter</Type>
+				<Name>Mi-24V Hind-E</Name>
+				<Pilot>Attack Group-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>Attack Group</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2362">
+				<Type>Missile</Type>
+				<Name>M.MAGIC</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Parent>955</Parent>
+			</SecondaryObject>
+			<ParentObject ID="955">
+				<Type>Aircraft</Type>
+				<Name>Mirage 2000C</Name>
+				<Pilot>ATARI | Chappy 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>ATARI</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4138.04</Time>
+			<PrimaryObject ID="525">
+				<Type>Helicopter</Type>
+				<Name>Mi-24V Hind-E</Name>
+				<Pilot>Attack Group-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>Attack Group</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="955">
+				<Type>Aircraft</Type>
+				<Name>Mirage 2000C</Name>
+				<Pilot>ATARI | Chappy 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>ATARI</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4139.70</Time>
+			<PrimaryObject ID="951">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4146.71</Time>
+			<PrimaryObject ID="951">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4151.67</Time>
+			<PrimaryObject ID="951">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4172.02</Time>
+			<PrimaryObject ID="2243">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>239</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4195.92</Time>
+			<PrimaryObject ID="951">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4213.22</Time>
+			<PrimaryObject ID="2296">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>239</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4213.31</Time>
+			<PrimaryObject ID="2387">
+				<Type>Aircraft</Type>
+				<Name>Su-30 Flanker-C</Name>
+				<Pilot>RU SU-30#003-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU SU-30#003</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>4213.31</Time>
+			<PrimaryObject ID="2386">
+				<Type>Aircraft</Type>
+				<Name>Su-30 Flanker-C</Name>
+				<Pilot>RU SU-30#003-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU SU-30#003</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>4235.70</Time>
+			<PrimaryObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4239.29</Time>
+			<PrimaryObject ID="940">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF SneakyBastd | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4247.14</Time>
+			<PrimaryObject ID="951">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>roobarb</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4250.80</Time>
+			<PrimaryObject ID="1238">
+				<Type>Aircraft</Type>
+				<Name>Su-30 Flanker-C</Name>
+				<Pilot>RU SU-30#002-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU SU-30#002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4266.96</Time>
+			<PrimaryObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4282.77</Time>
+			<PrimaryObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2397">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>1593</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4297.46</Time>
+			<PrimaryObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4313.46</Time>
+			<PrimaryObject ID="290">
+				<Type>SAM/AAA</Type>
+				<Name>ZSU-23-4 Shilka</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU LGM Air Defence evade_</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2397">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>1593</Parent>
+			</SecondaryObject>
+			<ParentObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4313.49</Time>
+			<PrimaryObject ID="290">
+				<Type>SAM/AAA</Type>
+				<Name>ZSU-23-4 Shilka</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU LGM Air Defence evade_</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4375.09</Time>
+			<PrimaryObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2405">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>1593</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4397.82</Time>
+			<PrimaryObject ID="242">
+				<Type>Tank</Type>
+				<Name>BTR-80</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 3B Coy #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2405">
+				<Type>Missile</Type>
+				<Name>AGM-65G Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Parent>1593</Parent>
+			</SecondaryObject>
+			<ParentObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4397.82</Time>
+			<PrimaryObject ID="1239">
+				<Type>Aircraft</Type>
+				<Name>Su-30 Flanker-C</Name>
+				<Pilot>RU SU-30#002-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU SU-30#002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4397.85</Time>
+			<PrimaryObject ID="242">
+				<Type>Tank</Type>
+				<Name>BTR-80</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 3B Coy #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4397.85</Time>
+			<PrimaryObject ID="472">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU MANPADS LGM APC 3B</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4399.96</Time>
+			<PrimaryObject ID="2435">
+				<Type>Parachutist</Type>
+				<Name>Pilot</Name>
+				<Country>ru</Country>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>4401.93</Time>
+			<PrimaryObject ID="2437">
+				<Type>Parachutist</Type>
+				<Name>Pilot</Name>
+				<Country>ru</Country>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>4516.34</Time>
+			<PrimaryObject ID="933">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4528.13</Time>
+			<PrimaryObject ID="930">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>BIG 1-3 | Bants</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4537.34</Time>
+			<PrimaryObject ID="927">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF AUS_Geoff | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>ROOK</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2438">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>927</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4606.24</Time>
+			<PrimaryObject ID="584">
+				<Type>SAM/AAA</Type>
+				<Name>Dog Ear Radar</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>1 ABK Air Defence evade_</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2438">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Parent>927</Parent>
+			</SecondaryObject>
+			<ParentObject ID="927">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF AUS_Geoff | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>ROOK</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4719.39</Time>
+			<PrimaryObject ID="955">
+				<Type>Aircraft</Type>
+				<Name>Mirage 2000C</Name>
+				<Pilot>ATARI | Chappy 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>ATARI</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4770.44</Time>
+			<PrimaryObject ID="930">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>BIG 1-3 | Bants</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4879.12</Time>
+			<PrimaryObject ID="933">
+				<Type>Aircraft</Type>
+				<Name>AJ 37 Viggen</Name>
+				<Pilot>AEF_Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>se</Country>
+				<Group>WISE</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4907.56</Time>
+			<PrimaryObject ID="238">
+				<Type>Aircraft</Type>
+				<Name>Su-24MR Fencer-E</Name>
+				<Pilot>Russian Recce Flight Border-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Russian Recce Flight Maritime</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:URKL">
+				<Name>Krasnodar-Center</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5208.33</Time>
+			<PrimaryObject ID="955">
+				<Type>Aircraft</Type>
+				<Name>Mirage 2000C</Name>
+				<Pilot>ATARI | Chappy 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>ATARI</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5358.75</Time>
+			<PrimaryObject ID="928">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SSV8TE/BERSERKER 1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>ROOK</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5360.67</Time>
+			<PrimaryObject ID="927">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF AUS_Geoff | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>ROOK</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5365.88</Time>
+			<PrimaryObject ID="931">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2448">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>931</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5387.18</Time>
+			<PrimaryObject ID="274">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2448">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>931</Parent>
+			</SecondaryObject>
+			<ParentObject ID="931">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>5387.20</Time>
+			<PrimaryObject ID="273">
+				<Type>Tank</Type>
+				<Name>BRDM-2</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5387.20</Time>
+			<PrimaryObject ID="274">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="931">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5387.20</Time>
+			<PrimaryObject ID="275">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5387.20</Time>
+			<PrimaryObject ID="276">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5387.20</Time>
+			<PrimaryObject ID="277">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Scout Group #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5597.40</Time>
+			<PrimaryObject ID="925">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>GORILLA 1-2 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2449">
+				<Type>Bomb</Type>
+				<Name>GBU-12 Paveway II</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>925</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5604.02</Time>
+			<PrimaryObject ID="931">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2450">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>931</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5622.15</Time>
+			<PrimaryObject ID="436">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="925">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>GORILLA 1-2 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5622.21</Time>
+			<PrimaryObject ID="436">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2449">
+				<Type>Bomb</Type>
+				<Name>GBU-12 Paveway II</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>925</Parent>
+			</SecondaryObject>
+			<ParentObject ID="925">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>GORILLA 1-2 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>5636.76</Time>
+			<PrimaryObject ID="437">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2450">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>931</Parent>
+			</SecondaryObject>
+			<ParentObject ID="931">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>5636.80</Time>
+			<PrimaryObject ID="437">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="931">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5667.37</Time>
+			<PrimaryObject ID="943">
+				<Type>Helicopter</Type>
+				<Name>SA 342M Gazelle</Name>
+				<Pilot>AEF kuroneko | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>EDGE</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5729.31</Time>
+			<PrimaryObject ID="925">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>GORILLA 1-2 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2451">
+				<Type>Bomb</Type>
+				<Name>GBU-12 Paveway II</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>925</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5754.46</Time>
+			<PrimaryObject ID="434">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2451">
+				<Type>Bomb</Type>
+				<Name>GBU-12 Paveway II</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>925</Parent>
+			</SecondaryObject>
+			<ParentObject ID="925">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>GORILLA 1-2 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>5754.74</Time>
+			<PrimaryObject ID="434">
+				<Type>Tank</Type>
+				<Name>T-72B</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM MBT 1B Coy 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="925">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>GORILLA 1-2 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5900.48</Time>
+			<PrimaryObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5907.24</Time>
+			<PrimaryObject ID="941">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF ZyfrNZ | 161 SQNLDR</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MONKEY</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5921.06</Time>
+			<PrimaryObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5925.13</Time>
+			<PrimaryObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5932.12</Time>
+			<PrimaryObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5936.14</Time>
+			<PrimaryObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5941.67</Time>
+			<PrimaryObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5945.68</Time>
+			<PrimaryObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5961.18</Time>
+			<PrimaryObject ID="931">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2452">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>931</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5977.12</Time>
+			<PrimaryObject ID="2452">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>931</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>6054.95</Time>
+			<PrimaryObject ID="1593">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Floyd 1-1 | AEF Floydii</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>gb</Country>
+				<Group>BISHOP</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>6058.84</Time>
+			<PrimaryObject ID="931">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2453">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>931</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>6075.68</Time>
+			<PrimaryObject ID="941">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF ZyfrNZ | 161 SQNLDR</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MONKEY</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>6086.66</Time>
+			<PrimaryObject ID="241">
+				<Type>Tank</Type>
+				<Name>BTR-80</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 3B Coy #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2453">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>931</Parent>
+			</SecondaryObject>
+			<ParentObject ID="931">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>6086.66</Time>
+			<PrimaryObject ID="241">
+				<Type>Tank</Type>
+				<Name>BTR-80</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>LGM APC 3B Coy #003</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="931">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>6143.32</Time>
+			<PrimaryObject ID="2487">
+				<Type>Aircraft</Type>
+				<Name>Su-30 Flanker-C</Name>
+				<Pilot>RU SU-30#004-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU SU-30#004</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>6143.32</Time>
+			<PrimaryObject ID="2486">
+				<Type>Aircraft</Type>
+				<Name>Su-30 Flanker-C</Name>
+				<Pilot>RU SU-30#004-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU SU-30#004</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>6181.41</Time>
+			<PrimaryObject ID="931">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2488">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>931</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>6224.28</Time>
+			<PrimaryObject ID="673">
+				<Type>Car</Type>
+				<Name>Ural-4320T</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>LBM MRB Logistics Plt #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="2488">
+				<Type>Missile</Type>
+				<Name>AGM-65 Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>931</Parent>
+			</SecondaryObject>
+			<ParentObject ID="931">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>6224.34</Time>
+			<PrimaryObject ID="671">
+				<Type>Car</Type>
+				<Name>GAZ-66</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>LBM MRB Logistics Plt #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>6224.34</Time>
+			<PrimaryObject ID="672">
+				<Type>Car</Type>
+				<Name>Ural-375</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>LBM MRB Logistics Plt #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>6224.34</Time>
+			<PrimaryObject ID="673">
+				<Type>Car</Type>
+				<Name>Ural-4320T</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>LBM MRB Logistics Plt #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="931">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>6224.34</Time>
+			<PrimaryObject ID="674">
+				<Type>Car</Type>
+				<Name>Ural-4320T</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>LBM MRB Logistics Plt #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>6224.34</Time>
+			<PrimaryObject ID="675">
+				<Type>Car</Type>
+				<Name>ATMZ-5</Name>
+				<Coalition>Allies</Coalition>
+				<Country>xa</Country>
+				<Group>LBM MRB Logistics Plt #002</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>6231.68</Time>
+			<PrimaryObject ID="925">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>GORILLA 1-2 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="2489">
+				<Type>Bomb</Type>
+				<Name>GBU-12 Paveway II</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>925</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>6232.37</Time>
+			<PrimaryObject ID="237">
+				<Type>Aircraft</Type>
+				<Name>Su-24MR Fencer-E</Name>
+				<Pilot>Russian Recce Flight-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Russian Recce Flight Border</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:URKL">
+				<Name>Krasnodar-Center</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>6560.85</Time>
+			<PrimaryObject ID="2386">
+				<Type>Aircraft</Type>
+				<Name>Su-30 Flanker-C</Name>
+				<Pilot>RU SU-30#003-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU SU-30#003</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>6615.64</Time>
+			<PrimaryObject ID="955">
+				<Type>Aircraft</Type>
+				<Name>Mirage 2000C</Name>
+				<Pilot>ATARI | Chappy 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>ATARI</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>6624.88</Time>
+			<PrimaryObject ID="2387">
+				<Type>Aircraft</Type>
+				<Name>Su-30 Flanker-C</Name>
+				<Pilot>RU SU-30#003-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU SU-30#003</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>6626.97</Time>
+			<PrimaryObject ID="2586">
+				<Type>Parachutist</Type>
+				<Name>Pilot</Name>
+				<Country>ru</Country>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>6627.11</Time>
+			<PrimaryObject ID="2586">
+				<Type>Parachutist</Type>
+				<Name>Pilot</Name>
+				<Country>ru</Country>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>6635.72</Time>
+			<PrimaryObject ID="955">
+				<Type>Aircraft</Type>
+				<Name>Mirage 2000C</Name>
+				<Pilot>ATARI | Chappy 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>fr</Country>
+				<Group>ATARI</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>6656.82</Time>
+			<PrimaryObject ID="928">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SSV8TE/BERSERKER 1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>ROOK</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>6761.50</Time>
+			<PrimaryObject ID="944">
+				<Type>Helicopter</Type>
+				<Name>Ka-50 Black Shark</Name>
+				<Pilot>H.Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>BADGER</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>6786.46</Time>
+			<PrimaryObject ID="927">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF AUS_Geoff | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>ROOK</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>6842.82</Time>
+			<PrimaryObject ID="931">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>6843.11</Time>
+			<PrimaryObject ID="939">
+				<Type>Helicopter</Type>
+				<Name>Ka-50 Black Shark</Name>
+				<Pilot>gadget[H]</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>BADGER</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>6860.48</Time>
+			<PrimaryObject ID="925">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>GORILLA 1-2 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>6879.31</Time>
+			<PrimaryObject ID="937">
+				<Type>Helicopter</Type>
+				<Name>Mi-8MT Hip</Name>
+				<Pilot>Will 1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>de</Country>
+				<Group>VANGUARD</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>6910.75</Time>
+			<PrimaryObject ID="938">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF Gimble | Arrow 1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MONKEY</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>7000.63</Time>
+			<PrimaryObject ID="931">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>AEF Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>7012.08</Time>
+			<PrimaryObject ID="925">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>GORILLA 1-2 | Jabby</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>GORILLA</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>7127.91</Time>
+			<PrimaryObject ID="238">
+				<Type>Aircraft</Type>
+				<Name>Su-24MR Fencer-E</Name>
+				<Pilot>Russian Recce Flight Border-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Russian Recce Flight Maritime</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+		</Event>
+		<Event>
+			<Time>7168.00</Time>
+			<PrimaryObject ID="1989">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#003-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#003</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>7182.81</Time>
+			<PrimaryObject ID="1990">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#003-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#003</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>7191.74</Time>
+			<PrimaryObject ID="938">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>AEF Gimble | Arrow 1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MONKEY</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:UG5X">
+				<Name>Kobuleti</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>7219.16</Time>
+			<PrimaryObject ID="940">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF SneakyBastd | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>7257.33</Time>
+			<PrimaryObject ID="2600">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#005-02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#005</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>7257.33</Time>
+			<PrimaryObject ID="2599">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>RU Mig-29#005-01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RU Mig-29#005</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>7323.07</Time>
+			<PrimaryObject ID="940">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF SneakyBastd | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>7336.29</Time>
+			<PrimaryObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:UGKO">
+				<Name>Kutaisi</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>7374.50</Time>
+			<PrimaryObject ID="942">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF WOGASAURUS | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>au</Country>
+				<Group>KNIGHT</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+	</Events>
+</TacviewDebriefing>
