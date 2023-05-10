@@ -17,7 +17,7 @@ def create_connection(db_file):
         conn = sqlite3.connect(db_file)
         logging.info('Database connection made.')
         return conn
-    except sqlite3.Err alright, see ya why is there no data coming into the mission and theor as db_error:
+    except sqlite3.Err as db_error:
         logging.error(f'Database connection failed. Error: {db_error}')
         quit()
 

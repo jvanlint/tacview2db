@@ -1,0 +1,12 @@
+2023-05-10 13:59:22 INFO Begin processing file named ../data/mission1_server.xml. Clear DB set to True
+2023-05-10 13:59:25 INFO Attempting to parse XML in ../data/mission1_server.xml.
+2023-05-10 13:59:25 INFO XML parsed successfully.
+2023-05-10 13:59:25 INFO Attempting to connect to sqlite database pytacview.db.
+2023-05-10 13:59:25 INFO Database connection made.
+2023-05-10 13:59:25 WARNING Clearing out database before import of data.
+2023-05-10 13:59:25 WARNING Table data cleared.
+2023-05-10 13:59:25 INFO Checking if NS_Phase_1_Mission_1_Final already in database.
+2023-05-10 13:59:25 INFO Attempting to add mission named NS_Phase_1_Mission_1_Final to database.
+2023-05-10 13:59:25 INFO Created mission in database.
+2023-05-10 13:59:25 INFO Processing event records.
+2023-05-10 13:59:25 INFO Successfully processed 364 event records.

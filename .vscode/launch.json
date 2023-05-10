@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Std",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/app",
+            "program": "${workspaceFolder}/app/tacview2db.py",
+            "console": "integratedTerminal",
+            "args": [
+                "-v",
+                "-c",
+                "../data/mission1_server.xml"
+            ],
+        }
+    ]
+}
