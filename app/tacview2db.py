@@ -8,8 +8,26 @@ import logging
 from dotenv import load_dotenv
 import sqlite3
 
-from common.database import create_connection, create_mission_record, create_event_record, create_parent_record, create_primary_record, create_secondary_record, clear_table_data, check_mission_exists
-from common.xml import parseXMLFile, extract_mission_object_data, extract_event_data, extract_event_object_data, extract_primary_object_data, extract_secondary_object_data, extract_parent_object_data
+from common.database import (
+    create_connection,
+    create_mission_record,
+    create_event_record,
+    create_parent_record,
+    create_primary_record,
+    create_secondary_record,
+    clear_table_data,
+    check_mission_exists
+)
+
+from common.xml import (
+    parseXMLFile,
+    extract_mission_object_data,
+    extract_event_data,
+    extract_event_object_data,
+    extract_primary_object_data,
+    extract_secondary_object_data,
+    extract_parent_object_data
+)
 
 
 def process_tacview_file(conn: sqlite3.Connection, filename: str):
@@ -19,6 +37,10 @@ def process_tacview_file(conn: sqlite3.Connection, filename: str):
 
     # Create a mission object and commit it to the database
     mission_data = extract_mission_object_data(tacview_parsed_data)
+
+    if check_mission_exists(conn, mission_data):
+        logging.warning('Mission already exists in DB.')
+
     # Once mission created in DB we get an id for future storing related records.
     mission_id = create_mission_record(conn, mission_data)
 
@@ -55,6 +77,7 @@ def process_tacview_file(conn: sqlite3.Connection, filename: str):
                 create_parent_record(conn, parent_object_data)
                 parent_object_counter += 1
 
+    logging.info('EVENT records written to database.')
     logging.info(
         f'Successfully processed {event_counter} event records, {primary_object_counter} primary records, {secondary_object_counter} secondary records and {parent_object_counter} parent records.')
 
@@ -110,10 +133,14 @@ def main(argv):
         process_tacview_file(conn, file)
 
     conn.close
+    logging.info('All files processed successfully.')
+    logging.info('The script took %.3f seconds to finish.' %
+                 (time.time() - start))
 
-    print('-' * 80)
+    #print('-' * 80)
     print('*** Export to database complete! ***')
     print('The script took %.3f seconds to finish.' % (time.time() - start))
+    print('Please refer to app.log file for more detailed information.')
 
 
 if __name__ == '__main__':

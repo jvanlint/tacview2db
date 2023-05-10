@@ -32,7 +32,6 @@ def check_mission_exists(conn: sqlite3.Connection, mission) -> bool:
     result = cursor.execute(sql, (mission[0],))
 
     if result.fetchone():
-        logging.warning('Mission name already exists in database.')
         return True
     else:
         return False
