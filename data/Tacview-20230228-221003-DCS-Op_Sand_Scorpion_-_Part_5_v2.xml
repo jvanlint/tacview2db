@@ -1,0 +1,5284 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TacviewDebriefing Version="1.2.6">
+	<!--Flight Recording Properties-->
+	<FlightRecording>
+		<Source>DCS 2.8.2.35759</Source>
+		<Recorder>DCS2ACMI 1.8.6.200</Recorder>
+		<RecordingTime>2023-02-28T09:10:03.177Z</RecordingTime>
+		<Author>DivideByZeroError</Author>
+	</FlightRecording>
+	<!--Mission Properties-->
+	<Mission>
+		<Title>Op_Sand_Scorpion_-_Part_5_v2</Title>
+		<MissionTime>2023-06-01T16:00:00Z</MissionTime>
+		<Duration>6211.90</Duration>
+		<Comments>The initial strike on Russian forces in Syria has shad an impact. Russian forces retreated all air assets to Jira and abondoned Alleppo and Kuweires.
+
+They also have increased their IADS effectiveness by switching Syrian personnel for Russian.
+
+For this followup strike we are seeking to  push Russia farther East and eventually force them out of Syria. To accomplish this we have 3 missions for this stage of the op.
+
+The 3 objectives are:
+
+Destroy Allepo Airfield
+=========================
+Prevent the use of this airfield for any Russian counter offensive.
+
+Destroy Russian PMC laying seige to town
+==============================
+The Wagner group has a town east of Minakh surrounded and laying seige to it. Conditions are worsening so the decision has been made to send a message to Russian assets of all kinds.
+
+Capture Russian Helo FARP
+===========================
+Capture a helo base within Syria to create a launch point for a new ground phase of the war.</Comments>
+	</Mission>
+	<!--Flight Log-->
+	<Events>
+		<Event>
+			<Time>178.03</Time>
+			<Location>
+				<Longitude>35.4276868</Longitude>
+				<Latitude>36.9993061</Latitude>
+				<Altitude>60.12</Altitude>
+			</Location>
+			<PrimaryObject ID="163">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>255.60</Time>
+			<Location>
+				<Longitude>35.4290972</Longitude>
+				<Latitude>36.999532</Latitude>
+				<Altitude>60.2</Altitude>
+			</Location>
+			<PrimaryObject ID="164">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Jabby | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>280.16</Time>
+			<Location>
+				<Longitude>35.4280662</Longitude>
+				<Latitude>36.9989072</Latitude>
+				<Altitude>60.12</Altitude>
+			</Location>
+			<PrimaryObject ID="165">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>308.70</Time>
+			<Location>
+				<Longitude>34.7217537</Longitude>
+				<Latitude>34.9623477</Latitude>
+				<Altitude>22</Altitude>
+			</Location>
+			<PrimaryObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>323.63</Time>
+			<Location>
+				<Longitude>35.429469</Longitude>
+				<Latitude>36.9991369</Latitude>
+				<Altitude>60.2</Altitude>
+			</Location>
+			<PrimaryObject ID="167">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>353.99</Time>
+			<Location>
+				<Longitude>34.7220957</Longitude>
+				<Latitude>34.9651581</Latitude>
+				<Altitude>22</Altitude>
+			</Location>
+			<PrimaryObject ID="168">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>ASPEN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>443.39</Time>
+			<Location>
+				<Longitude>35.4300802</Longitude>
+				<Latitude>37.0001287</Latitude>
+				<Altitude>60.28</Altitude>
+			</Location>
+			<PrimaryObject ID="169">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Oxwood 1-1 | Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>527.92</Time>
+			<Location>
+				<Longitude>34.7226401</Longitude>
+				<Latitude>34.9757717</Latitude>
+				<Altitude>22.01</Altitude>
+			</Location>
+			<PrimaryObject ID="170">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1248.70</Time>
+			<Location>
+				<Longitude>35.4161853</Longitude>
+				<Latitude>36.993336</Latitude>
+				<Altitude>50.18</Altitude>
+			</Location>
+			<PrimaryObject ID="164">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Jabby | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1252.73</Time>
+			<Location>
+				<Longitude>35.4157645</Longitude>
+				<Latitude>36.9930783</Latitude>
+				<Altitude>49.68</Altitude>
+			</Location>
+			<PrimaryObject ID="164">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Jabby | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1257.00</Time>
+			<Location>
+				<Longitude>35.4162574</Longitude>
+				<Latitude>36.9933687</Latitude>
+				<Altitude>50.26</Altitude>
+			</Location>
+			<PrimaryObject ID="169">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Oxwood 1-1 | Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1261.04</Time>
+			<Location>
+				<Longitude>35.4158499</Longitude>
+				<Latitude>36.9931215</Latitude>
+				<Altitude>49.78</Altitude>
+			</Location>
+			<PrimaryObject ID="169">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Oxwood 1-1 | Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1282.54</Time>
+			<Location>
+				<Longitude>35.4162021</Longitude>
+				<Latitude>36.9933306</Latitude>
+				<Altitude>50.19</Altitude>
+			</Location>
+			<PrimaryObject ID="167">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1286.59</Time>
+			<Location>
+				<Longitude>35.4158384</Longitude>
+				<Latitude>36.9931053</Latitude>
+				<Altitude>49.75</Altitude>
+			</Location>
+			<PrimaryObject ID="167">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1298.98</Time>
+			<Location>
+				<Longitude>35.4161469</Longitude>
+				<Latitude>36.9933009</Latitude>
+				<Altitude>50.12</Altitude>
+			</Location>
+			<PrimaryObject ID="163">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1303.05</Time>
+			<Location>
+				<Longitude>35.4156338</Longitude>
+				<Latitude>36.9929923</Latitude>
+				<Altitude>49.54</Altitude>
+			</Location>
+			<PrimaryObject ID="163">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1319.72</Time>
+			<Location>
+				<Longitude>35.4161373</Longitude>
+				<Latitude>36.9932957</Latitude>
+				<Altitude>50.12</Altitude>
+			</Location>
+			<PrimaryObject ID="165">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1323.75</Time>
+			<Location>
+				<Longitude>35.4156031</Longitude>
+				<Latitude>36.992967</Latitude>
+				<Altitude>49.56</Altitude>
+			</Location>
+			<PrimaryObject ID="165">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1341.07</Time>
+			<Location>
+				<Longitude>34.7295384</Longitude>
+				<Latitude>35.0298038</Latitude>
+				<Altitude>21.98</Altitude>
+			</Location>
+			<PrimaryObject ID="168">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>ASPEN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1431.06</Time>
+			<Location>
+				<Longitude>35.4167342</Longitude>
+				<Latitude>36.9965137</Latitude>
+				<Altitude>52.81</Altitude>
+			</Location>
+			<PrimaryObject ID="164">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Jabby | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1438.36</Time>
+			<Location>
+				<Longitude>35.417196</Longitude>
+				<Latitude>36.996616</Latitude>
+				<Altitude>53.27</Altitude>
+			</Location>
+			<PrimaryObject ID="169">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Oxwood 1-1 | Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1448.02</Time>
+			<Location>
+				<Longitude>35.4169321</Longitude>
+				<Latitude>36.9962941</Latitude>
+				<Altitude>52.84</Altitude>
+			</Location>
+			<PrimaryObject ID="167">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1450.98</Time>
+			<Location>
+				<Longitude>34.7306177</Longitude>
+				<Latitude>35.0368398</Latitude>
+				<Altitude>22.07</Altitude>
+			</Location>
+			<PrimaryObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1458.43</Time>
+			<Location>
+				<Longitude>35.4165741</Longitude>
+				<Latitude>36.9964331</Latitude>
+				<Altitude>52.64</Altitude>
+			</Location>
+			<PrimaryObject ID="163">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1465.00</Time>
+			<Location>
+				<Longitude>35.4164278</Longitude>
+				<Latitude>36.9960813</Latitude>
+				<Altitude>52.34</Altitude>
+			</Location>
+			<PrimaryObject ID="165">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1469.95</Time>
+			<Location>
+				<Longitude>34.7301276</Longitude>
+				<Latitude>35.0371609</Latitude>
+				<Altitude>21.99</Altitude>
+			</Location>
+			<PrimaryObject ID="170">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2730.52</Time>
+			<Location>
+				<Longitude>37.9545602</Longitude>
+				<Latitude>36.0980236</Latitude>
+				<Altitude>357.04</Altitude>
+			</Location>
+			<PrimaryObject ID="34">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-7</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="172">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>34</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2733.87</Time>
+			<Location>
+				<Longitude>37.9549763</Longitude>
+				<Latitude>36.0978758</Latitude>
+				<Altitude>355.74</Altitude>
+			</Location>
+			<PrimaryObject ID="32">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="173">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>32</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2750.77</Time>
+			<Location>
+				<Longitude>37.1845674</Longitude>
+				<Latitude>36.610677</Latitude>
+				<Altitude>8332.12</Altitude>
+			</Location>
+			<PrimaryObject ID="169">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Oxwood 1-1 | Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="178">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>169</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2769.45</Time>
+			<Location>
+				<Longitude>37.2045222</Longitude>
+				<Latitude>36.5192557</Latitude>
+				<Altitude>7122.5</Altitude>
+			</Location>
+			<PrimaryObject ID="167">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="181">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>167</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2773.77</Time>
+			<Location>
+				<Longitude>37.2329315</Longitude>
+				<Latitude>36.5605303</Latitude>
+				<Altitude>8555.34</Altitude>
+			</Location>
+			<PrimaryObject ID="164">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Jabby | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="182">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>164</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2795.91</Time>
+			<Location>
+				<Longitude>37.727836</Longitude>
+				<Latitude>35.5966682</Latitude>
+				<Altitude>6791.43</Altitude>
+			</Location>
+			<PrimaryObject ID="168">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>ASPEN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="172">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>34</Parent>
+			</SecondaryObject>
+			<ParentObject ID="34">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-7</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2795.91</Time>
+			<Location>
+				<Longitude>37.727836</Longitude>
+				<Latitude>35.5966682</Latitude>
+				<Altitude>6791.43</Altitude>
+			</Location>
+			<PrimaryObject ID="168">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>ASPEN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="34">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-7</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2796.00</Time>
+			<Location>
+				<Longitude>37.7332972</Longitude>
+				<Latitude>35.6057995</Latitude>
+				<Altitude>6818.42</Altitude>
+			</Location>
+			<PrimaryObject ID="173">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>32</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2809.98</Time>
+			<Location>
+				<Longitude>37.4143157</Longitude>
+				<Latitude>36.3883786</Latitude>
+				<Altitude>5893.06</Altitude>
+			</Location>
+			<PrimaryObject ID="18">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>Aerial-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Aerial-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="182">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>164</Parent>
+			</SecondaryObject>
+			<ParentObject ID="164">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Jabby | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2810.09</Time>
+			<Location>
+				<Longitude>37.4145055</Longitude>
+				<Latitude>36.3882833</Latitude>
+				<Altitude>5870.28</Altitude>
+			</Location>
+			<PrimaryObject ID="18">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>Aerial-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Aerial-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="164">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Jabby | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2814.12</Time>
+			<Location>
+				<Longitude>37.4213955</Longitude>
+				<Latitude>36.3844856</Latitude>
+				<Altitude>4994</Altitude>
+			</Location>
+			<PrimaryObject ID="240">
+				<Type>Parachutist</Type>
+				<Name>Parachutist</Name>
+				<Country>ru</Country>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>2827.23</Time>
+			<Location>
+				<Longitude>37.4768435</Longitude>
+				<Latitude>36.388574</Latitude>
+				<Altitude>471.55</Altitude>
+			</Location>
+			<PrimaryObject ID="181">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>167</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2836.15</Time>
+			<Location>
+				<Longitude>37.3807213</Longitude>
+				<Latitude>36.4913791</Latitude>
+				<Altitude>7197.77</Altitude>
+			</Location>
+			<PrimaryObject ID="164">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Jabby | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="241">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>164</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2841.48</Time>
+			<Location>
+				<Longitude>37.4969855</Longitude>
+				<Latitude>36.4479098</Latitude>
+				<Altitude>1146.28</Altitude>
+			</Location>
+			<PrimaryObject ID="19">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>Aerial-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Aerial-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="247">
+				<Type>Missile</Type>
+				<Name>R-77 (AA-12 Adder)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>19</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2851.09</Time>
+			<Location>
+				<Longitude>37.4737218</Longitude>
+				<Latitude>36.4428301</Latitude>
+				<Altitude>639.87</Altitude>
+			</Location>
+			<PrimaryObject ID="19">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>Aerial-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Aerial-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="241">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>164</Parent>
+			</SecondaryObject>
+			<ParentObject ID="164">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Jabby | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2851.12</Time>
+			<Location>
+				<Longitude>37.4736601</Longitude>
+				<Latitude>36.4427989</Latitude>
+				<Altitude>638.09</Altitude>
+			</Location>
+			<PrimaryObject ID="19">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>Aerial-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Aerial-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="164">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Jabby | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2856.95</Time>
+			<Location>
+				<Longitude>37.5714198</Longitude>
+				<Latitude>36.347944</Latitude>
+				<Altitude>455.24</Altitude>
+			</Location>
+			<PrimaryObject ID="178">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>169</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2860.59</Time>
+			<Location>
+				<Longitude>37.4260368</Longitude>
+				<Latitude>36.5243279</Latitude>
+				<Altitude>6260.5</Altitude>
+			</Location>
+			<PrimaryObject ID="164">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Jabby | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="247">
+				<Type>Missile</Type>
+				<Name>R-77 (AA-12 Adder)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>19</Parent>
+			</SecondaryObject>
+			<ParentObject ID="19">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>Aerial-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Aerial-1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2860.59</Time>
+			<Location>
+				<Longitude>37.4260368</Longitude>
+				<Latitude>36.5243279</Latitude>
+				<Altitude>6260.5</Altitude>
+			</Location>
+			<PrimaryObject ID="164">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Jabby | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="19">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>Aerial-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Aerial-1</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3128.33</Time>
+			<Location>
+				<Longitude>37.8177824</Longitude>
+				<Latitude>35.2713681</Latitude>
+				<Altitude>7978.2</Altitude>
+			</Location>
+			<PrimaryObject ID="170">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="255">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3141.19</Time>
+			<Location>
+				<Longitude>37.8207719</Longitude>
+				<Latitude>35.288248</Latitude>
+				<Altitude>7983.73</Altitude>
+			</Location>
+			<PrimaryObject ID="170">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="256">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3142.44</Time>
+			<Location>
+				<Longitude>37.9228264</Longitude>
+				<Latitude>35.2576503</Latitude>
+				<Altitude>11503.13</Altitude>
+			</Location>
+			<PrimaryObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="257">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3152.79</Time>
+			<Location>
+				<Longitude>37.9236658</Longitude>
+				<Latitude>35.2804608</Latitude>
+				<Altitude>11509.77</Altitude>
+			</Location>
+			<PrimaryObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="258">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3153.15</Time>
+			<Location>
+				<Longitude>37.8234977</Longitude>
+				<Latitude>35.303977</Latitude>
+				<Altitude>7993.71</Altitude>
+			</Location>
+			<PrimaryObject ID="170">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="259">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3165.43</Time>
+			<Location>
+				<Longitude>37.8264105</Longitude>
+				<Latitude>35.3200957</Latitude>
+				<Altitude>7998.17</Altitude>
+			</Location>
+			<PrimaryObject ID="170">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="260">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3167.72</Time>
+			<Location>
+				<Longitude>37.9246656</Longitude>
+				<Latitude>35.3139265</Latitude>
+				<Altitude>11512.08</Altitude>
+			</Location>
+			<PrimaryObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="261">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3175.09</Time>
+			<Location>
+				<Longitude>37.9252262</Longitude>
+				<Latitude>35.3307173</Latitude>
+				<Altitude>11512.05</Altitude>
+			</Location>
+			<PrimaryObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="262">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3178.30</Time>
+			<Location>
+				<Longitude>37.8293711</Longitude>
+				<Latitude>35.336884</Latitude>
+				<Altitude>7995.56</Altitude>
+			</Location>
+			<PrimaryObject ID="170">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="263">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3182.60</Time>
+			<Location>
+				<Longitude>37.9258899</Longitude>
+				<Latitude>35.3479739</Latitude>
+				<Altitude>11512.04</Altitude>
+			</Location>
+			<PrimaryObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="264">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3187.51</Time>
+			<Location>
+				<Longitude>37.8122428</Longitude>
+				<Latitude>36.7512257</Latitude>
+				<Altitude>496.05</Altitude>
+			</Location>
+			<PrimaryObject ID="41">
+				<Type>SAM/AAA</Type>
+				<Name>SA-6 Gainful (LN)</Name>
+				<Pilot>SAM Site 6-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM Site 6</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="265">
+				<Type>Missile</Type>
+				<Name>SA3M9M</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>41</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3189.82</Time>
+			<Location>
+				<Longitude>37.9264464</Longitude>
+				<Latitude>35.3647514</Latitude>
+				<Altitude>11511.6</Altitude>
+			</Location>
+			<PrimaryObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="266">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3193.01</Time>
+			<Location>
+				<Longitude>37.8329294</Longitude>
+				<Latitude>35.3558802</Latitude>
+				<Altitude>8013.24</Altitude>
+			</Location>
+			<PrimaryObject ID="170">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="267">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3193.91</Time>
+			<Location>
+				<Longitude>37.8122428</Longitude>
+				<Latitude>36.7512257</Latitude>
+				<Altitude>496.05</Altitude>
+			</Location>
+			<PrimaryObject ID="41">
+				<Type>SAM/AAA</Type>
+				<Name>SA-6 Gainful (LN)</Name>
+				<Pilot>SAM Site 6-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM Site 6</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="268">
+				<Type>Missile</Type>
+				<Name>SA3M9M</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>41</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3196.77</Time>
+			<Location>
+				<Longitude>37.9269318</Longitude>
+				<Latitude>35.3810588</Latitude>
+				<Altitude>11510.76</Altitude>
+			</Location>
+			<PrimaryObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="269">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3203.85</Time>
+			<Location>
+				<Longitude>37.9274626</Longitude>
+				<Latitude>35.3978279</Latitude>
+				<Altitude>11509.46</Altitude>
+			</Location>
+			<PrimaryObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="270">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3204.41</Time>
+			<Location>
+				<Longitude>37.8359094</Longitude>
+				<Latitude>35.370994</Latitude>
+				<Altitude>8087.48</Altitude>
+			</Location>
+			<PrimaryObject ID="170">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="271">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3210.57</Time>
+			<Location>
+				<Longitude>37.9279607</Longitude>
+				<Latitude>35.4138956</Latitude>
+				<Altitude>11508.13</Altitude>
+			</Location>
+			<PrimaryObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="272">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3215.44</Time>
+			<Location>
+				<Longitude>37.8387371</Longitude>
+				<Latitude>35.3862937</Latitude>
+				<Altitude>8186.18</Altitude>
+			</Location>
+			<PrimaryObject ID="170">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="273">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3227.43</Time>
+			<Location>
+				<Longitude>37.8419517</Longitude>
+				<Latitude>35.403507</Latitude>
+				<Altitude>8332.76</Altitude>
+			</Location>
+			<PrimaryObject ID="170">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="274">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3238.13</Time>
+			<Location>
+				<Longitude>37.8448033</Longitude>
+				<Latitude>35.4192955</Latitude>
+				<Altitude>8487.85</Altitude>
+			</Location>
+			<PrimaryObject ID="170">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="275">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3247.53</Time>
+			<Location>
+				<Longitude>37.5317947</Longitude>
+				<Latitude>36.7137247</Latitude>
+				<Altitude>7068.36</Altitude>
+			</Location>
+			<PrimaryObject ID="265">
+				<Type>Missile</Type>
+				<Name>SA3M9M</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>41</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3249.29</Time>
+			<Location>
+				<Longitude>37.8476689</Longitude>
+				<Latitude>35.436179</Latitude>
+				<Altitude>8660.01</Altitude>
+			</Location>
+			<PrimaryObject ID="170">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="276">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3253.93</Time>
+			<Location>
+				<Longitude>37.5385699</Longitude>
+				<Latitude>36.7104017</Latitude>
+				<Altitude>6641.34</Altitude>
+			</Location>
+			<PrimaryObject ID="268">
+				<Type>Missile</Type>
+				<Name>SA3M9M</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>41</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3260.81</Time>
+			<Location>
+				<Longitude>37.8506115</Longitude>
+				<Latitude>35.4539714</Latitude>
+				<Altitude>8856.46</Altitude>
+			</Location>
+			<PrimaryObject ID="170">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="277">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3261.45</Time>
+			<Location>
+				<Longitude>37.4101981</Longitude>
+				<Latitude>36.6153471</Latitude>
+				<Altitude>8814.52</Altitude>
+			</Location>
+			<PrimaryObject ID="165">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="278">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>165</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3268.39</Time>
+			<Location>
+				<Longitude>37.4053116</Longitude>
+				<Latitude>36.465636</Latitude>
+				<Altitude>8502.87</Altitude>
+			</Location>
+			<PrimaryObject ID="169">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Oxwood 1-1 | Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="279">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>169</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3269.73</Time>
+			<Location>
+				<Longitude>37.4078992</Longitude>
+				<Latitude>36.4638944</Latitude>
+				<Altitude>8687.79</Altitude>
+			</Location>
+			<PrimaryObject ID="169">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Oxwood 1-1 | Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="280">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>169</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3282.03</Time>
+			<Location>
+				<Longitude>37.3452219</Longitude>
+				<Latitude>36.5489368</Latitude>
+				<Altitude>6602.84</Altitude>
+			</Location>
+			<PrimaryObject ID="167">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="281">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>167</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3301.62</Time>
+			<Location>
+				<Longitude>37.5506002</Longitude>
+				<Latitude>36.586939</Latitude>
+				<Altitude>10470.7</Altitude>
+			</Location>
+			<PrimaryObject ID="163">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="282">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>163</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3303.51</Time>
+			<Location>
+				<Longitude>37.9547954</Longitude>
+				<Latitude>36.0971683</Latitude>
+				<Altitude>357.25</Altitude>
+			</Location>
+			<PrimaryObject ID="37">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-10</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="283">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>37</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3306.42</Time>
+			<Location>
+				<Longitude>37.9545602</Longitude>
+				<Latitude>36.0980236</Latitude>
+				<Altitude>357.04</Altitude>
+			</Location>
+			<PrimaryObject ID="34">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-7</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="284">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>34</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3309.48</Time>
+			<Location>
+				<Longitude>37.9547954</Longitude>
+				<Latitude>36.0971683</Latitude>
+				<Altitude>357.25</Altitude>
+			</Location>
+			<PrimaryObject ID="37">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-10</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="285">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>37</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3312.46</Time>
+			<Location>
+				<Longitude>37.9549763</Longitude>
+				<Latitude>36.0978758</Latitude>
+				<Altitude>355.74</Altitude>
+			</Location>
+			<PrimaryObject ID="32">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="286">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>32</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3315.38</Time>
+			<Location>
+				<Longitude>37.9554304</Longitude>
+				<Latitude>36.0968906</Latitude>
+				<Altitude>356.3</Altitude>
+			</Location>
+			<PrimaryObject ID="36">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-9</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="287">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>36</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3317.90</Time>
+			<Location>
+				<Longitude>37.4030706</Longitude>
+				<Latitude>36.5154714</Latitude>
+				<Altitude>8140.09</Altitude>
+			</Location>
+			<PrimaryObject ID="167">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="288">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>167</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3318.33</Time>
+			<Location>
+				<Longitude>37.9549763</Longitude>
+				<Latitude>36.0978758</Latitude>
+				<Altitude>355.74</Altitude>
+			</Location>
+			<PrimaryObject ID="32">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="289">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>32</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3324.27</Time>
+			<Location>
+				<Longitude>37.7831252</Longitude>
+				<Latitude>36.213939</Latitude>
+				<Altitude>12867.13</Altitude>
+			</Location>
+			<PrimaryObject ID="283">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>37</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="280">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>169</Parent>
+			</SecondaryObject>
+			<ParentObject ID="169">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Oxwood 1-1 | Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3324.27</Time>
+			<Location>
+				<Longitude>37.7828257</Longitude>
+				<Latitude>36.2142612</Latitude>
+				<Altitude>12878</Altitude>
+			</Location>
+			<PrimaryObject ID="280">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>169</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="283">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>37</Parent>
+			</SecondaryObject>
+			<ParentObject ID="37">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-10</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3327.52</Time>
+			<Location>
+				<Longitude>37.8149125</Longitude>
+				<Latitude>36.192967</Latitude>
+				<Altitude>11365.94</Altitude>
+			</Location>
+			<PrimaryObject ID="285">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>37</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3327.53</Time>
+			<Location>
+				<Longitude>37.9547954</Longitude>
+				<Latitude>36.0971683</Latitude>
+				<Altitude>357.25</Altitude>
+			</Location>
+			<PrimaryObject ID="37">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-10</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="290">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>37</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3329.91</Time>
+			<Location>
+				<Longitude>37.8223857</Longitude>
+				<Latitude>36.1879037</Latitude>
+				<Altitude>11326.34</Altitude>
+			</Location>
+			<PrimaryObject ID="286">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>32</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="279">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>169</Parent>
+			</SecondaryObject>
+			<ParentObject ID="169">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Oxwood 1-1 | Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3329.91</Time>
+			<Location>
+				<Longitude>37.8222065</Longitude>
+				<Latitude>36.1880746</Latitude>
+				<Altitude>11335.86</Altitude>
+			</Location>
+			<PrimaryObject ID="279">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>169</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="286">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>32</Parent>
+			</SecondaryObject>
+			<ParentObject ID="32">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3330.46</Time>
+			<Location>
+				<Longitude>37.9551347</Longitude>
+				<Latitude>36.0970303</Latitude>
+				<Altitude>356.72</Altitude>
+			</Location>
+			<PrimaryObject ID="35">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-8</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="291">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>35</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3330.79</Time>
+			<Location>
+				<Longitude>37.7736228</Longitude>
+				<Latitude>36.2700986</Latitude>
+				<Altitude>16403.92</Altitude>
+			</Location>
+			<PrimaryObject ID="284">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>34</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="278">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>165</Parent>
+			</SecondaryObject>
+			<ParentObject ID="165">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3330.79</Time>
+			<Location>
+				<Longitude>37.7734508</Longitude>
+				<Latitude>36.2704241</Latitude>
+				<Altitude>16411.74</Altitude>
+			</Location>
+			<PrimaryObject ID="278">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>165</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="284">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>34</Parent>
+			</SecondaryObject>
+			<ParentObject ID="34">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-7</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3332.39</Time>
+			<Location>
+				<Longitude>37.8623606</Longitude>
+				<Latitude>36.1609535</Latitude>
+				<Altitude>8720.9</Altitude>
+			</Location>
+			<PrimaryObject ID="289">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>32</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3333.42</Time>
+			<Location>
+				<Longitude>37.836359</Longitude>
+				<Latitude>36.2107633</Latitude>
+				<Altitude>12480.32</Altitude>
+			</Location>
+			<PrimaryObject ID="287">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>36</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3333.50</Time>
+			<Location>
+				<Longitude>37.9545602</Longitude>
+				<Latitude>36.0980236</Latitude>
+				<Altitude>357.04</Altitude>
+			</Location>
+			<PrimaryObject ID="34">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-7</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="293">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>34</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3336.42</Time>
+			<Location>
+				<Longitude>37.9554304</Longitude>
+				<Latitude>36.0968906</Latitude>
+				<Altitude>356.3</Altitude>
+			</Location>
+			<PrimaryObject ID="36">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-9</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="294">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>36</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3348.58</Time>
+			<Location>
+				<Longitude>37.9551347</Longitude>
+				<Latitude>36.0970303</Latitude>
+				<Altitude>356.72</Altitude>
+			</Location>
+			<PrimaryObject ID="35">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-8</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="295">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>35</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3351.47</Time>
+			<Location>
+				<Longitude>37.9547954</Longitude>
+				<Latitude>36.0971683</Latitude>
+				<Altitude>357.25</Altitude>
+			</Location>
+			<PrimaryObject ID="37">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-10</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="296">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>37</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3353.79</Time>
+			<Location>
+				<Longitude>37.7214185</Longitude>
+				<Latitude>36.2739083</Latitude>
+				<Altitude>15454.43</Altitude>
+			</Location>
+			<PrimaryObject ID="290">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>37</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="281">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>167</Parent>
+			</SecondaryObject>
+			<ParentObject ID="167">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3353.79</Time>
+			<Location>
+				<Longitude>37.7210438</Longitude>
+				<Latitude>36.274129</Latitude>
+				<Altitude>15464.58</Altitude>
+			</Location>
+			<PrimaryObject ID="281">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>167</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="290">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>37</Parent>
+			</SecondaryObject>
+			<ParentObject ID="37">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-10</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3354.88</Time>
+			<Location>
+				<Longitude>37.829031</Longitude>
+				<Latitude>36.2527413</Latitude>
+				<Altitude>13907.47</Altitude>
+			</Location>
+			<PrimaryObject ID="293">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>34</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="282">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>163</Parent>
+			</SecondaryObject>
+			<ParentObject ID="163">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3354.88</Time>
+			<Location>
+				<Longitude>37.8285875</Longitude>
+				<Latitude>36.2529462</Latitude>
+				<Altitude>13915.1</Altitude>
+			</Location>
+			<PrimaryObject ID="282">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>163</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="293">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>34</Parent>
+			</SecondaryObject>
+			<ParentObject ID="34">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-7</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3356.51</Time>
+			<Location>
+				<Longitude>37.7220817</Longitude>
+				<Latitude>36.273135</Latitude>
+				<Altitude>15425.63</Altitude>
+			</Location>
+			<PrimaryObject ID="291">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>35</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3358.47</Time>
+			<Location>
+				<Longitude>37.8238739</Longitude>
+				<Latitude>36.2591365</Latitude>
+				<Altitude>14227.26</Altitude>
+			</Location>
+			<PrimaryObject ID="294">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>36</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3376.19</Time>
+			<Location>
+				<Longitude>37.7140282</Longitude>
+				<Latitude>36.2833807</Latitude>
+				<Altitude>15316.85</Altitude>
+			</Location>
+			<PrimaryObject ID="295">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>35</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="288">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>167</Parent>
+			</SecondaryObject>
+			<ParentObject ID="167">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3376.19</Time>
+			<Location>
+				<Longitude>37.7137194</Longitude>
+				<Latitude>36.2836042</Latitude>
+				<Altitude>15323</Altitude>
+			</Location>
+			<PrimaryObject ID="288">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>167</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="295">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>35</Parent>
+			</SecondaryObject>
+			<ParentObject ID="35">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-8</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3377.54</Time>
+			<Location>
+				<Longitude>37.7300511</Longitude>
+				<Latitude>36.2712506</Latitude>
+				<Altitude>14852.28</Altitude>
+			</Location>
+			<PrimaryObject ID="296">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>37</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3393.54</Time>
+			<Location>
+				<Longitude>37.9554304</Longitude>
+				<Latitude>36.0968906</Latitude>
+				<Altitude>356.3</Altitude>
+			</Location>
+			<PrimaryObject ID="36">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-9</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="297">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>36</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3396.55</Time>
+			<Location>
+				<Longitude>37.9551347</Longitude>
+				<Latitude>36.0970303</Latitude>
+				<Altitude>356.72</Altitude>
+			</Location>
+			<PrimaryObject ID="35">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-8</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="298">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>35</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3399.54</Time>
+			<Location>
+				<Longitude>37.9554304</Longitude>
+				<Latitude>36.0968906</Latitude>
+				<Altitude>356.3</Altitude>
+			</Location>
+			<PrimaryObject ID="36">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-9</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="299">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>36</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3402.55</Time>
+			<Location>
+				<Longitude>37.9551347</Longitude>
+				<Latitude>36.0970303</Latitude>
+				<Altitude>356.72</Altitude>
+			</Location>
+			<PrimaryObject ID="35">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-8</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="300">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>35</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3405.74</Time>
+			<Location>
+				<Longitude>37.9545602</Longitude>
+				<Latitude>36.0980236</Latitude>
+				<Altitude>357.04</Altitude>
+			</Location>
+			<PrimaryObject ID="34">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-7</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="301">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>34</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3408.90</Time>
+			<Location>
+				<Longitude>37.9549763</Longitude>
+				<Latitude>36.0978758</Latitude>
+				<Altitude>355.74</Altitude>
+			</Location>
+			<PrimaryObject ID="32">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="302">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>32</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3412.02</Time>
+			<Location>
+				<Longitude>37.9555065</Longitude>
+				<Latitude>36.0976529</Latitude>
+				<Altitude>354.67</Altitude>
+			</Location>
+			<PrimaryObject ID="33">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="303">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>33</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3415.08</Time>
+			<Location>
+				<Longitude>37.9555065</Longitude>
+				<Latitude>36.0976529</Latitude>
+				<Altitude>354.67</Altitude>
+			</Location>
+			<PrimaryObject ID="33">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="304">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>33</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3418.23</Time>
+			<Location>
+				<Longitude>37.9555065</Longitude>
+				<Latitude>36.0976529</Latitude>
+				<Altitude>354.67</Altitude>
+			</Location>
+			<PrimaryObject ID="33">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="305">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>33</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3421.48</Time>
+			<Location>
+				<Longitude>37.9555065</Longitude>
+				<Latitude>36.0976529</Latitude>
+				<Altitude>354.67</Altitude>
+			</Location>
+			<PrimaryObject ID="33">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="306">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>33</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3430.61</Time>
+			<Location>
+				<Longitude>37.9383076</Longitude>
+				<Latitude>35.7463121</Latitude>
+				<Altitude>9498.11</Altitude>
+			</Location>
+			<PrimaryObject ID="298">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>35</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3434.00</Time>
+			<Location>
+				<Longitude>37.9396381</Longitude>
+				<Latitude>35.7715043</Latitude>
+				<Altitude>9688.59</Altitude>
+			</Location>
+			<PrimaryObject ID="300">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>35</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="272">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</SecondaryObject>
+			<ParentObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3434.00</Time>
+			<Location>
+				<Longitude>37.9394086</Longitude>
+				<Latitude>35.7714186</Latitude>
+				<Altitude>9682.41</Altitude>
+			</Location>
+			<PrimaryObject ID="272">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="300">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>35</Parent>
+			</SecondaryObject>
+			<ParentObject ID="35">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-8</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3437.79</Time>
+			<Location>
+				<Longitude>37.8886692</Longitude>
+				<Latitude>35.6923471</Latitude>
+				<Altitude>6127.48</Altitude>
+			</Location>
+			<PrimaryObject ID="297">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>36</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="276">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</SecondaryObject>
+			<ParentObject ID="170">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3437.79</Time>
+			<Location>
+				<Longitude>37.8887861</Longitude>
+				<Latitude>35.692059</Latitude>
+				<Altitude>6125.44</Altitude>
+			</Location>
+			<PrimaryObject ID="276">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="297">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>36</Parent>
+			</SecondaryObject>
+			<ParentObject ID="36">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-9</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3441.57</Time>
+			<Location>
+				<Longitude>37.9392963</Longitude>
+				<Latitude>35.7635527</Latitude>
+				<Altitude>9293.06</Altitude>
+			</Location>
+			<PrimaryObject ID="302">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>32</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="269">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</SecondaryObject>
+			<ParentObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3441.57</Time>
+			<Location>
+				<Longitude>37.9391721</Longitude>
+				<Latitude>35.7633576</Latitude>
+				<Altitude>9293.46</Altitude>
+			</Location>
+			<PrimaryObject ID="269">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="302">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>32</Parent>
+			</SecondaryObject>
+			<ParentObject ID="32">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3442.60</Time>
+			<Location>
+				<Longitude>37.8919922</Longitude>
+				<Latitude>35.7015598</Latitude>
+				<Altitude>6484.2</Altitude>
+			</Location>
+			<PrimaryObject ID="299">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>36</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="277">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</SecondaryObject>
+			<ParentObject ID="170">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3442.60</Time>
+			<Location>
+				<Longitude>37.8921688</Longitude>
+				<Latitude>35.7013475</Latitude>
+				<Altitude>6479.56</Altitude>
+			</Location>
+			<PrimaryObject ID="277">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="299">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>36</Parent>
+			</SecondaryObject>
+			<ParentObject ID="36">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-9</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3443.52</Time>
+			<Location>
+				<Longitude>37.9197026</Longitude>
+				<Latitude>35.8733924</Latitude>
+				<Altitude>6091.51</Altitude>
+			</Location>
+			<PrimaryObject ID="306">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>33</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3443.60</Time>
+			<Location>
+				<Longitude>37.9405299</Longitude>
+				<Latitude>35.775476</Latitude>
+				<Altitude>9407.74</Altitude>
+			</Location>
+			<PrimaryObject ID="303">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>33</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="270">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</SecondaryObject>
+			<ParentObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3443.60</Time>
+			<Location>
+				<Longitude>37.9403004</Longitude>
+				<Latitude>35.7753712</Latitude>
+				<Altitude>9401.78</Altitude>
+			</Location>
+			<PrimaryObject ID="270">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="303">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>33</Parent>
+			</SecondaryObject>
+			<ParentObject ID="33">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3443.81</Time>
+			<Location>
+				<Longitude>37.8971695</Longitude>
+				<Latitude>35.7318197</Latitude>
+				<Altitude>6443.79</Altitude>
+			</Location>
+			<PrimaryObject ID="301">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>34</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3448.88</Time>
+			<Location>
+				<Longitude>37.9419271</Longitude>
+				<Latitude>35.7553441</Latitude>
+				<Altitude>8903.63</Altitude>
+			</Location>
+			<PrimaryObject ID="304">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>33</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="264">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</SecondaryObject>
+			<ParentObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3448.88</Time>
+			<Location>
+				<Longitude>37.9418306</Longitude>
+				<Latitude>35.7552063</Latitude>
+				<Altitude>8902.14</Altitude>
+			</Location>
+			<PrimaryObject ID="264">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="304">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>33</Parent>
+			</SecondaryObject>
+			<ParentObject ID="33">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (LN)</Name>
+				<Pilot>SAM-S300-1-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3452.28</Time>
+			<Location>
+				<Longitude>37.9420743</Longitude>
+				<Latitude>35.7537373</Latitude>
+				<Altitude>8927.9</Altitude>
+			</Location>
+			<PrimaryObject ID="305">
+				<Type>Missile</Type>
+				<Name>SA5B55</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>33</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3472.16</Time>
+			<Location>
+				<Longitude>37.8910622</Longitude>
+				<Latitude>35.352443</Latitude>
+				<Altitude>12458.62</Altitude>
+			</Location>
+			<PrimaryObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="307">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3587.72</Time>
+			<Location>
+				<Longitude>37.9544997</Longitude>
+				<Latitude>36.0976264</Latitude>
+				<Altitude>357.97</Altitude>
+			</Location>
+			<PrimaryObject ID="51">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-2</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="308">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>51</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3587.78</Time>
+			<Location>
+				<Longitude>37.956677</Longitude>
+				<Latitude>36.098502</Latitude>
+				<Altitude>349.04</Altitude>
+			</Location>
+			<PrimaryObject ID="50">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="309">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>50</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3588.35</Time>
+			<Location>
+				<Longitude>37.9524831</Longitude>
+				<Latitude>36.0974963</Latitude>
+				<Altitude>357.45</Altitude>
+			</Location>
+			<PrimaryObject ID="121">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-3-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-3</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="310">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>121</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3591.95</Time>
+			<Location>
+				<Longitude>37.956677</Longitude>
+				<Latitude>36.098502</Latitude>
+				<Altitude>349.04</Altitude>
+			</Location>
+			<PrimaryObject ID="50">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="311">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>50</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3591.96</Time>
+			<Location>
+				<Longitude>37.9544997</Longitude>
+				<Latitude>36.0976264</Latitude>
+				<Altitude>357.97</Altitude>
+			</Location>
+			<PrimaryObject ID="51">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-2</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="312">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>51</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3592.49</Time>
+			<Location>
+				<Longitude>37.9524831</Longitude>
+				<Latitude>36.0974963</Latitude>
+				<Altitude>357.45</Altitude>
+			</Location>
+			<PrimaryObject ID="121">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-3-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-3</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="313">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>121</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3593.22</Time>
+			<Location>
+				<Longitude>37.9802299</Longitude>
+				<Latitude>36.0833412</Latitude>
+				<Altitude>1443.49</Altitude>
+			</Location>
+			<PrimaryObject ID="308">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>51</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="307">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</SecondaryObject>
+			<ParentObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3593.76</Time>
+			<Location>
+				<Longitude>37.9835744</Longitude>
+				<Latitude>36.081108</Latitude>
+				<Altitude>1574.88</Altitude>
+			</Location>
+			<PrimaryObject ID="308">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>51</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3593.81</Time>
+			<Location>
+				<Longitude>37.983628</Longitude>
+				<Latitude>36.0802567</Latitude>
+				<Altitude>1629.32</Altitude>
+			</Location>
+			<PrimaryObject ID="309">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>50</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3593.97</Time>
+			<Location>
+				<Longitude>37.9604472</Longitude>
+				<Latitude>36.0985545</Latitude>
+				<Altitude>710.1</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>50</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3593.98</Time>
+			<Location>
+				<Longitude>37.958193</Longitude>
+				<Latitude>36.0977591</Latitude>
+				<Altitude>729.35</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>51</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3594.14</Time>
+			<Location>
+				<Longitude>37.9826292</Longitude>
+				<Latitude>36.0845234</Latitude>
+				<Altitude>1303.27</Altitude>
+			</Location>
+			<PrimaryObject ID="310">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>121</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3594.51</Time>
+			<Location>
+				<Longitude>37.9538242</Longitude>
+				<Latitude>36.097618</Latitude>
+				<Altitude>861.32</Altitude>
+			</Location>
+			<PrimaryObject ID="313">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>121</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3596.02</Time>
+			<Location>
+				<Longitude>37.9226331</Longitude>
+				<Latitude>35.8948718</Latitude>
+				<Altitude>347.52</Altitude>
+			</Location>
+			<PrimaryObject ID="255">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3600.80</Time>
+			<Location>
+				<Longitude>37.9505768</Longitude>
+				<Latitude>36.0962542</Latitude>
+				<Altitude>358.91</Altitude>
+			</Location>
+			<PrimaryObject ID="315">
+				<Type>Aircraft</Type>
+				<Name>Su-33 Flanker-D</Name>
+				<Pilot>SU-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-33</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:OS62">
+				<Name>Jirah </Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>3600.80</Time>
+			<Location>
+				<Longitude>37.9503024</Longitude>
+				<Latitude>36.0962967</Latitude>
+				<Altitude>358.83</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>Su-33 Flanker-D</Name>
+				<Pilot>SU-33</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-33</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:OS62">
+				<Name>Jirah </Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>3611.24</Time>
+			<Location>
+				<Longitude>37.9345145</Longitude>
+				<Latitude>35.9142483</Latitude>
+				<Altitude>357.15</Altitude>
+			</Location>
+			<PrimaryObject ID="256">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3619.64</Time>
+			<Location>
+				<Longitude>37.9524831</Longitude>
+				<Latitude>36.0974963</Latitude>
+				<Altitude>357.45</Altitude>
+			</Location>
+			<PrimaryObject ID="121">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-3-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-3</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="316">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>121</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3619.84</Time>
+			<Location>
+				<Longitude>37.9544997</Longitude>
+				<Latitude>36.0976264</Latitude>
+				<Altitude>357.97</Altitude>
+			</Location>
+			<PrimaryObject ID="51">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-2</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="317">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>51</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3620.37</Time>
+			<Location>
+				<Longitude>37.956677</Longitude>
+				<Latitude>36.098502</Latitude>
+				<Altitude>349.04</Altitude>
+			</Location>
+			<PrimaryObject ID="50">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="318">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>50</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3623.48</Time>
+			<Location>
+				<Longitude>37.9340526</Longitude>
+				<Latitude>35.9306654</Latitude>
+				<Altitude>351.43</Altitude>
+			</Location>
+			<PrimaryObject ID="259">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3624.00</Time>
+			<Location>
+				<Longitude>37.9544997</Longitude>
+				<Latitude>36.0976264</Latitude>
+				<Altitude>357.97</Altitude>
+			</Location>
+			<PrimaryObject ID="51">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-2</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="320">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>51</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3624.00</Time>
+			<Location>
+				<Longitude>37.9524831</Longitude>
+				<Latitude>36.0974963</Latitude>
+				<Altitude>357.45</Altitude>
+			</Location>
+			<PrimaryObject ID="121">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-3-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-3</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="319">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>121</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3624.59</Time>
+			<Location>
+				<Longitude>37.956677</Longitude>
+				<Latitude>36.098502</Latitude>
+				<Altitude>349.04</Altitude>
+			</Location>
+			<PrimaryObject ID="50">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="321">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>50</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3635.56</Time>
+			<Location>
+				<Longitude>37.9443453</Longitude>
+				<Latitude>35.945618</Latitude>
+				<Altitude>358.39</Altitude>
+			</Location>
+			<PrimaryObject ID="260">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3639.75</Time>
+			<Location>
+				<Longitude>37.9497885</Longitude>
+				<Latitude>36.0046064</Latitude>
+				<Altitude>5868.14</Altitude>
+			</Location>
+			<PrimaryObject ID="316">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>121</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="262">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</SecondaryObject>
+			<ParentObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3639.75</Time>
+			<Location>
+				<Longitude>37.9497386</Longitude>
+				<Latitude>36.0045887</Latitude>
+				<Altitude>5870.36</Altitude>
+			</Location>
+			<PrimaryObject ID="262">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="316">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>121</Parent>
+			</SecondaryObject>
+			<ParentObject ID="121">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-3-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-3</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3641.90</Time>
+			<Location>
+				<Longitude>37.9493957</Longitude>
+				<Latitude>35.9998108</Latitude>
+				<Altitude>6199.73</Altitude>
+			</Location>
+			<PrimaryObject ID="317">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>51</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3642.04</Time>
+			<Location>
+				<Longitude>37.950002</Longitude>
+				<Latitude>36.011225</Latitude>
+				<Altitude>5646.48</Altitude>
+			</Location>
+			<PrimaryObject ID="319">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>121</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3642.04</Time>
+			<Location>
+				<Longitude>37.9499937</Longitude>
+				<Latitude>36.0114161</Latitude>
+				<Altitude>5641.22</Altitude>
+			</Location>
+			<PrimaryObject ID="320">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>51</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3642.41</Time>
+			<Location>
+				<Longitude>37.94939</Longitude>
+				<Latitude>36.0008235</Latitude>
+				<Altitude>6176.35</Altitude>
+			</Location>
+			<PrimaryObject ID="318">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>50</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3642.63</Time>
+			<Location>
+				<Longitude>37.9501887</Longitude>
+				<Latitude>36.0123735</Latitude>
+				<Altitude>5619.46</Altitude>
+			</Location>
+			<PrimaryObject ID="321">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>50</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3646.38</Time>
+			<Location>
+				<Longitude>37.9388169</Longitude>
+				<Latitude>35.9604379</Latitude>
+				<Altitude>364.15</Altitude>
+			</Location>
+			<PrimaryObject ID="263">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3646.44</Time>
+			<Location>
+				<Longitude>37.9524831</Longitude>
+				<Latitude>36.0974963</Latitude>
+				<Altitude>357.45</Altitude>
+			</Location>
+			<PrimaryObject ID="121">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-3-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-3</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="322">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>121</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3647.19</Time>
+			<Location>
+				<Longitude>37.956677</Longitude>
+				<Latitude>36.098502</Latitude>
+				<Altitude>349.04</Altitude>
+			</Location>
+			<PrimaryObject ID="50">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="323">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>50</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3647.55</Time>
+			<Location>
+				<Longitude>37.9544997</Longitude>
+				<Latitude>36.0976264</Latitude>
+				<Altitude>357.97</Altitude>
+			</Location>
+			<PrimaryObject ID="51">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-2</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="324">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>51</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3650.63</Time>
+			<Location>
+				<Longitude>37.9524831</Longitude>
+				<Latitude>36.0974963</Latitude>
+				<Altitude>357.45</Altitude>
+			</Location>
+			<PrimaryObject ID="121">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-3-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-3</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="325">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>121</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3651.32</Time>
+			<Location>
+				<Longitude>37.956677</Longitude>
+				<Latitude>36.098502</Latitude>
+				<Altitude>349.04</Altitude>
+			</Location>
+			<PrimaryObject ID="50">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="326">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>50</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3651.63</Time>
+			<Location>
+				<Longitude>37.9544997</Longitude>
+				<Latitude>36.0976264</Latitude>
+				<Altitude>357.97</Altitude>
+			</Location>
+			<PrimaryObject ID="51">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-2</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="327">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>51</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3658.87</Time>
+			<Location>
+				<Longitude>37.9464931</Longitude>
+				<Latitude>36.0489713</Latitude>
+				<Altitude>5862.79</Altitude>
+			</Location>
+			<PrimaryObject ID="323">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>50</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="266">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</SecondaryObject>
+			<ParentObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3658.87</Time>
+			<Location>
+				<Longitude>37.9464527</Longitude>
+				<Latitude>36.0488772</Latitude>
+				<Altitude>5871.41</Altitude>
+			</Location>
+			<PrimaryObject ID="266">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="323">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>50</Parent>
+			</SecondaryObject>
+			<ParentObject ID="50">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3660.50</Time>
+			<Location>
+				<Longitude>37.9453568</Longitude>
+				<Latitude>36.0384591</Latitude>
+				<Altitude>6923.61</Altitude>
+			</Location>
+			<PrimaryObject ID="322">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>121</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3660.67</Time>
+			<Location>
+				<Longitude>37.9471433</Longitude>
+				<Latitude>36.0570379</Latitude>
+				<Altitude>5315.93</Altitude>
+			</Location>
+			<PrimaryObject ID="325">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>121</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3661.34</Time>
+			<Location>
+				<Longitude>37.9475993</Longitude>
+				<Latitude>36.0582518</Latitude>
+				<Altitude>5275.33</Altitude>
+			</Location>
+			<PrimaryObject ID="326">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>50</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3661.59</Time>
+			<Location>
+				<Longitude>37.9449177</Longitude>
+				<Latitude>36.039367</Latitude>
+				<Altitude>6965.75</Altitude>
+			</Location>
+			<PrimaryObject ID="324">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>51</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3661.67</Time>
+			<Location>
+				<Longitude>37.9473251</Longitude>
+				<Latitude>36.057728</Latitude>
+				<Altitude>5356.38</Altitude>
+			</Location>
+			<PrimaryObject ID="327">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>51</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3663.55</Time>
+			<Location>
+				<Longitude>37.9589553</Longitude>
+				<Latitude>35.9807859</Latitude>
+				<Altitude>358.18</Altitude>
+			</Location>
+			<PrimaryObject ID="267">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3666.12</Time>
+			<Location>
+				<Longitude>37.9524831</Longitude>
+				<Latitude>36.0974963</Latitude>
+				<Altitude>357.45</Altitude>
+			</Location>
+			<PrimaryObject ID="121">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-3-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-3</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="328">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>121</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3666.62</Time>
+			<Location>
+				<Longitude>37.956677</Longitude>
+				<Latitude>36.098502</Latitude>
+				<Altitude>349.04</Altitude>
+			</Location>
+			<PrimaryObject ID="50">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="329">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>50</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3666.63</Time>
+			<Location>
+				<Longitude>37.9544997</Longitude>
+				<Latitude>36.0976264</Latitude>
+				<Altitude>357.97</Altitude>
+			</Location>
+			<PrimaryObject ID="51">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-2</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="330">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>51</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3670.42</Time>
+			<Location>
+				<Longitude>37.9524831</Longitude>
+				<Latitude>36.0974963</Latitude>
+				<Altitude>357.45</Altitude>
+			</Location>
+			<PrimaryObject ID="121">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-3-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-3</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="331">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>121</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3670.76</Time>
+			<Location>
+				<Longitude>37.956677</Longitude>
+				<Latitude>36.098502</Latitude>
+				<Altitude>349.04</Altitude>
+			</Location>
+			<PrimaryObject ID="50">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="332">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>50</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3671.00</Time>
+			<Location>
+				<Longitude>37.9544997</Longitude>
+				<Latitude>36.0976264</Latitude>
+				<Altitude>357.97</Altitude>
+			</Location>
+			<PrimaryObject ID="51">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-2</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="333">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>51</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3677.17</Time>
+			<Location>
+				<Longitude>37.945043</Longitude>
+				<Latitude>36.0470609</Latitude>
+				<Altitude>5140.25</Altitude>
+			</Location>
+			<PrimaryObject ID="328">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>121</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="261">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</SecondaryObject>
+			<ParentObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3677.17</Time>
+			<Location>
+				<Longitude>37.9450377</Longitude>
+				<Latitude>36.046942</Latitude>
+				<Altitude>5153.13</Altitude>
+			</Location>
+			<PrimaryObject ID="261">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="328">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>121</Parent>
+			</SecondaryObject>
+			<ParentObject ID="121">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA-15-point-defence-SA10-3-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA-15-point-defence-SA10-3</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3680.46</Time>
+			<Location>
+				<Longitude>37.9454278</Longitude>
+				<Latitude>36.0537933</Latitude>
+				<Altitude>4914.54</Altitude>
+			</Location>
+			<PrimaryObject ID="331">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>121</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3680.66</Time>
+			<Location>
+				<Longitude>37.9422747</Longitude>
+				<Latitude>36.0357275</Latitude>
+				<Altitude>6245.24</Altitude>
+			</Location>
+			<PrimaryObject ID="329">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>50</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3680.68</Time>
+			<Location>
+				<Longitude>37.9425869</Longitude>
+				<Latitude>36.0348546</Latitude>
+				<Altitude>6316.25</Altitude>
+			</Location>
+			<PrimaryObject ID="330">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>51</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3680.81</Time>
+			<Location>
+				<Longitude>37.9457627</Longitude>
+				<Latitude>36.0550133</Latitude>
+				<Altitude>4857.69</Altitude>
+			</Location>
+			<PrimaryObject ID="332">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>50</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3681.02</Time>
+			<Location>
+				<Longitude>37.945493</Longitude>
+				<Latitude>36.0542855</Latitude>
+				<Altitude>4925.35</Altitude>
+			</Location>
+			<PrimaryObject ID="333">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>51</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3685.62</Time>
+			<Location>
+				<Longitude>37.9609981</Longitude>
+				<Latitude>36.0113237</Latitude>
+				<Altitude>359</Altitude>
+			</Location>
+			<PrimaryObject ID="271">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3708.85</Time>
+			<Location>
+				<Longitude>37.9684683</Longitude>
+				<Latitude>36.0433335</Latitude>
+				<Altitude>357.87</Altitude>
+			</Location>
+			<PrimaryObject ID="273">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3732.01</Time>
+			<Location>
+				<Longitude>37.4121173</Longitude>
+				<Latitude>35.9927408</Latitude>
+				<Altitude>475.93</Altitude>
+			</Location>
+			<PrimaryObject ID="54">
+				<Type>SAM/AAA</Type>
+				<Name>SA-11 Gadfly (LN)</Name>
+				<Pilot>SAM-SA11-RESBASE-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA11-RESBASE-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="334">
+				<Type>Missile</Type>
+				<Name>SA9M38M1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>54</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3736.61</Time>
+			<Location>
+				<Longitude>37.9664621</Longitude>
+				<Latitude>36.0833312</Latitude>
+				<Altitude>338.82</Altitude>
+			</Location>
+			<PrimaryObject ID="274">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3737.45</Time>
+			<Location>
+				<Longitude>37.4121173</Longitude>
+				<Latitude>35.9927408</Latitude>
+				<Altitude>475.93</Altitude>
+			</Location>
+			<PrimaryObject ID="54">
+				<Type>SAM/AAA</Type>
+				<Name>SA-11 Gadfly (LN)</Name>
+				<Pilot>SAM-SA11-RESBASE-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA11-RESBASE-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="341">
+				<Type>Missile</Type>
+				<Name>SA9M38M1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>54</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3762.36</Time>
+			<Location>
+				<Longitude>37.9754648</Longitude>
+				<Latitude>36.1195408</Latitude>
+				<Altitude>326.94</Altitude>
+			</Location>
+			<PrimaryObject ID="275">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>170</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3787.34</Time>
+			<Location>
+				<Longitude>37.6166246</Longitude>
+				<Latitude>36.1273643</Latitude>
+				<Altitude>5057.04</Altitude>
+			</Location>
+			<PrimaryObject ID="334">
+				<Type>Missile</Type>
+				<Name>SA9M38M1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>54</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3794.14</Time>
+			<Location>
+				<Longitude>37.6210511</Longitude>
+				<Latitude>36.1399652</Latitude>
+				<Altitude>5135.22</Altitude>
+			</Location>
+			<PrimaryObject ID="341">
+				<Type>Missile</Type>
+				<Name>SA9M38M1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>54</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3814.25</Time>
+			<Location>
+				<Longitude>37.9472491</Longitude>
+				<Latitude>36.0953181</Latitude>
+				<Altitude>358.06</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>Su-33 Flanker-D</Name>
+				<Pilot>SU-33</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-33</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:OS62">
+				<Name>Jirah </Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>3836.05</Time>
+			<Location>
+				<Longitude>37.9474784</Longitude>
+				<Latitude>36.0952848</Latitude>
+				<Altitude>358.12</Altitude>
+			</Location>
+			<PrimaryObject ID="315">
+				<Type>Aircraft</Type>
+				<Name>Su-33 Flanker-D</Name>
+				<Pilot>SU-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-33</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:OS62">
+				<Name>Jirah </Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>3846.18</Time>
+			<Location>
+				<Longitude>37.8854945</Longitude>
+				<Latitude>36.2399564</Latitude>
+				<Altitude>11339.29</Altitude>
+			</Location>
+			<PrimaryObject ID="165">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="352">
+				<Type>Bomb</Type>
+				<Name>CBU-105 SFW</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>165</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3925.07</Time>
+			<Location>
+				<Longitude>37.9587215</Longitude>
+				<Latitude>36.099678</Latitude>
+				<Altitude>808.06</Altitude>
+			</Location>
+			<PrimaryObject ID="352">
+				<Type>Bomb</Type>
+				<Name>CBU-105 SFW</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>165</Parent>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="355">
+				<Type>Bomb</Type>
+				<Name>BLU-108</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>352</Parent>
+			</SecondaryObject>
+			<ParentObject ID="165">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3927.81</Time>
+			<Location>
+				<Longitude>37.9621688</Longitude>
+				<Latitude>36.3539986</Latitude>
+				<Altitude>456.92</Altitude>
+			</Location>
+			<PrimaryObject ID="257">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3940.08</Time>
+			<Location>
+				<Longitude>37.9662689</Longitude>
+				<Latitude>36.382114</Latitude>
+				<Altitude>499.73</Altitude>
+			</Location>
+			<PrimaryObject ID="258">
+				<Type>Missile</Type>
+				<Name>ADM-141A TALD</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3948.70</Time>
+			<Location>
+				<Longitude>37.959754</Longitude>
+				<Latitude>36.097941</Latitude>
+				<Altitude>350.49</Altitude>
+			</Location>
+			<PrimaryObject ID="30">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (CP)</Name>
+				<Pilot>SAM-S300-1-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="355">
+				<Type>Bomb</Type>
+				<Name>BLU-108</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>352</Parent>
+			</SecondaryObject>
+			<ParentObject ID="165">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3949.99</Time>
+			<Location>
+				<Longitude>37.7939335</Longitude>
+				<Latitude>36.2780471</Latitude>
+				<Altitude>2388.74</Altitude>
+			</Location>
+			<PrimaryObject ID="315">
+				<Type>Aircraft</Type>
+				<Name>Su-33 Flanker-D</Name>
+				<Pilot>SU-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-33</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="356">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>315</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3950.34</Time>
+			<Location>
+				<Longitude>37.9597595</Longitude>
+				<Latitude>36.0975255</Latitude>
+				<Altitude>351.35</Altitude>
+			</Location>
+			<PrimaryObject ID="31">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (SR)</Name>
+				<Pilot>SAM-S300-1-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="355">
+				<Type>Bomb</Type>
+				<Name>BLU-108</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>352</Parent>
+			</SecondaryObject>
+			<ParentObject ID="165">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3951.39</Time>
+			<Location>
+				<Longitude>37.9593831</Longitude>
+				<Latitude>36.0981099</Latitude>
+				<Altitude>349.8</Altitude>
+			</Location>
+			<PrimaryObject ID="31">
+				<Type>SAM/AAA</Type>
+				<Name>SA-10 Grumble (SR)</Name>
+				<Pilot>SAM-S300-1-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-S300-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="355">
+				<Type>Bomb</Type>
+				<Name>BLU-108</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>352</Parent>
+			</SecondaryObject>
+			<ParentObject ID="165">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3973.97</Time>
+			<Location>
+				<Longitude>37.6969993</Longitude>
+				<Latitude>36.4076143</Latitude>
+				<Altitude>9640.77</Altitude>
+			</Location>
+			<PrimaryObject ID="163">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="356">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>315</Parent>
+			</SecondaryObject>
+			<ParentObject ID="315">
+				<Type>Aircraft</Type>
+				<Name>Su-33 Flanker-D</Name>
+				<Pilot>SU-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-33</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3973.97</Time>
+			<Location>
+				<Longitude>37.6969993</Longitude>
+				<Latitude>36.4076143</Latitude>
+				<Altitude>9640.77</Altitude>
+			</Location>
+			<PrimaryObject ID="163">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="315">
+				<Type>Aircraft</Type>
+				<Name>Su-33 Flanker-D</Name>
+				<Pilot>SU-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-33</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3993.94</Time>
+			<Location>
+				<Longitude>37.7551478</Longitude>
+				<Latitude>36.3316497</Latitude>
+				<Altitude>2360.12</Altitude>
+			</Location>
+			<PrimaryObject ID="315">
+				<Type>Aircraft</Type>
+				<Name>Su-33 Flanker-D</Name>
+				<Pilot>SU-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-33</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="357">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>315</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4027.26</Time>
+			<Location>
+				<Longitude>37.8218541</Longitude>
+				<Latitude>36.3899943</Latitude>
+				<Altitude>2372.8</Altitude>
+			</Location>
+			<PrimaryObject ID="315">
+				<Type>Aircraft</Type>
+				<Name>Su-33 Flanker-D</Name>
+				<Pilot>SU-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-33</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="406">
+				<Type>Missile</Type>
+				<Name>R-27ET (AA-10 Alamo-D)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>315</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4043.62</Time>
+			<Location>
+				<Longitude>37.9260423</Longitude>
+				<Latitude>36.4513676</Latitude>
+				<Altitude>7941.4</Altitude>
+			</Location>
+			<PrimaryObject ID="165">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="406">
+				<Type>Missile</Type>
+				<Name>R-27ET (AA-10 Alamo-D)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>315</Parent>
+			</SecondaryObject>
+			<ParentObject ID="315">
+				<Type>Aircraft</Type>
+				<Name>Su-33 Flanker-D</Name>
+				<Pilot>SU-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-33</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4043.62</Time>
+			<Location>
+				<Longitude>37.9260423</Longitude>
+				<Latitude>36.4513676</Latitude>
+				<Altitude>7941.4</Altitude>
+			</Location>
+			<PrimaryObject ID="165">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="315">
+				<Type>Aircraft</Type>
+				<Name>Su-33 Flanker-D</Name>
+				<Pilot>SU-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-33</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4052.38</Time>
+			<Location>
+				<Longitude>38.0266399</Longitude>
+				<Latitude>36.4080666</Latitude>
+				<Altitude>11455.86</Altitude>
+			</Location>
+			<PrimaryObject ID="357">
+				<Type>Missile</Type>
+				<Name>R-27ER (AA-10 Alamo-C)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>315</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4849.35</Time>
+			<Location>
+				<Longitude>37.9413212</Longitude>
+				<Latitude>36.0963072</Latitude>
+				<Altitude>356.44</Altitude>
+			</Location>
+			<PrimaryObject ID="315">
+				<Type>Aircraft</Type>
+				<Name>Su-33 Flanker-D</Name>
+				<Pilot>SU-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-33</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:OS62">
+				<Name>Jirah </Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4853.66</Time>
+			<Location>
+				<Longitude>37.939097</Longitude>
+				<Latitude>36.0964109</Latitude>
+				<Altitude>355.87</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>Su-33 Flanker-D</Name>
+				<Pilot>SU-33</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-33</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:OS62">
+				<Name>Jirah </Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5049.96</Time>
+			<Location>
+				<Longitude>35.4339232</Longitude>
+				<Latitude>37.0068371</Latitude>
+				<Altitude>60.71</Altitude>
+			</Location>
+			<PrimaryObject ID="169">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Oxwood 1-1 | Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5141.14</Time>
+			<Location>
+				<Longitude>34.75917</Longitude>
+				<Latitude>35.2736545</Latitude>
+				<Altitude>21.98</Altitude>
+			</Location>
+			<PrimaryObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5314.95</Time>
+			<Location>
+				<Longitude>35.4287742</Longitude>
+				<Latitude>37.0035147</Latitude>
+				<Altitude>60.34</Altitude>
+			</Location>
+			<PrimaryObject ID="167">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5348.44</Time>
+			<Location>
+				<Longitude>35.4293784</Longitude>
+				<Latitude>36.9975988</Latitude>
+				<Altitude>60.1</Altitude>
+			</Location>
+			<PrimaryObject ID="169">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Oxwood 1-1 | Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5498.01</Time>
+			<Location>
+				<Longitude>35.4362941</Longitude>
+				<Latitude>37.0043144</Latitude>
+				<Altitude>60.79</Altitude>
+			</Location>
+			<PrimaryObject ID="167">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5644.05</Time>
+			<Location>
+				<Longitude>34.7631604</Longitude>
+				<Latitude>35.306321</Latitude>
+				<Altitude>22</Altitude>
+			</Location>
+			<PrimaryObject ID="170">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5688.22</Time>
+			<Location>
+				<Longitude>34.7639624</Longitude>
+				<Latitude>35.3088454</Latitude>
+				<Altitude>21.98</Altitude>
+			</Location>
+			<PrimaryObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5712.62</Time>
+			<Location>
+				<Longitude>34.7641904</Longitude>
+				<Latitude>35.3106498</Latitude>
+				<Altitude>21.99</Altitude>
+			</Location>
+			<PrimaryObject ID="170">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+	</Events>
+</TacviewDebriefing>

@@ -1,0 +1,6075 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TacviewDebriefing Version="1.2.6">
+	<!--Flight Recording Properties-->
+	<FlightRecording>
+		<Source>DCS 2.8.2.35759</Source>
+		<Recorder>DCS2ACMI 1.8.6.200</Recorder>
+		<RecordingTime>2023-02-21T09:16:53.168Z</RecordingTime>
+		<Author>DivideByZeroError</Author>
+	</FlightRecording>
+	<!--Mission Properties-->
+	<Mission>
+		<Title>Op_Sand_Scorpion_-_Part_4_v2</Title>
+		<MissionTime>2023-06-01T14:00:00Z</MissionTime>
+		<Duration>5788.98</Duration>
+		<Comments>The initial strike on Russian forces in Syria has shad an impact. Russian forces retreated all air assets to Jira and abondoned Alleppo and Kuweires.
+
+They also have increased their IADS effectiveness by switching Syrian personnel for Russian.
+
+For this followup strike we are seeking to  push Russia farther East and eventually force them out of Syria. To accomplish this we have 3 missions for this stage of the op.
+
+The 3 objectives are:
+
+Destroy Allepo Airfield
+=========================
+Prevent the use of this airfield for any Russian counter offensive.
+
+Destroy Russian PMC laying seige to town
+==============================
+The Wagner group has a town east of Minakh surrounded and laying seige to it. Conditions are worsening so the decision has been made to send a message to Russian assets of all kinds.
+
+Capture Russian Helo FARP
+===========================
+Capture a helo base within Syria to create a launch point for a new ground phase of the war.</Comments>
+	</Mission>
+	<!--Flight Log-->
+	<Events>
+		<Event>
+			<Time>6.01</Time>
+			<Location>
+				<Longitude>36.5851148</Longitude>
+				<Latitude>36.2392389</Latitude>
+				<Altitude>181.23</Altitude>
+			</Location>
+			<PrimaryObject ID="182">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Dismounts_518_01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_518</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>6.01</Time>
+			<Location>
+				<Longitude>36.585114</Longitude>
+				<Latitude>36.2392659</Latitude>
+				<Altitude>181.22</Altitude>
+			</Location>
+			<PrimaryObject ID="183">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Support</Name>
+				<Pilot>Dismounts_518_02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_518</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>6.01</Time>
+			<Location>
+				<Longitude>36.5857804</Longitude>
+				<Latitude>36.2392005</Latitude>
+				<Altitude>182.23</Altitude>
+			</Location>
+			<PrimaryObject ID="184">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Dismounts_554_01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_554</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>6.01</Time>
+			<Location>
+				<Longitude>36.5857796</Longitude>
+				<Latitude>36.2392275</Latitude>
+				<Altitude>182.23</Altitude>
+			</Location>
+			<PrimaryObject ID="185">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Support</Name>
+				<Pilot>Dismounts_554_02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_554</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>11.00</Time>
+			<Location>
+				<Longitude>36.5864463</Longitude>
+				<Latitude>36.2391656</Latitude>
+				<Altitude>183.15</Altitude>
+			</Location>
+			<PrimaryObject ID="186">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Dismounts_514_01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_514</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>11.00</Time>
+			<Location>
+				<Longitude>36.5864455</Longitude>
+				<Latitude>36.2391927</Latitude>
+				<Altitude>183.15</Altitude>
+			</Location>
+			<PrimaryObject ID="187">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Support</Name>
+				<Pilot>Dismounts_514_02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_514</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>13.14</Time>
+			<Location>
+				<Longitude>34.4790197</Longitude>
+				<Latitude>36.0205206</Latitude>
+				<Altitude>22</Altitude>
+			</Location>
+			<PrimaryObject ID="188">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>ASPEN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>82.50</Time>
+			<Location>
+				<Longitude>35.9633908</Longitude>
+				<Latitude>36.0507839</Latitude>
+				<Altitude>13.5</Altitude>
+			</Location>
+			<PrimaryObject ID="189">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="5">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>82.80</Time>
+			<Location>
+				<Longitude>35.4234113</Longitude>
+				<Latitude>37.0049056</Latitude>
+				<Altitude>54.87</Altitude>
+			</Location>
+			<PrimaryObject ID="190">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>127.58</Time>
+			<Location>
+				<Longitude>34.4879983</Longitude>
+				<Latitude>36.0208003</Latitude>
+				<Altitude>22.01</Altitude>
+			</Location>
+			<PrimaryObject ID="191">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>136.80</Time>
+			<Location>
+				<Longitude>35.9638103</Longitude>
+				<Latitude>36.0501374</Latitude>
+				<Altitude>13.5</Altitude>
+			</Location>
+			<PrimaryObject ID="192">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>H. Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="5">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>142.56</Time>
+			<Location>
+				<Longitude>35.421843</Longitude>
+				<Latitude>37.0071429</Latitude>
+				<Altitude>54.87</Altitude>
+			</Location>
+			<PrimaryObject ID="193">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>156.10</Time>
+			<Location>
+				<Longitude>35.4290972</Longitude>
+				<Latitude>36.999532</Latitude>
+				<Altitude>60.2</Altitude>
+			</Location>
+			<PrimaryObject ID="194">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>211.09</Time>
+			<Location>
+				<Longitude>35.9641811</Longitude>
+				<Latitude>36.0506965</Latitude>
+				<Altitude>13.5</Altitude>
+			</Location>
+			<PrimaryObject ID="195">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="5">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>265.66</Time>
+			<Location>
+				<Longitude>35.429469</Longitude>
+				<Latitude>36.9991369</Latitude>
+				<Altitude>60.2</Altitude>
+			</Location>
+			<PrimaryObject ID="196">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Bolt 1-1 | Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>299.09</Time>
+			<Location>
+				<Longitude>34.5008174</Longitude>
+				<Latitude>36.021811</Latitude>
+				<Altitude>22</Altitude>
+			</Location>
+			<PrimaryObject ID="197">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF Cypher | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>413.71</Time>
+			<Location>
+				<Longitude>35.4221727</Longitude>
+				<Latitude>37.0055663</Latitude>
+				<Altitude>54.87</Altitude>
+			</Location>
+			<PrimaryObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>541.13</Time>
+			<Location>
+				<Longitude>34.5200288</Longitude>
+				<Latitude>36.0224052</Latitude>
+				<Altitude>21.96</Altitude>
+			</Location>
+			<PrimaryObject ID="197">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF Cypher | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>561.55</Time>
+			<Location>
+				<Longitude>34.5237463</Longitude>
+				<Latitude>36.0220743</Latitude>
+				<Altitude>22.13</Altitude>
+			</Location>
+			<PrimaryObject ID="188">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>ASPEN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>565.66</Time>
+			<Location>
+				<Longitude>34.5240601</Longitude>
+				<Latitude>36.022266</Latitude>
+				<Altitude>21.97</Altitude>
+			</Location>
+			<PrimaryObject ID="191">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>576.18</Time>
+			<Location>
+				<Longitude>35.9633907</Longitude>
+				<Latitude>36.0507841</Latitude>
+				<Altitude>13.38</Altitude>
+			</Location>
+			<PrimaryObject ID="189">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>592.12</Time>
+			<Location>
+				<Longitude>35.9646007</Longitude>
+				<Latitude>36.05005</Latitude>
+				<Altitude>13.5</Altitude>
+			</Location>
+			<PrimaryObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="5">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>774.34</Time>
+			<Location>
+				<Longitude>34.5396303</Longitude>
+				<Latitude>36.0223963</Latitude>
+				<Altitude>22</Altitude>
+			</Location>
+			<PrimaryObject ID="200">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF Cypher | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>920.91</Time>
+			<Location>
+				<Longitude>35.4162032</Longitude>
+				<Latitude>36.9933244</Latitude>
+				<Altitude>50.19</Altitude>
+			</Location>
+			<PrimaryObject ID="194">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>924.98</Time>
+			<Location>
+				<Longitude>35.4158105</Longitude>
+				<Latitude>36.9930888</Latitude>
+				<Altitude>49.72</Altitude>
+			</Location>
+			<PrimaryObject ID="194">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>985.33</Time>
+			<Location>
+				<Longitude>35.4158915</Longitude>
+				<Latitude>36.9958586</Latitude>
+				<Altitude>51.66</Altitude>
+			</Location>
+			<PrimaryObject ID="194">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1153.55</Time>
+			<Location>
+				<Longitude>35.416183</Longitude>
+				<Latitude>36.9933263</Latitude>
+				<Altitude>50.17</Altitude>
+			</Location>
+			<PrimaryObject ID="196">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Bolt 1-1 | Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1157.64</Time>
+			<Location>
+				<Longitude>35.415791</Longitude>
+				<Latitude>36.9930919</Latitude>
+				<Altitude>49.71</Altitude>
+			</Location>
+			<PrimaryObject ID="196">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Bolt 1-1 | Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1193.44</Time>
+			<Location>
+				<Longitude>35.4177342</Longitude>
+				<Latitude>36.9969564</Latitude>
+				<Altitude>54.38</Altitude>
+			</Location>
+			<PrimaryObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1227.74</Time>
+			<Location>
+				<Longitude>34.5768723</Longitude>
+				<Latitude>36.0237066</Latitude>
+				<Altitude>21.98</Altitude>
+			</Location>
+			<PrimaryObject ID="200">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF Cypher | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1235.63</Time>
+			<Location>
+				<Longitude>35.418231</Longitude>
+				<Latitude>36.9973231</Latitude>
+				<Altitude>55</Altitude>
+			</Location>
+			<PrimaryObject ID="193">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1260.61</Time>
+			<Location>
+				<Longitude>35.4182315</Longitude>
+				<Latitude>36.9972997</Latitude>
+				<Altitude>54.96</Altitude>
+			</Location>
+			<PrimaryObject ID="190">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1316.11</Time>
+			<Location>
+				<Longitude>35.4154993</Longitude>
+				<Latitude>36.995617</Latitude>
+				<Altitude>51.41</Altitude>
+			</Location>
+			<PrimaryObject ID="196">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Bolt 1-1 | Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>1607.19</Time>
+			<Location>
+				<Longitude>36.0468052</Longitude>
+				<Latitude>36.602581</Latitude>
+				<Altitude>6635.55</Altitude>
+			</Location>
+			<PrimaryObject ID="188">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>ASPEN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>1770.72</Time>
+			<Location>
+				<Longitude>34.6189767</Longitude>
+				<Latitude>36.0248054</Latitude>
+				<Altitude>22</Altitude>
+			</Location>
+			<PrimaryObject ID="201">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>ASPEN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1853.76</Time>
+			<Location>
+				<Longitude>36.1006622</Longitude>
+				<Latitude>36.1196153</Latitude>
+				<Altitude>9571.63</Altitude>
+			</Location>
+			<PrimaryObject ID="200">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF Cypher | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="202">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>200</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1888.74</Time>
+			<Location>
+				<Longitude>36.33951</Longitude>
+				<Latitude>36.2508514</Latitude>
+				<Altitude>76.61</Altitude>
+			</Location>
+			<PrimaryObject ID="147">
+				<Type>SAM/AAA</Type>
+				<Name>SA-8 Gecko</Name>
+				<Pilot>Convoy-1-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="202">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>200</Parent>
+			</SecondaryObject>
+			<ParentObject ID="200">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF Cypher | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>1888.79</Time>
+			<Location>
+				<Longitude>36.33951</Longitude>
+				<Latitude>36.2508514</Latitude>
+				<Altitude>76.61</Altitude>
+			</Location>
+			<PrimaryObject ID="147">
+				<Type>SAM/AAA</Type>
+				<Name>SA-8 Gecko</Name>
+				<Pilot>Convoy-1-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="200">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF Cypher | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1888.79</Time>
+			<Location>
+				<Longitude>36.3395389</Longitude>
+				<Latitude>36.2508422</Latitude>
+				<Altitude>76.61</Altitude>
+			</Location>
+			<PrimaryObject ID="148">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2029.99</Time>
+			<Location>
+				<Longitude>36.2307851</Longitude>
+				<Latitude>36.3404661</Latitude>
+				<Altitude>1363.73</Altitude>
+			</Location>
+			<PrimaryObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="261">
+				<Type>Missile</Type>
+				<Name>AGM-65D Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>198</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2070.02</Time>
+			<Location>
+				<Longitude>36.2235582</Longitude>
+				<Latitude>36.176932</Latitude>
+				<Altitude>8475.54</Altitude>
+			</Location>
+			<PrimaryObject ID="200">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF Cypher | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="282">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>200</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2086.41</Time>
+			<Location>
+				<Longitude>36.3323244</Longitude>
+				<Latitude>36.2534494</Latitude>
+				<Altitude>77.98</Altitude>
+			</Location>
+			<PrimaryObject ID="150">
+				<Type>SAM/AAA</Type>
+				<Name>SA-13 Gopher</Name>
+				<Pilot>Convoy-1-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="261">
+				<Type>Missile</Type>
+				<Name>AGM-65D Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>198</Parent>
+			</SecondaryObject>
+			<ParentObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2086.49</Time>
+			<Location>
+				<Longitude>36.3323244</Longitude>
+				<Latitude>36.2534494</Latitude>
+				<Altitude>77.98</Altitude>
+			</Location>
+			<PrimaryObject ID="150">
+				<Type>SAM/AAA</Type>
+				<Name>SA-13 Gopher</Name>
+				<Pilot>Convoy-1-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2116.50</Time>
+			<Location>
+				<Longitude>34.6475318</Longitude>
+				<Latitude>36.0258225</Latitude>
+				<Altitude>22.01</Altitude>
+			</Location>
+			<PrimaryObject ID="201">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>ASPEN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2170.82</Time>
+			<Location>
+				<Longitude>36.3315533</Longitude>
+				<Latitude>36.251683</Latitude>
+				<Altitude>75.5</Altitude>
+			</Location>
+			<PrimaryObject ID="151">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-8</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>2</Occurrences>
+			<SecondaryObject ID="283">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>151</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2171.17</Time>
+			<Location>
+				<Longitude>36.3128632</Longitude>
+				<Latitude>36.2354184</Latitude>
+				<Altitude>688.4</Altitude>
+			</Location>
+			<PrimaryObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="285">
+				<Type>Missile</Type>
+				<Name>AIM-9 Sidewinder</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>198</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2171.20</Time>
+			<Location>
+				<Longitude>36.3310431</Longitude>
+				<Latitude>36.2515787</Latitude>
+				<Altitude>72.78</Altitude>
+			</Location>
+			<PrimaryObject ID="145">
+				<Type>Tank</Type>
+				<Name>BTR-82A</Name>
+				<Pilot>Convoy-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>5</Occurrences>
+			<SecondaryObject ID="286">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>145</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2171.57</Time>
+			<Location>
+				<Longitude>36.3311366</Longitude>
+				<Latitude>36.25142</Latitude>
+				<Altitude>73.25</Altitude>
+			</Location>
+			<PrimaryObject ID="146">
+				<Type>Tank</Type>
+				<Name>BTR-80</Name>
+				<Pilot>Convoy-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="289">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>146</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2171.99</Time>
+			<Location>
+				<Longitude>36.3326953</Longitude>
+				<Latitude>36.25198</Latitude>
+				<Altitude>81.16</Altitude>
+			</Location>
+			<PrimaryObject ID="152">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-9</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>7</Occurrences>
+			<SecondaryObject ID="292">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>152</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2174.12</Time>
+			<Location>
+				<Longitude>36.3333825</Longitude>
+				<Latitude>36.2538619</Latitude>
+				<Altitude>76.05</Altitude>
+			</Location>
+			<PrimaryObject ID="153">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-11</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>6</Occurrences>
+			<SecondaryObject ID="302">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>153</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2176.58</Time>
+			<Location>
+				<Longitude>36.3360157</Longitude>
+				<Latitude>36.2511489</Latitude>
+				<Altitude>185.97</Altitude>
+			</Location>
+			<PrimaryObject ID="22">
+				<Type>Helicopter</Type>
+				<Name>Ka-50 Black Shark</Name>
+				<Pilot>Rotary-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Rotary-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="285">
+				<Type>Missile</Type>
+				<Name>AIM-9 Sidewinder</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>198</Parent>
+			</SecondaryObject>
+			<ParentObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2176.60</Time>
+			<Location>
+				<Longitude>36.3360157</Longitude>
+				<Latitude>36.2511489</Latitude>
+				<Altitude>185.97</Altitude>
+			</Location>
+			<PrimaryObject ID="22">
+				<Type>Helicopter</Type>
+				<Name>Ka-50 Black Shark</Name>
+				<Pilot>Rotary-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Rotary-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2176.84</Time>
+			<Location>
+				<Longitude>36.3315533</Longitude>
+				<Latitude>36.251683</Latitude>
+				<Altitude>75.5</Altitude>
+			</Location>
+			<PrimaryObject ID="151">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-8</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>25</Occurrences>
+			<SecondaryObject ID="313">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>151</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2177.16</Time>
+			<Location>
+				<Longitude>36.3310431</Longitude>
+				<Latitude>36.2515787</Latitude>
+				<Altitude>72.78</Altitude>
+			</Location>
+			<PrimaryObject ID="145">
+				<Type>Tank</Type>
+				<Name>BTR-82A</Name>
+				<Pilot>Convoy-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>13</Occurrences>
+			<SecondaryObject ID="316">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>145</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2177.93</Time>
+			<Location>
+				<Longitude>36.3316381</Longitude>
+				<Latitude>36.2517857</Latitude>
+				<Altitude>75.96</Altitude>
+			</Location>
+			<PrimaryObject ID="149">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>10</Occurrences>
+			<SecondaryObject ID="332">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>149</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2178.10</Time>
+			<Location>
+				<Longitude>36.3326953</Longitude>
+				<Latitude>36.25198</Latitude>
+				<Altitude>81.16</Altitude>
+			</Location>
+			<PrimaryObject ID="152">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-9</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>12</Occurrences>
+			<SecondaryObject ID="335">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>152</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2179.84</Time>
+			<Location>
+				<Longitude>36.3333825</Longitude>
+				<Latitude>36.2538619</Latitude>
+				<Altitude>76.05</Altitude>
+			</Location>
+			<PrimaryObject ID="153">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-11</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>6</Occurrences>
+			<SecondaryObject ID="355">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>153</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2180.50</Time>
+			<Location>
+				<Longitude>36.3353811</Longitude>
+				<Latitude>36.2495512</Latitude>
+				<Altitude>225.07</Altitude>
+			</Location>
+			<PrimaryObject ID="23">
+				<Type>Helicopter</Type>
+				<Name>Mi-24P Hind-F</Name>
+				<Pilot>Rotary-2-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Rotary-2</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="360">
+				<Type>Parachutist</Type>
+				<Name>Parachutist</Name>
+				<Country>ru</Country>
+				<Parent>23</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2187.67</Time>
+			<Location>
+				<Longitude>36.8174907</Longitude>
+				<Latitude>36.3717635</Latitude>
+				<Altitude>187.22</Altitude>
+			</Location>
+			<PrimaryObject ID="135">
+				<Type>SAM/AAA</Type>
+				<Name>SA-6 Gainful (STR)</Name>
+				<Pilot>SAM-SA6-CHARLIE-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA6-CHARLIE-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="282">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>200</Parent>
+			</SecondaryObject>
+			<ParentObject ID="200">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF Cypher | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2187.81</Time>
+			<Location>
+				<Longitude>36.8174907</Longitude>
+				<Latitude>36.3717635</Latitude>
+				<Altitude>187.22</Altitude>
+			</Location>
+			<PrimaryObject ID="135">
+				<Type>SAM/AAA</Type>
+				<Name>SA-6 Gainful (STR)</Name>
+				<Pilot>SAM-SA6-CHARLIE-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA6-CHARLIE-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="200">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF Cypher | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2245.33</Time>
+			<Location>
+				<Longitude>36.3214149</Longitude>
+				<Latitude>36.2390999</Latitude>
+				<Altitude>587.01</Altitude>
+			</Location>
+			<PrimaryObject ID="23">
+				<Type>Helicopter</Type>
+				<Name>Mi-24P Hind-F</Name>
+				<Pilot>Rotary-2-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Rotary-2</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="403">
+				<Type>Missile</Type>
+				<Name>AT-6 Spiral (9K114)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>23</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2246.85</Time>
+			<Location>
+				<Longitude>36.3141874</Longitude>
+				<Latitude>36.2282936</Latitude>
+				<Altitude>868.44</Altitude>
+			</Location>
+			<PrimaryObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="404">
+				<Type>Missile</Type>
+				<Name>AIM-9 Sidewinder</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>198</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2250.10</Time>
+			<Location>
+				<Longitude>36.320423</Longitude>
+				<Latitude>36.2375547</Latitude>
+				<Altitude>629.1</Altitude>
+			</Location>
+			<PrimaryObject ID="23">
+				<Type>Helicopter</Type>
+				<Name>Mi-24P Hind-F</Name>
+				<Pilot>Rotary-2-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Rotary-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="404">
+				<Type>Missile</Type>
+				<Name>AIM-9 Sidewinder</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>198</Parent>
+			</SecondaryObject>
+			<ParentObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2250.10</Time>
+			<Location>
+				<Longitude>36.320423</Longitude>
+				<Latitude>36.2375547</Latitude>
+				<Altitude>629.1</Altitude>
+			</Location>
+			<PrimaryObject ID="23">
+				<Type>Helicopter</Type>
+				<Name>Mi-24P Hind-F</Name>
+				<Pilot>Rotary-2-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Rotary-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2265.08</Time>
+			<Location>
+				<Longitude>36.2750912</Longitude>
+				<Latitude>36.2345815</Latitude>
+				<Altitude>2046.43</Altitude>
+			</Location>
+			<PrimaryObject ID="403">
+				<Type>Missile</Type>
+				<Name>AT-6 Spiral (9K114)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>23</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2469.49</Time>
+			<Location>
+				<Longitude>36.3326953</Longitude>
+				<Latitude>36.25198</Latitude>
+				<Altitude>81.16</Altitude>
+			</Location>
+			<PrimaryObject ID="152">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-9</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="432">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>152</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2470.05</Time>
+			<Location>
+				<Longitude>36.3315533</Longitude>
+				<Latitude>36.251683</Latitude>
+				<Altitude>75.5</Altitude>
+			</Location>
+			<PrimaryObject ID="151">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-8</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>4</Occurrences>
+			<SecondaryObject ID="433">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>151</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2470.12</Time>
+			<Location>
+				<Longitude>36.3310431</Longitude>
+				<Latitude>36.2515786</Latitude>
+				<Altitude>72.78</Altitude>
+			</Location>
+			<PrimaryObject ID="145">
+				<Type>Tank</Type>
+				<Name>BTR-82A</Name>
+				<Pilot>Convoy-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>6</Occurrences>
+			<SecondaryObject ID="434">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>145</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2471.31</Time>
+			<Location>
+				<Longitude>36.3333825</Longitude>
+				<Latitude>36.2538619</Latitude>
+				<Altitude>76.05</Altitude>
+			</Location>
+			<PrimaryObject ID="153">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-11</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="443">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>153</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2471.52</Time>
+			<Location>
+				<Longitude>36.3316381</Longitude>
+				<Latitude>36.2517857</Latitude>
+				<Altitude>75.96</Altitude>
+			</Location>
+			<PrimaryObject ID="149">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>6</Occurrences>
+			<SecondaryObject ID="444">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>149</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2473.15</Time>
+			<Location>
+				<Longitude>36.310166</Longitude>
+				<Latitude>36.2569245</Latitude>
+				<Altitude>566.68</Altitude>
+			</Location>
+			<PrimaryObject ID="193">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="434">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>145</Parent>
+			</SecondaryObject>
+			<ParentObject ID="145">
+				<Type>Tank</Type>
+				<Name>BTR-82A</Name>
+				<Pilot>Convoy-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2475.72</Time>
+			<Location>
+				<Longitude>36.3326953</Longitude>
+				<Latitude>36.25198</Latitude>
+				<Altitude>81.16</Altitude>
+			</Location>
+			<PrimaryObject ID="152">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-9</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>9</Occurrences>
+			<SecondaryObject ID="450">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>152</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2475.84</Time>
+			<Location>
+				<Longitude>36.3315533</Longitude>
+				<Latitude>36.251683</Latitude>
+				<Altitude>75.5</Altitude>
+			</Location>
+			<PrimaryObject ID="151">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-8</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>7</Occurrences>
+			<SecondaryObject ID="451">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>151</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2476.18</Time>
+			<Location>
+				<Longitude>36.3310431</Longitude>
+				<Latitude>36.2515786</Latitude>
+				<Altitude>72.78</Altitude>
+			</Location>
+			<PrimaryObject ID="145">
+				<Type>Tank</Type>
+				<Name>BTR-82A</Name>
+				<Pilot>Convoy-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>6</Occurrences>
+			<SecondaryObject ID="455">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>145</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2476.93</Time>
+			<Location>
+				<Longitude>36.3333825</Longitude>
+				<Latitude>36.2538619</Latitude>
+				<Altitude>76.05</Altitude>
+			</Location>
+			<PrimaryObject ID="153">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-11</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>12</Occurrences>
+			<SecondaryObject ID="469">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>153</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2477.27</Time>
+			<Location>
+				<Longitude>36.3316381</Longitude>
+				<Latitude>36.2517857</Latitude>
+				<Altitude>75.96</Altitude>
+			</Location>
+			<PrimaryObject ID="149">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>6</Occurrences>
+			<SecondaryObject ID="474">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>149</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2488.00</Time>
+			<Location>
+				<Longitude>36.3333825</Longitude>
+				<Latitude>36.2538619</Latitude>
+				<Altitude>76.05</Altitude>
+			</Location>
+			<PrimaryObject ID="153">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-11</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>9</Occurrences>
+			<SecondaryObject ID="490">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>153</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2488.08</Time>
+			<Location>
+				<Longitude>36.3310431</Longitude>
+				<Latitude>36.2515786</Latitude>
+				<Altitude>72.78</Altitude>
+			</Location>
+			<PrimaryObject ID="145">
+				<Type>Tank</Type>
+				<Name>BTR-82A</Name>
+				<Pilot>Convoy-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>5</Occurrences>
+			<SecondaryObject ID="491">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>145</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2488.39</Time>
+			<Location>
+				<Longitude>36.3315533</Longitude>
+				<Latitude>36.251683</Latitude>
+				<Altitude>75.5</Altitude>
+			</Location>
+			<PrimaryObject ID="151">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-8</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>16</Occurrences>
+			<SecondaryObject ID="495">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>151</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2488.45</Time>
+			<Location>
+				<Longitude>36.3311365</Longitude>
+				<Latitude>36.25142</Latitude>
+				<Altitude>73.25</Altitude>
+			</Location>
+			<PrimaryObject ID="146">
+				<Type>Tank</Type>
+				<Name>BTR-80</Name>
+				<Pilot>Convoy-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>5</Occurrences>
+			<SecondaryObject ID="496">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>146</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2488.90</Time>
+			<Location>
+				<Longitude>36.3316381</Longitude>
+				<Latitude>36.2517857</Latitude>
+				<Altitude>75.96</Altitude>
+			</Location>
+			<PrimaryObject ID="149">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="506">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>149</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2490.06</Time>
+			<Location>
+				<Longitude>36.3326953</Longitude>
+				<Latitude>36.25198</Latitude>
+				<Altitude>81.16</Altitude>
+			</Location>
+			<PrimaryObject ID="152">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-9</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>7</Occurrences>
+			<SecondaryObject ID="522">
+				<Type>Shell</Type>
+				<Name>weapons.shells.2A42_30_HE</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>152</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2506.25</Time>
+			<Location>
+				<Longitude>36.3575441</Longitude>
+				<Latitude>36.262056</Latitude>
+				<Altitude>1765.29</Altitude>
+			</Location>
+			<PrimaryObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="533">
+				<Type>Bomb</Type>
+				<Name>CBU-105 SFW</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>198</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2526.95</Time>
+			<Location>
+				<Longitude>36.3329199</Longitude>
+				<Latitude>36.2521197</Latitude>
+				<Altitude>627.55</Altitude>
+			</Location>
+			<PrimaryObject ID="533">
+				<Type>Bomb</Type>
+				<Name>CBU-105 SFW</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>198</Parent>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="534">
+				<Type>Bomb</Type>
+				<Name>BLU-108</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>533</Parent>
+			</SecondaryObject>
+			<ParentObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2554.74</Time>
+			<Location>
+				<Longitude>36.3308979</Longitude>
+				<Latitude>36.2515638</Latitude>
+				<Altitude>72.16</Altitude>
+			</Location>
+			<PrimaryObject ID="145">
+				<Type>Tank</Type>
+				<Name>BTR-82A</Name>
+				<Pilot>Convoy-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="534">
+				<Type>Bomb</Type>
+				<Name>BLU-108</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>533</Parent>
+			</SecondaryObject>
+			<ParentObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2555.31</Time>
+			<Location>
+				<Longitude>36.3311351</Longitude>
+				<Latitude>36.2514199</Latitude>
+				<Altitude>73.24</Altitude>
+			</Location>
+			<PrimaryObject ID="146">
+				<Type>Tank</Type>
+				<Name>BTR-80</Name>
+				<Pilot>Convoy-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="534">
+				<Type>Bomb</Type>
+				<Name>BLU-108</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>533</Parent>
+			</SecondaryObject>
+			<ParentObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2558.97</Time>
+			<Location>
+				<Longitude>36.3315692</Longitude>
+				<Latitude>36.2517965</Latitude>
+				<Altitude>75.6</Altitude>
+			</Location>
+			<PrimaryObject ID="149">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="534">
+				<Type>Bomb</Type>
+				<Name>BLU-108</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>533</Parent>
+			</SecondaryObject>
+			<ParentObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2559.26</Time>
+			<Location>
+				<Longitude>36.331522</Longitude>
+				<Latitude>36.2516491</Latitude>
+				<Altitude>75.33</Altitude>
+			</Location>
+			<PrimaryObject ID="151">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-8</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="534">
+				<Type>Bomb</Type>
+				<Name>BLU-108</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>533</Parent>
+			</SecondaryObject>
+			<ParentObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2565.33</Time>
+			<Location>
+				<Longitude>36.3325639</Longitude>
+				<Latitude>36.2516322</Latitude>
+				<Altitude>80.83</Altitude>
+			</Location>
+			<PrimaryObject ID="154">
+				<Type>Car</Type>
+				<Name>Kamaz</Name>
+				<Pilot>Convoy-1-10</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="534">
+				<Type>Bomb</Type>
+				<Name>BLU-108</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>533</Parent>
+			</SecondaryObject>
+			<ParentObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2590.18</Time>
+			<Location>
+				<Longitude>36.2386436</Longitude>
+				<Latitude>36.2709889</Latitude>
+				<Altitude>897.59</Altitude>
+			</Location>
+			<PrimaryObject ID="190">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="535">
+				<Type>Missile</Type>
+				<Name>AGM-65D Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>190</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2607.82</Time>
+			<Location>
+				<Longitude>36.3012181</Longitude>
+				<Latitude>36.2350312</Latitude>
+				<Altitude>1558.6</Altitude>
+			</Location>
+			<PrimaryObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="536">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>198</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2616.56</Time>
+			<Location>
+				<Longitude>36.3327756</Longitude>
+				<Latitude>36.2538587</Latitude>
+				<Altitude>75.95</Altitude>
+			</Location>
+			<PrimaryObject ID="153">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-11</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="536">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>198</Parent>
+			</SecondaryObject>
+			<ParentObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2621.33</Time>
+			<Location>
+				<Longitude>36.3327756</Longitude>
+				<Latitude>36.2538587</Latitude>
+				<Altitude>75.95</Altitude>
+			</Location>
+			<PrimaryObject ID="153">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-11</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="535">
+				<Type>Missile</Type>
+				<Name>AGM-65D Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>190</Parent>
+			</SecondaryObject>
+			<ParentObject ID="190">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2621.41</Time>
+			<Location>
+				<Longitude>36.3327756</Longitude>
+				<Latitude>36.2538587</Latitude>
+				<Altitude>75.95</Altitude>
+			</Location>
+			<PrimaryObject ID="153">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-11</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="190">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2674.21</Time>
+			<Location>
+				<Longitude>36.2792716</Longitude>
+				<Latitude>36.2546892</Latitude>
+				<Altitude>1298.75</Altitude>
+			</Location>
+			<PrimaryObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="547">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>198</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2686.36</Time>
+			<Location>
+				<Longitude>36.332093</Longitude>
+				<Latitude>36.2525772</Latitude>
+				<Altitude>81.11</Altitude>
+			</Location>
+			<PrimaryObject ID="152">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-9</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="547">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>198</Parent>
+			</SecondaryObject>
+			<ParentObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2706.52</Time>
+			<Location>
+				<Longitude>36.2610659</Longitude>
+				<Latitude>36.2665224</Latitude>
+				<Altitude>640.89</Altitude>
+			</Location>
+			<PrimaryObject ID="190">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="548">
+				<Type>Missile</Type>
+				<Name>AGM-65D Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>190</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2728.90</Time>
+			<Location>
+				<Longitude>36.3338851</Longitude>
+				<Latitude>36.2531147</Latitude>
+				<Altitude>78.16</Altitude>
+			</Location>
+			<PrimaryObject ID="155">
+				<Type>Car</Type>
+				<Name>Kamaz</Name>
+				<Pilot>Convoy-1-12</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="548">
+				<Type>Missile</Type>
+				<Name>AGM-65D Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>190</Parent>
+			</SecondaryObject>
+			<ParentObject ID="190">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2728.96</Time>
+			<Location>
+				<Longitude>36.3338851</Longitude>
+				<Latitude>36.2531147</Latitude>
+				<Altitude>78.16</Altitude>
+			</Location>
+			<PrimaryObject ID="155">
+				<Type>Car</Type>
+				<Name>Kamaz</Name>
+				<Pilot>Convoy-1-12</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="190">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2753.59</Time>
+			<Location>
+				<Longitude>36.2991194</Longitude>
+				<Latitude>36.2590712</Latitude>
+				<Altitude>1620.3</Altitude>
+			</Location>
+			<PrimaryObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="552">
+				<Type>Bomb</Type>
+				<Name>GBU_54_V_1B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>198</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2778.66</Time>
+			<Location>
+				<Longitude>36.332093</Longitude>
+				<Latitude>36.2525772</Latitude>
+				<Altitude>81.11</Altitude>
+			</Location>
+			<PrimaryObject ID="152">
+				<Type>Tank</Type>
+				<Name>BMP-3</Name>
+				<Pilot>Convoy-1-9</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2785.12</Time>
+			<Location>
+				<Longitude>36.3325444</Longitude>
+				<Latitude>36.2516357</Latitude>
+				<Altitude>80.73</Altitude>
+			</Location>
+			<PrimaryObject ID="154">
+				<Type>Car</Type>
+				<Name>Kamaz</Name>
+				<Pilot>Convoy-1-10</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="552">
+				<Type>Bomb</Type>
+				<Name>GBU_54_V_1B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>198</Parent>
+			</SecondaryObject>
+			<ParentObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2822.98</Time>
+			<Location>
+				<Longitude>36.0418531</Longitude>
+				<Latitude>36.1472713</Latitude>
+				<Altitude>476.39</Altitude>
+			</Location>
+			<PrimaryObject ID="195">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="553">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>195</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2824.63</Time>
+			<Location>
+				<Longitude>36.3288393</Longitude>
+				<Latitude>36.2313363</Latitude>
+				<Altitude>822.91</Altitude>
+			</Location>
+			<PrimaryObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>125</Occurrences>
+			<SecondaryObject ID="555">
+				<Type>Shell</Type>
+				<Name>weapons.shells.GAU8_30_AP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>198</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2827.62</Time>
+			<Location>
+				<Longitude>36.3325444</Longitude>
+				<Latitude>36.2516357</Latitude>
+				<Altitude>80.73</Altitude>
+			</Location>
+			<PrimaryObject ID="154">
+				<Type>Car</Type>
+				<Name>Kamaz</Name>
+				<Pilot>Convoy-1-10</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>33</Occurrences>
+			<SecondaryObject ID="555">
+				<Type>Shell</Type>
+				<Name>weapons.shells.GAU8_30_AP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>198</Parent>
+			</SecondaryObject>
+			<ParentObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2827.63</Time>
+			<Location>
+				<Longitude>36.3325444</Longitude>
+				<Latitude>36.2516357</Latitude>
+				<Altitude>80.73</Altitude>
+			</Location>
+			<PrimaryObject ID="154">
+				<Type>Car</Type>
+				<Name>Kamaz</Name>
+				<Pilot>Convoy-1-10</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2829.99</Time>
+			<Location>
+				<Longitude>36.3325567</Longitude>
+				<Latitude>36.2515623</Latitude>
+				<Altitude>84.97</Altitude>
+			</Location>
+			<PrimaryObject ID="154">
+				<Type>Car</Type>
+				<Name>Kamaz</Name>
+				<Pilot>Convoy-1-10</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>9</Occurrences>
+			<SecondaryObject ID="624">
+				<Type>Shell</Type>
+				<Name>weapons.shells.GAU8_30_AP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>198</Parent>
+			</SecondaryObject>
+			<ParentObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2848.48</Time>
+			<Location>
+				<Longitude>36.0219838</Longitude>
+				<Latitude>36.1341972</Latitude>
+				<Altitude>416.24</Altitude>
+			</Location>
+			<PrimaryObject ID="192">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>H. Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="699">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>192</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2856.87</Time>
+			<Location>
+				<Longitude>36.0462338</Longitude>
+				<Latitude>36.1193369</Latitude>
+				<Altitude>241.33</Altitude>
+			</Location>
+			<PrimaryObject ID="134">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>sam_tiger3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="699">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>192</Parent>
+			</SecondaryObject>
+			<ParentObject ID="192">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>H. Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2863.44</Time>
+			<Location>
+				<Longitude>36.0417343</Longitude>
+				<Latitude>36.1445133</Latitude>
+				<Altitude>476.66</Altitude>
+			</Location>
+			<PrimaryObject ID="195">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="706">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>195</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2867.30</Time>
+			<Location>
+				<Longitude>36.0448516</Longitude>
+				<Latitude>36.0586135</Latitude>
+				<Altitude>325.68</Altitude>
+			</Location>
+			<PrimaryObject ID="553">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>195</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2872.69</Time>
+			<Location>
+				<Longitude>36.0475713</Longitude>
+				<Latitude>36.1174673</Latitude>
+				<Altitude>263.33</Altitude>
+			</Location>
+			<PrimaryObject ID="131">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>Convoy-2-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="706">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>195</Parent>
+			</SecondaryObject>
+			<ParentObject ID="195">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2875.47</Time>
+			<Location>
+				<Longitude>36.0219312</Longitude>
+				<Latitude>36.1356717</Latitude>
+				<Altitude>389.48</Altitude>
+			</Location>
+			<PrimaryObject ID="192">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>H. Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="713">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>192</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2884.94</Time>
+			<Location>
+				<Longitude>36.0479316</Longitude>
+				<Latitude>36.1171204</Latitude>
+				<Altitude>267.05</Altitude>
+			</Location>
+			<PrimaryObject ID="134">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>sam_tiger3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="713">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>192</Parent>
+			</SecondaryObject>
+			<ParentObject ID="192">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>H. Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2887.90</Time>
+			<Location>
+				<Longitude>36.0427791</Longitude>
+				<Latitude>36.1417207</Latitude>
+				<Altitude>508.67</Altitude>
+			</Location>
+			<PrimaryObject ID="195">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="714">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>195</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2895.29</Time>
+			<Location>
+				<Longitude>36.0208365</Longitude>
+				<Latitude>36.1373593</Latitude>
+				<Altitude>422.1</Altitude>
+			</Location>
+			<PrimaryObject ID="192">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>H. Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="715">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>192</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2906.73</Time>
+			<Location>
+				<Longitude>36.0487274</Longitude>
+				<Latitude>36.1144501</Latitude>
+				<Altitude>285.06</Altitude>
+			</Location>
+			<PrimaryObject ID="133">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>Convoy-2-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="715">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>192</Parent>
+			</SecondaryObject>
+			<ParentObject ID="192">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>H. Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2912.78</Time>
+			<Location>
+				<Longitude>36.2894805</Longitude>
+				<Latitude>36.2860962</Latitude>
+				<Altitude>1402.17</Altitude>
+			</Location>
+			<PrimaryObject ID="190">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>5</Occurrences>
+			<SecondaryObject ID="716">
+				<Type>Shell</Type>
+				<Name>weapons.shells.GAU8_30_AP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>190</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2921.00</Time>
+			<Location>
+				<Longitude>36.0492335</Longitude>
+				<Latitude>36.112971</Latitude>
+				<Altitude>308.59</Altitude>
+			</Location>
+			<PrimaryObject ID="722">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Support</Name>
+				<Pilot>Dismounts_518_02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_518</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>2921.00</Time>
+			<Location>
+				<Longitude>36.0492345</Longitude>
+				<Latitude>36.112944</Latitude>
+				<Altitude>308.94</Altitude>
+			</Location>
+			<PrimaryObject ID="721">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Dismounts_518_01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_518</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>2932.79</Time>
+			<Location>
+				<Longitude>36.0455858</Longitude>
+				<Latitude>36.1387234</Latitude>
+				<Altitude>407.72</Altitude>
+			</Location>
+			<PrimaryObject ID="195">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="723">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>195</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2935.07</Time>
+			<Location>
+				<Longitude>36.0609007</Longitude>
+				<Latitude>36.0505962</Latitude>
+				<Altitude>415.95</Altitude>
+			</Location>
+			<PrimaryObject ID="714">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>195</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2936.04</Time>
+			<Location>
+				<Longitude>36.6687923</Longitude>
+				<Latitude>36.0939572</Latitude>
+				<Altitude>6025.26</Altitude>
+			</Location>
+			<PrimaryObject ID="201">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>ASPEN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="724">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>201</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2936.16</Time>
+			<Location>
+				<Longitude>36.0233293</Longitude>
+				<Latitude>36.1400626</Latitude>
+				<Altitude>404.8</Altitude>
+			</Location>
+			<PrimaryObject ID="192">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>H. Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="725">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>192</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2941.28</Time>
+			<Location>
+				<Longitude>36.0500684</Longitude>
+				<Latitude>36.1135722</Latitude>
+				<Altitude>293.95</Altitude>
+			</Location>
+			<PrimaryObject ID="134">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>sam_tiger3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="723">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>195</Parent>
+			</SecondaryObject>
+			<ParentObject ID="195">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2947.72</Time>
+			<Location>
+				<Longitude>36.0500698</Longitude>
+				<Latitude>36.1135721</Latitude>
+				<Altitude>293.89</Altitude>
+			</Location>
+			<PrimaryObject ID="134">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>sam_tiger3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="725">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>192</Parent>
+			</SecondaryObject>
+			<ParentObject ID="192">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>H. Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2974.28</Time>
+			<Location>
+				<Longitude>36.0369648</Longitude>
+				<Latitude>36.1272683</Latitude>
+				<Altitude>383.72</Altitude>
+			</Location>
+			<PrimaryObject ID="192">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>H. Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>20</Occurrences>
+			<SecondaryObject ID="736">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>192</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2979.47</Time>
+			<Location>
+				<Longitude>36.0476899</Longitude>
+				<Latitude>36.1124313</Latitude>
+				<Altitude>300.65</Altitude>
+			</Location>
+			<PrimaryObject ID="129">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>Convoy-2-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>2</Occurrences>
+			<SecondaryObject ID="736">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>192</Parent>
+			</SecondaryObject>
+			<ParentObject ID="192">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>H. Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2981.51</Time>
+			<Location>
+				<Longitude>36.0476899</Longitude>
+				<Latitude>36.1124313</Latitude>
+				<Altitude>300.65</Altitude>
+			</Location>
+			<PrimaryObject ID="129">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>Convoy-2-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>4</Occurrences>
+			<SecondaryObject ID="754">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>192</Parent>
+			</SecondaryObject>
+			<ParentObject ID="192">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>H. Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2983.22</Time>
+			<Location>
+				<Longitude>36.0401811</Longitude>
+				<Latitude>36.1239286</Latitude>
+				<Altitude>401.69</Altitude>
+			</Location>
+			<PrimaryObject ID="192">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>H. Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>10</Occurrences>
+			<SecondaryObject ID="770">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>192</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2988.85</Time>
+			<Location>
+				<Longitude>36.8783048</Longitude>
+				<Latitude>35.9545415</Latitude>
+				<Altitude>296.8</Altitude>
+			</Location>
+			<PrimaryObject ID="724">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>201</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2991.80</Time>
+			<Location>
+				<Longitude>36.043533</Longitude>
+				<Latitude>36.1205743</Latitude>
+				<Altitude>396.51</Altitude>
+			</Location>
+			<PrimaryObject ID="192">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>H. Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>10</Occurrences>
+			<SecondaryObject ID="790">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>192</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3003.18</Time>
+			<Location>
+				<Longitude>36.3232647</Longitude>
+				<Latitude>36.2755022</Latitude>
+				<Altitude>671.9</Altitude>
+			</Location>
+			<PrimaryObject ID="190">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>95</Occurrences>
+			<SecondaryObject ID="813">
+				<Type>Shell</Type>
+				<Name>weapons.shells.GAU8_30_AP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>190</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3006.32</Time>
+			<Location>
+				<Longitude>36.0479881</Longitude>
+				<Latitude>36.113804</Latitude>
+				<Altitude>369.11</Altitude>
+			</Location>
+			<PrimaryObject ID="192">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>H. Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>20</Occurrences>
+			<SecondaryObject ID="905">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>192</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3006.50</Time>
+			<Location>
+				<Longitude>36.0476899</Longitude>
+				<Latitude>36.1124313</Latitude>
+				<Altitude>300.65</Altitude>
+			</Location>
+			<PrimaryObject ID="129">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>Convoy-2-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>10</Occurrences>
+			<SecondaryObject ID="905">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>192</Parent>
+			</SecondaryObject>
+			<ParentObject ID="192">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>H. Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3007.15</Time>
+			<Location>
+				<Longitude>36.333891</Longitude>
+				<Latitude>36.2513131</Latitude>
+				<Altitude>78.97</Altitude>
+			</Location>
+			<PrimaryObject ID="156">
+				<Type>Car</Type>
+				<Name>Kamaz</Name>
+				<Pilot>Convoy-1-7</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>18</Occurrences>
+			<SecondaryObject ID="813">
+				<Type>Shell</Type>
+				<Name>weapons.shells.GAU8_30_AP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>190</Parent>
+			</SecondaryObject>
+			<ParentObject ID="190">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3010.26</Time>
+			<Location>
+				<Longitude>36.0476207</Longitude>
+				<Latitude>36.1106198</Latitude>
+				<Altitude>302.91</Altitude>
+			</Location>
+			<PrimaryObject ID="127">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>Convoy-2-8</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>10</Occurrences>
+			<SecondaryObject ID="925">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>192</Parent>
+			</SecondaryObject>
+			<ParentObject ID="192">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>H. Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3014.21</Time>
+			<Location>
+				<Longitude>35.9605744</Longitude>
+				<Latitude>36.5236681</Latitude>
+				<Altitude>7139.46</Altitude>
+			</Location>
+			<PrimaryObject ID="196">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Bolt 1-1 | Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="945">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>196</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3015.50</Time>
+			<Location>
+				<Longitude>36.0508354</Longitude>
+				<Latitude>36.1371113</Latitude>
+				<Altitude>405.17</Altitude>
+			</Location>
+			<PrimaryObject ID="195">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="946">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>195</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3023.48</Time>
+			<Location>
+				<Longitude>36.0492345</Longitude>
+				<Latitude>36.112944</Latitude>
+				<Altitude>308.94</Altitude>
+			</Location>
+			<PrimaryObject ID="721">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Dismounts_518_01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_518</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="948">
+				<Type>Missile</Type>
+				<Name>Igla-1E (SA-18)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>721</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3023.72</Time>
+			<Location>
+				<Longitude>36.0476899</Longitude>
+				<Latitude>36.1124313</Latitude>
+				<Altitude>300.65</Altitude>
+			</Location>
+			<PrimaryObject ID="129">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>Convoy-2-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="946">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>195</Parent>
+			</SecondaryObject>
+			<ParentObject ID="195">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3023.73</Time>
+			<Location>
+				<Longitude>36.0476899</Longitude>
+				<Latitude>36.1124313</Latitude>
+				<Altitude>300.65</Altitude>
+			</Location>
+			<PrimaryObject ID="129">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>Convoy-2-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="195">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3026.98</Time>
+			<Location>
+				<Longitude>36.0528343</Longitude>
+				<Latitude>36.1026647</Latitude>
+				<Altitude>281.1</Altitude>
+			</Location>
+			<PrimaryObject ID="192">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>H. Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="948">
+				<Type>Missile</Type>
+				<Name>Igla-1E (SA-18)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>721</Parent>
+			</SecondaryObject>
+			<ParentObject ID="721">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Dismounts_518_01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_518</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3039.34</Time>
+			<Location>
+				<Longitude>36.0586055</Longitude>
+				<Latitude>36.0989125</Latitude>
+				<Altitude>115.53</Altitude>
+			</Location>
+			<PrimaryObject ID="192">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>H. Bear</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="721">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Dismounts_518_01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_518</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3078.79</Time>
+			<Location>
+				<Longitude>36.3385073</Longitude>
+				<Latitude>36.276194</Latitude>
+				<Altitude>725.38</Altitude>
+			</Location>
+			<PrimaryObject ID="190">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>272</Occurrences>
+			<SecondaryObject ID="957">
+				<Type>Shell</Type>
+				<Name>weapons.shells.GAU8_30_AP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>190</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3082.66</Time>
+			<Location>
+				<Longitude>36.333891</Longitude>
+				<Latitude>36.2513131</Latitude>
+				<Altitude>78.97</Altitude>
+			</Location>
+			<PrimaryObject ID="156">
+				<Type>Car</Type>
+				<Name>Kamaz</Name>
+				<Pilot>Convoy-1-7</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>56</Occurrences>
+			<SecondaryObject ID="957">
+				<Type>Shell</Type>
+				<Name>weapons.shells.GAU8_30_AP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>190</Parent>
+			</SecondaryObject>
+			<ParentObject ID="190">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3084.05</Time>
+			<Location>
+				<Longitude>36.333891</Longitude>
+				<Latitude>36.2513131</Latitude>
+				<Altitude>78.97</Altitude>
+			</Location>
+			<PrimaryObject ID="156">
+				<Type>Car</Type>
+				<Name>Kamaz</Name>
+				<Pilot>Convoy-1-7</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="190">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3117.84</Time>
+			<Location>
+				<Longitude>36.3716337</Longitude>
+				<Latitude>36.0862719</Latitude>
+				<Altitude>9598.68</Altitude>
+			</Location>
+			<PrimaryObject ID="191">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1228">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>191</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3117.92</Time>
+			<Location>
+				<Longitude>36.0555752</Longitude>
+				<Latitude>36.1514687</Latitude>
+				<Altitude>302.02</Altitude>
+			</Location>
+			<PrimaryObject ID="195">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1229">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>195</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3118.40</Time>
+			<Location>
+				<Longitude>36.0691123</Longitude>
+				<Latitude>36.1290702</Latitude>
+				<Altitude>273.75</Altitude>
+			</Location>
+			<PrimaryObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1230">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>199</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3125.54</Time>
+			<Location>
+				<Longitude>36.0501083</Longitude>
+				<Latitude>36.1135708</Latitude>
+				<Altitude>292.42</Altitude>
+			</Location>
+			<PrimaryObject ID="134">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>sam_tiger3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1230">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>199</Parent>
+			</SecondaryObject>
+			<ParentObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3125.59</Time>
+			<Location>
+				<Longitude>36.0501083</Longitude>
+				<Latitude>36.1135708</Latitude>
+				<Altitude>292.42</Altitude>
+			</Location>
+			<PrimaryObject ID="134">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>sam_tiger3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3131.54</Time>
+			<Location>
+				<Longitude>36.0472589</Longitude>
+				<Latitude>36.1136435</Latitude>
+				<Altitude>300.49</Altitude>
+			</Location>
+			<PrimaryObject ID="131">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>Convoy-2-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1229">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>195</Parent>
+			</SecondaryObject>
+			<ParentObject ID="195">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3131.56</Time>
+			<Location>
+				<Longitude>36.0472589</Longitude>
+				<Latitude>36.1136435</Latitude>
+				<Altitude>300.49</Altitude>
+			</Location>
+			<PrimaryObject ID="131">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>Convoy-2-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="195">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3132.09</Time>
+			<Location>
+				<Longitude>36.068435</Longitude>
+				<Latitude>36.1283133</Latitude>
+				<Altitude>248.09</Altitude>
+			</Location>
+			<PrimaryObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1237">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>199</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3132.88</Time>
+			<Location>
+				<Longitude>36.4435864</Longitude>
+				<Latitude>36.0286407</Latitude>
+				<Altitude>1058.81</Altitude>
+			</Location>
+			<PrimaryObject ID="20">
+				<Type>Aircraft</Type>
+				<Name>Su-25T Frogfoot</Name>
+				<Pilot>Aerial-3-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Aerial-3</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1228">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>191</Parent>
+			</SecondaryObject>
+			<ParentObject ID="191">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3132.90</Time>
+			<Location>
+				<Longitude>36.4435592</Longitude>
+				<Latitude>36.0286323</Latitude>
+				<Altitude>1056.74</Altitude>
+			</Location>
+			<PrimaryObject ID="20">
+				<Type>Aircraft</Type>
+				<Name>Su-25T Frogfoot</Name>
+				<Pilot>Aerial-3-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Aerial-3</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="191">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3135.98</Time>
+			<Location>
+				<Longitude>36.4383148</Longitude>
+				<Latitude>36.027035</Latitude>
+				<Altitude>658.41</Altitude>
+			</Location>
+			<PrimaryObject ID="1245">
+				<Type>Parachutist</Type>
+				<Name>Parachutist</Name>
+				<Country>ru</Country>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>3138.99</Time>
+			<Location>
+				<Longitude>36.0504038</Longitude>
+				<Latitude>36.1131629</Latitude>
+				<Altitude>280.35</Altitude>
+			</Location>
+			<PrimaryObject ID="132">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>sam_tiger2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1237">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>199</Parent>
+			</SecondaryObject>
+			<ParentObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3139.04</Time>
+			<Location>
+				<Longitude>36.0504038</Longitude>
+				<Latitude>36.1131629</Latitude>
+				<Altitude>280.35</Altitude>
+			</Location>
+			<PrimaryObject ID="132">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>sam_tiger2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3143.63</Time>
+			<Location>
+				<Longitude>36.7905327</Longitude>
+				<Latitude>36.7407253</Latitude>
+				<Altitude>795.91</Altitude>
+			</Location>
+			<PrimaryObject ID="79">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA6-CHARLIE-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-point-defence-CHARLIE-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1250">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>79</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3146.25</Time>
+			<Location>
+				<Longitude>36.55073</Longitude>
+				<Latitude>36.0206783</Latitude>
+				<Altitude>5161.61</Altitude>
+			</Location>
+			<PrimaryObject ID="200">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF Cypher | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1251">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>200</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3147.64</Time>
+			<Location>
+				<Longitude>36.7905327</Longitude>
+				<Latitude>36.7407253</Latitude>
+				<Altitude>795.91</Altitude>
+			</Location>
+			<PrimaryObject ID="79">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA6-CHARLIE-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-point-defence-CHARLIE-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1252">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>79</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3150.73</Time>
+			<Location>
+				<Longitude>36.7511956</Longitude>
+				<Latitude>36.7289464</Latitude>
+				<Altitude>2994.14</Altitude>
+			</Location>
+			<PrimaryObject ID="1250">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>79</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="945">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>196</Parent>
+			</SecondaryObject>
+			<ParentObject ID="196">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Bolt 1-1 | Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3150.76</Time>
+			<Location>
+				<Longitude>36.7510063</Longitude>
+				<Latitude>36.7288902</Latitude>
+				<Altitude>3003.66</Altitude>
+			</Location>
+			<PrimaryObject ID="945">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>196</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1250">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>79</Parent>
+			</SecondaryObject>
+			<ParentObject ID="79">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA6-CHARLIE-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-point-defence-CHARLIE-1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3153.68</Time>
+			<Location>
+				<Longitude>36.7596672</Longitude>
+				<Latitude>36.7309989</Latitude>
+				<Altitude>2669.12</Altitude>
+			</Location>
+			<PrimaryObject ID="1252">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>79</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3158.06</Time>
+			<Location>
+				<Longitude>36.4755905</Longitude>
+				<Latitude>36.059799</Latitude>
+				<Altitude>1468.54</Altitude>
+			</Location>
+			<PrimaryObject ID="21">
+				<Type>Aircraft</Type>
+				<Name>Su-25T Frogfoot</Name>
+				<Pilot>Aerial-3-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Aerial-3</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1251">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>200</Parent>
+			</SecondaryObject>
+			<ParentObject ID="200">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF Cypher | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3158.09</Time>
+			<Location>
+				<Longitude>36.4756177</Longitude>
+				<Latitude>36.0598328</Latitude>
+				<Altitude>1465.8</Altitude>
+			</Location>
+			<PrimaryObject ID="21">
+				<Type>Aircraft</Type>
+				<Name>Su-25T Frogfoot</Name>
+				<Pilot>Aerial-3-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Aerial-3</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="200">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF Cypher | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3161.18</Time>
+			<Location>
+				<Longitude>36.4791502</Longitude>
+				<Latitude>36.0632669</Latitude>
+				<Altitude>1033.41</Altitude>
+			</Location>
+			<PrimaryObject ID="1265">
+				<Type>Parachutist</Type>
+				<Name>Parachutist</Name>
+				<Country>ru</Country>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>3172.36</Time>
+			<Location>
+				<Longitude>36.0679674</Longitude>
+				<Latitude>36.1254407</Latitude>
+				<Altitude>224.22</Altitude>
+			</Location>
+			<PrimaryObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1266">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>199</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3175.82</Time>
+			<Location>
+				<Longitude>36.2138292</Longitude>
+				<Latitude>36.7039478</Latitude>
+				<Altitude>8802.1</Altitude>
+			</Location>
+			<PrimaryObject ID="194">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1268">
+				<Type>Missile</Type>
+				<Name>AGM_154A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>194</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3175.82</Time>
+			<Location>
+				<Longitude>36.2138292</Longitude>
+				<Latitude>36.7039478</Latitude>
+				<Altitude>8802.1</Altitude>
+			</Location>
+			<PrimaryObject ID="194">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1267">
+				<Type>Missile</Type>
+				<Name>AGM_154A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>194</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3179.53</Time>
+			<Location>
+				<Longitude>36.0476207</Longitude>
+				<Latitude>36.1106198</Latitude>
+				<Altitude>302.91</Altitude>
+			</Location>
+			<PrimaryObject ID="127">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>Convoy-2-8</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1266">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>199</Parent>
+			</SecondaryObject>
+			<ParentObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3179.53</Time>
+			<Location>
+				<Longitude>36.0476207</Longitude>
+				<Latitude>36.1106198</Latitude>
+				<Altitude>302.91</Altitude>
+			</Location>
+			<PrimaryObject ID="127">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>Convoy-2-8</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3280.69</Time>
+			<Location>
+				<Longitude>36.029687</Longitude>
+				<Latitude>36.1381635</Latitude>
+				<Altitude>422.11</Altitude>
+			</Location>
+			<PrimaryObject ID="195">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1269">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>195</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3290.12</Time>
+			<Location>
+				<Longitude>36.0476985</Longitude>
+				<Latitude>36.114306</Latitude>
+				<Altitude>288.94</Altitude>
+			</Location>
+			<PrimaryObject ID="133">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>Convoy-2-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1269">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>195</Parent>
+			</SecondaryObject>
+			<ParentObject ID="195">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3290.12</Time>
+			<Location>
+				<Longitude>36.0476985</Longitude>
+				<Latitude>36.114306</Latitude>
+				<Altitude>288.94</Altitude>
+			</Location>
+			<PrimaryObject ID="133">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>Convoy-2-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="195">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3349.54</Time>
+			<Location>
+				<Longitude>36.7905327</Longitude>
+				<Latitude>36.7407253</Latitude>
+				<Altitude>795.91</Altitude>
+			</Location>
+			<PrimaryObject ID="79">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA6-CHARLIE-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-point-defence-CHARLIE-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1289">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>79</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3353.41</Time>
+			<Location>
+				<Longitude>36.4630112</Longitude>
+				<Latitude>36.8179681</Latitude>
+				<Altitude>7556.86</Altitude>
+			</Location>
+			<PrimaryObject ID="196">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Bolt 1-1 | Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1290">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>196</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3353.57</Time>
+			<Location>
+				<Longitude>36.7905327</Longitude>
+				<Latitude>36.7407253</Latitude>
+				<Altitude>795.91</Altitude>
+			</Location>
+			<PrimaryObject ID="79">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA6-CHARLIE-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-point-defence-CHARLIE-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1291">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>79</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3357.88</Time>
+			<Location>
+				<Longitude>36.7336111</Longitude>
+				<Latitude>36.7370354</Latitude>
+				<Altitude>2070.15</Altitude>
+			</Location>
+			<PrimaryObject ID="1289">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>79</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1268">
+				<Type>Missile</Type>
+				<Name>AGM_154A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>194</Parent>
+			</SecondaryObject>
+			<ParentObject ID="194">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3357.88</Time>
+			<Location>
+				<Longitude>36.7333551</Longitude>
+				<Latitude>36.7370509</Latitude>
+				<Altitude>2073.36</Altitude>
+			</Location>
+			<PrimaryObject ID="1268">
+				<Type>Missile</Type>
+				<Name>AGM_154A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>194</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1289">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>79</Parent>
+			</SecondaryObject>
+			<ParentObject ID="79">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA6-CHARLIE-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-point-defence-CHARLIE-1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3359.61</Time>
+			<Location>
+				<Longitude>36.7535975</Longitude>
+				<Latitude>36.7384397</Latitude>
+				<Altitude>1782.11</Altitude>
+			</Location>
+			<PrimaryObject ID="1291">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>79</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3370.94</Time>
+			<Location>
+				<Longitude>36.0491334</Longitude>
+				<Latitude>36.1130914</Latitude>
+				<Altitude>305.18</Altitude>
+			</Location>
+			<PrimaryObject ID="721">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Dismounts_518_01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_518</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1292">
+				<Type>Missile</Type>
+				<Name>Igla-1E (SA-18)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>721</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3376.05</Time>
+			<Location>
+				<Longitude>36.0327516</Longitude>
+				<Latitude>36.1167934</Latitude>
+				<Altitude>1698.4</Altitude>
+			</Location>
+			<PrimaryObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1292">
+				<Type>Missile</Type>
+				<Name>Igla-1E (SA-18)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>721</Parent>
+			</SecondaryObject>
+			<ParentObject ID="721">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Dismounts_518_01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_518</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3388.69</Time>
+			<Location>
+				<Longitude>36.044918</Longitude>
+				<Latitude>36.1213872</Latitude>
+				<Altitude>1616.36</Altitude>
+			</Location>
+			<PrimaryObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>2</Occurrences>
+			<SecondaryObject ID="1306">
+				<Type>Bomb</Type>
+				<Name>GBU_54_V_1B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>198</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3392.13</Time>
+			<Location>
+				<Longitude>36.7905327</Longitude>
+				<Latitude>36.7407253</Latitude>
+				<Altitude>795.91</Altitude>
+			</Location>
+			<PrimaryObject ID="79">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA6-CHARLIE-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-point-defence-CHARLIE-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1310">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>79</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3392.37</Time>
+			<Location>
+				<Longitude>36.0491334</Longitude>
+				<Latitude>36.1130914</Latitude>
+				<Altitude>305.18</Altitude>
+			</Location>
+			<PrimaryObject ID="721">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Dismounts_518_01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_518</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1311">
+				<Type>Missile</Type>
+				<Name>Igla-1E (SA-18)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>721</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3396.14</Time>
+			<Location>
+				<Longitude>36.7821377</Longitude>
+				<Latitude>36.7455849</Latitude>
+				<Altitude>2495.61</Altitude>
+			</Location>
+			<PrimaryObject ID="1310">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>79</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1290">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>196</Parent>
+			</SecondaryObject>
+			<ParentObject ID="196">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Bolt 1-1 | Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3396.14</Time>
+			<Location>
+				<Longitude>36.7820381</Longitude>
+				<Latitude>36.745582</Latitude>
+				<Altitude>2502.79</Altitude>
+			</Location>
+			<PrimaryObject ID="1290">
+				<Type>Missile</Type>
+				<Name>AGM-88 HARM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>196</Parent>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1310">
+				<Type>Missile</Type>
+				<Name>9M330</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>79</Parent>
+			</SecondaryObject>
+			<ParentObject ID="79">
+				<Type>SAM/AAA</Type>
+				<Name>SA-15 Gauntlet</Name>
+				<Pilot>SAM-SA6-CHARLIE-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-point-defence-CHARLIE-1</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3397.68</Time>
+			<Location>
+				<Longitude>36.0434044</Longitude>
+				<Latitude>36.1286964</Latitude>
+				<Altitude>1517.86</Altitude>
+			</Location>
+			<PrimaryObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1311">
+				<Type>Missile</Type>
+				<Name>Igla-1E (SA-18)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>721</Parent>
+			</SecondaryObject>
+			<ParentObject ID="721">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Dismounts_518_01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_518</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3511.00</Time>
+			<Location>
+				<Longitude>36.0491334</Longitude>
+				<Latitude>36.1130914</Latitude>
+				<Altitude>305.18</Altitude>
+			</Location>
+			<PrimaryObject ID="721">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Dismounts_518_01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_518</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3511.00</Time>
+			<Location>
+				<Longitude>36.0492335</Longitude>
+				<Latitude>36.112971</Latitude>
+				<Altitude>308.59</Altitude>
+			</Location>
+			<PrimaryObject ID="722">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Support</Name>
+				<Pilot>Dismounts_518_02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_518</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3543.10</Time>
+			<Location>
+				<Longitude>36.0833954</Longitude>
+				<Latitude>36.1147245</Latitude>
+				<Altitude>330.53</Altitude>
+			</Location>
+			<PrimaryObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1344">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>199</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3552.73</Time>
+			<Location>
+				<Longitude>36.0482761</Longitude>
+				<Latitude>36.1115823</Latitude>
+				<Altitude>297.03</Altitude>
+			</Location>
+			<PrimaryObject ID="128">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>Convoy-2-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1344">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>199</Parent>
+			</SecondaryObject>
+			<ParentObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3567.64</Time>
+			<Location>
+				<Longitude>36.08028</Longitude>
+				<Latitude>36.1141959</Latitude>
+				<Altitude>392.94</Altitude>
+			</Location>
+			<PrimaryObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1345">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>199</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3572.87</Time>
+			<Location>
+				<Longitude>35.9541455</Longitude>
+				<Latitude>36.0660098</Latitude>
+				<Altitude>8.18</Altitude>
+			</Location>
+			<PrimaryObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<SecondaryObject ID="5">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3576.46</Time>
+			<Location>
+				<Longitude>36.0477424</Longitude>
+				<Latitude>36.1111454</Latitude>
+				<Altitude>298.71</Altitude>
+			</Location>
+			<PrimaryObject ID="130">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>sam_tiger1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1345">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>199</Parent>
+			</SecondaryObject>
+			<ParentObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3578.74</Time>
+			<Location>
+				<Longitude>36.078397</Longitude>
+				<Latitude>36.1139484</Latitude>
+				<Altitude>443.58</Altitude>
+			</Location>
+			<PrimaryObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1346">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>199</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3581.87</Time>
+			<Location>
+				<Longitude>36.7918938</Longitude>
+				<Latitude>36.740931</Latitude>
+				<Altitude>1370.21</Altitude>
+			</Location>
+			<PrimaryObject ID="1348">
+				<Type>Bomb</Type>
+				<Name>BLU-97/B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>3581.87</Time>
+			<Location>
+				<Longitude>36.7918938</Longitude>
+				<Latitude>36.740931</Latitude>
+				<Altitude>1370.21</Altitude>
+			</Location>
+			<PrimaryObject ID="1348">
+				<Type>Bomb</Type>
+				<Name>BLU-97/B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1267">
+				<Type>Missile</Type>
+				<Name>AGM_154A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>194</Parent>
+			</SecondaryObject>
+			<ParentObject ID="194">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3587.07</Time>
+			<Location>
+				<Longitude>36.0477614</Longitude>
+				<Latitude>36.1101996</Latitude>
+				<Altitude>304.79</Altitude>
+			</Location>
+			<PrimaryObject ID="130">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>sam_tiger1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1346">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>199</Parent>
+			</SecondaryObject>
+			<ParentObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3594.14</Time>
+			<Location>
+				<Longitude>36.800442</Longitude>
+				<Latitude>36.7413352</Latitude>
+				<Altitude>840.29</Altitude>
+			</Location>
+			<PrimaryObject ID="42">
+				<Type>SAM/AAA</Type>
+				<Name>SA-6 Gainful (STR)</Name>
+				<Pilot>SAM-SA6-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA6-CHARLIE</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3594.54</Time>
+			<Location>
+				<Longitude>35.4149065</Longitude>
+				<Latitude>36.9953201</Latitude>
+				<Altitude>51.58</Altitude>
+			</Location>
+			<PrimaryObject ID="193">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>3596.57</Time>
+			<Location>
+				<Longitude>36.7993236</Longitude>
+				<Latitude>36.740921</Latitude>
+				<Altitude>840.36</Altitude>
+			</Location>
+			<PrimaryObject ID="44">
+				<Type>SAM/AAA</Type>
+				<Name>SA-6 Gainful (LN)</Name>
+				<Pilot>SAM-SA6-1-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA6-CHARLIE</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1348">
+				<Type>Bomb</Type>
+				<Name>BLU-97/B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3603.65</Time>
+			<Location>
+				<Longitude>36.0746441</Longitude>
+				<Latitude>36.1133838</Latitude>
+				<Altitude>567.33</Altitude>
+			</Location>
+			<PrimaryObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1349">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>199</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3612.17</Time>
+			<Location>
+				<Longitude>36.0438306</Longitude>
+				<Latitude>36.1076136</Latitude>
+				<Altitude>333.25</Altitude>
+			</Location>
+			<PrimaryObject ID="130">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>sam_tiger1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1349">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>199</Parent>
+			</SecondaryObject>
+			<ParentObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3612.22</Time>
+			<Location>
+				<Longitude>36.0435664</Longitude>
+				<Latitude>36.1073093</Latitude>
+				<Altitude>335.91</Altitude>
+			</Location>
+			<PrimaryObject ID="128">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>Convoy-2-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3636.00</Time>
+			<Location>
+				<Longitude>36.0446251</Longitude>
+				<Latitude>36.1068707</Latitude>
+				<Altitude>326.53</Altitude>
+			</Location>
+			<PrimaryObject ID="1351">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Support</Name>
+				<Pilot>Dismounts_518_02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_518</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>3636.00</Time>
+			<Location>
+				<Longitude>36.0446261</Longitude>
+				<Latitude>36.1068437</Latitude>
+				<Altitude>327.22</Altitude>
+			</Location>
+			<PrimaryObject ID="1350">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Dismounts_518_01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_518</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>3854.51</Time>
+			<Location>
+				<Longitude>35.9541423</Longitude>
+				<Latitude>36.0660075</Latitude>
+				<Altitude>8.12</Altitude>
+			</Location>
+			<PrimaryObject ID="198">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>RAVEN 1-1 | Maj. FAIP</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<SecondaryObject ID="5">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3893.94</Time>
+			<Location>
+				<Longitude>36.062571</Longitude>
+				<Latitude>36.1139788</Latitude>
+				<Altitude>663.44</Altitude>
+			</Location>
+			<PrimaryObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>42</Occurrences>
+			<SecondaryObject ID="1352">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>199</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3898.59</Time>
+			<Location>
+				<Longitude>36.044702</Longitude>
+				<Latitude>36.1067786</Latitude>
+				<Altitude>328.33</Altitude>
+			</Location>
+			<PrimaryObject ID="130">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>sam_tiger1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>16</Occurrences>
+			<SecondaryObject ID="1352">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>199</Parent>
+			</SecondaryObject>
+			<ParentObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3900.50</Time>
+			<Location>
+				<Longitude>36.044702</Longitude>
+				<Latitude>36.1067786</Latitude>
+				<Altitude>328.33</Altitude>
+			</Location>
+			<PrimaryObject ID="130">
+				<Type>Car</Type>
+				<Name>Tigr_233036</Name>
+				<Pilot>sam_tiger1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Convoy-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3900.61</Time>
+			<Location>
+				<Longitude>36.0446261</Longitude>
+				<Latitude>36.1068438</Latitude>
+				<Altitude>327.22</Altitude>
+			</Location>
+			<PrimaryObject ID="1350">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Dismounts_518_01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_518</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3900.61</Time>
+			<Location>
+				<Longitude>36.0446251</Longitude>
+				<Latitude>36.1068707</Latitude>
+				<Altitude>326.53</Altitude>
+			</Location>
+			<PrimaryObject ID="1351">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Support</Name>
+				<Pilot>Dismounts_518_02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_518</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3900.75</Time>
+			<Location>
+				<Longitude>36.044596</Longitude>
+				<Latitude>36.1067794</Latitude>
+				<Altitude>329.2</Altitude>
+			</Location>
+			<PrimaryObject ID="1350">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Dismounts_518_01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_518</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>2</Occurrences>
+			<SecondaryObject ID="1384">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>199</Parent>
+			</SecondaryObject>
+			<ParentObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3903.06</Time>
+			<Location>
+				<Longitude>36.0447332</Longitude>
+				<Latitude>36.1068621</Latitude>
+				<Altitude>326.6</Altitude>
+			</Location>
+			<PrimaryObject ID="1351">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Support</Name>
+				<Pilot>Dismounts_518_02</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_518</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1388">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>199</Parent>
+			</SecondaryObject>
+			<ParentObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3903.09</Time>
+			<Location>
+				<Longitude>36.0447772</Longitude>
+				<Latitude>36.1068484</Latitude>
+				<Altitude>326.36</Altitude>
+			</Location>
+			<PrimaryObject ID="1350">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Dismounts_518_01</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Dismounts_518</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1390">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>199</Parent>
+			</SecondaryObject>
+			<ParentObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4167.23</Time>
+			<Location>
+				<Longitude>35.4291953</Longitude>
+				<Latitude>37.0039585</Latitude>
+				<Altitude>60.79</Altitude>
+			</Location>
+			<PrimaryObject ID="190">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4198.31</Time>
+			<Location>
+				<Longitude>36.077217</Longitude>
+				<Latitude>36.1159021</Latitude>
+				<Altitude>792.02</Altitude>
+			</Location>
+			<PrimaryObject ID="195">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1441">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>195</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4206.40</Time>
+			<Location>
+				<Longitude>36.0472754</Longitude>
+				<Latitude>36.1136392</Latitude>
+				<Altitude>301.12</Altitude>
+			</Location>
+			<PrimaryObject ID="1441">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>195</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4256.55</Time>
+			<Location>
+				<Longitude>35.4138277</Longitude>
+				<Latitude>36.9987999</Latitude>
+				<Altitude>55.37</Altitude>
+			</Location>
+			<PrimaryObject ID="193">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4262.56</Time>
+			<Location>
+				<Longitude>35.4140948</Longitude>
+				<Latitude>36.9947442</Latitude>
+				<Altitude>50.86</Altitude>
+			</Location>
+			<PrimaryObject ID="190">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4266.61</Time>
+			<Location>
+				<Longitude>35.4136762</Longitude>
+				<Latitude>36.9944788</Latitude>
+				<Altitude>50.52</Altitude>
+			</Location>
+			<PrimaryObject ID="190">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4304.12</Time>
+			<Location>
+				<Longitude>36.0537854</Longitude>
+				<Latitude>36.124457</Latitude>
+				<Altitude>497.19</Altitude>
+			</Location>
+			<PrimaryObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>24</Occurrences>
+			<SecondaryObject ID="1442">
+				<Type>Rocket</Type>
+				<Name>M151 (HE)</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>199</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4446.95</Time>
+			<Location>
+				<Longitude>36.1178175</Longitude>
+				<Latitude>36.3673504</Latitude>
+				<Altitude>8620.51</Altitude>
+			</Location>
+			<PrimaryObject ID="1468">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Neutral</Coalition>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>4489.17</Time>
+			<Location>
+				<Longitude>36.0934516</Longitude>
+				<Latitude>36.3990462</Latitude>
+				<Altitude>6.13</Altitude>
+			</Location>
+			<PrimaryObject ID="1468">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Neutral</Coalition>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4517.38</Time>
+			<Location>
+				<Longitude>35.4174106</Longitude>
+				<Latitude>37.0008192</Latitude>
+				<Altitude>54.77</Altitude>
+			</Location>
+			<PrimaryObject ID="190">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4763.84</Time>
+			<Location>
+				<Longitude>35.9641012</Longitude>
+				<Latitude>36.0506823</Latitude>
+				<Altitude>13.39</Altitude>
+			</Location>
+			<PrimaryObject ID="195">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4842.10</Time>
+			<Location>
+				<Longitude>35.9645755</Longitude>
+				<Latitude>36.050024</Latitude>
+				<Altitude>13.39</Altitude>
+			</Location>
+			<PrimaryObject ID="199">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5016.25</Time>
+			<Location>
+				<Longitude>35.4241618</Longitude>
+				<Latitude>37.0009147</Latitude>
+				<Altitude>59.93</Altitude>
+			</Location>
+			<PrimaryObject ID="201">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>ASPEN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5068.75</Time>
+			<Location>
+				<Longitude>35.4192678</Longitude>
+				<Latitude>37.0001599</Latitude>
+				<Altitude>55.91</Altitude>
+			</Location>
+			<PrimaryObject ID="201">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>ASPEN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5257.04</Time>
+			<Location>
+				<Longitude>34.8967668</Longitude>
+				<Latitude>36.0332879</Latitude>
+				<Altitude>21.99</Altitude>
+			</Location>
+			<PrimaryObject ID="200">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF Cypher | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5272.65</Time>
+			<Location>
+				<Longitude>35.4363094</Longitude>
+				<Latitude>37.0082431</Latitude>
+				<Altitude>64.88</Altitude>
+			</Location>
+			<PrimaryObject ID="196">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Bolt 1-1 | Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5316.40</Time>
+			<Location>
+				<Longitude>35.4372791</Longitude>
+				<Latitude>37.0088369</Latitude>
+				<Altitude>66.89</Altitude>
+			</Location>
+			<PrimaryObject ID="194">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5378.72</Time>
+			<Location>
+				<Longitude>34.9065567</Longitude>
+				<Latitude>36.0335499</Latitude>
+				<Altitude>21.99</Altitude>
+			</Location>
+			<PrimaryObject ID="191">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5400.50</Time>
+			<Location>
+				<Longitude>37.9505768</Longitude>
+				<Latitude>36.0962542</Latitude>
+				<Altitude>358.91</Altitude>
+			</Location>
+			<PrimaryObject ID="1476">
+				<Type>Aircraft</Type>
+				<Name>Su-33 Flanker-D</Name>
+				<Pilot>SU-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-33</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:OS62">
+				<Name>Jirah </Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5400.50</Time>
+			<Location>
+				<Longitude>37.9503024</Longitude>
+				<Latitude>36.0962967</Latitude>
+				<Altitude>358.83</Altitude>
+			</Location>
+			<PrimaryObject ID="1475">
+				<Type>Aircraft</Type>
+				<Name>Su-33 Flanker-D</Name>
+				<Pilot>SU-33</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-33</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:OS62">
+				<Name>Jirah </Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5413.88</Time>
+			<Location>
+				<Longitude>34.9081342</Longitude>
+				<Latitude>36.033192</Latitude>
+				<Altitude>21.98</Altitude>
+			</Location>
+			<PrimaryObject ID="200">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF Cypher | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5457.36</Time>
+			<Location>
+				<Longitude>34.9125233</Longitude>
+				<Latitude>36.033309</Latitude>
+				<Altitude>21.99</Altitude>
+			</Location>
+			<PrimaryObject ID="191">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-73 George Washington</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-73 George Washington</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5517.43</Time>
+			<Location>
+				<Longitude>35.4283873</Longitude>
+				<Latitude>36.9984809</Latitude>
+				<Altitude>60.09</Altitude>
+			</Location>
+			<PrimaryObject ID="196">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Bolt 1-1 | Shuto</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5519.26</Time>
+			<Location>
+				<Longitude>35.4280845</Longitude>
+				<Latitude>36.9989188</Latitude>
+				<Altitude>60.1</Altitude>
+			</Location>
+			<PrimaryObject ID="194">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 23rd</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5609.40</Time>
+			<Location>
+				<Longitude>37.9469792</Longitude>
+				<Latitude>36.0953572</Latitude>
+				<Altitude>357.99</Altitude>
+			</Location>
+			<PrimaryObject ID="1475">
+				<Type>Aircraft</Type>
+				<Name>Su-33 Flanker-D</Name>
+				<Pilot>SU-33</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-33</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:OS62">
+				<Name>Jirah </Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5631.13</Time>
+			<Location>
+				<Longitude>37.9473464</Longitude>
+				<Latitude>36.0953039</Latitude>
+				<Altitude>358.08</Altitude>
+			</Location>
+			<PrimaryObject ID="1476">
+				<Type>Aircraft</Type>
+				<Name>Su-33 Flanker-D</Name>
+				<Pilot>SU-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SU-33</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:OS62">
+				<Name>Jirah </Name>
+			</Airport>
+		</Event>
+	</Events>
+</TacviewDebriefing>
