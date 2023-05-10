@@ -28,12 +28,14 @@ def process_tacview_file(filename: str, database_name: str, clear_db: bool):
     print(check_mission_exists(conn, mission_data))
     mission_id = create_mission(conn, mission_data)
 
+    event_data = parsed_xml[2].findall('Event')
+
     # Process all the events contained with the parsed data.
 
     logging.info('Processing event records.')
     event_counter = 0
 
-    for event in parsed_xml[2].findall('Event'):
+    for event in event_data:
         event_counter += 1
         # Each Event will have a Time, Action and a Primary Object
         action = event.find('Action').text
@@ -151,6 +153,9 @@ def main(argv):
 
     if args.verbose:
         console = logging.StreamHandler()
+        formatter = logging.Formatter(
+            '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        console.setFormatter(formatter)
         logging.getLogger('').addHandler(console)
 
     logging.info(

@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Std",
+            "name": "Python: Clear DB Verbose",
             "type": "python",
             "request": "launch",
             "cwd": "${workspaceFolder}/app",
@@ -12,7 +12,33 @@
                 "-v",
                 "-c",
                 "../data/mission1_server.xml"
-            ],
+            ]
+        },
+        {
+            "name": "Python: Retain Records",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/app",
+            "program": "${workspaceFolder}/app/tacview2db.py",
+            "console": "integratedTerminal",
+            "args": [
+                "../data/mission1_server.xml"
+            ]
+        },
+        {
+            "name": "Docker: Python - General",
+            "type": "docker",
+            "request": "launch",
+            "preLaunchTask": "docker-run: debug",
+            "python": {
+                "pathMappings": [
+                    {
+                        "localRoot": "${workspaceFolder}",
+                        "remoteRoot": "/app"
+                    }
+                ],
+                "projectType": "general"
+            }
         }
     ]
 }
