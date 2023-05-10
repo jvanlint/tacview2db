@@ -26,6 +26,20 @@
             ]
         },
         {
+            "name": "Python: All Files",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/app",
+            "program": "${workspaceFolder}/app/tacview2db.py",
+            "console": "integratedTerminal",
+            "args": [
+                "-c",
+                "../data/mission1_server.xml",
+                "../data/mission2_server.xml",
+                "../data/mission3_server.xml",
+            ]
+        },
+        {
             "name": "Docker: Python - General",
             "type": "docker",
             "request": "launch",

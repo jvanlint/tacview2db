@@ -21,7 +21,7 @@ def create_connection(db_file: str) -> sqlite3.Connection:
         quit()
 
 
-def check_mission_exists(conn, mission) -> bool:
+def check_mission_exists(conn: sqlite3.Connection, mission) -> bool:
     logging.info(f'Checking if {mission[0]} already in database.')
 
     cursor = conn.cursor()
@@ -38,7 +38,7 @@ def check_mission_exists(conn, mission) -> bool:
         return False
 
 
-def create_mission(conn, mission):
+def create_mission_record(conn: sqlite3.Connection, mission):
     """
     Create a new project into the projects table
     :param conn:
@@ -48,13 +48,6 @@ def create_mission(conn, mission):
     logging.info(f'Attempting to add mission named {mission[0]} to database.')
 
     cursor = conn.cursor()
-
-    # sql = f"SELECT EXISTS (SELECT 1 FROM Mission WHERE name = '{mission[0]}')"
-    # print(sql)
-    # result = cur.execute(sql)
-    # print(result)
-    # if result.fetchone() == 1:
-    # 	logging.warning('Mission name already exists in database.')
 
     sql = ''' INSERT INTO Mission(name,date,duration, source, recorder, recording_time, author)
 							VALUES(?,?,?,?,?,?,?) '''
@@ -69,7 +62,7 @@ def create_mission(conn, mission):
     return cursor.lastrowid
 
 
-def create_event(conn, event):
+def create_event_record(conn: sqlite3.Connection, event):
     """
     Create a new event record
     :param conn:
@@ -85,7 +78,7 @@ def create_event(conn, event):
     return cur.lastrowid
 
 
-def create_primary(conn, primary):
+def create_primary_record(conn, primary):
     """
     Create a new task
     :param conn:
@@ -100,7 +93,7 @@ def create_primary(conn, primary):
     return cur.lastrowid
 
 
-def create_secondary(conn, secondary):
+def create_secondary_record(conn: sqlite3.Connection, secondary):
     """
     Create a new task
     :param conn:
@@ -115,7 +108,7 @@ def create_secondary(conn, secondary):
     return cur.lastrowid
 
 
-def create_parent(conn, parent):
+def create_parent_record(conn: sqlite3.Connection, parent):
     """
     Create a new task
     :param conn:
@@ -140,25 +133,3 @@ def clear_table_data(conn):
         cur.execute(sql)
         conn.commit()
     logging.warning('Table data cleared.')
-
-
-def process_events(conn, mission_id, xml_tree):
-    for event in xml_tree[2].findall('Event'):
-
-        # Each Event will have a Time, Action and a Primary Object
-        action = event.find('Action').text
-        time = event.find('Time').text
-
-        # Create the event and return the id of the event record in the db.
-        event_id = create_event(conn, (mission_id, time, action))
-
-        # Create the primary object for the event.
-        process_primary_objects(conn, event, event_id)
-
-        # Create the secondary object for the event (if there is one)
-
-        # Create the parent object for the event (if there is one)
-
-
-def process_primary_objects(conn, event_tree, event_id):
-    pass

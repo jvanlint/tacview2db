@@ -1,12 +1,31 @@
-2023-05-10 15:32:27 INFO Begin processing file named ../data/mission1_server.xml. Clear DB set to True
-2023-05-10 15:32:27 INFO Attempting to parse XML in ../data/mission1_server.xml.
-2023-05-10 15:32:27 INFO XML parsed successfully.
-2023-05-10 15:32:27 INFO Attempting to connect to sqlite database pytacview.db.
-2023-05-10 15:32:27 INFO Database connection made.
-2023-05-10 15:32:27 WARNING Clearing out database before import of data.
-2023-05-10 15:32:27 WARNING Table data cleared.
-2023-05-10 15:32:27 INFO Checking if NS_Phase_1_Mission_1_Final already in database.
-2023-05-10 15:32:27 INFO Attempting to add mission named NS_Phase_1_Mission_1_Final to database.
-2023-05-10 15:32:27 INFO Created mission in database.
-2023-05-10 15:32:27 INFO Processing event records.
-2023-05-10 15:32:28 INFO Successfully processed 364 event records.
+2023-05-10 22:46:48 INFO Attempting to connect to sqlite database pytacview.db.
+2023-05-10 22:46:48 INFO Database connection made.
+2023-05-10 22:46:48 WARNING Clearing out database before import of data.
+2023-05-10 22:46:48 WARNING Table data cleared.
+2023-05-10 22:46:48 INFO Begin processing file named ../data/mission1_server.xml.
+2023-05-10 22:46:48 INFO Attempting to parse XML in ../data/mission1_server.xml.
+2023-05-10 22:46:48 INFO XML parsed successfully.
+2023-05-10 22:46:48 INFO Extracting high level MISSION info from parsed XML tree.
+2023-05-10 22:46:48 INFO Attempting to add mission named NS_Phase_1_Mission_1_Final to database.
+2023-05-10 22:46:48 INFO Created mission in database.
+2023-05-10 22:46:48 INFO Extracting EVENTS for given mission from parsed XML tree.
+2023-05-10 22:46:48 INFO Processing event records.
+2023-05-10 22:46:48 INFO Successfully processed 364 event records, 364 primary records, 150 secondary records and 39 parent records.
+2023-05-10 22:46:48 INFO Begin processing file named ../data/mission2_server.xml.
+2023-05-10 22:46:48 INFO Attempting to parse XML in ../data/mission2_server.xml.
+2023-05-10 22:46:48 INFO XML parsed successfully.
+2023-05-10 22:46:48 INFO Extracting high level MISSION info from parsed XML tree.
+2023-05-10 22:46:48 INFO Attempting to add mission named NS_Phase_1_Mission_2_Final to database.
+2023-05-10 22:46:48 INFO Created mission in database.
+2023-05-10 22:46:48 INFO Extracting EVENTS for given mission from parsed XML tree.
+2023-05-10 22:46:48 INFO Processing event records.
+2023-05-10 22:46:49 INFO Successfully processed 363 event records, 363 primary records, 149 secondary records and 39 parent records.
+2023-05-10 22:46:49 INFO Begin processing file named ../data/mission3_server.xml.
+2023-05-10 22:46:49 INFO Attempting to parse XML in ../data/mission3_server.xml.
+2023-05-10 22:46:49 INFO XML parsed successfully.
+2023-05-10 22:46:49 INFO Extracting high level MISSION info from parsed XML tree.
+2023-05-10 22:46:49 INFO Attempting to add mission named NS_Phase_1_Mission_3_final to database.
+2023-05-10 22:46:49 INFO Created mission in database.
+2023-05-10 22:46:49 INFO Extracting EVENTS for given mission from parsed XML tree.
+2023-05-10 22:46:49 INFO Processing event records.
+2023-05-10 22:46:50 INFO Successfully processed 311 event records, 311 primary records, 146 secondary records and 61 parent records.
