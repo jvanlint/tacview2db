@@ -1,0 +1,7116 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TacviewDebriefing Version="1.2.6">
+	<!--Flight Recording Properties-->
+	<FlightRecording>
+		<Source>DCS 2.8.4.39313</Source>
+		<Recorder>DCS2ACMI 1.8.6.200</Recorder>
+		<RecordingTime>2023-05-02T10:23:48.205Z</RecordingTime>
+		<Author>DivideByZeroError</Author>
+	</FlightRecording>
+	<!--Mission Properties-->
+	<Mission>
+		<Title>Op_Sand_Scorpion_-_Part_7_v1.0</Title>
+		<MissionTime>2023-06-01T03:30:00Z</MissionTime>
+		<Duration>38175.74</Duration>
+		<Comments>The initial strike on Russian forces in Syria has shad an impact. Russian forces retreated all air assets to Jira and abondoned Alleppo and Kuweires.
+
+They also have increased their IADS effectiveness by switching Syrian personnel for Russian.
+
+For this followup strike we are seeking to  push Russia farther East and eventually force them out of Syria. To accomplish this we have 3 missions for this stage of the op.
+
+The 3 objectives are:
+
+Destroy Allepo Airfield
+=========================
+Prevent the use of this airfield for any Russian counter offensive.
+
+Destroy Russian PMC laying seige to town
+==============================
+The Wagner group has a town east of Minakh surrounded and laying seige to it. Conditions are worsening so the decision has been made to send a message to Russian assets of all kinds.
+
+Capture Russian Helo FARP
+===========================
+Capture a helo base within Syria to create a launch point for a new ground phase of the war.</Comments>
+	</Mission>
+	<!--Flight Log-->
+	<Events>
+		<Event>
+			<Time>29.90</Time>
+			<Location>
+				<Longitude>35.629681</Longitude>
+				<Latitude>36.309773</Latitude>
+				<Altitude>22.66</Altitude>
+			</Location>
+			<PrimaryObject ID="310">
+				<Type>Helicopter</Type>
+				<Name>UH-60L Black Hawk</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MH-60S</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="6">
+				<Type>Carrier</Type>
+				<Name>LHA-1 Tarawa</Name>
+				<Pilot>USS Tarawa</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>LHA Tarawa</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>96.36</Time>
+			<Location>
+				<Longitude>35.9640227</Longitude>
+				<Latitude>36.0517489</Latitude>
+				<Altitude>11.49</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="5">
+				<Type>Airport</Type>
+				<Name>Invisible FARP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>102.12</Time>
+			<Location>
+				<Longitude>35.6327595</Longitude>
+				<Latitude>36.3119821</Latitude>
+				<Altitude>21.87</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="6">
+				<Type>Carrier</Type>
+				<Name>LHA-1 Tarawa</Name>
+				<Pilot>USS Tarawa</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>LHA Tarawa</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>107.93</Time>
+			<Location>
+				<Longitude>35.6340263</Longitude>
+				<Latitude>36.3134021</Latitude>
+				<Altitude>22.33</Altitude>
+			</Location>
+			<PrimaryObject ID="310">
+				<Type>Helicopter</Type>
+				<Name>UH-60L Black Hawk</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MH-60S</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<SecondaryObject ID="6">
+				<Type>Carrier</Type>
+				<Name>LHA-1 Tarawa</Name>
+				<Pilot>USS Tarawa</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>LHA Tarawa</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>111.66</Time>
+			<Location>
+				<Longitude>35.6342355</Longitude>
+				<Latitude>36.3135772</Latitude>
+				<Altitude>22.66</Altitude>
+			</Location>
+			<PrimaryObject ID="313">
+				<Type>Helicopter</Type>
+				<Name>UH-60L Black Hawk</Name>
+				<Pilot>Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MH-60S</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="6">
+				<Type>Carrier</Type>
+				<Name>LHA-1 Tarawa</Name>
+				<Pilot>USS Tarawa</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>LHA Tarawa</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>148.73</Time>
+			<Location>
+				<Longitude>35.4221727</Longitude>
+				<Latitude>37.0055663</Latitude>
+				<Altitude>54.87</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>239.29</Time>
+			<Location>
+				<Longitude>35.6411057</Longitude>
+				<Latitude>36.3193147</Latitude>
+				<Altitude>22.66</Altitude>
+			</Location>
+			<PrimaryObject ID="315">
+				<Type>Helicopter</Type>
+				<Name>UH-60L Black Hawk</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MH-60S</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="6">
+				<Type>Carrier</Type>
+				<Name>LHA-1 Tarawa</Name>
+				<Pilot>USS Tarawa</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>LHA Tarawa</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>745.08</Time>
+			<Location>
+				<Longitude>35.6697449</Longitude>
+				<Latitude>36.3431029</Latitude>
+				<Altitude>21.83</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<SecondaryObject ID="6">
+				<Type>Carrier</Type>
+				<Name>LHA-1 Tarawa</Name>
+				<Pilot>USS Tarawa</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>LHA Tarawa</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1211.05</Time>
+			<Location>
+				<Longitude>35.4190555</Longitude>
+				<Latitude>36.9979028</Latitude>
+				<Altitude>56</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>2190.54</Time>
+			<Location>
+				<Longitude>36.5456155</Longitude>
+				<Latitude>36.3171291</Latitude>
+				<Altitude>6090.49</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>2</Occurrences>
+			<SecondaryObject ID="320">
+				<Type>Bomb</Type>
+				<Name>GBU-38 JDAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2278.58</Time>
+			<Location>
+				<Longitude>36.7826175</Longitude>
+				<Latitude>36.3538082</Latitude>
+				<Altitude>345.73</Altitude>
+			</Location>
+			<PrimaryObject ID="196">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-17-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-17</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="321">
+				<Type>Bomb</Type>
+				<Name>GBU-38 JDAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+			<ParentObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2278.68</Time>
+			<Location>
+				<Longitude>36.7824405</Longitude>
+				<Latitude>36.353947</Latitude>
+				<Altitude>344.31</Altitude>
+			</Location>
+			<PrimaryObject ID="137">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Manpad 1-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Manpad 1-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2278.68</Time>
+			<Location>
+				<Longitude>36.7824672</Longitude>
+				<Latitude>36.35396</Latitude>
+				<Altitude>344.74</Altitude>
+			</Location>
+			<PrimaryObject ID="138">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Support</Name>
+				<Pilot>Manpad 1-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Manpad 1-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2278.68</Time>
+			<Location>
+				<Longitude>36.7826175</Longitude>
+				<Latitude>36.3538082</Latitude>
+				<Altitude>345.73</Altitude>
+			</Location>
+			<PrimaryObject ID="196">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-17-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-17</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2278.68</Time>
+			<Location>
+				<Longitude>36.7825211</Longitude>
+				<Latitude>36.3538961</Latitude>
+				<Altitude>345.11</Altitude>
+			</Location>
+			<PrimaryObject ID="197">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-17-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-17</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2278.68</Time>
+			<Location>
+				<Longitude>36.7825365</Longitude>
+				<Latitude>36.3538221</Latitude>
+				<Altitude>344.92</Altitude>
+			</Location>
+			<PrimaryObject ID="198">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-17-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-17</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2278.68</Time>
+			<Location>
+				<Longitude>36.7826296</Longitude>
+				<Latitude>36.3539171</Latitude>
+				<Altitude>346.67</Altitude>
+			</Location>
+			<PrimaryObject ID="199">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-17-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-17</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2278.68</Time>
+			<Location>
+				<Longitude>36.7826427</Longitude>
+				<Latitude>36.3539148</Latitude>
+				<Altitude>346.8</Altitude>
+			</Location>
+			<PrimaryObject ID="200">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-17-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-17</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2278.68</Time>
+			<Location>
+				<Longitude>36.7825283</Longitude>
+				<Latitude>36.3538303</Latitude>
+				<Altitude>344.85</Altitude>
+			</Location>
+			<PrimaryObject ID="201">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-17-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-17</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2278.68</Time>
+			<Location>
+				<Longitude>36.7823353</Longitude>
+				<Latitude>36.3540053</Latitude>
+				<Altitude>342.99</Altitude>
+			</Location>
+			<PrimaryObject ID="224">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-29-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-29</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2278.68</Time>
+			<Location>
+				<Longitude>36.7823576</Longitude>
+				<Latitude>36.3540568</Latitude>
+				<Altitude>343.39</Altitude>
+			</Location>
+			<PrimaryObject ID="225">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-29-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-29</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2278.68</Time>
+			<Location>
+				<Longitude>36.7823173</Longitude>
+				<Latitude>36.353963</Latitude>
+				<Altitude>342.67</Altitude>
+			</Location>
+			<PrimaryObject ID="226">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-29-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-29</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2278.68</Time>
+			<Location>
+				<Longitude>36.7822924</Longitude>
+				<Latitude>36.3540292</Latitude>
+				<Altitude>342.38</Altitude>
+			</Location>
+			<PrimaryObject ID="227">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-29-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-29</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2278.68</Time>
+			<Location>
+				<Longitude>36.782334</Longitude>
+				<Latitude>36.3540583</Latitude>
+				<Altitude>343.04</Altitude>
+			</Location>
+			<PrimaryObject ID="228">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-29-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-29</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2278.68</Time>
+			<Location>
+				<Longitude>36.7823003</Longitude>
+				<Latitude>36.3540016</Latitude>
+				<Altitude>342.47</Altitude>
+			</Location>
+			<PrimaryObject ID="229">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-29-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-29</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2278.68</Time>
+			<Location>
+				<Longitude>36.7827673</Longitude>
+				<Latitude>36.3538914</Latitude>
+				<Altitude>347.97</Altitude>
+			</Location>
+			<PrimaryObject ID="230">
+				<Type>Car</Type>
+				<Name>ZIL-131 KUNG</Name>
+				<Pilot>Ground-30-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-30</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2279.65</Time>
+			<Location>
+				<Longitude>36.7825439</Longitude>
+				<Latitude>36.3539094</Latitude>
+				<Altitude>347.82</Altitude>
+			</Location>
+			<PrimaryObject ID="197">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-17-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-17</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="320">
+				<Type>Bomb</Type>
+				<Name>GBU-38 JDAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+			<ParentObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2279.76</Time>
+			<Location>
+				<Longitude>36.7825746</Longitude>
+				<Latitude>36.3538749</Latitude>
+				<Altitude>345.71</Altitude>
+			</Location>
+			<PrimaryObject ID="223">
+				<Type>SAM/AAA</Type>
+				<Name>ZU-23-2</Name>
+				<Pilot>Manpad 1-6-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Manpad 1-6</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2733.24</Time>
+			<Location>
+				<Longitude>36.6423212</Longitude>
+				<Latitude>36.3455256</Latitude>
+				<Altitude>6075.34</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="322">
+				<Type>Bomb</Type>
+				<Name>GBU-38 JDAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3065.54</Time>
+			<Location>
+				<Longitude>36.7157613</Longitude>
+				<Latitude>36.3624408</Latitude>
+				<Altitude>651.23</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>2</Occurrences>
+			<SecondaryObject ID="323">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3075.07</Time>
+			<Location>
+				<Longitude>36.7672134</Longitude>
+				<Latitude>36.3548228</Latitude>
+				<Altitude>188.17</Altitude>
+			</Location>
+			<PrimaryObject ID="280">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>3</Occurrences>
+			<SecondaryObject ID="327">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>280</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3075.16</Time>
+			<Location>
+				<Longitude>36.7664565</Longitude>
+				<Latitude>36.3545836</Latitude>
+				<Altitude>186.22</Altitude>
+			</Location>
+			<PrimaryObject ID="279">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>33</Occurrences>
+			<SecondaryObject ID="361">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39_NOtr</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>279</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3075.19</Time>
+			<Location>
+				<Longitude>36.7672259</Longitude>
+				<Latitude>36.3546227</Latitude>
+				<Altitude>188.36</Altitude>
+			</Location>
+			<PrimaryObject ID="281">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>36</Occurrences>
+			<SecondaryObject ID="357">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39_NOtr</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>281</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3075.85</Time>
+			<Location>
+				<Longitude>36.7683071</Longitude>
+				<Latitude>36.3503806</Latitude>
+				<Altitude>226.61</Altitude>
+			</Location>
+			<PrimaryObject ID="315">
+				<Type>Helicopter</Type>
+				<Name>UH-60L Black Hawk</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MH-60S</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="327">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>280</Parent>
+			</SecondaryObject>
+			<ParentObject ID="280">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3076.37</Time>
+			<Location>
+				<Longitude>36.7670825</Longitude>
+				<Latitude>36.3548126</Latitude>
+				<Altitude>187.49</Altitude>
+			</Location>
+			<PrimaryObject ID="282">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>26</Occurrences>
+			<SecondaryObject ID="344">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39_NOtr</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>282</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3076.48</Time>
+			<Location>
+				<Longitude>36.7665823</Longitude>
+				<Latitude>36.3546863</Latitude>
+				<Altitude>186.03</Altitude>
+			</Location>
+			<PrimaryObject ID="283">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>22</Occurrences>
+			<SecondaryObject ID="413">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>283</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3077.24</Time>
+			<Location>
+				<Longitude>36.7682232</Longitude>
+				<Latitude>36.3507983</Latitude>
+				<Altitude>226.08</Altitude>
+			</Location>
+			<PrimaryObject ID="315">
+				<Type>Helicopter</Type>
+				<Name>UH-60L Black Hawk</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MH-60S</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>9</Occurrences>
+			<SecondaryObject ID="344">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39_NOtr</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>282</Parent>
+			</SecondaryObject>
+			<ParentObject ID="282">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3079.84</Time>
+			<Location>
+				<Longitude>36.7678999</Longitude>
+				<Latitude>36.3514672</Latitude>
+				<Altitude>228.98</Altitude>
+			</Location>
+			<PrimaryObject ID="315">
+				<Type>Helicopter</Type>
+				<Name>UH-60L Black Hawk</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MH-60S</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>7</Occurrences>
+			<SecondaryObject ID="372">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>282</Parent>
+			</SecondaryObject>
+			<ParentObject ID="282">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3084.00</Time>
+			<Location>
+				<Longitude>36.7668946</Longitude>
+				<Latitude>36.3547194</Latitude>
+				<Altitude>186.44</Altitude>
+			</Location>
+			<PrimaryObject ID="284">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>11</Occurrences>
+			<SecondaryObject ID="433">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39_NOtr</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>284</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3084.07</Time>
+			<Location>
+				<Longitude>36.7672134</Longitude>
+				<Latitude>36.3548228</Latitude>
+				<Altitude>188.17</Altitude>
+			</Location>
+			<PrimaryObject ID="280">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>13</Occurrences>
+			<SecondaryObject ID="465">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39_NOtr</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>280</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3087.00</Time>
+			<Location>
+				<Longitude>36.7651139</Longitude>
+				<Latitude>36.3517088</Latitude>
+				<Altitude>219.05</Altitude>
+			</Location>
+			<PrimaryObject ID="315">
+				<Type>Helicopter</Type>
+				<Name>UH-60L Black Hawk</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MH-60S</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="465">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39_NOtr</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>280</Parent>
+			</SecondaryObject>
+			<ParentObject ID="280">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3091.32</Time>
+			<Location>
+				<Longitude>36.7293767</Longitude>
+				<Latitude>36.3549656</Latitude>
+				<Altitude>631.73</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>5</Occurrences>
+			<SecondaryObject ID="471">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3283.32</Time>
+			<Location>
+				<Longitude>36.7515711</Longitude>
+				<Latitude>36.3392803</Latitude>
+				<Altitude>675.45</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>20</Occurrences>
+			<SecondaryObject ID="495">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3290.29</Time>
+			<Location>
+				<Longitude>36.7672259</Longitude>
+				<Latitude>36.3546227</Latitude>
+				<Altitude>188.36</Altitude>
+			</Location>
+			<PrimaryObject ID="281">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>3</Occurrences>
+			<SecondaryObject ID="495">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3291.28</Time>
+			<Location>
+				<Longitude>36.7664565</Longitude>
+				<Latitude>36.3545836</Latitude>
+				<Altitude>186.22</Altitude>
+			</Location>
+			<PrimaryObject ID="279">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>2</Occurrences>
+			<SecondaryObject ID="501">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3291.78</Time>
+			<Location>
+				<Longitude>36.7665823</Longitude>
+				<Latitude>36.3546863</Latitude>
+				<Altitude>186.03</Altitude>
+			</Location>
+			<PrimaryObject ID="283">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="507">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3291.81</Time>
+			<Location>
+				<Longitude>36.7668946</Longitude>
+				<Latitude>36.3547194</Latitude>
+				<Altitude>186.44</Altitude>
+			</Location>
+			<PrimaryObject ID="284">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>2</Occurrences>
+			<SecondaryObject ID="509">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3292.10</Time>
+			<Location>
+				<Longitude>36.7672134</Longitude>
+				<Latitude>36.3548228</Latitude>
+				<Altitude>188.17</Altitude>
+			</Location>
+			<PrimaryObject ID="280">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>3</Occurrences>
+			<SecondaryObject ID="513">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3292.18</Time>
+			<Location>
+				<Longitude>36.7672134</Longitude>
+				<Latitude>36.3548228</Latitude>
+				<Altitude>188.17</Altitude>
+			</Location>
+			<PrimaryObject ID="280">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3292.22</Time>
+			<Location>
+				<Longitude>36.7672261</Longitude>
+				<Latitude>36.3546225</Latitude>
+				<Altitude>188.36</Altitude>
+			</Location>
+			<PrimaryObject ID="281">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="515">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3297.33</Time>
+			<Location>
+				<Longitude>36.7524414</Longitude>
+				<Latitude>36.3457165</Latitude>
+				<Altitude>683.76</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>20</Occurrences>
+			<SecondaryObject ID="521">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3301.55</Time>
+			<Location>
+				<Longitude>36.7670465</Longitude>
+				<Latitude>36.3547289</Latitude>
+				<Altitude>187.28</Altitude>
+			</Location>
+			<PrimaryObject ID="282">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>8</Occurrences>
+			<SecondaryObject ID="523">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3302.10</Time>
+			<Location>
+				<Longitude>36.7670146</Longitude>
+				<Latitude>36.354751</Latitude>
+				<Altitude>187.09</Altitude>
+			</Location>
+			<PrimaryObject ID="284">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>2</Occurrences>
+			<SecondaryObject ID="537">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3303.26</Time>
+			<Location>
+				<Longitude>36.7670156</Longitude>
+				<Latitude>36.3547493</Latitude>
+				<Altitude>187.1</Altitude>
+			</Location>
+			<PrimaryObject ID="284">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>6</Occurrences>
+			<SecondaryObject ID="541">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3303.53</Time>
+			<Location>
+				<Longitude>36.7670394</Longitude>
+				<Latitude>36.3547267</Latitude>
+				<Altitude>187.24</Altitude>
+			</Location>
+			<PrimaryObject ID="282">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>4</Occurrences>
+			<SecondaryObject ID="545">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3306.58</Time>
+			<Location>
+				<Longitude>36.7536847</Longitude>
+				<Latitude>36.3501347</Latitude>
+				<Altitude>696.36</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>10</Occurrences>
+			<SecondaryObject ID="561">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3309.29</Time>
+			<Location>
+				<Longitude>36.7663546</Longitude>
+				<Latitude>36.3546125</Latitude>
+				<Altitude>185.93</Altitude>
+			</Location>
+			<PrimaryObject ID="279">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>7</Occurrences>
+			<SecondaryObject ID="563">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3309.66</Time>
+			<Location>
+				<Longitude>36.766498</Longitude>
+				<Latitude>36.3546457</Latitude>
+				<Altitude>186.04</Altitude>
+			</Location>
+			<PrimaryObject ID="283">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>3</Occurrences>
+			<SecondaryObject ID="567">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3428.51</Time>
+			<Location>
+				<Longitude>36.7423425</Longitude>
+				<Latitude>36.3711903</Latitude>
+				<Altitude>768.69</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>10</Occurrences>
+			<SecondaryObject ID="581">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3439.14</Time>
+			<Location>
+				<Longitude>36.7675211</Longitude>
+				<Latitude>36.3543705</Latitude>
+				<Altitude>190.12</Altitude>
+			</Location>
+			<PrimaryObject ID="281">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>8</Occurrences>
+			<SecondaryObject ID="581">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3481.92</Time>
+			<Location>
+				<Longitude>36.7783679</Longitude>
+				<Latitude>36.4348446</Latitude>
+				<Altitude>5253.61</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>11</Occurrences>
+			<SecondaryObject ID="601">
+				<Type>Shell</Type>
+				<Name>weapons.shells.GAU8_30_AP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3482.65</Time>
+			<Location>
+				<Longitude>36.7774463</Longitude>
+				<Latitude>36.4342233</Latitude>
+				<Altitude>5200.64</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="612">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3483.83</Time>
+			<Location>
+				<Longitude>36.7759499</Longitude>
+				<Latitude>36.4332073</Latitude>
+				<Altitude>5108.33</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="615">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3488.53</Time>
+			<Location>
+				<Longitude>36.7697556</Longitude>
+				<Latitude>36.4288461</Latitude>
+				<Altitude>4708.28</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="626">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3489.21</Time>
+			<Location>
+				<Longitude>36.7118078</Longitude>
+				<Latitude>36.3619796</Latitude>
+				<Altitude>6062.31</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="627">
+				<Type>Bomb</Type>
+				<Name>GBU-38 JDAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3504.94</Time>
+			<Location>
+				<Longitude>36.7165067</Longitude>
+				<Latitude>36.3910988</Latitude>
+				<Altitude>198.85</Altitude>
+			</Location>
+			<PrimaryObject ID="612">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3505.77</Time>
+			<Location>
+				<Longitude>36.7146766</Longitude>
+				<Latitude>36.3909722</Latitude>
+				<Altitude>197.96</Altitude>
+			</Location>
+			<PrimaryObject ID="615">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3508.28</Time>
+			<Location>
+				<Longitude>36.7152576</Longitude>
+				<Latitude>36.3870381</Latitude>
+				<Altitude>189.84</Altitude>
+			</Location>
+			<PrimaryObject ID="626">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3544.99</Time>
+			<Location>
+				<Longitude>36.7406847</Longitude>
+				<Latitude>36.3546515</Latitude>
+				<Altitude>611.02</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="638">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3552.02</Time>
+			<Location>
+				<Longitude>36.7674211</Longitude>
+				<Latitude>36.3543642</Latitude>
+				<Altitude>189.61</Altitude>
+			</Location>
+			<PrimaryObject ID="281">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="638">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3552.02</Time>
+			<Location>
+				<Longitude>36.7674211</Longitude>
+				<Latitude>36.3543642</Latitude>
+				<Altitude>189.61</Altitude>
+			</Location>
+			<PrimaryObject ID="281">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3560.60</Time>
+			<Location>
+				<Longitude>36.8268417</Longitude>
+				<Latitude>36.3770468</Latitude>
+				<Altitude>189.62</Altitude>
+			</Location>
+			<PrimaryObject ID="4">
+				<Type>Airport</Type>
+				<Name>FARP</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="627">
+				<Type>Bomb</Type>
+				<Name>GBU-38 JDAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+			<ParentObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3641.59</Time>
+			<Location>
+				<Longitude>36.7221355</Longitude>
+				<Latitude>36.4108701</Latitude>
+				<Altitude>5330.32</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="639">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3645.94</Time>
+			<Location>
+				<Longitude>36.727027</Longitude>
+				<Latitude>36.4078656</Latitude>
+				<Altitude>5208.83</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="648">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3648.58</Time>
+			<Location>
+				<Longitude>36.7299511</Longitude>
+				<Latitude>36.4059213</Latitude>
+				<Altitude>5080.95</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="655">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3650.05</Time>
+			<Location>
+				<Longitude>36.7315648</Longitude>
+				<Latitude>36.4047925</Latitude>
+				<Altitude>4995.28</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="658">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3669.58</Time>
+			<Location>
+				<Longitude>36.7665449</Longitude>
+				<Latitude>36.3576589</Latitude>
+				<Altitude>186.71</Altitude>
+			</Location>
+			<PrimaryObject ID="277">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-37-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-37</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="658">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</SecondaryObject>
+			<ParentObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3669.59</Time>
+			<Location>
+				<Longitude>36.766546</Longitude>
+				<Latitude>36.357606</Latitude>
+				<Altitude>186.54</Altitude>
+			</Location>
+			<PrimaryObject ID="273">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-37-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-37</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3669.59</Time>
+			<Location>
+				<Longitude>36.7665682</Longitude>
+				<Latitude>36.3576574</Latitude>
+				<Altitude>186.84</Altitude>
+			</Location>
+			<PrimaryObject ID="274">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-37-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-37</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3669.59</Time>
+			<Location>
+				<Longitude>36.7665282</Longitude>
+				<Latitude>36.3575637</Latitude>
+				<Altitude>186.3</Altitude>
+			</Location>
+			<PrimaryObject ID="275">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-37-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-37</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3669.59</Time>
+			<Location>
+				<Longitude>36.7665034</Longitude>
+				<Latitude>36.3576299</Latitude>
+				<Altitude>186.37</Altitude>
+			</Location>
+			<PrimaryObject ID="276">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-37-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-37</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3669.59</Time>
+			<Location>
+				<Longitude>36.7665449</Longitude>
+				<Latitude>36.3576589</Latitude>
+				<Altitude>186.71</Altitude>
+			</Location>
+			<PrimaryObject ID="277">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-37-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-37</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3669.59</Time>
+			<Location>
+				<Longitude>36.7665111</Longitude>
+				<Latitude>36.3576023</Latitude>
+				<Altitude>186.33</Altitude>
+			</Location>
+			<PrimaryObject ID="278">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-37-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-37</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3674.51</Time>
+			<Location>
+				<Longitude>36.7980042</Longitude>
+				<Latitude>36.3559555</Latitude>
+				<Altitude>194.15</Altitude>
+			</Location>
+			<PrimaryObject ID="655">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3676.23</Time>
+			<Location>
+				<Longitude>36.8074659</Longitude>
+				<Latitude>36.3531599</Latitude>
+				<Altitude>214.77</Altitude>
+			</Location>
+			<PrimaryObject ID="648">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3682.02</Time>
+			<Location>
+				<Longitude>36.8282485</Longitude>
+				<Latitude>36.3448357</Latitude>
+				<Altitude>398.9</Altitude>
+			</Location>
+			<PrimaryObject ID="639">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3708.33</Time>
+			<Location>
+				<Longitude>36.7091831</Longitude>
+				<Latitude>36.3750486</Latitude>
+				<Altitude>5391.08</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="702">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3739.43</Time>
+			<Location>
+				<Longitude>36.82471</Longitude>
+				<Latitude>36.3788737</Latitude>
+				<Altitude>186.97</Altitude>
+			</Location>
+			<PrimaryObject ID="25">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Manpad 1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Manpad 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="702">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+			<ParentObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3739.56</Time>
+			<Location>
+				<Longitude>36.8247099</Longitude>
+				<Latitude>36.3788736</Latitude>
+				<Altitude>186.97</Altitude>
+			</Location>
+			<PrimaryObject ID="25">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Manpad 1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Manpad 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3739.56</Time>
+			<Location>
+				<Longitude>36.8247952</Longitude>
+				<Latitude>36.3789408</Latitude>
+				<Altitude>187.45</Altitude>
+			</Location>
+			<PrimaryObject ID="26">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Support</Name>
+				<Pilot>Convoy-3-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Manpad 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3739.56</Time>
+			<Location>
+				<Longitude>36.8247231</Longitude>
+				<Latitude>36.3790957</Latitude>
+				<Altitude>187.4</Altitude>
+			</Location>
+			<PrimaryObject ID="205">
+				<Type>Infantry</Type>
+				<Name>Paratrooper RPG-16</Name>
+				<Pilot>Ground-21-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-21</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3739.56</Time>
+			<Location>
+				<Longitude>36.8248615</Longitude>
+				<Latitude>36.3787014</Latitude>
+				<Altitude>187.31</Altitude>
+			</Location>
+			<PrimaryObject ID="218">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-28-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-28</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3739.56</Time>
+			<Location>
+				<Longitude>36.8247035</Longitude>
+				<Latitude>36.3790378</Latitude>
+				<Altitude>187.23</Altitude>
+			</Location>
+			<PrimaryObject ID="238">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-32-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-32</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3739.56</Time>
+			<Location>
+				<Longitude>36.8246497</Longitude>
+				<Latitude>36.3789959</Latitude>
+				<Altitude>186.93</Altitude>
+			</Location>
+			<PrimaryObject ID="241">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-32-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-32</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3739.56</Time>
+			<Location>
+				<Longitude>36.8247803</Longitude>
+				<Latitude>36.3790384</Latitude>
+				<Altitude>187.56</Altitude>
+			</Location>
+			<PrimaryObject ID="242">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-32-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-32</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3895.84</Time>
+			<Location>
+				<Longitude>36.7550077</Longitude>
+				<Latitude>36.3458379</Latitude>
+				<Altitude>493.34</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="703">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3900.58</Time>
+			<Location>
+				<Longitude>36.7668464</Longitude>
+				<Latitude>36.3547383</Latitude>
+				<Altitude>186.23</Altitude>
+			</Location>
+			<PrimaryObject ID="282">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="703">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>3900.58</Time>
+			<Location>
+				<Longitude>36.7668464</Longitude>
+				<Latitude>36.3547383</Latitude>
+				<Altitude>186.23</Altitude>
+			</Location>
+			<PrimaryObject ID="282">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3900.58</Time>
+			<Location>
+				<Longitude>36.7664396</Longitude>
+				<Latitude>36.3547337</Latitude>
+				<Altitude>185.77</Altitude>
+			</Location>
+			<PrimaryObject ID="283">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>3900.58</Time>
+			<Location>
+				<Longitude>36.766845</Longitude>
+				<Latitude>36.354718</Latitude>
+				<Altitude>186.28</Altitude>
+			</Location>
+			<PrimaryObject ID="284">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-38-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-38</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4021.36</Time>
+			<Location>
+				<Longitude>36.7061589</Longitude>
+				<Latitude>36.3967273</Latitude>
+				<Altitude>5883.21</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="704">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4055.92</Time>
+			<Location>
+				<Longitude>36.8242304</Longitude>
+				<Latitude>36.380033</Latitude>
+				<Altitude>185.42</Altitude>
+			</Location>
+			<PrimaryObject ID="164">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-12-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-12</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4055.92</Time>
+			<Location>
+				<Longitude>36.8241548</Longitude>
+				<Latitude>36.3801162</Latitude>
+				<Altitude>185.14</Altitude>
+			</Location>
+			<PrimaryObject ID="166">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-12-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-12</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4055.92</Time>
+			<Location>
+				<Longitude>36.8243013</Longitude>
+				<Latitude>36.3800126</Latitude>
+				<Altitude>185.65</Altitude>
+			</Location>
+			<PrimaryObject ID="167">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-12-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-12</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4055.92</Time>
+			<Location>
+				<Longitude>36.8242721</Longitude>
+				<Latitude>36.3798616</Latitude>
+				<Altitude>185.65</Altitude>
+			</Location>
+			<PrimaryObject ID="169">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-12-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-12</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4055.92</Time>
+			<Location>
+				<Longitude>36.8242416</Longitude>
+				<Latitude>36.3799143</Latitude>
+				<Altitude>185.52</Altitude>
+			</Location>
+			<PrimaryObject ID="206">
+				<Type>Infantry</Type>
+				<Name>Paratrooper RPG-16</Name>
+				<Pilot>Ground-22-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-22</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4055.92</Time>
+			<Location>
+				<Longitude>36.8241763</Longitude>
+				<Latitude>36.3800986</Latitude>
+				<Altitude>185.22</Altitude>
+			</Location>
+			<PrimaryObject ID="207">
+				<Type>Infantry</Type>
+				<Name>Paratrooper RPG-16</Name>
+				<Pilot>Ground-23-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-23</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4055.92</Time>
+			<Location>
+				<Longitude>36.8241756</Longitude>
+				<Latitude>36.3800563</Latitude>
+				<Altitude>185.24</Altitude>
+			</Location>
+			<PrimaryObject ID="222">
+				<Type>SAM/AAA</Type>
+				<Name>ZU-23-2</Name>
+				<Pilot>Manpad 1-5-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Manpad 1-5</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4055.95</Time>
+			<Location>
+				<Longitude>36.8241781</Longitude>
+				<Latitude>36.380062</Latitude>
+				<Altitude>186.72</Altitude>
+			</Location>
+			<PrimaryObject ID="222">
+				<Type>SAM/AAA</Type>
+				<Name>ZU-23-2</Name>
+				<Pilot>Manpad 1-5-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Manpad 1-5</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="704">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+			<ParentObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4125.97</Time>
+			<Location>
+				<Longitude>36.7676629</Longitude>
+				<Latitude>36.3562407</Latitude>
+				<Altitude>191.07</Altitude>
+			</Location>
+			<PrimaryObject ID="257">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-34-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-34</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>30</Occurrences>
+			<SecondaryObject ID="720">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>257</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4126.94</Time>
+			<Location>
+				<Longitude>36.7676463</Longitude>
+				<Latitude>36.3562815</Latitude>
+				<Altitude>191.06</Altitude>
+			</Location>
+			<PrimaryObject ID="260">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-34-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-34</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>3</Occurrences>
+			<SecondaryObject ID="715">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39_NOtr</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>260</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4127.33</Time>
+			<Location>
+				<Longitude>36.767638</Longitude>
+				<Latitude>36.3563083</Latitude>
+				<Altitude>191</Altitude>
+			</Location>
+			<PrimaryObject ID="258">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-34-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-34</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="719">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39_NOtr</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>258</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4127.48</Time>
+			<Location>
+				<Longitude>36.7676814</Longitude>
+				<Latitude>36.3562873</Latitude>
+				<Altitude>191.18</Altitude>
+			</Location>
+			<PrimaryObject ID="255">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-34-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-34</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>4</Occurrences>
+			<SecondaryObject ID="723">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39_NOtr</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>255</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4127.48</Time>
+			<Location>
+				<Longitude>36.7684867</Longitude>
+				<Latitude>36.3529143</Latitude>
+				<Altitude>243.63</Altitude>
+			</Location>
+			<PrimaryObject ID="313">
+				<Type>Helicopter</Type>
+				<Name>UH-60L Black Hawk</Name>
+				<Pilot>Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MH-60S</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>4</Occurrences>
+			<SecondaryObject ID="715">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39_NOtr</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>260</Parent>
+			</SecondaryObject>
+			<ParentObject ID="260">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-34-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-34</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4127.51</Time>
+			<Location>
+				<Longitude>36.7676463</Longitude>
+				<Latitude>36.3562815</Latitude>
+				<Altitude>191.06</Altitude>
+			</Location>
+			<PrimaryObject ID="260">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-34-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-34</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>8</Occurrences>
+			<SecondaryObject ID="721">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>257</Parent>
+			</SecondaryObject>
+			<ParentObject ID="257">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-34-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-34</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4127.81</Time>
+			<Location>
+				<Longitude>36.7676629</Longitude>
+				<Latitude>36.3562407</Latitude>
+				<Altitude>191.07</Altitude>
+			</Location>
+			<PrimaryObject ID="257">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-34-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-34</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="728">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>260</Parent>
+			</SecondaryObject>
+			<ParentObject ID="260">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-34-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-34</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4130.12</Time>
+			<Location>
+				<Longitude>36.7677056</Longitude>
+				<Latitude>36.3563358</Latitude>
+				<Altitude>191.49</Altitude>
+			</Location>
+			<PrimaryObject ID="256">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-34-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-34</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>3</Occurrences>
+			<SecondaryObject ID="740">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39_NOtr</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>256</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4131.54</Time>
+			<Location>
+				<Longitude>36.7670207</Longitude>
+				<Latitude>36.3521651</Latitude>
+				<Altitude>238.16</Altitude>
+			</Location>
+			<PrimaryObject ID="313">
+				<Type>Helicopter</Type>
+				<Name>UH-60L Black Hawk</Name>
+				<Pilot>Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MH-60S</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="745">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>255</Parent>
+			</SecondaryObject>
+			<ParentObject ID="255">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-34-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-34</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4144.57</Time>
+			<Location>
+				<Longitude>36.73125</Longitude>
+				<Latitude>36.4328275</Latitude>
+				<Altitude>5060.04</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="748">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4144.65</Time>
+			<Location>
+				<Longitude>36.7313732</Longitude>
+				<Latitude>36.4327585</Latitude>
+				<Altitude>5053.67</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="749">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4175.78</Time>
+			<Location>
+				<Longitude>36.8236273</Longitude>
+				<Latitude>36.3813929</Latitude>
+				<Altitude>183.21</Altitude>
+			</Location>
+			<PrimaryObject ID="163">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-11-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-11</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="748">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+			<ParentObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4175.81</Time>
+			<Location>
+				<Longitude>36.8236408</Longitude>
+				<Latitude>36.3812826</Latitude>
+				<Altitude>183.07</Altitude>
+			</Location>
+			<PrimaryObject ID="177">
+				<Type>SAM/AAA</Type>
+				<Name>ZU-23-2</Name>
+				<Pilot>Manpad 1-4-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Manpad 1-4</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="749">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+			<ParentObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4175.83</Time>
+			<Location>
+				<Longitude>36.8236408</Longitude>
+				<Latitude>36.3812826</Latitude>
+				<Altitude>183.07</Altitude>
+			</Location>
+			<PrimaryObject ID="177">
+				<Type>SAM/AAA</Type>
+				<Name>ZU-23-2</Name>
+				<Pilot>Manpad 1-4-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Manpad 1-4</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4175.84</Time>
+			<Location>
+				<Longitude>36.8235233</Longitude>
+				<Latitude>36.3814984</Latitude>
+				<Altitude>183.32</Altitude>
+			</Location>
+			<PrimaryObject ID="158">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-11-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-11</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4175.84</Time>
+			<Location>
+				<Longitude>36.8237702</Longitude>
+				<Latitude>36.381251</Latitude>
+				<Altitude>183.43</Altitude>
+			</Location>
+			<PrimaryObject ID="159">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-11-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-11</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4175.84</Time>
+			<Location>
+				<Longitude>36.8236162</Longitude>
+				<Latitude>36.381416</Latitude>
+				<Altitude>183.24</Altitude>
+			</Location>
+			<PrimaryObject ID="161">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-11-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-11</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4175.84</Time>
+			<Location>
+				<Longitude>36.823797</Longitude>
+				<Latitude>36.3813024</Latitude>
+				<Altitude>183.57</Altitude>
+			</Location>
+			<PrimaryObject ID="162">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-11-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-11</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4175.84</Time>
+			<Location>
+				<Longitude>36.8236273</Longitude>
+				<Latitude>36.3813929</Latitude>
+				<Altitude>183.21</Altitude>
+			</Location>
+			<PrimaryObject ID="163">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-11-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-11</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4175.87</Time>
+			<Location>
+				<Longitude>36.8234475</Longitude>
+				<Latitude>36.3815536</Latitude>
+				<Altitude>183.37</Altitude>
+			</Location>
+			<PrimaryObject ID="160">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-11-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-11</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4203.51</Time>
+			<Location>
+				<Longitude>36.7617857</Longitude>
+				<Latitude>36.3444965</Latitude>
+				<Altitude>482.03</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="750">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4208.08</Time>
+			<Location>
+				<Longitude>36.7676814</Longitude>
+				<Latitude>36.3562873</Latitude>
+				<Altitude>191.18</Altitude>
+			</Location>
+			<PrimaryObject ID="255">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-34-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-34</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="750">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4208.10</Time>
+			<Location>
+				<Longitude>36.7676814</Longitude>
+				<Latitude>36.3562873</Latitude>
+				<Altitude>191.18</Altitude>
+			</Location>
+			<PrimaryObject ID="255">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-34-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-34</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4208.10</Time>
+			<Location>
+				<Longitude>36.7677056</Longitude>
+				<Latitude>36.3563358</Latitude>
+				<Altitude>191.49</Altitude>
+			</Location>
+			<PrimaryObject ID="256">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-34-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-34</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4208.10</Time>
+			<Location>
+				<Longitude>36.7676629</Longitude>
+				<Latitude>36.3562407</Latitude>
+				<Altitude>191.07</Altitude>
+			</Location>
+			<PrimaryObject ID="257">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-34-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-34</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="260">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-34-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-34</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4208.10</Time>
+			<Location>
+				<Longitude>36.767638</Longitude>
+				<Latitude>36.3563083</Latitude>
+				<Altitude>191</Altitude>
+			</Location>
+			<PrimaryObject ID="258">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-34-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-34</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4208.10</Time>
+			<Location>
+				<Longitude>36.7676773</Longitude>
+				<Latitude>36.3563356</Latitude>
+				<Altitude>191.26</Altitude>
+			</Location>
+			<PrimaryObject ID="259">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-34-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-34</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4208.10</Time>
+			<Location>
+				<Longitude>36.7676463</Longitude>
+				<Latitude>36.3562815</Latitude>
+				<Altitude>191.06</Altitude>
+			</Location>
+			<PrimaryObject ID="260">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-34-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-34</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="257">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-34-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-34</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4329.02</Time>
+			<Location>
+				<Longitude>36.7690865</Longitude>
+				<Latitude>36.3588946</Latitude>
+				<Altitude>208.58</Altitude>
+			</Location>
+			<PrimaryObject ID="248">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-27-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-27</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>5</Occurrences>
+			<SecondaryObject ID="776">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39_NOtr</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>248</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4329.12</Time>
+			<Location>
+				<Longitude>36.769104</Longitude>
+				<Latitude>36.3588574</Latitude>
+				<Altitude>208.45</Altitude>
+			</Location>
+			<PrimaryObject ID="245">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-27-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-27</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>24</Occurrences>
+			<SecondaryObject ID="768">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39_NOtr</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>245</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4329.32</Time>
+			<Location>
+				<Longitude>36.7690783</Longitude>
+				<Latitude>36.3589206</Latitude>
+				<Altitude>208.67</Altitude>
+			</Location>
+			<PrimaryObject ID="246">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-27-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-27</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="754">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>246</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4333.58</Time>
+			<Location>
+				<Longitude>36.7693302</Longitude>
+				<Latitude>36.3553967</Latitude>
+				<Altitude>233.31</Altitude>
+			</Location>
+			<PrimaryObject ID="315">
+				<Type>Helicopter</Type>
+				<Name>UH-60L Black Hawk</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MH-60S</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>2</Occurrences>
+			<SecondaryObject ID="768">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39_NOtr</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>245</Parent>
+			</SecondaryObject>
+			<ParentObject ID="245">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-27-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-27</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4335.06</Time>
+			<Location>
+				<Longitude>36.7694676</Longitude>
+				<Latitude>36.3556982</Latitude>
+				<Altitude>230.5</Altitude>
+			</Location>
+			<PrimaryObject ID="315">
+				<Type>Helicopter</Type>
+				<Name>UH-60L Black Hawk</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MH-60S</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>4</Occurrences>
+			<SecondaryObject ID="775">
+				<Type>Shell</Type>
+				<Name>weapons.shells.5_45x39_NOtr</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>245</Parent>
+			</SecondaryObject>
+			<ParentObject ID="245">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-27-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-27</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4336.76</Time>
+			<Location>
+				<Longitude>36.7128305</Longitude>
+				<Latitude>36.4212234</Latitude>
+				<Altitude>4938.06</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="781">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4336.84</Time>
+			<Location>
+				<Longitude>36.7129688</Longitude>
+				<Latitude>36.4211726</Latitude>
+				<Altitude>4932.45</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="782">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4370.69</Time>
+			<Location>
+				<Longitude>36.8231514</Longitude>
+				<Latitude>36.3822502</Latitude>
+				<Altitude>184.33</Altitude>
+			</Location>
+			<PrimaryObject ID="156">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-10-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-10</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="781">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+			<ParentObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4370.70</Time>
+			<Location>
+				<Longitude>36.8231514</Longitude>
+				<Latitude>36.3822502</Latitude>
+				<Altitude>184.33</Altitude>
+			</Location>
+			<PrimaryObject ID="156">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-10-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-10</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="782">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+			<ParentObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4370.77</Time>
+			<Location>
+				<Longitude>36.8230309</Longitude>
+				<Latitude>36.3825181</Latitude>
+				<Altitude>184.7</Altitude>
+			</Location>
+			<PrimaryObject ID="153">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-10-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-10</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4370.77</Time>
+			<Location>
+				<Longitude>36.8230606</Longitude>
+				<Latitude>36.3824575</Latitude>
+				<Altitude>184.62</Altitude>
+			</Location>
+			<PrimaryObject ID="154">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-10-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-10</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4370.77</Time>
+			<Location>
+				<Longitude>36.8231514</Longitude>
+				<Latitude>36.3822502</Latitude>
+				<Altitude>184.33</Altitude>
+			</Location>
+			<PrimaryObject ID="156">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-10-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-10</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4370.77</Time>
+			<Location>
+				<Longitude>36.8231692</Longitude>
+				<Latitude>36.382208</Latitude>
+				<Altitude>184.27</Altitude>
+			</Location>
+			<PrimaryObject ID="157">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-10-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-10</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4370.77</Time>
+			<Location>
+				<Longitude>36.8230326</Longitude>
+				<Latitude>36.3825048</Latitude>
+				<Altitude>184.68</Altitude>
+			</Location>
+			<PrimaryObject ID="202">
+				<Type>Infantry</Type>
+				<Name>Paratrooper RPG-16</Name>
+				<Pilot>Ground-18-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-18</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4371.93</Time>
+			<Location>
+				<Longitude>36.7641739</Longitude>
+				<Latitude>36.3462468</Latitude>
+				<Altitude>506.8</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>18</Occurrences>
+			<SecondaryObject ID="783">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4375.46</Time>
+			<Location>
+				<Longitude>36.769104</Longitude>
+				<Latitude>36.3588574</Latitude>
+				<Altitude>208.45</Altitude>
+			</Location>
+			<PrimaryObject ID="245">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-27-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-27</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>9</Occurrences>
+			<SecondaryObject ID="783">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4375.46</Time>
+			<Location>
+				<Longitude>36.7691219</Longitude>
+				<Latitude>36.3588997</Latitude>
+				<Altitude>208.85</Altitude>
+			</Location>
+			<PrimaryObject ID="243">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-27-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-27</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4375.46</Time>
+			<Location>
+				<Longitude>36.769104</Longitude>
+				<Latitude>36.3588574</Latitude>
+				<Altitude>208.45</Altitude>
+			</Location>
+			<PrimaryObject ID="245">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-27-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-27</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4375.46</Time>
+			<Location>
+				<Longitude>36.7690783</Longitude>
+				<Latitude>36.3589206</Latitude>
+				<Altitude>208.67</Altitude>
+			</Location>
+			<PrimaryObject ID="246">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-27-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-27</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4375.46</Time>
+			<Location>
+				<Longitude>36.7690865</Longitude>
+				<Latitude>36.3588946</Latitude>
+				<Altitude>208.58</Altitude>
+			</Location>
+			<PrimaryObject ID="248">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-27-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-27</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4375.79</Time>
+			<Location>
+				<Longitude>36.7691172</Longitude>
+				<Latitude>36.3589488</Latitude>
+				<Altitude>208.95</Altitude>
+			</Location>
+			<PrimaryObject ID="247">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-27-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-27</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4380.48</Time>
+			<Location>
+				<Longitude>36.769228</Longitude>
+				<Latitude>36.3589979</Latitude>
+				<Altitude>209.78</Altitude>
+			</Location>
+			<PrimaryObject ID="244">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-27-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-27</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>8</Occurrences>
+			<SecondaryObject ID="803">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4465.20</Time>
+			<Location>
+				<Longitude>36.7493915</Longitude>
+				<Latitude>36.4489593</Latitude>
+				<Altitude>4563.47</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="819">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4465.27</Time>
+			<Location>
+				<Longitude>36.7494785</Longitude>
+				<Latitude>36.4488769</Latitude>
+				<Altitude>4558.63</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="820">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4497.23</Time>
+			<Location>
+				<Longitude>36.8252198</Longitude>
+				<Latitude>36.3787885</Latitude>
+				<Altitude>188.94</Altitude>
+			</Location>
+			<PrimaryObject ID="217">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-28-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-28</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="819">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+			<ParentObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4497.25</Time>
+			<Location>
+				<Longitude>36.8252198</Longitude>
+				<Latitude>36.3787885</Latitude>
+				<Altitude>188.94</Altitude>
+			</Location>
+			<PrimaryObject ID="217">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-28-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-28</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="820">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+			<ParentObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4497.30</Time>
+			<Location>
+				<Longitude>36.8256506</Longitude>
+				<Latitude>36.3789693</Latitude>
+				<Altitude>190.02</Altitude>
+			</Location>
+			<PrimaryObject ID="171">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-13-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-13</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4497.30</Time>
+			<Location>
+				<Longitude>36.8255717</Longitude>
+				<Latitude>36.3790887</Latitude>
+				<Altitude>189.76</Altitude>
+			</Location>
+			<PrimaryObject ID="173">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-13-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-13</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4497.30</Time>
+			<Location>
+				<Longitude>36.8251271</Longitude>
+				<Latitude>36.3787273</Latitude>
+				<Altitude>188.48</Altitude>
+			</Location>
+			<PrimaryObject ID="216">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-28-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-28</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4497.30</Time>
+			<Location>
+				<Longitude>36.8252198</Longitude>
+				<Latitude>36.3787885</Latitude>
+				<Altitude>188.94</Altitude>
+			</Location>
+			<PrimaryObject ID="217">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-28-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-28</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4497.30</Time>
+			<Location>
+				<Longitude>36.8252355</Longitude>
+				<Latitude>36.3787464</Latitude>
+				<Altitude>188.97</Altitude>
+			</Location>
+			<PrimaryObject ID="219">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-28-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-28</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4497.30</Time>
+			<Location>
+				<Longitude>36.8253832</Longitude>
+				<Latitude>36.3787647</Latitude>
+				<Altitude>189.39</Altitude>
+			</Location>
+			<PrimaryObject ID="220">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-28-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-28</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4497.30</Time>
+			<Location>
+				<Longitude>36.8253808</Longitude>
+				<Latitude>36.3786487</Latitude>
+				<Altitude>189.42</Altitude>
+			</Location>
+			<PrimaryObject ID="221">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-28-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-28</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4497.30</Time>
+			<Location>
+				<Longitude>36.8256396</Longitude>
+				<Latitude>36.3787841</Latitude>
+				<Altitude>190.08</Altitude>
+			</Location>
+			<PrimaryObject ID="231">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-31-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-31</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4497.30</Time>
+			<Location>
+				<Longitude>36.8255406</Longitude>
+				<Latitude>36.3787385</Latitude>
+				<Altitude>189.84</Altitude>
+			</Location>
+			<PrimaryObject ID="232">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-31-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-31</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4497.30</Time>
+			<Location>
+				<Longitude>36.8253823</Longitude>
+				<Latitude>36.3787778</Latitude>
+				<Altitude>189.38</Altitude>
+			</Location>
+			<PrimaryObject ID="233">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-31-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-31</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4497.30</Time>
+			<Location>
+				<Longitude>36.8256058</Longitude>
+				<Latitude>36.3787549</Latitude>
+				<Altitude>190</Altitude>
+			</Location>
+			<PrimaryObject ID="234">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-31-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-31</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4497.30</Time>
+			<Location>
+				<Longitude>36.8256135</Longitude>
+				<Latitude>36.3789202</Latitude>
+				<Altitude>189.93</Altitude>
+			</Location>
+			<PrimaryObject ID="235">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-31-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-31</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4497.30</Time>
+			<Location>
+				<Longitude>36.8257079</Longitude>
+				<Latitude>36.3788228</Latitude>
+				<Altitude>190.24</Altitude>
+			</Location>
+			<PrimaryObject ID="236">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-31-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-31</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4646.22</Time>
+			<Location>
+				<Longitude>36.7674351</Longitude>
+				<Latitude>36.4286907</Latitude>
+				<Altitude>4250.7</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="821">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4646.28</Time>
+			<Location>
+				<Longitude>36.7675057</Longitude>
+				<Latitude>36.4286271</Latitude>
+				<Altitude>4245.92</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="822">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4647.72</Time>
+			<Location>
+				<Longitude>36.775715</Longitude>
+				<Latitude>36.3565322</Latitude>
+				<Altitude>899.56</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="823">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4655.24</Time>
+			<Location>
+				<Longitude>36.7766001</Longitude>
+				<Latitude>36.3560722</Latitude>
+				<Altitude>908.53</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="824">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4665.77</Time>
+			<Location>
+				<Longitude>36.8289369</Longitude>
+				<Latitude>36.3781529</Latitude>
+				<Altitude>186.57</Altitude>
+			</Location>
+			<PrimaryObject ID="114">
+				<Type>SAM/AAA</Type>
+				<Name>SA-6 Gainful (LN)</Name>
+				<Pilot>SAM-SA6-CHARLIE-1-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA6-CHARLIE-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="823">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4665.90</Time>
+			<Location>
+				<Longitude>36.8289369</Longitude>
+				<Latitude>36.3781529</Latitude>
+				<Altitude>186.57</Altitude>
+			</Location>
+			<PrimaryObject ID="114">
+				<Type>SAM/AAA</Type>
+				<Name>SA-6 Gainful (LN)</Name>
+				<Pilot>SAM-SA6-CHARLIE-1-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA6-CHARLIE-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4668.63</Time>
+			<Location>
+				<Longitude>36.8248413</Longitude>
+				<Latitude>36.3788362</Latitude>
+				<Altitude>187.46</Altitude>
+			</Location>
+			<PrimaryObject ID="176">
+				<Type>SAM/AAA</Type>
+				<Name>ZU-23-2</Name>
+				<Pilot>Manpad 1-3-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Manpad 1-3</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4668.64</Time>
+			<Location>
+				<Longitude>36.8248491</Longitude>
+				<Latitude>36.3788393</Latitude>
+				<Altitude>188.63</Altitude>
+			</Location>
+			<PrimaryObject ID="176">
+				<Type>SAM/AAA</Type>
+				<Name>ZU-23-2</Name>
+				<Pilot>Manpad 1-3-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Manpad 1-3</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="821">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+			<ParentObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4668.66</Time>
+			<Location>
+				<Longitude>36.8248364</Longitude>
+				<Latitude>36.3788508</Latitude>
+				<Altitude>189.43</Altitude>
+			</Location>
+			<PrimaryObject ID="176">
+				<Type>SAM/AAA</Type>
+				<Name>ZU-23-2</Name>
+				<Pilot>Manpad 1-3-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Manpad 1-3</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="822">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+			<ParentObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4671.58</Time>
+			<Location>
+				<Longitude>36.7774828</Longitude>
+				<Latitude>36.3552</Latitude>
+				<Altitude>898.21</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="825">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4673.10</Time>
+			<Location>
+				<Longitude>36.8289278</Longitude>
+				<Latitude>36.3778846</Latitude>
+				<Altitude>187.48</Altitude>
+			</Location>
+			<PrimaryObject ID="113">
+				<Type>SAM/AAA</Type>
+				<Name>SA-6 Gainful (LN)</Name>
+				<Pilot>SAM-SA6-CHARLIE-1-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA6-CHARLIE-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="824">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4673.19</Time>
+			<Location>
+				<Longitude>36.8289455</Longitude>
+				<Latitude>36.377971</Latitude>
+				<Altitude>187.13</Altitude>
+			</Location>
+			<PrimaryObject ID="111">
+				<Type>SAM/AAA</Type>
+				<Name>SA-6 Gainful (LN)</Name>
+				<Pilot>SAM-SA6-CHARLIE-1-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA6-CHARLIE-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4680.33</Time>
+			<Location>
+				<Longitude>36.7778477</Longitude>
+				<Latitude>36.3548322</Latitude>
+				<Altitude>880.33</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="826">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4689.77</Time>
+			<Location>
+				<Longitude>36.8289052</Longitude>
+				<Latitude>36.37793</Latitude>
+				<Altitude>187.43</Altitude>
+			</Location>
+			<PrimaryObject ID="113">
+				<Type>SAM/AAA</Type>
+				<Name>SA-6 Gainful (LN)</Name>
+				<Pilot>SAM-SA6-CHARLIE-1-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA6-CHARLIE-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="825">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4689.77</Time>
+			<Location>
+				<Longitude>36.8288806</Longitude>
+				<Latitude>36.378001</Latitude>
+				<Altitude>187.31</Altitude>
+			</Location>
+			<PrimaryObject ID="112">
+				<Type>SAM/AAA</Type>
+				<Name>SA-6 Gainful (LN)</Name>
+				<Pilot>SAM-SA6-CHARLIE-1-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA6-CHARLIE-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4689.77</Time>
+			<Location>
+				<Longitude>36.8289052</Longitude>
+				<Latitude>36.37793</Latitude>
+				<Altitude>187.43</Altitude>
+			</Location>
+			<PrimaryObject ID="113">
+				<Type>SAM/AAA</Type>
+				<Name>SA-6 Gainful (LN)</Name>
+				<Pilot>SAM-SA6-CHARLIE-1-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA6-CHARLIE-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4698.15</Time>
+			<Location>
+				<Longitude>36.8286058</Longitude>
+				<Latitude>36.3782475</Latitude>
+				<Altitude>186.45</Altitude>
+			</Location>
+			<PrimaryObject ID="115">
+				<Type>Car</Type>
+				<Name>Ural-375</Name>
+				<Pilot>SAM-SA6-CHARLIE-1-7</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA6-CHARLIE-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="826">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4719.87</Time>
+			<Location>
+				<Longitude>36.7816505</Longitude>
+				<Latitude>36.3545826</Latitude>
+				<Altitude>877.54</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="827">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4736.01</Time>
+			<Location>
+				<Longitude>36.8270588</Longitude>
+				<Latitude>36.3790529</Latitude>
+				<Altitude>189.66</Altitude>
+			</Location>
+			<PrimaryObject ID="27">
+				<Type>Tank</Type>
+				<Name>MTLB</Name>
+				<Pilot>MTLB-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>MTLB</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="827">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4736.03</Time>
+			<Location>
+				<Longitude>36.8270588</Longitude>
+				<Latitude>36.3790529</Latitude>
+				<Altitude>189.66</Altitude>
+			</Location>
+			<PrimaryObject ID="27">
+				<Type>Tank</Type>
+				<Name>MTLB</Name>
+				<Pilot>MTLB-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>MTLB</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4736.03</Time>
+			<Location>
+				<Longitude>36.8271116</Longitude>
+				<Latitude>36.3790689</Latitude>
+				<Altitude>189.51</Altitude>
+			</Location>
+			<PrimaryObject ID="28">
+				<Type>Car</Type>
+				<Name>UAZ-469</Name>
+				<Pilot>Manpad 2-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Manpad 2-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4812.30</Time>
+			<Location>
+				<Longitude>36.7405624</Longitude>
+				<Latitude>36.397901</Latitude>
+				<Altitude>3895.73</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="828">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4812.34</Time>
+			<Location>
+				<Longitude>36.740624</Longitude>
+				<Latitude>36.3978867</Latitude>
+				<Altitude>3893.04</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="829">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4831.95</Time>
+			<Location>
+				<Longitude>36.8127509</Longitude>
+				<Latitude>36.3842877</Latitude>
+				<Altitude>182.65</Altitude>
+			</Location>
+			<PrimaryObject ID="828">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4835.62</Time>
+			<Location>
+				<Longitude>36.8243039</Longitude>
+				<Latitude>36.3798065</Latitude>
+				<Altitude>185.77</Altitude>
+			</Location>
+			<PrimaryObject ID="168">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-12-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-12</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="829">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+			<ParentObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4835.64</Time>
+			<Location>
+				<Longitude>36.824425</Longitude>
+				<Latitude>36.3796241</Latitude>
+				<Altitude>186.25</Altitude>
+			</Location>
+			<PrimaryObject ID="165">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-12-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-12</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4835.64</Time>
+			<Location>
+				<Longitude>36.8243039</Longitude>
+				<Latitude>36.3798065</Latitude>
+				<Altitude>185.77</Altitude>
+			</Location>
+			<PrimaryObject ID="168">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-12-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-12</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4883.43</Time>
+			<Location>
+				<Longitude>36.7986268</Longitude>
+				<Latitude>36.3521916</Latitude>
+				<Altitude>1176.25</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>10</Occurrences>
+			<SecondaryObject ID="830">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4900.90</Time>
+			<Location>
+				<Longitude>36.7988155</Longitude>
+				<Latitude>36.352092</Latitude>
+				<Altitude>1139.4</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>10</Occurrences>
+			<SecondaryObject ID="850">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4930.26</Time>
+			<Location>
+				<Longitude>36.8000543</Longitude>
+				<Latitude>36.3522181</Latitude>
+				<Altitude>1125.21</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="870">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4942.50</Time>
+			<Location>
+				<Longitude>36.8250735</Longitude>
+				<Latitude>36.37921</Latitude>
+				<Altitude>188.33</Altitude>
+			</Location>
+			<PrimaryObject ID="170">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-13-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-13</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="870">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4942.51</Time>
+			<Location>
+				<Longitude>36.8250735</Longitude>
+				<Latitude>36.37921</Latitude>
+				<Altitude>188.33</Altitude>
+			</Location>
+			<PrimaryObject ID="170">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-13-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-13</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4942.51</Time>
+			<Location>
+				<Longitude>36.8250355</Longitude>
+				<Latitude>36.3792896</Latitude>
+				<Altitude>188.2</Altitude>
+			</Location>
+			<PrimaryObject ID="172">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-13-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-13</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4942.51</Time>
+			<Location>
+				<Longitude>36.8255091</Longitude>
+				<Latitude>36.3792845</Latitude>
+				<Altitude>189.53</Altitude>
+			</Location>
+			<PrimaryObject ID="174">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-13-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-13</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4942.51</Time>
+			<Location>
+				<Longitude>36.8254991</Longitude>
+				<Latitude>36.3791743</Latitude>
+				<Altitude>189.53</Altitude>
+			</Location>
+			<PrimaryObject ID="175">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-13-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-13</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4942.51</Time>
+			<Location>
+				<Longitude>36.8247069</Longitude>
+				<Latitude>36.3792894</Latitude>
+				<Altitude>187.28</Altitude>
+			</Location>
+			<PrimaryObject ID="237">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-32-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-32</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4942.51</Time>
+			<Location>
+				<Longitude>36.8246145</Longitude>
+				<Latitude>36.3792886</Latitude>
+				<Altitude>187.02</Altitude>
+			</Location>
+			<PrimaryObject ID="239">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-32-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-32</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>4985.07</Time>
+			<Location>
+				<Longitude>36.8028405</Longitude>
+				<Latitude>36.3526985</Latitude>
+				<Altitude>1154.55</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="871">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4996.88</Time>
+			<Location>
+				<Longitude>36.8237717</Longitude>
+				<Latitude>36.3807652</Latitude>
+				<Altitude>183.69</Altitude>
+			</Location>
+			<PrimaryObject ID="208">
+				<Type>Infantry</Type>
+				<Name>Paratrooper RPG-16</Name>
+				<Pilot>Ground-24-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-24</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="871">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>4996.91</Time>
+			<Location>
+				<Longitude>36.8237717</Longitude>
+				<Latitude>36.3807652</Latitude>
+				<Altitude>183.69</Altitude>
+			</Location>
+			<PrimaryObject ID="208">
+				<Type>Infantry</Type>
+				<Name>Paratrooper RPG-16</Name>
+				<Pilot>Ground-24-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-24</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5011.65</Time>
+			<Location>
+				<Longitude>36.733428</Longitude>
+				<Latitude>36.4121251</Latitude>
+				<Altitude>3897.88</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="872">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5011.70</Time>
+			<Location>
+				<Longitude>36.7335166</Longitude>
+				<Latitude>36.412097</Latitude>
+				<Altitude>3894.42</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="873">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5036.70</Time>
+			<Location>
+				<Longitude>36.8220338</Longitude>
+				<Latitude>36.3847548</Latitude>
+				<Altitude>185.99</Altitude>
+			</Location>
+			<PrimaryObject ID="203">
+				<Type>Infantry</Type>
+				<Name>Paratrooper RPG-16</Name>
+				<Pilot>Ground-19-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-19</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="872">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+			<ParentObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>5036.72</Time>
+			<Location>
+				<Longitude>36.8220338</Longitude>
+				<Latitude>36.3847548</Latitude>
+				<Altitude>185.99</Altitude>
+			</Location>
+			<PrimaryObject ID="203">
+				<Type>Infantry</Type>
+				<Name>Paratrooper RPG-16</Name>
+				<Pilot>Ground-19-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-19</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="873">
+				<Type>Missile</Type>
+				<Name>AGR_20_M282</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>312</Parent>
+			</SecondaryObject>
+			<ParentObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>5036.74</Time>
+			<Location>
+				<Longitude>36.8220307</Longitude>
+				<Latitude>36.384926</Latitude>
+				<Altitude>185.84</Altitude>
+			</Location>
+			<PrimaryObject ID="146">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-9-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-9</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5036.74</Time>
+			<Location>
+				<Longitude>36.8222417</Longitude>
+				<Latitude>36.3846492</Latitude>
+				<Altitude>186.08</Altitude>
+			</Location>
+			<PrimaryObject ID="147">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-9-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-9</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5036.74</Time>
+			<Location>
+				<Longitude>36.8219788</Longitude>
+				<Latitude>36.3849904</Latitude>
+				<Altitude>185.78</Altitude>
+			</Location>
+			<PrimaryObject ID="148">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-9-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-9</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5036.74</Time>
+			<Location>
+				<Longitude>36.8222144</Longitude>
+				<Latitude>36.3849036</Latitude>
+				<Altitude>185.86</Altitude>
+			</Location>
+			<PrimaryObject ID="149">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-9-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-9</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5036.74</Time>
+			<Location>
+				<Longitude>36.8221085</Longitude>
+				<Latitude>36.3845286</Latitude>
+				<Altitude>186.19</Altitude>
+			</Location>
+			<PrimaryObject ID="150">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-9-5</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-9</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5036.74</Time>
+			<Location>
+				<Longitude>36.8221508</Longitude>
+				<Latitude>36.384761</Latitude>
+				<Altitude>185.98</Altitude>
+			</Location>
+			<PrimaryObject ID="151">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-9-6</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-9</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5036.74</Time>
+			<Location>
+				<Longitude>36.8220338</Longitude>
+				<Latitude>36.3847548</Latitude>
+				<Altitude>185.99</Altitude>
+			</Location>
+			<PrimaryObject ID="203">
+				<Type>Infantry</Type>
+				<Name>Paratrooper RPG-16</Name>
+				<Pilot>Ground-19-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-19</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5048.76</Time>
+			<Location>
+				<Longitude>36.8061114</Longitude>
+				<Latitude>36.3534535</Latitude>
+				<Altitude>1144.17</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="874">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5060.37</Time>
+			<Location>
+				<Longitude>36.8228335</Longitude>
+				<Latitude>36.3829992</Latitude>
+				<Altitude>185.36</Altitude>
+			</Location>
+			<PrimaryObject ID="155">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-10-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-10</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="874">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>5060.54</Time>
+			<Location>
+				<Longitude>36.8228208</Longitude>
+				<Latitude>36.3830169</Latitude>
+				<Altitude>185.39</Altitude>
+			</Location>
+			<PrimaryObject ID="152">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-10-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-10</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5060.54</Time>
+			<Location>
+				<Longitude>36.8228334</Longitude>
+				<Latitude>36.3829993</Latitude>
+				<Altitude>185.36</Altitude>
+			</Location>
+			<PrimaryObject ID="155">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-10-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-10</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5122.50</Time>
+			<Location>
+				<Longitude>36.8100757</Longitude>
+				<Latitude>36.3519072</Latitude>
+				<Altitude>1142.82</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>10</Occurrences>
+			<SecondaryObject ID="875">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5191.63</Time>
+			<Location>
+				<Longitude>36.8160411</Longitude>
+				<Latitude>36.3559267</Latitude>
+				<Altitude>1094.86</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="895">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5199.78</Time>
+			<Location>
+				<Longitude>36.8267886</Longitude>
+				<Latitude>36.3784117</Latitude>
+				<Altitude>189.63</Altitude>
+			</Location>
+			<PrimaryObject ID="118">
+				<Type>Car</Type>
+				<Name>Ural-4320</Name>
+				<Pilot>Truck1-5-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Truck1-5</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="895">
+				<Type>Missile</Type>
+				<Name>AGM_114K</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>5199.80</Time>
+			<Location>
+				<Longitude>36.8267886</Longitude>
+				<Latitude>36.3784117</Latitude>
+				<Altitude>189.63</Altitude>
+			</Location>
+			<PrimaryObject ID="118">
+				<Type>Car</Type>
+				<Name>Ural-4320</Name>
+				<Pilot>Truck1-5-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Truck1-5</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5199.80</Time>
+			<Location>
+				<Longitude>36.8268873</Longitude>
+				<Latitude>36.3784296</Latitude>
+				<Altitude>189.45</Altitude>
+			</Location>
+			<PrimaryObject ID="119">
+				<Type>Car</Type>
+				<Name>Ural-4320</Name>
+				<Pilot>Truck1-5-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Truck1-5</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5224.92</Time>
+			<Location>
+				<Longitude>36.8255164</Longitude>
+				<Latitude>36.3611062</Latitude>
+				<Altitude>1166.05</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>10</Occurrences>
+			<SecondaryObject ID="897">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5230.93</Time>
+			<Location>
+				<Longitude>36.8286058</Longitude>
+				<Latitude>36.3782475</Latitude>
+				<Altitude>186.45</Altitude>
+			</Location>
+			<PrimaryObject ID="115">
+				<Type>Car</Type>
+				<Name>Ural-375</Name>
+				<Pilot>SAM-SA6-CHARLIE-1-7</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA6-CHARLIE-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>10</Occurrences>
+			<SecondaryObject ID="897">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>5235.88</Time>
+			<Location>
+				<Longitude>36.8270701</Longitude>
+				<Latitude>36.3615526</Latitude>
+				<Altitude>1175.19</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>10</Occurrences>
+			<SecondaryObject ID="917">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5241.72</Time>
+			<Location>
+				<Longitude>36.8286058</Longitude>
+				<Latitude>36.3782475</Latitude>
+				<Altitude>186.45</Altitude>
+			</Location>
+			<PrimaryObject ID="115">
+				<Type>Car</Type>
+				<Name>Ural-375</Name>
+				<Pilot>SAM-SA6-CHARLIE-1-7</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA6-CHARLIE-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>10</Occurrences>
+			<SecondaryObject ID="917">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>5242.51</Time>
+			<Location>
+				<Longitude>36.8286058</Longitude>
+				<Latitude>36.3782475</Latitude>
+				<Altitude>186.45</Altitude>
+			</Location>
+			<PrimaryObject ID="115">
+				<Type>Car</Type>
+				<Name>Ural-375</Name>
+				<Pilot>SAM-SA6-CHARLIE-1-7</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA6-CHARLIE-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5243.07</Time>
+			<Location>
+				<Longitude>36.8275791</Longitude>
+				<Latitude>36.3618244</Latitude>
+				<Altitude>1144.92</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>10</Occurrences>
+			<SecondaryObject ID="937">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5260.60</Time>
+			<Location>
+				<Longitude>36.828945</Longitude>
+				<Latitude>36.3625993</Latitude>
+				<Altitude>981.29</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>10</Occurrences>
+			<SecondaryObject ID="957">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5265.33</Time>
+			<Location>
+				<Longitude>36.8281735</Longitude>
+				<Latitude>36.3777614</Latitude>
+				<Altitude>189.18</Altitude>
+			</Location>
+			<PrimaryObject ID="117">
+				<Type>Car</Type>
+				<Name>ATZ-10</Name>
+				<Pilot>Truck1-4-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Truck1-4</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="957">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>5265.37</Time>
+			<Location>
+				<Longitude>36.8282958</Longitude>
+				<Latitude>36.3774957</Latitude>
+				<Altitude>189.55</Altitude>
+			</Location>
+			<PrimaryObject ID="116">
+				<Type>Car</Type>
+				<Name>ATZ-10</Name>
+				<Pilot>Truck1-4-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Truck1-4</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>9</Occurrences>
+			<SecondaryObject ID="959">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>5292.41</Time>
+			<Location>
+				<Longitude>36.8350803</Longitude>
+				<Latitude>36.3637825</Latitude>
+				<Altitude>926.13</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>10</Occurrences>
+			<SecondaryObject ID="977">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5296.78</Time>
+			<Location>
+				<Longitude>36.8282958</Longitude>
+				<Latitude>36.3774957</Latitude>
+				<Altitude>189.55</Altitude>
+			</Location>
+			<PrimaryObject ID="116">
+				<Type>Car</Type>
+				<Name>ATZ-10</Name>
+				<Pilot>Truck1-4-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Truck1-4</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>9</Occurrences>
+			<SecondaryObject ID="977">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>5299.18</Time>
+			<Location>
+				<Longitude>36.8403821</Longitude>
+				<Latitude>36.3758716</Latitude>
+				<Altitude>220.76</Altitude>
+			</Location>
+			<PrimaryObject ID="139">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Manpad 1-2-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Manpad 1-2</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="997">
+				<Type>Missile</Type>
+				<Name>Igla-1E (SA-18)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>139</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5299.48</Time>
+			<Location>
+				<Longitude>36.8361408</Longitude>
+				<Latitude>36.3644438</Latitude>
+				<Altitude>909.53</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>10</Occurrences>
+			<SecondaryObject ID="998">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5303.16</Time>
+			<Location>
+				<Longitude>36.8367053</Longitude>
+				<Latitude>36.3648864</Latitude>
+				<Altitude>904.88</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="997">
+				<Type>Missile</Type>
+				<Name>Igla-1E (SA-18)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>139</Parent>
+			</SecondaryObject>
+			<ParentObject ID="139">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Manpad 1-2-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Manpad 1-2</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>5304.07</Time>
+			<Location>
+				<Longitude>36.8281735</Longitude>
+				<Latitude>36.3777614</Latitude>
+				<Altitude>189.18</Altitude>
+			</Location>
+			<PrimaryObject ID="117">
+				<Type>Car</Type>
+				<Name>ATZ-10</Name>
+				<Pilot>Truck1-4-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Truck1-4</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<Occurrences>7</Occurrences>
+			<SecondaryObject ID="998">
+				<Type>Shell</Type>
+				<Name>weapons.shells.M230_HEDP M789</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>311</Parent>
+			</SecondaryObject>
+			<ParentObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>5304.07</Time>
+			<Location>
+				<Longitude>36.8281735</Longitude>
+				<Latitude>36.3777614</Latitude>
+				<Altitude>189.18</Altitude>
+			</Location>
+			<PrimaryObject ID="117">
+				<Type>Car</Type>
+				<Name>ATZ-10</Name>
+				<Pilot>Truck1-4-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Truck1-4</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5316.16</Time>
+			<Location>
+				<Longitude>36.8403821</Longitude>
+				<Latitude>36.3758716</Latitude>
+				<Altitude>220.76</Altitude>
+			</Location>
+			<PrimaryObject ID="139">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Manpad 1-2-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Manpad 1-2</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1018">
+				<Type>Missile</Type>
+				<Name>Igla-1E (SA-18)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>139</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5319.35</Time>
+			<Location>
+				<Longitude>36.8400227</Longitude>
+				<Latitude>36.3680571</Latitude>
+				<Altitude>693.1</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="1018">
+				<Type>Missile</Type>
+				<Name>Igla-1E (SA-18)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>139</Parent>
+			</SecondaryObject>
+			<ParentObject ID="139">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Manpad 1-2-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Manpad 1-2</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>5330.11</Time>
+			<Location>
+				<Longitude>36.8401879</Longitude>
+				<Latitude>36.3695098</Latitude>
+				<Altitude>399.79</Altitude>
+			</Location>
+			<PrimaryObject ID="311">
+				<Type>Helicopter</Type>
+				<Name>AH-64D Apache Longbow</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AH-64D</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="139">
+				<Type>SAM/AAA</Type>
+				<Name>SA-18 Grouse</Name>
+				<Pilot>Manpad 1-2-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Manpad 1-2</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5494.71</Time>
+			<Location>
+				<Longitude>36.7094085</Longitude>
+				<Latitude>36.4027688</Latitude>
+				<Altitude>4723.37</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>7</Occurrences>
+			<SecondaryObject ID="1019">
+				<Type>Shell</Type>
+				<Name>weapons.shells.GAU8_30_AP</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5571.04</Time>
+			<Location>
+				<Longitude>36.6601841</Longitude>
+				<Latitude>36.3931226</Latitude>
+				<Altitude>4236.75</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1026">
+				<Type>Missile</Type>
+				<Name>AGM-65D Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5605.94</Time>
+			<Location>
+				<Longitude>36.7154296</Longitude>
+				<Latitude>36.3913301</Latitude>
+				<Altitude>3902.64</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1027">
+				<Type>Missile</Type>
+				<Name>AGM-65D Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5629.83</Time>
+			<Location>
+				<Longitude>36.8245202</Longitude>
+				<Latitude>36.3791679</Latitude>
+				<Altitude>186.8</Altitude>
+			</Location>
+			<PrimaryObject ID="240">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-32-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-32</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5629.83</Time>
+			<Location>
+				<Longitude>36.8268793</Longitude>
+				<Latitude>36.3790436</Latitude>
+				<Altitude>192.84</Altitude>
+			</Location>
+			<PrimaryObject ID="1026">
+				<Type>Missile</Type>
+				<Name>AGM-65D Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5642.45</Time>
+			<Location>
+				<Longitude>36.8257809</Longitude>
+				<Latitude>36.3787815</Latitude>
+				<Altitude>194.66</Altitude>
+			</Location>
+			<PrimaryObject ID="1027">
+				<Type>Missile</Type>
+				<Name>AGM-65D Maverick</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5758.52</Time>
+			<Location>
+				<Longitude>35.9465751</Longitude>
+				<Latitude>36.5738285</Latitude>
+				<Altitude>47.18</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+		</Event>
+		<Event>
+			<Time>5760.69</Time>
+			<Location>
+				<Longitude>35.9470162</Longitude>
+				<Latitude>36.5741352</Latitude>
+				<Altitude>42.62</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+		</Event>
+		<Event>
+			<Time>5764.77</Time>
+			<Location>
+				<Longitude>35.9477408</Longitude>
+				<Latitude>36.5746792</Latitude>
+				<Altitude>35.32</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<SecondaryObject ID="6">
+				<Type>Carrier</Type>
+				<Name>LHA-1 Tarawa</Name>
+				<Pilot>USS Tarawa</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>LHA Tarawa</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5768.86</Time>
+			<Location>
+				<Longitude>35.9483992</Longitude>
+				<Latitude>36.5751584</Latitude>
+				<Altitude>32.49</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<SecondaryObject ID="6">
+				<Type>Carrier</Type>
+				<Name>LHA-1 Tarawa</Name>
+				<Pilot>USS Tarawa</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>LHA Tarawa</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5772.94</Time>
+			<Location>
+				<Longitude>35.9489678</Longitude>
+				<Latitude>36.5755844</Latitude>
+				<Altitude>30.91</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<SecondaryObject ID="6">
+				<Type>Carrier</Type>
+				<Name>LHA-1 Tarawa</Name>
+				<Pilot>USS Tarawa</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>LHA Tarawa</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5792.98</Time>
+			<Location>
+				<Longitude>35.9504163</Longitude>
+				<Latitude>36.5763281</Latitude>
+				<Altitude>22.17</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<SecondaryObject ID="6">
+				<Type>Carrier</Type>
+				<Name>LHA-1 Tarawa</Name>
+				<Pilot>USS Tarawa</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>LHA Tarawa</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5797.05</Time>
+			<Location>
+				<Longitude>35.9507079</Longitude>
+				<Latitude>36.5765697</Latitude>
+				<Altitude>21.83</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<SecondaryObject ID="6">
+				<Type>Carrier</Type>
+				<Name>LHA-1 Tarawa</Name>
+				<Pilot>USS Tarawa</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>LHA Tarawa</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5876.08</Time>
+			<Location>
+				<Longitude>36.7578374</Longitude>
+				<Latitude>36.3330726</Latitude>
+				<Altitude>4305.49</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1028">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5877.06</Time>
+			<Location>
+				<Longitude>36.7590253</Longitude>
+				<Latitude>36.3338169</Latitude>
+				<Altitude>4248.32</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1029">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5878.28</Time>
+			<Location>
+				<Longitude>36.7605258</Longitude>
+				<Latitude>36.3347712</Latitude>
+				<Altitude>4174.38</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1030">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5879.25</Time>
+			<Location>
+				<Longitude>36.7617034</Longitude>
+				<Latitude>36.3355634</Latitude>
+				<Altitude>4116.08</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1031">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5880.44</Time>
+			<Location>
+				<Longitude>36.7631521</Longitude>
+				<Latitude>36.336585</Latitude>
+				<Altitude>4042.86</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1032">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5881.45</Time>
+			<Location>
+				<Longitude>36.764385</Longitude>
+				<Latitude>36.337457</Latitude>
+				<Altitude>3978.62</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1033">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5881.99</Time>
+			<Location>
+				<Longitude>36.765053</Longitude>
+				<Latitude>36.3379296</Latitude>
+				<Altitude>3943.7</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1034">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5898.74</Time>
+			<Location>
+				<Longitude>36.8214906</Longitude>
+				<Latitude>36.3744164</Latitude>
+				<Altitude>191.47</Altitude>
+			</Location>
+			<PrimaryObject ID="1029">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5899.49</Time>
+			<Location>
+				<Longitude>36.8190414</Longitude>
+				<Latitude>36.377498</Latitude>
+				<Altitude>182.42</Altitude>
+			</Location>
+			<PrimaryObject ID="1030">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5900.36</Time>
+			<Location>
+				<Longitude>36.8249771</Longitude>
+				<Latitude>36.3791931</Latitude>
+				<Altitude>190.77</Altitude>
+			</Location>
+			<PrimaryObject ID="1028">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5901.68</Time>
+			<Location>
+				<Longitude>36.8249748</Longitude>
+				<Latitude>36.3791925</Latitude>
+				<Altitude>190.95</Altitude>
+			</Location>
+			<PrimaryObject ID="1031">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5902.18</Time>
+			<Location>
+				<Longitude>36.8250157</Longitude>
+				<Latitude>36.3792196</Latitude>
+				<Altitude>188.63</Altitude>
+			</Location>
+			<PrimaryObject ID="1032">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5902.59</Time>
+			<Location>
+				<Longitude>36.8249861</Longitude>
+				<Latitude>36.3791997</Latitude>
+				<Altitude>190.34</Altitude>
+			</Location>
+			<PrimaryObject ID="1033">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5902.78</Time>
+			<Location>
+				<Longitude>36.8249839</Longitude>
+				<Latitude>36.3791983</Latitude>
+				<Altitude>190.51</Altitude>
+			</Location>
+			<PrimaryObject ID="1034">
+				<Type>Missile</Type>
+				<Name>AGR_20A</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>5959.60</Time>
+			<Location>
+				<Longitude>35.9602894</Longitude>
+				<Latitude>36.5842651</Latitude>
+				<Altitude>21.83</Altitude>
+			</Location>
+			<PrimaryObject ID="312">
+				<Type>Aircraft</Type>
+				<Name>AV-8B Harrier II NA</Name>
+				<Pilot>Endo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AV-8B</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<SecondaryObject ID="6">
+				<Type>Carrier</Type>
+				<Name>LHA-1 Tarawa</Name>
+				<Pilot>USS Tarawa</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>LHA Tarawa</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5979.73</Time>
+			<Location>
+				<Longitude>35.963545</Longitude>
+				<Latitude>36.0514588</Latitude>
+				<Altitude>11.46</Altitude>
+			</Location>
+			<PrimaryObject ID="313">
+				<Type>Helicopter</Type>
+				<Name>UH-60L Black Hawk</Name>
+				<Pilot>Tigershark | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MH-60S</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="255">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-34-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-34</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>6000.13</Time>
+			<Location>
+				<Longitude>36.6678925</Longitude>
+				<Latitude>36.4421605</Latitude>
+				<Altitude>4304.03</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>4</Occurrences>
+			<SecondaryObject ID="1048">
+				<Type>Bomb</Type>
+				<Name>GBU-12 Paveway II</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>314</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>6085.66</Time>
+			<Location>
+				<Longitude>35.9640175</Longitude>
+				<Latitude>36.0511318</Latitude>
+				<Altitude>11.72</Altitude>
+			</Location>
+			<PrimaryObject ID="315">
+				<Type>Helicopter</Type>
+				<Name>UH-60L Black Hawk</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>MH-60S</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="245">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>Ground-27-3</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>Ground-27</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>6823.09</Time>
+			<Location>
+				<Longitude>35.4186826</Longitude>
+				<Latitude>36.9977077</Latitude>
+				<Altitude>55.63</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>6833.98</Time>
+			<Location>
+				<Longitude>35.4181757</Longitude>
+				<Latitude>36.9973559</Latitude>
+				<Altitude>54.96</Altitude>
+			</Location>
+			<PrimaryObject ID="314">
+				<Type>Aircraft</Type>
+				<Name>A-10C Thunderbolt II</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>A-10C 74th</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>7179.89</Time>
+			<Location>
+				<Longitude>35.461065</Longitude>
+				<Latitude>36.9900453</Latitude>
+				<Altitude>4996.41</Altitude>
+			</Location>
+			<PrimaryObject ID="1060">
+				<Type>Parachutist</Type>
+				<Name>Parachutist</Name>
+				<Country>us</Country>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>7192.57</Time>
+			<Location>
+				<Longitude>35.3994358</Longitude>
+				<Latitude>37.0106056</Latitude>
+				<Altitude>54.82</Altitude>
+			</Location>
+			<PrimaryObject ID="289">
+				<Type>Aircraft</Type>
+				<Name>F-15C Eagle</Name>
+				<Pilot>Tanker Escort F-15C</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>Tanker Escort F-15C</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>15229.08</Time>
+			<Location>
+				<Longitude>35.9503585</Longitude>
+				<Latitude>35.4050679</Latitude>
+				<Altitude>32.41</Altitude>
+			</Location>
+			<PrimaryObject ID="285">
+				<Type>Aircraft</Type>
+				<Name>KC-135 Stratotanker</Name>
+				<Pilot>Texaco</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>Texaco</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:OSLK">
+				<Name>Bassel Al-Assad</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>17276.66</Time>
+			<Location>
+				<Longitude>35.9536</Longitude>
+				<Latitude>35.4050482</Latitude>
+				<Altitude>34.36</Altitude>
+			</Location>
+			<PrimaryObject ID="285">
+				<Type>Aircraft</Type>
+				<Name>KC-135 Stratotanker</Name>
+				<Pilot>Texaco</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>Texaco</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:OSLK">
+				<Name>Bassel Al-Assad</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>18521.80</Time>
+			<Location>
+				<Longitude>35.950257</Longitude>
+				<Latitude>35.4035672</Latitude>
+				<Altitude>30.95</Altitude>
+			</Location>
+			<PrimaryObject ID="291">
+				<Type>Aircraft</Type>
+				<Name>F-15C Eagle</Name>
+				<Pilot>Tanker Escort F-15C-1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>Tanker Escort F-15C-1</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:OSLK">
+				<Name>Bassel Al-Assad</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>20906.66</Time>
+			<Location>
+				<Longitude>35.9505586</Longitude>
+				<Latitude>35.4130383</Latitude>
+				<Altitude>30.54</Altitude>
+			</Location>
+			<PrimaryObject ID="291">
+				<Type>Aircraft</Type>
+				<Name>F-15C Eagle</Name>
+				<Pilot>Tanker Escort F-15C-1-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>Tanker Escort F-15C-1</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:OSLK">
+				<Name>Bassel Al-Assad</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>21070.78</Time>
+			<Location>
+				<Longitude>35.356451</Longitude>
+				<Latitude>37.0035457</Latitude>
+				<Altitude>489.5</Altitude>
+			</Location>
+			<PrimaryObject ID="288">
+				<Type>Aircraft</Type>
+				<Name>F-15C Eagle</Name>
+				<Pilot>AWACS Escort F-15C-2</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AWACS Escort F-15C-2</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1069">
+				<Type>Parachutist</Type>
+				<Name>Parachutist</Name>
+				<Country>us</Country>
+				<Parent>288</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>21076.94</Time>
+			<Location>
+				<Longitude>35.360032</Longitude>
+				<Latitude>37.0073143</Latitude>
+				<Altitude>40.08</Altitude>
+			</Location>
+			<PrimaryObject ID="288">
+				<Type>Aircraft</Type>
+				<Name>F-15C Eagle</Name>
+				<Pilot>AWACS Escort F-15C-2</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AWACS Escort F-15C-2</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>23299.45</Time>
+			<Location>
+				<Longitude>35.4182433</Longitude>
+				<Latitude>36.9972879</Latitude>
+				<Altitude>56.44</Altitude>
+			</Location>
+			<PrimaryObject ID="290">
+				<Type>Aircraft</Type>
+				<Name>KC-135 Stratotanker</Name>
+				<Pilot>Arco</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>Arco</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>24014.76</Time>
+			<Location>
+				<Longitude>35.3656871</Longitude>
+				<Latitude>36.9953266</Latitude>
+				<Altitude>540.29</Altitude>
+			</Location>
+			<PrimaryObject ID="287">
+				<Type>Aircraft</Type>
+				<Name>F-15C Eagle</Name>
+				<Pilot>AWACS Escort F-15C-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AWACS Escort F-15C-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="1075">
+				<Type>Parachutist</Type>
+				<Name>Parachutist</Name>
+				<Country>us</Country>
+				<Parent>287</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>24022.11</Time>
+			<Location>
+				<Longitude>35.3638292</Longitude>
+				<Latitude>36.989495</Latitude>
+				<Altitude>23.56</Altitude>
+			</Location>
+			<PrimaryObject ID="287">
+				<Type>Aircraft</Type>
+				<Name>F-15C Eagle</Name>
+				<Pilot>AWACS Escort F-15C-1</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>AWACS Escort F-15C-1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>25471.28</Time>
+			<Location>
+				<Longitude>35.4154215</Longitude>
+				<Latitude>36.9911167</Latitude>
+				<Altitude>51.53</Altitude>
+			</Location>
+			<PrimaryObject ID="290">
+				<Type>Aircraft</Type>
+				<Name>KC-135 Stratotanker</Name>
+				<Pilot>Arco</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>Arco</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>33779.63</Time>
+			<Location>
+				<Longitude>35.4184333</Longitude>
+				<Latitude>36.9974032</Latitude>
+				<Altitude>56.66</Altitude>
+			</Location>
+			<PrimaryObject ID="286">
+				<Type>Aircraft</Type>
+				<Name>E-3A Sentry</Name>
+				<Pilot>Overlord AWACS</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>Overlord AWACS</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>35966.27</Time>
+			<Location>
+				<Longitude>35.4154215</Longitude>
+				<Latitude>36.9911168</Latitude>
+				<Altitude>51.54</Altitude>
+			</Location>
+			<PrimaryObject ID="286">
+				<Type>Aircraft</Type>
+				<Name>E-3A Sentry</Name>
+				<Pilot>Overlord AWACS</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>Overlord AWACS</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+	</Events>
+</TacviewDebriefing>
