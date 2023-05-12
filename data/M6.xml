@@ -1,0 +1,1797 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TacviewDebriefing Version="1.2.6">
+	<!--Flight Recording Properties-->
+	<FlightRecording>
+		<Source>DCS 2.8.3.37854</Source>
+		<Recorder>DCS2ACMI 1.8.6.200</Recorder>
+		<RecordingTime>2023-03-21T09:23:40.249Z</RecordingTime>
+		<Author>DivideByZeroError</Author>
+	</FlightRecording>
+	<!--Mission Properties-->
+	<Mission>
+		<Title>Op_Sand_Scorpion_-_Part_6_v2.1</Title>
+		<MissionTime>2023-06-01T16:15:00Z</MissionTime>
+		<Duration>5710.16</Duration>
+		<Comments>The initial strike on Russian forces in Syria has shad an impact. Russian forces retreated all air assets to Jira and abondoned Alleppo and Kuweires.
+
+They also have increased their IADS effectiveness by switching Syrian personnel for Russian.
+
+For this followup strike we are seeking to  push Russia farther East and eventually force them out of Syria. To accomplish this we have 3 missions for this stage of the op.
+
+The 3 objectives are:
+
+Destroy Allepo Airfield
+=========================
+Prevent the use of this airfield for any Russian counter offensive.
+
+Destroy Russian PMC laying seige to town
+==============================
+The Wagner group has a town east of Minakh surrounded and laying seige to it. Conditions are worsening so the decision has been made to send a message to Russian assets of all kinds.
+
+Capture Russian Helo FARP
+===========================
+Capture a helo base within Syria to create a launch point for a new ground phase of the war.</Comments>
+	</Mission>
+	<!--Flight Log-->
+	<Events>
+		<Event>
+			<Time>15.87</Time>
+			<Location>
+				<Longitude>35.2274418</Longitude>
+				<Latitude>35.5722712</Latitude>
+				<Altitude>22.01</Altitude>
+			</Location>
+			<PrimaryObject ID="161">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>ASPEN | 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1st Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-71 Theodore Roosevelt</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-71</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>18.84</Time>
+			<Location>
+				<Longitude>35.2274418</Longitude>
+				<Latitude>35.5722734</Latitude>
+				<Altitude>22</Altitude>
+			</Location>
+			<PrimaryObject ID="162">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF Cypher | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C - 2nd Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-71 Theodore Roosevelt</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-71</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>22.00</Time>
+			<Location>
+				<Longitude>35.4276868</Longitude>
+				<Latitude>36.9993061</Latitude>
+				<Altitude>60.12</Altitude>
+			</Location>
+			<PrimaryObject ID="163">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>37.16</Time>
+			<Location>
+				<Longitude>35.4284279</Longitude>
+				<Latitude>36.9985055</Latitude>
+				<Altitude>60.12</Altitude>
+			</Location>
+			<PrimaryObject ID="164">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>93.24</Time>
+			<Location>
+				<Longitude>35.2266619</Longitude>
+				<Latitude>35.5743626</Latitude>
+				<Altitude>22.01</Altitude>
+			</Location>
+			<PrimaryObject ID="165">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1st Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-71 Theodore Roosevelt</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-71</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>122.86</Time>
+			<Location>
+				<Longitude>35.2266476</Longitude>
+				<Latitude>35.5753507</Latitude>
+				<Altitude>22</Altitude>
+			</Location>
+			<PrimaryObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C - 2nd Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-71 Theodore Roosevelt</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-71</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>145.32</Time>
+			<Location>
+				<Longitude>35.2273824</Longitude>
+				<Latitude>35.5763512</Latitude>
+				<Altitude>22</Altitude>
+			</Location>
+			<PrimaryObject ID="167">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C - 2nd Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-71 Theodore Roosevelt</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-71</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>159.48</Time>
+			<Location>
+				<Longitude>35.4280662</Longitude>
+				<Latitude>36.9989072</Latitude>
+				<Altitude>60.12</Altitude>
+			</Location>
+			<PrimaryObject ID="168">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>358.94</Time>
+			<Location>
+				<Longitude>35.227269</Longitude>
+				<Latitude>35.5841453</Latitude>
+				<Altitude>22</Altitude>
+			</Location>
+			<PrimaryObject ID="169">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1st Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-71 Theodore Roosevelt</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-71</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>509.56</Time>
+			<Location>
+				<Longitude>35.4161361</Longitude>
+				<Latitude>36.9932996</Latitude>
+				<Altitude>50.12</Altitude>
+			</Location>
+			<PrimaryObject ID="163">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>513.58</Time>
+			<Location>
+				<Longitude>35.4154815</Longitude>
+				<Latitude>36.992902</Latitude>
+				<Altitude>49.56</Altitude>
+			</Location>
+			<PrimaryObject ID="163">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>528.08</Time>
+			<Location>
+				<Longitude>35.4161594</Longitude>
+				<Latitude>36.9932792</Latitude>
+				<Altitude>50.11</Altitude>
+			</Location>
+			<PrimaryObject ID="164">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>532.15</Time>
+			<Location>
+				<Longitude>35.4156252</Longitude>
+				<Latitude>36.99293</Latitude>
+				<Altitude>49.55</Altitude>
+			</Location>
+			<PrimaryObject ID="164">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>562.97</Time>
+			<Location>
+				<Longitude>35.4161535</Longitude>
+				<Latitude>36.9932792</Latitude>
+				<Altitude>50.12</Altitude>
+			</Location>
+			<PrimaryObject ID="168">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>567.01</Time>
+			<Location>
+				<Longitude>35.4156384</Longitude>
+				<Latitude>36.9929718</Latitude>
+				<Altitude>49.55</Altitude>
+			</Location>
+			<PrimaryObject ID="168">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>633.34</Time>
+			<Location>
+				<Longitude>35.2268845</Longitude>
+				<Latitude>35.5960485</Latitude>
+				<Altitude>21.97</Altitude>
+			</Location>
+			<PrimaryObject ID="165">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1st Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-71 Theodore Roosevelt</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-71</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>644.62</Time>
+			<Location>
+				<Longitude>35.2264763</Longitude>
+				<Latitude>35.595581</Latitude>
+				<Altitude>22.05</Altitude>
+			</Location>
+			<PrimaryObject ID="167">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C - 2nd Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-71 Theodore Roosevelt</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-71</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>655.59</Time>
+			<Location>
+				<Longitude>35.4159343</Longitude>
+				<Latitude>36.9959939</Latitude>
+				<Altitude>51.87</Altitude>
+			</Location>
+			<PrimaryObject ID="163">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>661.50</Time>
+			<Location>
+				<Longitude>35.2266511</Longitude>
+				<Latitude>35.5970858</Latitude>
+				<Altitude>22.06</Altitude>
+			</Location>
+			<PrimaryObject ID="161">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>ASPEN | 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1st Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-71 Theodore Roosevelt</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-71</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>672.51</Time>
+			<Location>
+				<Longitude>35.4175784</Longitude>
+				<Latitude>36.9967918</Latitude>
+				<Altitude>53.68</Altitude>
+			</Location>
+			<PrimaryObject ID="168">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>684.33</Time>
+			<Location>
+				<Longitude>35.4166776</Longitude>
+				<Latitude>36.9964518</Latitude>
+				<Altitude>52.73</Altitude>
+			</Location>
+			<PrimaryObject ID="164">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>718.42</Time>
+			<Location>
+				<Longitude>35.2263286</Longitude>
+				<Latitude>35.598149</Latitude>
+				<Altitude>22.02</Altitude>
+			</Location>
+			<PrimaryObject ID="162">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF Cypher | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C - 2nd Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-71 Theodore Roosevelt</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-71</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>888.09</Time>
+			<Location>
+				<Longitude>35.2267511</Longitude>
+				<Latitude>35.605447</Latitude>
+				<Altitude>22.06</Altitude>
+			</Location>
+			<PrimaryObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C - 2nd Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-71 Theodore Roosevelt</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-71</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>958.85</Time>
+			<Location>
+				<Longitude>35.2264919</Longitude>
+				<Latitude>35.6080665</Latitude>
+				<Altitude>21.97</Altitude>
+			</Location>
+			<PrimaryObject ID="169">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1st Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-71 Theodore Roosevelt</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-71</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1333.55</Time>
+			<Location>
+				<Longitude>36.7536277</Longitude>
+				<Latitude>36.0587151</Latitude>
+				<Altitude>7054.37</Altitude>
+			</Location>
+			<PrimaryObject ID="163">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="192">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>163</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1336.47</Time>
+			<Location>
+				<Longitude>36.7643371</Longitude>
+				<Latitude>36.0565911</Latitude>
+				<Altitude>7064.13</Altitude>
+			</Location>
+			<PrimaryObject ID="163">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="193">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>163</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1337.22</Time>
+			<Location>
+				<Longitude>37.0592102</Longitude>
+				<Latitude>35.9669422</Latitude>
+				<Altitude>8030.52</Altitude>
+			</Location>
+			<PrimaryObject ID="19">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>Aerial-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RedCAP 1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="194">
+				<Type>Missile</Type>
+				<Name>R-77 (AA-12 Adder)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>19</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1346.84</Time>
+			<Location>
+				<Longitude>36.7422478</Longitude>
+				<Latitude>36.3019528</Latitude>
+				<Altitude>8759.78</Altitude>
+			</Location>
+			<PrimaryObject ID="164">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="201">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>164</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1353.78</Time>
+			<Location>
+				<Longitude>37.0694869</Longitude>
+				<Latitude>36.1271459</Latitude>
+				<Altitude>8922.64</Altitude>
+			</Location>
+			<PrimaryObject ID="18">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>Aerial-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RedCAP 1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="235">
+				<Type>Missile</Type>
+				<Name>R-77 (AA-12 Adder)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>18</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1364.12</Time>
+			<Location>
+				<Longitude>36.7847296</Longitude>
+				<Latitude>36.0360917</Latitude>
+				<Altitude>8626.86</Altitude>
+			</Location>
+			<PrimaryObject ID="168">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="263">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>168</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1369.60</Time>
+			<Location>
+				<Longitude>37.0174798</Longitude>
+				<Latitude>35.9902596</Latitude>
+				<Altitude>3689.55</Altitude>
+			</Location>
+			<PrimaryObject ID="19">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>Aerial-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RedCAP 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="192">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>163</Parent>
+			</SecondaryObject>
+			<ParentObject ID="163">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>1369.71</Time>
+			<Location>
+				<Longitude>37.0173095</Longitude>
+				<Latitude>35.9902532</Latitude>
+				<Altitude>3677.62</Altitude>
+			</Location>
+			<PrimaryObject ID="19">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>Aerial-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RedCAP 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="163">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1372.23</Time>
+			<Location>
+				<Longitude>37.0377701</Longitude>
+				<Latitude>36.1135117</Latitude>
+				<Altitude>7419.02</Altitude>
+			</Location>
+			<PrimaryObject ID="18">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>Aerial-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RedCAP 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="193">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>163</Parent>
+			</SecondaryObject>
+			<ParentObject ID="163">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>1372.32</Time>
+			<Location>
+				<Longitude>37.0377377</Longitude>
+				<Latitude>36.113374</Latitude>
+				<Altitude>7407.22</Altitude>
+			</Location>
+			<PrimaryObject ID="18">
+				<Type>Aircraft</Type>
+				<Name>MiG-29S Fulcrum-C</Name>
+				<Pilot>Aerial-1-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>RedCAP 1</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="163">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1372.78</Time>
+			<Location>
+				<Longitude>37.0117035</Longitude>
+				<Latitude>35.990029</Latitude>
+				<Altitude>3224.23</Altitude>
+			</Location>
+			<PrimaryObject ID="283">
+				<Type>Parachutist</Type>
+				<Name>Parachutist</Name>
+				<Country>ru</Country>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>1389.16</Time>
+			<Location>
+				<Longitude>36.9644642</Longitude>
+				<Latitude>35.9883095</Latitude>
+				<Altitude>277.66</Altitude>
+			</Location>
+			<PrimaryObject ID="263">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>168</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>1401.16</Time>
+			<Location>
+				<Longitude>36.794357</Longitude>
+				<Latitude>36.1001227</Latitude>
+				<Altitude>3135.03</Altitude>
+			</Location>
+			<PrimaryObject ID="194">
+				<Type>Missile</Type>
+				<Name>R-77 (AA-12 Adder)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>19</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>1401.43</Time>
+			<Location>
+				<Longitude>37.0181476</Longitude>
+				<Latitude>36.1229321</Latitude>
+				<Altitude>301.07</Altitude>
+			</Location>
+			<PrimaryObject ID="201">
+				<Type>Missile</Type>
+				<Name>AIM-120C AMRAAM</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>164</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>1410.05</Time>
+			<Location>
+				<Longitude>37.0362483</Longitude>
+				<Latitude>36.1037445</Latitude>
+				<Altitude>4996.11</Altitude>
+			</Location>
+			<PrimaryObject ID="316">
+				<Type>Parachutist</Type>
+				<Name>Parachutist</Name>
+			</PrimaryObject>
+			<Action>HasEnteredTheArea</Action>
+		</Event>
+		<Event>
+			<Time>1418.68</Time>
+			<Location>
+				<Longitude>36.8146434</Longitude>
+				<Latitude>36.2839867</Latitude>
+				<Altitude>693.45</Altitude>
+			</Location>
+			<PrimaryObject ID="235">
+				<Type>Missile</Type>
+				<Name>R-77 (AA-12 Adder)</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>18</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>1740.86</Time>
+			<Location>
+				<Longitude>37.4252808</Longitude>
+				<Latitude>35.9796609</Latitude>
+				<Altitude>575.16</Altitude>
+			</Location>
+			<PrimaryObject ID="54">
+				<Type>SAM/AAA</Type>
+				<Name>SA-11 Gadfly (LN)</Name>
+				<Pilot>SAM-SA11-RESBASE-1-4</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA11-RESBASE-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="319">
+				<Type>Missile</Type>
+				<Name>SA9M38M1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>54</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>1794.99</Time>
+			<Location>
+				<Longitude>37.2163449</Longitude>
+				<Latitude>36.156582</Latitude>
+				<Altitude>5223.94</Altitude>
+			</Location>
+			<PrimaryObject ID="319">
+				<Type>Missile</Type>
+				<Name>SA9M38M1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>54</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2283.65</Time>
+			<Location>
+				<Longitude>37.7709002</Longitude>
+				<Latitude>36.1568659</Latitude>
+				<Altitude>12700.02</Altitude>
+			</Location>
+			<PrimaryObject ID="162">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF Cypher | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C - 2nd Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="328">
+				<Type>Bomb</Type>
+				<Name>GBU_31_V_4B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>162</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2289.14</Time>
+			<Location>
+				<Longitude>37.7229833</Longitude>
+				<Latitude>36.1813581</Latitude>
+				<Altitude>11219.7</Altitude>
+			</Location>
+			<PrimaryObject ID="165">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1st Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>2</Occurrences>
+			<SecondaryObject ID="329">
+				<Type>Bomb</Type>
+				<Name>GBU_31_V_3B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>165</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2291.17</Time>
+			<Location>
+				<Longitude>37.7905447</Longitude>
+				<Latitude>36.1472202</Latitude>
+				<Altitude>12715.37</Altitude>
+			</Location>
+			<PrimaryObject ID="162">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF Cypher | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C - 2nd Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="330">
+				<Type>Bomb</Type>
+				<Name>GBU_31_V_4B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>162</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2299.09</Time>
+			<Location>
+				<Longitude>37.7035992</Longitude>
+				<Latitude>36.1858643</Latitude>
+				<Altitude>11133.52</Altitude>
+			</Location>
+			<PrimaryObject ID="169">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1st Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="332">
+				<Type>Bomb</Type>
+				<Name>GBU_31_V_4B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>169</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2305.80</Time>
+			<Location>
+				<Longitude>37.724542</Longitude>
+				<Latitude>36.1772676</Latitude>
+				<Altitude>11133.07</Altitude>
+			</Location>
+			<PrimaryObject ID="169">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1st Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="333">
+				<Type>Bomb</Type>
+				<Name>GBU_31_V_4B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>169</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2308.58</Time>
+			<Location>
+				<Longitude>37.8470039</Longitude>
+				<Latitude>36.1418995</Latitude>
+				<Altitude>11484.3</Altitude>
+			</Location>
+			<PrimaryObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C - 2nd Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<Occurrences>2</Occurrences>
+			<SecondaryObject ID="334">
+				<Type>Bomb</Type>
+				<Name>GBU_31_V_4B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2345.47</Time>
+			<Location>
+				<Longitude>37.7556602</Longitude>
+				<Latitude>36.1661117</Latitude>
+				<Altitude>11273.21</Altitude>
+			</Location>
+			<PrimaryObject ID="167">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C - 2nd Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="336">
+				<Type>Bomb</Type>
+				<Name>GBU_31_V_4B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>167</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2354.68</Time>
+			<Location>
+				<Longitude>37.949745</Longitude>
+				<Latitude>36.0981511</Latitude>
+				<Altitude>356.52</Altitude>
+			</Location>
+			<PrimaryObject ID="132">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>SAM-SA11-RESBASE-3-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA11-RESBASE-3</Group>
+			</PrimaryObject>
+			<Action>HasBeenHitBy</Action>
+			<SecondaryObject ID="334">
+				<Type>Bomb</Type>
+				<Name>GBU_31_V_4B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>166</Parent>
+			</SecondaryObject>
+			<ParentObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C - 2nd Naval SQN</Group>
+			</ParentObject>
+		</Event>
+		<Event>
+			<Time>2354.68</Time>
+			<Location>
+				<Longitude>37.949745</Longitude>
+				<Latitude>36.0981511</Latitude>
+				<Altitude>356.52</Altitude>
+			</Location>
+			<PrimaryObject ID="132">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>SAM-SA11-RESBASE-3-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA11-RESBASE-3</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+			<SecondaryObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C - 2nd Naval SQN</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2354.68</Time>
+			<Location>
+				<Longitude>37.9501695</Longitude>
+				<Latitude>36.0984428</Latitude>
+				<Altitude>356.66</Altitude>
+			</Location>
+			<PrimaryObject ID="133">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>SAM-SA11-RESBASE-4-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA11-RESBASE-4</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2354.68</Time>
+			<Location>
+				<Longitude>37.9503938</Longitude>
+				<Latitude>36.0986258</Latitude>
+				<Altitude>356.74</Altitude>
+			</Location>
+			<PrimaryObject ID="134">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>SAM-SA11-RESBASE-5-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA11-RESBASE-5</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2354.68</Time>
+			<Location>
+				<Longitude>37.9505076</Longitude>
+				<Latitude>36.0987272</Latitude>
+				<Altitude>356.77</Altitude>
+			</Location>
+			<PrimaryObject ID="135">
+				<Type>Infantry</Type>
+				<Name>Infantry AK</Name>
+				<Pilot>SAM-SA11-RESBASE-6-1</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA11-RESBASE-6</Group>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>2358.94</Time>
+			<Location>
+				<Longitude>37.797669</Longitude>
+				<Latitude>36.1493585</Latitude>
+				<Altitude>11351.93</Altitude>
+			</Location>
+			<PrimaryObject ID="167">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C - 2nd Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="337">
+				<Type>Bomb</Type>
+				<Name>GBU_31_V_4B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>167</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2370.98</Time>
+			<Location>
+				<Longitude>37.7773262</Longitude>
+				<Latitude>36.1483068</Latitude>
+				<Altitude>10222.81</Altitude>
+			</Location>
+			<PrimaryObject ID="161">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>ASPEN | 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1st Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="338">
+				<Type>Bomb</Type>
+				<Name>GBU_31_V_3B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>161</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2377.39</Time>
+			<Location>
+				<Longitude>37.7918277</Longitude>
+				<Latitude>36.1414737</Latitude>
+				<Altitude>10190.39</Altitude>
+			</Location>
+			<PrimaryObject ID="161">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>ASPEN | 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1st Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="339">
+				<Type>Bomb</Type>
+				<Name>GBU_31_V_3B</Name>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Parent>161</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2585.57</Time>
+			<Location>
+				<Longitude>37.4270679</Longitude>
+				<Latitude>35.9805645</Latitude>
+				<Altitude>566.08</Altitude>
+			</Location>
+			<PrimaryObject ID="52">
+				<Type>SAM/AAA</Type>
+				<Name>SA-11 Gadfly (LN)</Name>
+				<Pilot>SAM-SA11-RESBASE-1-2</Pilot>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Group>SAM-SA11-RESBASE-1</Group>
+			</PrimaryObject>
+			<Action>HasFired</Action>
+			<SecondaryObject ID="344">
+				<Type>Missile</Type>
+				<Name>SA9M38M1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>52</Parent>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>2623.63</Time>
+			<Location>
+				<Longitude>37.5276607</Longitude>
+				<Latitude>36.1824049</Latitude>
+				<Altitude>6083.18</Altitude>
+			</Location>
+			<PrimaryObject ID="344">
+				<Type>Missile</Type>
+				<Name>SA9M38M1</Name>
+				<Coalition>Allies</Coalition>
+				<Country>ru</Country>
+				<Parent>52</Parent>
+			</PrimaryObject>
+			<Action>HasBeenDestroyed</Action>
+		</Event>
+		<Event>
+			<Time>3300.76</Time>
+			<Location>
+				<Longitude>35.4225605</Longitude>
+				<Latitude>36.9999208</Latitude>
+				<Altitude>59.28</Altitude>
+			</Location>
+			<PrimaryObject ID="161">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>ASPEN | 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1st Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>3339.04</Time>
+			<Location>
+				<Longitude>35.425098</Longitude>
+				<Latitude>37.0015167</Latitude>
+				<Altitude>59.99</Altitude>
+			</Location>
+			<PrimaryObject ID="169">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1st Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>3458.08</Time>
+			<Location>
+				<Longitude>35.4249404</Longitude>
+				<Latitude>36.9950547</Latitude>
+				<Altitude>58.01</Altitude>
+			</Location>
+			<PrimaryObject ID="161">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>ASPEN | 161SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1st Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>3784.97</Time>
+			<Location>
+				<Longitude>35.4160717</Longitude>
+				<Latitude>36.9932343</Latitude>
+				<Altitude>50.04</Altitude>
+			</Location>
+			<PrimaryObject ID="169">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1st Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasTakenOff</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>3789.01</Time>
+			<Location>
+				<Longitude>35.4157009</Longitude>
+				<Latitude>36.9930064</Latitude>
+				<Altitude>49.6</Altitude>
+			</Location>
+			<PrimaryObject ID="169">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1st Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4110.06</Time>
+			<Location>
+				<Longitude>35.4382099</Longitude>
+				<Latitude>37.0093657</Latitude>
+				<Altitude>68.77</Altitude>
+			</Location>
+			<PrimaryObject ID="163">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4157.53</Time>
+			<Location>
+				<Longitude>35.4323196</Longitude>
+				<Latitude>37.0057492</Latitude>
+				<Altitude>60.6</Altitude>
+			</Location>
+			<PrimaryObject ID="168">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4192.70</Time>
+			<Location>
+				<Longitude>35.4311814</Longitude>
+				<Latitude>37.0052016</Latitude>
+				<Altitude>60.45</Altitude>
+			</Location>
+			<PrimaryObject ID="164">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4424.54</Time>
+			<Location>
+				<Longitude>35.434795</Longitude>
+				<Latitude>37.0033363</Latitude>
+				<Altitude>60.66</Altitude>
+			</Location>
+			<PrimaryObject ID="164">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Enndooooo</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4462.42</Time>
+			<Location>
+				<Longitude>35.4346513</Longitude>
+				<Latitude>37.0034771</Latitude>
+				<Altitude>60.66</Altitude>
+			</Location>
+			<PrimaryObject ID="168">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Space Monkey</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>4466.55</Time>
+			<Location>
+				<Longitude>35.2244569</Longitude>
+				<Latitude>35.7369385</Latitude>
+				<Altitude>21.99</Altitude>
+			</Location>
+			<PrimaryObject ID="167">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C - 2nd Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-71 Theodore Roosevelt</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-71</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4656.37</Time>
+			<Location>
+				<Longitude>35.2243449</Longitude>
+				<Latitude>35.7440635</Latitude>
+				<Altitude>21.99</Altitude>
+			</Location>
+			<PrimaryObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C - 2nd Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-71 Theodore Roosevelt</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-71</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>4706.37</Time>
+			<Location>
+				<Longitude>35.2243153</Longitude>
+				<Latitude>35.7460307</Latitude>
+				<Altitude>21.98</Altitude>
+			</Location>
+			<PrimaryObject ID="165">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1st Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-71 Theodore Roosevelt</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-71</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5116.39</Time>
+			<Location>
+				<Longitude>35.224102</Longitude>
+				<Latitude>35.7610937</Latitude>
+				<Altitude>21.98</Altitude>
+			</Location>
+			<PrimaryObject ID="162">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF Cypher | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C - 2nd Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasLanded</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-71 Theodore Roosevelt</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-71</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5163.29</Time>
+			<Location>
+				<Longitude>35.2245838</Longitude>
+				<Latitude>35.7621233</Latitude>
+				<Altitude>21.99</Altitude>
+			</Location>
+			<PrimaryObject ID="166">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>Kluge | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C - 2nd Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-71 Theodore Roosevelt</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-71</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5166.58</Time>
+			<Location>
+				<Longitude>35.2246386</Longitude>
+				<Latitude>35.7629331</Latitude>
+				<Altitude>21.98</Altitude>
+			</Location>
+			<PrimaryObject ID="165">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>SneakyBastd 161</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1st Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-71 Theodore Roosevelt</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-71</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5186.15</Time>
+			<Location>
+				<Longitude>35.413371</Longitude>
+				<Latitude>36.9931986</Latitude>
+				<Altitude>49.4</Altitude>
+			</Location>
+			<PrimaryObject ID="169">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>calimiro</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C-1st Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5200.13</Time>
+			<Location>
+				<Longitude>35.4344899</Longitude>
+				<Latitude>37.0036101</Latitude>
+				<Altitude>60.66</Altitude>
+			</Location>
+			<PrimaryObject ID="163">
+				<Type>Aircraft</Type>
+				<Name>F-16C Fighting Falcon</Name>
+				<Pilot>Gimble | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-16CJ 480th</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<Airport ID="ICAO:LTAG">
+				<Name>Incirlik</Name>
+			</Airport>
+		</Event>
+		<Event>
+			<Time>5232.59</Time>
+			<Location>
+				<Longitude>35.224468</Longitude>
+				<Latitude>35.7655037</Latitude>
+				<Altitude>21.99</Altitude>
+			</Location>
+			<PrimaryObject ID="162">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>AEF Cypher | 161 SQN</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C - 2nd Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-71 Theodore Roosevelt</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-71</Group>
+			</SecondaryObject>
+		</Event>
+		<Event>
+			<Time>5548.91</Time>
+			<Location>
+				<Longitude>35.2243552</Longitude>
+				<Latitude>35.7769886</Latitude>
+				<Altitude>21.99</Altitude>
+			</Location>
+			<PrimaryObject ID="167">
+				<Type>Aircraft</Type>
+				<Name>F/A-18C Hornet</Name>
+				<Pilot>super_soup</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>F-18C - 2nd Naval SQN</Group>
+			</PrimaryObject>
+			<Action>HasLeftTheArea</Action>
+			<SecondaryObject ID="12">
+				<Type>Carrier</Type>
+				<Name>CVN-71 Theodore Roosevelt</Name>
+				<Pilot>USS George Washington</Pilot>
+				<Coalition>Enemies</Coalition>
+				<Country>us</Country>
+				<Group>CVN-71</Group>
+			</SecondaryObject>
+		</Event>
+	</Events>
+</TacviewDebriefing>
