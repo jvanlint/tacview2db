@@ -40,6 +40,22 @@
             ]
         },
         {
+            "name": "Sand Scorpion",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/app",
+            "program": "${workspaceFolder}/app/tacview2db.py",
+            "console": "integratedTerminal",
+            "args": [
+                "-c",
+                "../data/Tacview-20230110-222951-DCS-Op_Sand_Scorpion_-_Part_1.xml",
+                "../data/Tacview-20230124-223336-DCS-Op_Sand_Scorpion_-_Part_2.xml",
+                "../data/Tacview-20230131-201213-DCS-Op_Sand_Scorpion_-_Part_3.xml",
+                "../data/Tacview-20230221-221653-DCS-Op_Sand_Scorpion_-_Part_4_v2.xml",
+                "../data/Tacview-20230228-221003-DCS-Op_Sand_Scorpion_-_Part_5_v2.xml",
+            ]
+        },
+        {
             "name": "Docker: Python - General",
             "type": "docker",
             "request": "launch",
