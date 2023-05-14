@@ -6,7 +6,7 @@ import logging
 from dotenv import load_dotenv
 import sqlite3
 
-from common.database import create_connection, clear_table_data
+from common.database import create_connection, clear_table_data, create_required_tables
 from common.xml import parseXMLFile, extract_event_data
 
 from models.mission import Mission
@@ -122,6 +122,7 @@ def main(argv):
 
     # Create a database connection and return the connection object.
     conn = create_connection(database_file)
+    create_required_tables(conn)
 
     # If the -c option was passed in then clear the DB before importing any data.
     if clear_db:

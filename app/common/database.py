@@ -30,61 +30,80 @@ def clear_table_data(conn: sqlite3.Connection):
     logging.warning("Table data cleared.")
 
 
-def create_required_tables():
+def execute_sql_statement(conn: sqlite3.Connection, sql: str) -> bool:
+    cursor = conn.cursor()
+    cursor.execute(sql)
+    conn.commit()
+
+
+def create_required_tables(conn: sqlite3.Connection) -> bool:
     sql = """
-CREATE TABLE IF NOT EXISTS "Event" (
-  "id" integer PRIMARY KEY NOT NULL,
-  "mission_id" integer(128) NOT NULL,
-  "time" char(128) NOT NULL,
-  "action" char(128) NOT NULL
-);
-"""
-    sql = """ CREATE TABLE IF NOT EXISTS "Mission" (
-  "id" integer PRIMARY KEY NOT NULL,
-  "name" char(128),
-  "date" char(128),
-  "duration" char(128),
-  "source" char(128),
-  "recorder" char(128),
-  "recording_time" char(128),
-  "author" char(128)
-);
-    """
-    sql = """CREATE TABLE IF NOT EXISTS "ParentObject" (
-  "id" integer PRIMARY KEY NOT NULL,
-  "event_id" integer(128) NOT NULL,
-  "tacview_id" char(128) NOT NULL,
-  "type" char(128),
-  "name" char(128),
-  "pilot" char(128),
-  "coalition" char(128),
-  "country" char(128),
-  "obj_group" char(128)
-);"""
-    sql = """CREATE TABLE IF NOT EXISTS "PrimaryObject" (
-  "id" integer PRIMARY KEY NOT NULL,
-  "event_id" integer(128) NOT NULL,
-  "tacview_id" char(128) NOT NULL,
-  "type" char(128),
-  "name" char(128),
-  "pilot" char(128),
-  "coalition" char(128),
-  "country" char(128),
-  "obj_group" char(128),
-  "parent_id" char(128)
-);"""
-    sql = """CREATE TABLE IF NOT EXISTS "SecondaryObject" (
-  "id" integer PRIMARY KEY NOT NULL,
-  "event_id" integer(128) NOT NULL,
-  "tacview_id" char(128) NOT NULL,
-  "type" char(128),
-  "name" char(128),
-  "pilot" char(128),
-  "coalition" char(128),
-  "country" char(128),
-  "obj_group" char(128),
-  "parent_id" char(128)
-);"""
+            CREATE TABLE IF NOT EXISTS "Event" (
+            "id" integer PRIMARY KEY NOT NULL,
+            "mission_id" integer(128) NOT NULL,
+            "time" char(128) NOT NULL,
+            "action" char(128) NOT NULL
+            );
+        """
+    execute_sql_statement(conn, sql)
 
+    sql = """ 
+            CREATE TABLE IF NOT EXISTS "Mission" (
+            "id" integer PRIMARY KEY NOT NULL,
+            "name" char(128),
+            "date" char(128),
+            "duration" char(128),
+            "source" char(128),
+            "recorder" char(128),
+            "recording_time" char(128),
+            "author" char(128)
+            );
+        """
+    execute_sql_statement(conn, sql)
 
-# this will create the tables if they don't exist.
+    sql = """
+            CREATE TABLE IF NOT EXISTS "ParentObject" (
+            "id" integer PRIMARY KEY NOT NULL,
+            "event_id" integer(128) NOT NULL,
+            "tacview_id" char(128) NOT NULL,
+            "type" char(128),
+            "name" char(128),
+            "pilot" char(128),
+            "coalition" char(128),
+            "country" char(128),
+            "obj_group" char(128)
+            );
+        """
+    execute_sql_statement(conn, sql)
+
+    sql = """
+            CREATE TABLE IF NOT EXISTS "PrimaryObject" (
+            "id" integer PRIMARY KEY NOT NULL,
+            "event_id" integer(128) NOT NULL,
+            "tacview_id" char(128) NOT NULL,
+            "type" char(128),
+            "name" char(128),
+            "pilot" char(128),
+            "coalition" char(128),
+            "country" char(128),
+            "obj_group" char(128),
+            "parent_id" char(128)
+            );
+        """
+    execute_sql_statement(conn, sql)
+
+    sql = """
+            CREATE TABLE IF NOT EXISTS "SecondaryObject" (
+            "id" integer PRIMARY KEY NOT NULL,
+            "event_id" integer(128) NOT NULL,
+            "tacview_id" char(128) NOT NULL,
+            "type" char(128),
+            "name" char(128),
+            "pilot" char(128),
+            "coalition" char(128),
+            "country" char(128),
+            "obj_group" char(128),
+            "parent_id" char(128)
+            );
+        """
+    execute_sql_statement(conn, sql)
