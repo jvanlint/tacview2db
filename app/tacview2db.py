@@ -14,6 +14,7 @@ from models.event import Event
 from models.primary import Primary
 from models.secondary import Secondary
 from models.parent import Parent
+from models.database import Database
 
 
 def process_tacview_file(conn: sqlite3.Connection, filename: str):
@@ -121,18 +122,19 @@ def main(argv):
     start = time.time()
 
     # Create a database connection and return the connection object.
-    conn = create_connection(database_file)
-    create_required_tables(conn)
+    # conn = create_connection(database_file)
+    database_obj = Database(database_file)
 
     # If the -c option was passed in then clear the DB before importing any data.
     if clear_db:
-        clear_table_data(conn)
+        # clear_table_data(conn)
+        database_obj.clear_table_data()
 
     for file in mission_filenames:
         logging.info(f"Processing file named {file}.")
-        process_tacview_file(conn, file)
+        process_tacview_file(database_obj.conn, file)
 
-    conn.close
+    database_obj.conn.close
     logging.info("All files processed successfully.")
     logging.info("The script took %.3f seconds to finish." % (time.time() - start))
 

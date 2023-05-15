@@ -32,8 +32,11 @@ def clear_table_data(conn: sqlite3.Connection):
 
 def execute_sql_statement(conn: sqlite3.Connection, sql: str) -> bool:
     cursor = conn.cursor()
-    cursor.execute(sql)
-    conn.commit()
+    try:
+        cursor.execute(sql)
+        conn.commit()
+    except:
+        logging.error("SQL statement issue.")
 
 
 def create_required_tables(conn: sqlite3.Connection) -> bool:
