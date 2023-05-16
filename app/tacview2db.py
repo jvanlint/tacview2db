@@ -6,30 +6,30 @@ import logging
 from dotenv import load_dotenv
 import sqlite3
 
-from common.database import create_connection, clear_table_data, create_required_tables
-from common.xml import parseXMLFile, extract_event_data
-
 from models.mission import Mission
 from models.event import Event
 from models.primary import Primary
 from models.secondary import Secondary
 from models.parent import Parent
 from models.database import Database
+from models.tacview_data import Tacview
 
 
 def process_tacview_file(conn: sqlite3.Connection, filename: str):
     # Parse the XML file passed in as an argument.
-    tacview_parsed_data = parseXMLFile(filename)
+    tacview_parsed_data = Tacview(filename)
+
+    # tacview_parsed_data = parseXMLFile(filename)
 
     # Create a mission object and commit it to the database
-    mission_obj = Mission(tacview_parsed_data)
+    mission_obj = Mission(tacview_parsed_data.xml_full_data)
     if mission_obj.check_mission_exists(conn):
         logging.warning("Mission already exists in DB.")
     # Once mission created in DB we get an id for future storing related records.
     mission_obj.write_to_db(conn)
 
     # Extract the events from the parsed XML tree.
-    event_data = extract_event_data(tacview_parsed_data)
+    event_data = tacview_parsed_data.xml_event_data
 
     # Process all the events contained with the parsed data.
 
