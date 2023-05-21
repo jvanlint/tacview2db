@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 from colorama import Fore, Back, Style
 from tacview_engine import process_all_tacview_files
 from ui.tacview_gui import TacviewGUI
+from ui.tacview_gui_grid import TacviewGUIGrid
 
 
 def parse_command_line_args():
@@ -73,7 +74,10 @@ def main(argv):
         )
     else:
         # No files provided, run the UI
-        gui = TacviewGUI()
+        # gui = TacviewGUI()
+        # gui.run()
+
+        gui = TacviewGUIGrid()
         gui.run()
 
 

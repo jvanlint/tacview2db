@@ -1,64 +1,26 @@
-2023-05-21 19:14:06 INFO Attempting to connect to sqlite database pytacview.db.
-2023-05-21 19:14:06 INFO Database connection made.
-2023-05-21 19:14:06 INFO Processing file named /Volumes/Internal_SSD/Projects/Python Projects/tacview2db/data/mission1_server.xml.
-2023-05-21 19:14:06 INFO Attempting to parse XML in /Volumes/Internal_SSD/Projects/Python Projects/tacview2db/data/mission1_server.xml.
-2023-05-21 19:14:06 INFO XML parsed successfully.
-2023-05-21 19:14:06 INFO Checking if NS_Phase_1_Mission_1_Final already in database.
-2023-05-21 19:14:06 INFO Attempting to add mission named NS_Phase_1_Mission_1_Final to database.
-2023-05-21 19:14:06 INFO Created mission in database.
-2023-05-21 19:14:06 INFO Processing event records.
-2023-05-21 19:14:06 INFO EVENT records written to database.
-2023-05-21 19:14:06 INFO Successfully processed 364 event records, 364 primary records, 150 secondary records and 39 parent records.
-2023-05-21 19:14:06 INFO Processing file named /Volumes/Internal_SSD/Projects/Python Projects/tacview2db/data/mission3_server.xml.
-2023-05-21 19:14:06 INFO Attempting to parse XML in /Volumes/Internal_SSD/Projects/Python Projects/tacview2db/data/mission3_server.xml.
-2023-05-21 19:14:06 INFO XML parsed successfully.
-2023-05-21 19:14:06 INFO Checking if NS_Phase_1_Mission_3_final already in database.
-2023-05-21 19:14:06 INFO Attempting to add mission named NS_Phase_1_Mission_3_final to database.
-2023-05-21 19:14:06 INFO Created mission in database.
-2023-05-21 19:14:06 INFO Processing event records.
-2023-05-21 19:14:07 INFO EVENT records written to database.
-2023-05-21 19:14:07 INFO Successfully processed 311 event records, 311 primary records, 146 secondary records and 61 parent records.
-2023-05-21 19:14:07 INFO Processing file named /Volumes/Internal_SSD/Projects/Python Projects/tacview2db/data/mission2_server.xml.
-2023-05-21 19:14:07 INFO Attempting to parse XML in /Volumes/Internal_SSD/Projects/Python Projects/tacview2db/data/mission2_server.xml.
-2023-05-21 19:14:07 INFO XML parsed successfully.
-2023-05-21 19:14:07 INFO Checking if NS_Phase_1_Mission_2_Final already in database.
-2023-05-21 19:14:07 INFO Attempting to add mission named NS_Phase_1_Mission_2_Final to database.
-2023-05-21 19:14:07 INFO Created mission in database.
-2023-05-21 19:14:07 INFO Processing event records.
-2023-05-21 19:14:08 INFO EVENT records written to database.
-2023-05-21 19:14:08 INFO Successfully processed 363 event records, 363 primary records, 149 secondary records and 39 parent records.
-2023-05-21 19:14:08 INFO All files processed successfully.
-2023-05-21 19:14:08 INFO The script took 1.902 seconds to finish.
-2023-05-21 19:14:18 INFO Attempting to connect to sqlite database pytacview.db.
-2023-05-21 19:14:18 INFO Database connection made.
-2023-05-21 19:14:18 WARNING Clearing out database before import of tacview data.
-2023-05-21 19:14:18 WARNING Table data cleared.
-2023-05-21 19:14:18 INFO Processing file named /Volumes/Internal_SSD/Projects/Python Projects/tacview2db/data/mission1_server.xml.
-2023-05-21 19:14:18 INFO Attempting to parse XML in /Volumes/Internal_SSD/Projects/Python Projects/tacview2db/data/mission1_server.xml.
-2023-05-21 19:14:18 INFO XML parsed successfully.
-2023-05-21 19:14:18 INFO Checking if NS_Phase_1_Mission_1_Final already in database.
-2023-05-21 19:14:18 INFO Attempting to add mission named NS_Phase_1_Mission_1_Final to database.
-2023-05-21 19:14:18 INFO Created mission in database.
-2023-05-21 19:14:18 INFO Processing event records.
-2023-05-21 19:14:19 INFO EVENT records written to database.
-2023-05-21 19:14:19 INFO Successfully processed 364 event records, 364 primary records, 150 secondary records and 39 parent records.
-2023-05-21 19:14:19 INFO Processing file named /Volumes/Internal_SSD/Projects/Python Projects/tacview2db/data/mission3_server.xml.
-2023-05-21 19:14:19 INFO Attempting to parse XML in /Volumes/Internal_SSD/Projects/Python Projects/tacview2db/data/mission3_server.xml.
-2023-05-21 19:14:19 INFO XML parsed successfully.
-2023-05-21 19:14:19 INFO Checking if NS_Phase_1_Mission_3_final already in database.
-2023-05-21 19:14:19 INFO Attempting to add mission named NS_Phase_1_Mission_3_final to database.
-2023-05-21 19:14:19 INFO Created mission in database.
-2023-05-21 19:14:19 INFO Processing event records.
-2023-05-21 19:14:19 INFO EVENT records written to database.
-2023-05-21 19:14:19 INFO Successfully processed 311 event records, 311 primary records, 146 secondary records and 61 parent records.
-2023-05-21 19:14:19 INFO Processing file named /Volumes/Internal_SSD/Projects/Python Projects/tacview2db/data/mission2_server.xml.
-2023-05-21 19:14:19 INFO Attempting to parse XML in /Volumes/Internal_SSD/Projects/Python Projects/tacview2db/data/mission2_server.xml.
-2023-05-21 19:14:19 INFO XML parsed successfully.
-2023-05-21 19:14:19 INFO Checking if NS_Phase_1_Mission_2_Final already in database.
-2023-05-21 19:14:19 INFO Attempting to add mission named NS_Phase_1_Mission_2_Final to database.
-2023-05-21 19:14:19 INFO Created mission in database.
-2023-05-21 19:14:19 INFO Processing event records.
-2023-05-21 19:14:20 INFO EVENT records written to database.
-2023-05-21 19:14:20 INFO Successfully processed 363 event records, 363 primary records, 149 secondary records and 39 parent records.
-2023-05-21 19:14:20 INFO All files processed successfully.
-2023-05-21 19:14:20 INFO The script took 1.817 seconds to finish.
+2023-05-21 23:45:56 INFO Attempting to connect to sqlite database pytacview.db.
+2023-05-21 23:45:56 INFO Database connection made.
+2023-05-21 23:45:56 INFO All files processed successfully.
+2023-05-21 23:45:56 INFO The script took 0.006 seconds to finish.
+2023-05-21 23:45:58 INFO Attempting to connect to sqlite database pytacview.db.
+2023-05-21 23:45:58 INFO Database connection made.
+2023-05-21 23:45:58 INFO All files processed successfully.
+2023-05-21 23:45:58 INFO The script took 0.002 seconds to finish.
+2023-05-21 23:45:59 INFO Attempting to connect to sqlite database pytacview.db.
+2023-05-21 23:45:59 INFO Database connection made.
+2023-05-21 23:45:59 INFO All files processed successfully.
+2023-05-21 23:45:59 INFO The script took 0.002 seconds to finish.
+2023-05-21 23:46:10 INFO Attempting to connect to sqlite database pytacview.db.
+2023-05-21 23:46:10 INFO Database connection made.
+2023-05-21 23:46:10 INFO Processing file named /Volumes/Internal_SSD/Projects/Python Projects/tacview2db/data/M7.xml.
+2023-05-21 23:46:10 INFO Attempting to parse XML in /Volumes/Internal_SSD/Projects/Python Projects/tacview2db/data/M7.xml.
+2023-05-21 23:46:10 INFO XML parsed successfully.
+2023-05-21 23:46:10 INFO Checking if Op_Sand_Scorpion_-_Part_7_v1.0 already in database.
+2023-05-21 23:46:10 WARNING Mission already exists in DB.
+2023-05-21 23:46:10 INFO Attempting to add mission named Op_Sand_Scorpion_-_Part_7_v1.0 to database.
+2023-05-21 23:46:10 INFO Created mission in database.
+2023-05-21 23:46:10 INFO Processing event records.
+2023-05-21 23:46:11 INFO EVENT records written to database.
+2023-05-21 23:46:11 INFO Successfully processed 302 event records, 302 primary records, 191 secondary records and 62 parent records.
+2023-05-21 23:46:11 INFO All files processed successfully.
+2023-05-21 23:46:11 INFO The script took 0.698 seconds to finish.

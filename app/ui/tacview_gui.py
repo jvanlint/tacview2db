@@ -38,7 +38,6 @@ class TacviewGUI:
         btnOpen = tk.Button(
             self.window, text="Select Files", command=self.open_file_dialog
         )
-        # open_button.pack(side=tk.LEFT, padx=10)
         btnOpen.place(x=420, y=40, width=110, height=30)
 
         # Clear Database Checkbox
@@ -47,7 +46,7 @@ class TacviewGUI:
             text="Clear Database before import",
             variable=self.clear_database_var,
         )
-        clear_database_checkbox.place(x=20, y=200, width=279, height=32, anchor="w")
+        clear_database_checkbox.place(x=10, y=200, width=279, height=32)
 
         # Process Button
         btnProcess = tk.Button(
