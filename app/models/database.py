@@ -15,8 +15,11 @@ class Database:
             logging.error(f"Database connection failed. Error: {db_error}")
             quit()
 
+    def close_connection(self):
+        self.conn.close
+
     def clear_table_data(self):
-        logging.warning("Clearing out database before import of data.")
+        logging.warning("Clearing out database before import of tacview data.")
         tables = [
             "Mission",
             "ParentObject",

@@ -1,6 +1,4 @@
-import sqlite3
-import logging
-import time
+import sqlite3, logging, time
 
 from models.mission import Mission
 from models.event import Event
@@ -16,33 +14,31 @@ def process_all_tacview_files(database_file: str, clear_db: bool, mission_filena
     start = time.time()
 
     # Create a database connection and return the connection object.
-    # conn = create_connection(database_file)
     database_obj = Database(database_file)
 
     # If the -c option was passed in then clear the DB before importing any data.
     if clear_db:
-        # clear_table_data(conn)
         database_obj.clear_table_data()
 
     for file in mission_filenames:
         logging.info(f"Processing file named {file}.")
         process_tacview_file(database_obj.conn, file)
 
-    database_obj.conn.close
+    database_obj.close_connection
+
     logging.info("All files processed successfully.")
-    logging.info("The script took %.3f seconds to finish." % (time.time() - start))
+    logging.info(f"The script took {time.time() - start:.3f} seconds to finish.")
 
 
 def process_tacview_file(conn: sqlite3.Connection, filename: str):
-    # Parse the XML file passed in as an argument.
+    # Parse the XML file by creating a Tacview object with the xml filename.
     tacview_parsed_data = Tacview(filename)
-
-    # tacview_parsed_data = parseXMLFile(filename)
 
     # Create a mission object and commit it to the database
     mission_obj = Mission(tacview_parsed_data.xml_full_data)
     if mission_obj.check_mission_exists(conn):
         logging.warning("Mission already exists in DB.")
+
     # Once mission created in DB we get an id for future storing related records.
     mission_obj.write_to_db(conn)
 

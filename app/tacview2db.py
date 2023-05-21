@@ -1,19 +1,8 @@
-import argparse
-import os
-import time
-import sys
-import logging
+import argparse, os, time, sys, logging
 from dotenv import load_dotenv
-
-import tkinter as tk
-from tkinter import filedialog
-from tkinter.ttk import Progressbar
-
 from colorama import Fore, Back, Style
-
 from tacview_engine import process_all_tacview_files
-
-from ui.tacview_ui import TacviewUI
+from ui.tacview_gui import TacviewGUI
 
 
 def parse_command_line_args():
@@ -74,19 +63,18 @@ def main(argv):
     # This code is for determining UI or command line
     if args.files:
         # Files provided through command-line arguments
-        # process_files_terminal(args.logging, args.files)
         process_all_tacview_files(database_file, args.cleardb, args.files)
+
+        print("-" * 80)
+        print(f"{Fore.GREEN}*** Export to database complete! ***{Style.RESET_ALL}")
+        print(f"The script took {time.time() - start:.3f} seconds to finish.")
+        print(
+            f"{Fore.MAGENTA}Please refer to app.log file for more detailed information.{Style.RESET_ALL}"
+        )
     else:
         # No files provided, run the UI
-        # setup_ui()
-        TacviewUI()
-
-    # process_all_tacview_files(database_file, args.cleardb, args.filename)
-
-    print("-" * 80)
-    print(f"{Fore.GREEN}*** Export to database complete! ***{Style.RESET_ALL}")
-    print("The script took %.3f seconds to finish." % (time.time() - start))
-    print(f"{Fore.MAGENTA}Please refer to app.log file for more detailed information.")
+        gui = TacviewGUI()
+        gui.run()
 
 
 if __name__ == "__main__":
