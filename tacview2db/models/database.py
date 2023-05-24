@@ -34,6 +34,15 @@ class Database:
             self.conn.commit()
         logging.warning("Table data cleared.")
 
+    def execute_sql_select_query(self, sql: str):
+        cursor = self.conn.cursor()
+        try:
+            cursor.execute(sql)
+            return cursor.fetchone()
+
+        except:
+            logging.error("SQL statement issue.")
+
     def execute_sql_statement(self, sql: str, data=()) -> bool:
         cursor = self.conn.cursor()
         try:

@@ -49,13 +49,13 @@ class Mission:
     def check_mission_exists(self, db: Database) -> bool:
         logging.info(f"Checking if {self.name} already in database.")
 
-        sql = """ SELECT * FROM Mission WHERE name = ? """
+        sql = f"SELECT * FROM Mission WHERE name = '{self.name}'"
 
         # Execute query and commit to the db.
-        result = db.execute_sql_statement(sql, (self.name,))
+        result = db.execute_sql_select_query(sql)
 
         # If the result is 0 then the mission was not found.
-        if result > 0:
+        if result:
             logging.warning("Mission already exists in DB.")
             return True
         else:

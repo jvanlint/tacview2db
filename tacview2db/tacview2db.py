@@ -64,19 +64,17 @@ def main(argv):
     # This code is for determining UI or command line
     if args.files:
         # Files provided through command-line arguments
-        process_all_tacview_files(database_file, args.cleardb, args.files)
+        stats = process_all_tacview_files(database_file, args.cleardb, args.files)
 
         print("-" * 80)
-        print(f"{Fore.GREEN}*** Export to database complete! ***{Style.RESET_ALL}")
+        print(f"{Fore.GREEN}*** Export to database complete! ***")
+        print(f"Processed {stats[0]} of {stats[1]} files.{Style.RESET_ALL}")
         print(f"The script took {time.time() - start:.3f} seconds to finish.")
         print(
             f"{Fore.MAGENTA}Please refer to app.log file for more detailed information.{Style.RESET_ALL}"
         )
     else:
         # No files provided, run the UI
-        # gui = TacviewGUI()
-        # gui.run()
-
         gui = TacviewGUIGrid()
         gui.run()
 
