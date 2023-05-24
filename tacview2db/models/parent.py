@@ -40,7 +40,7 @@ class Parent:
         else:
             return False
 
-    def write_to_db(self, db: Database, event_id: int, secondary_object_id: int):
+    def write_to_db(self, db: Database, event_id: int, secondary_object_id: int) -> int:
         sql = """ INSERT INTO ParentObject(event_id, tacview_id, type, name, pilot, coalition, country, obj_group)
 						VALUES(?,?,?,?,?,?,?,?) """
 

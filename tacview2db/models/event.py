@@ -10,11 +10,11 @@ class Event:
     time: str
     action: str
 
-    def __init__(self, xml_tree):
+    def __init__(self, xml_tree: ET):
         self.time = xml_tree.find("Time").text
         self.action = xml_tree.find("Action").text
 
-    def write_to_db(self, db: Database, mission_id: int):
+    def write_to_db(self, db: Database, mission_id: int) -> int:
         sql = """ INSERT INTO Event(mission_id,time,action)
 							VALUES(?,?,?) """
 

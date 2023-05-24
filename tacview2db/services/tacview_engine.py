@@ -9,23 +9,24 @@ from models.database import Database
 from models.tacview_data import Tacview
 
 
-def process_all_tacview_files(database_file: str, clear_db: bool, mission_filenames):
+def process_all_tacview_files(
+    database_file: str, clear_db: bool, mission_filenames: tuple[str]
+):
     # Set start time of processing to calculate total time taken.
     start = time.time()
 
-    # Create a database connection and return the connection object.
-    database_obj = Database(database_file)
+    # Create a database connection and return a database object.
+    db = Database(database_file)
 
     # If the -c option was passed in then clear the DB before importing any data.
     if clear_db:
-        database_obj.clear_table_data()
+        db.clear_table_data()
 
     for file in mission_filenames:
         logging.info(f"Processing file named {file}.")
-        # process_tacview_file(database_obj.conn, file)
-        process_tacview_file(database_obj, file)
+        process_tacview_file(db, file)
 
-    database_obj.close_connection
+    db.close_connection
 
     logging.info(
         f"{len(mission_filenames)} files processed successfully in {time.time() - start:.3f} seconds."
@@ -41,27 +42,25 @@ def process_tacview_file(db: Database, filename: str):
     mission_obj.check_mission_exists(db)
     mission_obj.write_to_db(db)
 
-    # Extract the events from the parsed XML tree.
+    # Extract the events data from the parsed XML tree.
     event_data = tacview_parsed_data.xml_event_data
 
-    # Process all the events contained with the parsed data.
     logging.info("Processing event records.")
 
-    # Initialise counter variables to 0
+    # Initialise counter variables to 0. These are used to display the amount of records processed for logging.
     event_counter = (
         primary_object_counter
     ) = secondary_object_counter = parent_object_counter = 0
 
+    # Process all the events contained with the parsed data. This loop also processes the Primary, Secondary and Parent object associated with an Event.
     for event in event_data:
         event_obj = Event(event)
         event_obj.write_to_db(db, mission_obj.id)
-
         event_counter += 1
 
-        # Get the primary object. Every Event has at least a Primary Object
+        # Get the primary object. Every Event has at least one Primary Object
         primary_obj = Primary(event)
         primary_obj.write_to_db(db, event_obj.id)
-
         primary_object_counter += 1
 
         # Get the Secondary Object (if it exists). This object tells us what the event 'action' was performed on.

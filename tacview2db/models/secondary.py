@@ -44,7 +44,7 @@ class Secondary:
         else:
             return False
 
-    def write_to_db(self, db: Database, event_id: int):
+    def write_to_db(self, db: Database, event_id: int) -> int:
         sql = """ INSERT INTO SecondaryObject(event_id, tacview_id, type, name, pilot, coalition, country, obj_group, parent_id)
                     VALUES(?,?,?,?,?,?,?,?,?) """
         db_values = (

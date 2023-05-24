@@ -27,7 +27,7 @@ class Primary:
         self.group = getattr(xml_data.find("Group"), "text", "n/a")
         self.parent_id = getattr(xml_data.find("Parent"), "text", "n/a")
 
-    def write_to_db(self, db: Database, event_id: int):
+    def write_to_db(self, db: Database, event_id: int) -> int:
         sql = """ INSERT INTO PrimaryObject(event_id, tacview_id, type, name, pilot, coalition, country, obj_group, parent_id)
 							VALUES(?,?,?,?,?,?,?,?,?) """
 
@@ -42,7 +42,6 @@ class Primary:
             self.group,
             self.parent_id,
         )
-        # Execute query and commit to the db.
 
         self.id = db.execute_sql_statement(sql, db_values)
 

@@ -11,7 +11,6 @@ class Tacview:
         logging.info(f"Attempting to parse XML in {xml_file}.")
 
         # Parse the xml file to obtain the full data tree and the events data.
-
         try:
             tree = ET.parse(xml_file)
             self.xml_full_data = tree.getroot()

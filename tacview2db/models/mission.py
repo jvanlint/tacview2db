@@ -24,7 +24,7 @@ class Mission:
         self.recordingTime = xml_tree[0][2].text
         self.author = xml_tree[0][3].text
 
-    def write_to_db(self, db: Database):
+    def write_to_db(self, db: Database) -> int:
         logging.info(f"Attempting to add mission named {self.name} to database.")
 
         sql = """ INSERT INTO Mission(name,date,duration, source, recorder, recording_time, author)
