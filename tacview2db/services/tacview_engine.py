@@ -27,27 +27,24 @@ def process_all_tacview_files(database_file: str, clear_db: bool, mission_filena
 
     database_obj.close_connection
 
-    logging.info("All files processed successfully.")
-    logging.info(f"The script took {time.time() - start:.3f} seconds to finish.")
+    logging.info(
+        f"{len(mission_filenames)} files processed successfully in {time.time() - start:.3f} seconds."
+    )
 
 
 def process_tacview_file(db: Database, filename: str):
     # Parse the XML file by creating a Tacview object with the xml filename.
     tacview_parsed_data = Tacview(filename)
 
-    # Create a mission object and commit it to the database
+    # Create a mission object, check if it exists in the db and commit it to the database
     mission_obj = Mission(tacview_parsed_data.xml_full_data)
-    if mission_obj.check_mission_exists(db):
-        logging.warning("Mission already exists in DB.")
-
-    # Once mission created in DB we get an id for future storing related records.
+    mission_obj.check_mission_exists(db)
     mission_obj.write_to_db(db)
 
     # Extract the events from the parsed XML tree.
     event_data = tacview_parsed_data.xml_event_data
 
     # Process all the events contained with the parsed data.
-
     logging.info("Processing event records.")
 
     # Initialise counter variables to 0
@@ -82,7 +79,6 @@ def process_tacview_file(db: Database, filename: str):
                 parent_obj.write_to_db(db, event_obj.id, secondary_obj.id)
                 parent_object_counter += 1
 
-    logging.info("EVENT records written to database.")
     logging.info(
         f"Successfully processed {event_counter} event records, {primary_object_counter} primary records, {secondary_object_counter} secondary records and {parent_object_counter} parent records."
     )

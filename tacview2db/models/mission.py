@@ -52,10 +52,11 @@ class Mission:
         sql = """ SELECT * FROM Mission WHERE name = ? """
 
         # Execute query and commit to the db.
-        # result = cursor.execute(sql, (self.name,))
         result = db.execute_sql_statement(sql, (self.name,))
 
+        # If the result is 0 then the mission was not found.
         if result > 0:
+            logging.warning("Mission already exists in DB.")
             return True
         else:
             return False
