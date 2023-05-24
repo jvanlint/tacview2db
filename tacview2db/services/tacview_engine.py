@@ -22,7 +22,8 @@ def process_all_tacview_files(database_file: str, clear_db: bool, mission_filena
 
     for file in mission_filenames:
         logging.info(f"Processing file named {file}.")
-        process_tacview_file(database_obj.conn, file)
+        # process_tacview_file(database_obj.conn, file)
+        process_tacview_file(database_obj, file)
 
     database_obj.close_connection
 
@@ -30,17 +31,17 @@ def process_all_tacview_files(database_file: str, clear_db: bool, mission_filena
     logging.info(f"The script took {time.time() - start:.3f} seconds to finish.")
 
 
-def process_tacview_file(conn: sqlite3.Connection, filename: str):
+def process_tacview_file(db: Database, filename: str):
     # Parse the XML file by creating a Tacview object with the xml filename.
     tacview_parsed_data = Tacview(filename)
 
     # Create a mission object and commit it to the database
     mission_obj = Mission(tacview_parsed_data.xml_full_data)
-    if mission_obj.check_mission_exists(conn):
+    if mission_obj.check_mission_exists(db):
         logging.warning("Mission already exists in DB.")
 
     # Once mission created in DB we get an id for future storing related records.
-    mission_obj.write_to_db(conn)
+    mission_obj.write_to_db(db)
 
     # Extract the events from the parsed XML tree.
     event_data = tacview_parsed_data.xml_event_data
@@ -56,20 +57,20 @@ def process_tacview_file(conn: sqlite3.Connection, filename: str):
 
     for event in event_data:
         event_obj = Event(event)
-        event_obj.write_to_db(conn, mission_obj.id)
+        event_obj.write_to_db(db, mission_obj.id)
 
         event_counter += 1
 
         # Get the primary object. Every Event has at least a Primary Object
         primary_obj = Primary(event)
-        primary_obj.write_to_db(conn, event_obj.id)
+        primary_obj.write_to_db(db, event_obj.id)
 
         primary_object_counter += 1
 
         # Get the Secondary Object (if it exists). This object tells us what the event 'action' was performed on.
         if Secondary.xml_object_exists(event):
             secondary_obj = Secondary(event)
-            secondary_obj.write_to_db(conn, event_obj.id)
+            secondary_obj.write_to_db(db, event_obj.id)
             secondary_object_counter += 1
 
             # Get the Parent Object (if it exists). This object tells who performed the action.
@@ -78,7 +79,7 @@ def process_tacview_file(conn: sqlite3.Connection, filename: str):
 
             if Parent.xml_object_exists(event):
                 parent_obj = Parent(event)
-                parent_obj.write_to_db(conn, event_obj.id, secondary_obj.id)
+                parent_obj.write_to_db(db, event_obj.id, secondary_obj.id)
                 parent_object_counter += 1
 
     logging.info("EVENT records written to database.")

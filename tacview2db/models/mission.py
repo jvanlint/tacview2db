@@ -2,6 +2,7 @@ import xml.etree.ElementTree as ET
 import sqlite3
 from sqlite3 import Error
 import logging
+from models.database import Database
 
 
 class Mission:
@@ -23,10 +24,8 @@ class Mission:
         self.recordingTime = xml_tree[0][2].text
         self.author = xml_tree[0][3].text
 
-    def write_to_db(self, conn: sqlite3.Connection):
+    def write_to_db(self, db: Database):
         logging.info(f"Attempting to add mission named {self.name} to database.")
-
-        cursor = conn.cursor()
 
         sql = """ INSERT INTO Mission(name,date,duration, source, recorder, recording_time, author)
                                 VALUES(?,?,?,?,?,?,?) """
@@ -39,28 +38,24 @@ class Mission:
             self.recordingTime,
             self.author,
         )
-        # Execute query and commit to the db.
-        cursor.execute(sql, db_values)
-        conn.commit()
+
+        self.id = db.execute_sql_statement(sql, db_values)
 
         logging.info(f"Created mission in database.")
 
-        self.id = cursor.lastrowid
-
         # Return the id of the newly created Mission record.
-        return cursor.lastrowid
+        return self.id
 
-    def check_mission_exists(self, conn: sqlite3.Connection) -> bool:
+    def check_mission_exists(self, db: Database) -> bool:
         logging.info(f"Checking if {self.name} already in database.")
-
-        cursor = conn.cursor()
 
         sql = """ SELECT * FROM Mission WHERE name = ? """
 
         # Execute query and commit to the db.
-        result = cursor.execute(sql, (self.name,))
+        # result = cursor.execute(sql, (self.name,))
+        result = db.execute_sql_statement(sql, (self.name,))
 
-        if result.fetchone():
+        if result > 0:
             return True
         else:
             return False

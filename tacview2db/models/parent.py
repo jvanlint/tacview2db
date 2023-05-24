@@ -2,6 +2,7 @@ import xml.etree.ElementTree as ET
 import sqlite3
 from sqlite3 import Error
 import logging
+from models.database import Database
 
 
 class Parent:
@@ -39,12 +40,10 @@ class Parent:
         else:
             return False
 
-    def write_to_db(
-        self, conn: sqlite3.Connection, event_id: int, secondary_object_id: int
-    ):
+    def write_to_db(self, db: Database, event_id: int, secondary_object_id: int):
         sql = """ INSERT INTO ParentObject(event_id, tacview_id, type, name, pilot, coalition, country, obj_group)
 						VALUES(?,?,?,?,?,?,?,?) """
-        cursor = conn.cursor()
+
         db_values = (
             event_id,
             secondary_object_id,
@@ -56,7 +55,6 @@ class Parent:
             self.group,
         )
         # Execute query and commit to the db.
-        cursor.execute(sql, db_values)
-        conn.commit()
+        record_id = db.execute_sql_statement(sql, db_values)
 
-        return cursor.lastrowid
+        return record_id

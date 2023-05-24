@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter.ttk import Progressbar
 from tkinter import filedialog
-from tacview_engine import process_all_tacview_files
+from services.tacview_engine import process_all_tacview_files
 
 
 class TacviewGUIGrid:

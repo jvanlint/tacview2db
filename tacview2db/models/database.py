@@ -7,7 +7,7 @@ class Database:
     conn: sqlite3.Connection
 
     def __init__(self, database_file: str) -> None:
-        logging.info(f"Attempting to connect to sqlite database {database_file}.")
+        logging.info(f"Attempting to connect to database {database_file}.")
         try:
             self.conn = sqlite3.connect(database_file)
             logging.info("Database connection made.")
@@ -34,11 +34,17 @@ class Database:
             self.conn.commit()
         logging.warning("Table data cleared.")
 
-    def execute_sql_statement(self, sql: str) -> bool:
+    def execute_sql_statement(self, sql: str, data=()) -> bool:
         cursor = self.conn.cursor()
         try:
-            cursor.execute(sql)
-            self.conn.commit()
+            if data:
+                cursor.execute(sql, data)
+                self.conn.commit()
+                return cursor.lastrowid
+            else:
+                cursor.execute(sql)
+                self.conn.commit()
+                return cursor.fetchone()
         except:
             logging.error("SQL statement issue.")
 

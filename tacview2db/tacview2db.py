@@ -1,9 +1,10 @@
 import argparse, os, time, sys, logging
-from dotenv import load_dotenv
 from colorama import Fore, Back, Style
-from tacview_engine import process_all_tacview_files
-from ui.tacview_gui import TacviewGUI
-from ui.tacview_gui_grid import TacviewGUIGrid
+from services.tacview_engine import process_all_tacview_files
+from views.tacview_gui import TacviewGUI
+from views.tacview_gui_grid import TacviewGUIGrid
+
+from config import DATABASE_NAME
 
 
 def parse_command_line_args():
@@ -35,7 +36,7 @@ def setup_logging(verbose_logging):
         format="%(asctime)s %(levelname)s %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
         handlers=[
-            logging.FileHandler("app.log", mode="w"),
+            logging.FileHandler("logs/app.log", mode="w"),
             # logging.StreamHandler(),
         ],
     )
@@ -55,8 +56,7 @@ def main(argv):
     setup_logging(args.verbose)
 
     # Read environment variables
-    load_dotenv()
-    database_file = os.getenv("DATABASE_NAME")
+    database_file = DATABASE_NAME
 
     # Set start time of processing to calculate total time taken.
     start = time.time()
