@@ -57,6 +57,7 @@ class Database:
         except:
             logging.error("SQL statement issue.")
 
+    # This code unused and also doesn't seem to work
     def create_required_tables() -> bool:
         sql = """
                 CREATE TABLE IF NOT EXISTS "Event" (

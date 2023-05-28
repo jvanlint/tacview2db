@@ -1,6 +1,4 @@
 import xml.etree.ElementTree as ET
-import sqlite3
-from sqlite3 import Error
 import logging
 from models.database import Database
 

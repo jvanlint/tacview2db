@@ -1,6 +1,5 @@
 import xml.etree.ElementTree as ET
 import logging
-from typing import Tuple
 
 
 class Tacview:
