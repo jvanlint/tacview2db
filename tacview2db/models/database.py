@@ -31,8 +31,9 @@ class Database:
         for table in tables:
             sql = f"DELETE FROM {table}"
             cursor.execute(sql)
-            self.conn.commit()
-        logging.warning("Table data cleared.")
+            # self.conn.commit()
+            logging.warning(f"Table {table} cleared.")
+        logging.warning("All table data cleared.")
 
     def execute_sql_select_query(self, sql: str):
         cursor = self.conn.cursor()

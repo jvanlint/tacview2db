@@ -11,13 +11,13 @@ from pathlib import Path
 
 
 def process_all_tacview_files(
-    database_file: str, clear_db: bool, mission_filenames: tuple[str]
+    db: Database, clear_db: bool, mission_filenames: tuple[str]
 ) -> tuple[int]:
     # Set start time of processing to calculate total time taken.
     start = time.time()
 
     # Create a database connection and return a database object.
-    db = Database(database_file)
+    # db = Database(database_file)
 
     # If the -c option was passed in then clear the DB before importing any data.
     if clear_db:

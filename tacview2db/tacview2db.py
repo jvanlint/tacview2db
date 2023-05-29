@@ -3,6 +3,7 @@ from colorama import Fore, Back, Style
 from services.tacview_engine import process_all_tacview_files
 from views.tacview_gui import TacviewGUI
 from views.tacview_gui_grid import TacviewGUIGrid
+from models.database import Database
 
 from config import DATABASE_NAME
 
@@ -57,6 +58,7 @@ def main(argv):
 
     # Read environment variables
     database_file = DATABASE_NAME
+    db = Database(database_file)
 
     # Set start time of processing to calculate total time taken.
     start = time.time()
@@ -64,7 +66,7 @@ def main(argv):
     # This code is for determining UI or command line
     if args.files:
         # Files provided through command-line arguments
-        stats = process_all_tacview_files(database_file, args.cleardb, args.files)
+        stats = process_all_tacview_files(db, args.cleardb, args.files)
 
         print("-" * 80)
         print(f"{Fore.GREEN}*** Export to database complete! ***")
@@ -75,7 +77,7 @@ def main(argv):
         )
     else:
         # No files provided, run the UI
-        gui = TacviewGUIGrid()
+        gui = TacviewGUIGrid(db)
         gui.run()
 
 

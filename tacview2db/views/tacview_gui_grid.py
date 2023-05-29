@@ -2,10 +2,11 @@ import tkinter as tk
 from tkinter.ttk import Progressbar
 from tkinter import filedialog
 from services.tacview_engine import process_all_tacview_files
+from models.database import Database
 
 
 class TacviewGUIGrid:
-    def __init__(self):
+    def __init__(self, db: Database):
         self.window = tk.Tk()
         self.window.title("Tacview2db")
         width = 750
@@ -22,7 +23,7 @@ class TacviewGUIGrid:
         # self.window.resizable(width=False, height=False)
 
         self.clear_database_var = tk.BooleanVar()
-
+        self.db = db
         self.create_widgets()
 
     def create_widgets(self):
@@ -41,6 +42,10 @@ class TacviewGUIGrid:
             self.window, text="Select Files", command=self.open_file_dialog
         )
         btnOpen.grid(row=1, column=2, padx=10, pady=5, sticky="nw")
+
+        # Clear Files Button
+        btnClear = tk.Button(self.window, text="Clear Files", command=self.clear_files)
+        btnClear.grid(row=2, column=2, padx=10, pady=5, sticky="nw")
 
         # Clear Database Checkbox
         clear_database_checkbox = tk.Checkbutton(
@@ -73,9 +78,14 @@ class TacviewGUIGrid:
         btnQuit.grid(row=7, column=2, padx=10, pady=10, sticky="e")
 
     def open_file_dialog(self):
-        file_paths = filedialog.askopenfilenames(filetypes=[("XML Files", "*.xml")])
+        file_paths = filedialog.askopenfilenames(
+            filetypes=[("XML Files", "*.xml")], multiple=True
+        )
         for file_path in file_paths:
             self.lstFiles.insert(tk.END, file_path)
+
+    def clear_files(self):
+        self.lstFiles.delete(0, tk.END)
 
     def process_files(self):
         file_paths = self.lstFiles.get(0, tk.END)
@@ -84,7 +94,7 @@ class TacviewGUIGrid:
         total_files = len(file_paths)
         self.pgBar["maximum"] = total_files
 
-        process_all_tacview_files("pytacview.db", clear_database, file_paths)
+        process_all_tacview_files(self.db, clear_database, file_paths)
 
         if clear_database:
             # Clear the database
