@@ -4,6 +4,8 @@ from tkinter import filedialog
 from services.tacview_engine import process_all_tacview_files
 from models.database import Database
 
+import os
+
 
 class TacviewGUIGrid:
     def __init__(self, db: Database):
@@ -91,14 +93,22 @@ class TacviewGUIGrid:
         file_paths = self.lstFiles.get(0, tk.END)
         clear_database = self.clear_database_var.get()
 
-        total_files = len(file_paths)
-        self.pgBar["maximum"] = total_files
+        total_bytes = 0
+        for file in file_paths:
+            file_size = os.path.getsize(file)
+            total_bytes += file_size
+        self.pgBar["maximum"] = total_bytes
 
-        process_all_tacview_files(self.db, clear_database, file_paths)
+        # total_files = len(file_paths)
+        # self.pgBar["maximum"] = total_files
 
         if clear_database:
             # Clear the database
-            self.lstLogMsgs.insert(tk.END, "Clearing the database...\n")
+            self.lstLogMsgs.insert(
+                tk.END, "WARNING: Option to clear database selected.\n"
+            )
+
+        stats = process_all_tacview_files(self.db, clear_database, file_paths)
 
         for i, file_path in enumerate(file_paths, start=1):
             # Process the file

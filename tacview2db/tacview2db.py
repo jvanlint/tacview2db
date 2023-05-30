@@ -61,17 +61,18 @@ def main(argv):
     db = Database(database_file)
 
     # Set start time of processing to calculate total time taken.
-    start = time.time()
+    start = time.perf_counter()
 
     # This code is for determining UI or command line
     if args.files:
         # Files provided through command-line arguments
         stats = process_all_tacview_files(db, args.cleardb, args.files)
+        end = time.perf_counter()
 
         print("-" * 80)
         print(f"{Fore.GREEN}*** Export to database complete! ***")
         print(f"Processed {stats[0]} of {stats[1]} files.{Style.RESET_ALL}")
-        print(f"The script took {time.time() - start:.3f} seconds to finish.")
+        print(f"The script took {end - start:.3f} seconds to finish.")
         print(
             f"{Fore.MAGENTA}Please refer to app.log file for more detailed information.{Style.RESET_ALL}"
         )
@@ -79,6 +80,8 @@ def main(argv):
         # No files provided, run the UI
         gui = TacviewGUIGrid(db)
         gui.run()
+
+    db.close_connection
 
 
 if __name__ == "__main__":

@@ -14,36 +14,31 @@ def process_all_tacview_files(
     db: Database, clear_db: bool, mission_filenames: tuple[str]
 ) -> tuple[int]:
     # Set start time of processing to calculate total time taken.
-    start = time.time()
+    start = time.perf_counter()
 
-    # Create a database connection and return a database object.
-    # db = Database(database_file)
-
-    # If the -c option was passed in then clear the DB before importing any data.
+    # If the -c option was passed (or checkbox ticked in GUI) in then clear the DB before importing any data.
     if clear_db:
         db.clear_table_data()
 
     file_counter = 0
     for file in mission_filenames:
         if Path(file).exists():
-            logging.info(f"Processing file named {file}.")
             process_tacview_file(db, file)
             file_counter += 1
         else:
             logging.error(
                 f"File name {file} does not exist and being skipped for processing."
             )
-
-    db.close_connection
-
+    end = time.perf_counter()
     logging.info(
-        f"{file_counter} files processed successfully in {time.time() - start:.3f} seconds. {len(mission_filenames) - file_counter} files were not found."
+        f"{file_counter} files processed successfully in {end - start:.3f} seconds. {len(mission_filenames) - file_counter} files were not found."
     )
 
     return (file_counter, len(mission_filenames))
 
 
 def process_tacview_file(db: Database, filename: str):
+    logging.info(f"Processing file named {filename}.")
     # Parse the XML file by creating a Tacview object with the xml filename.
     tacview_parsed_data = Tacview(filename)
 
