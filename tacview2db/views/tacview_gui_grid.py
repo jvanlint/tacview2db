@@ -1,10 +1,10 @@
 import tkinter as tk
 from tkinter.ttk import Progressbar
 from tkinter import filedialog
-from services.tacview_engine import process_all_tacview_files
+from services.tacview_engine import process_tacview_file
 from models.database import Database
 
-import os
+import os, time
 
 
 class TacviewGUIGrid:
@@ -90,34 +90,39 @@ class TacviewGUIGrid:
         self.lstFiles.delete(0, tk.END)
 
     def process_files(self):
+        # self.lstLogMsgs.delete(0, tk.END)
         file_paths = self.lstFiles.get(0, tk.END)
         clear_database = self.clear_database_var.get()
-
-        total_bytes = 0
-        for file in file_paths:
-            file_size = os.path.getsize(file)
-            total_bytes += file_size
-        self.pgBar["maximum"] = total_bytes
-
-        # total_files = len(file_paths)
-        # self.pgBar["maximum"] = total_files
+        start = time.perf_counter()
 
         if clear_database:
             # Clear the database
             self.lstLogMsgs.insert(
                 tk.END, "WARNING: Option to clear database selected.\n"
             )
+            self.db.clear_table_data()
 
-        stats = process_all_tacview_files(self.db, clear_database, file_paths)
+        total_bytes = sum(os.path.getsize(file_path) for file_path in file_paths)
+        self.pgBar["maximum"] = total_bytes
 
-        for i, file_path in enumerate(file_paths, start=1):
-            # Process the file
-            result = f"Processing {file_path}...\n"
+        for file in file_paths:
+            file_size = os.path.getsize(file)
+
+            result = f"Processing {file}...\n"
             self.lstLogMsgs.insert(tk.END, result)
 
-            # Update progress bar
-            self.pgBar["value"] = i
-            self.window.update_idletasks()
+            process_tacview_file(self.db, file)
+
+            self.lstLogMsgs.insert(tk.END, "Finished processing.\n")
+
+            self.pgBar["value"] += file_size
+            # self.window.update
+            # self.window.update_idletasks()
+            self.window.
+
+        end = time.perf_counter()
+        msg = f"Files processed in {end - start:.3f} seconds."
+        self.lstLogMsgs.insert(tk.END, msg)
 
     def run(self):
         self.window.mainloop()
