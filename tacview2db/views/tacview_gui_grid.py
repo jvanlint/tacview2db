@@ -116,9 +116,7 @@ class TacviewGUIGrid:
             self.lstLogMsgs.insert(tk.END, "Finished processing.\n")
 
             self.pgBar["value"] += file_size
-            # self.window.update
-            # self.window.update_idletasks()
-            self.window.
+            self.window.update_idletasks()
 
         end = time.perf_counter()
         msg = f"Files processed in {end - start:.3f} seconds."
