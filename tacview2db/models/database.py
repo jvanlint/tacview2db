@@ -11,7 +11,7 @@ class Database:
         try:
             self.conn = sqlite3.connect(database_file)
             logging.info("Database connection made.")
-        except sqlite3.Err as db_error:
+        except sqlite3.Error as db_error:
             logging.error(f"Database connection failed. Error: {db_error}")
             quit()
 

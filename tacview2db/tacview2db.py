@@ -36,7 +36,7 @@ def setup_logging(verbose_logging):
         format="%(asctime)s %(levelname)s %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
         handlers=[
-            logging.FileHandler("logs/app.log", mode="w"),
+            logging.FileHandler("app.log", mode="w"),
             # logging.StreamHandler(),
         ],
     )
@@ -56,8 +56,13 @@ def main(argv):
     setup_logging(args.verbose)
 
     # Read environment variables
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    logging.info(f"Current Dir: {current_dir}")
     database_file = DATABASE_NAME
-    db = Database(database_file)
+    logging.info(f"Database File: {database_file}")
+    database_path = os.path.join(current_dir, database_file)
+    logging.info(f"Database path: {database_path}")
+    db = Database(database_path)
 
     # Set start time of processing to calculate total time taken.
     start = time.perf_counter()

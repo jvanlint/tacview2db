@@ -1,5 +1,5 @@
 # For more information, please refer to https://aka.ms/vscode-docker-python
-FROM python:3.10-slim
+FROM python:3.11-slim
 
 # Keeps Python from generating .pyc files in the container
 ENV PYTHONDONTWRITEBYTECODE=1
@@ -11,6 +11,13 @@ ENV PYTHONUNBUFFERED=1
 COPY requirements.txt .
 RUN python -m pip install -r requirements.txt
 
+# Download Package Information
+RUN apt-get update -y
+
+
+# Install Tkinter
+RUN apt-get install tk -y
+
 WORKDIR /app
 COPY . /app
 
@@ -20,4 +27,4 @@ RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /
 USER appuser
 
 # During debugging, this entry point will be overridden. For more information, please refer to https://aka.ms/vscode-docker-python-debug
-CMD ["python", "app/tacview2db.py"]
+CMD ["python", "tacview2db/tacview2db.py"]
