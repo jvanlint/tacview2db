@@ -1,4 +1,5 @@
 import argparse, os, time, sys, logging
+from art import *
 from colorama import Fore, Back, Style
 from services.tacview_engine import process_all_tacview_files
 from views.tacview_gui_grid import TacviewGUIGrid
@@ -57,11 +58,8 @@ def main(argv):
 
     # Read environment variables
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    logging.info(f"Current Dir: {current_dir}")
     database_file = DATABASE_NAME
-    logging.info(f"Database File: {database_file}")
     database_path = os.path.join(current_dir, database_file)
-    logging.info(f"Database path: {database_path}")
     db = Database(database_path)
 
     # Set start time of processing to calculate total time taken.
@@ -70,6 +68,7 @@ def main(argv):
     # This code is for determining if the user wants to launch UI or command line.
     # Providing no arguments assumes the UI is required.
     if args.files:
+        tprint("tacview2db", font="tarty1")
         # Files provided through command-line arguments
         stats = process_all_tacview_files(db, args.cleardb, args.files)
         end = time.perf_counter()

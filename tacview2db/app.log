@@ -1,29 +1,26 @@
-2023-06-04 23:30:13 INFO Current Dir: /Users/Jason.VanLint/Documents/Projects/Python/tacview2db/tacview2db
-2023-06-04 23:30:13 INFO Database File: database/pytacview.db
-2023-06-04 23:30:13 INFO Database path: /Users/Jason.VanLint/Documents/Projects/Python/tacview2db/tacview2db/database/pytacview.db
-2023-06-04 23:30:13 INFO Attempting to connect to database /Users/Jason.VanLint/Documents/Projects/Python/tacview2db/tacview2db/database/pytacview.db.
-2023-06-04 23:30:13 INFO Database connection made.
-2023-06-04 23:30:13 WARNING Clearing out database before import of tacview data.
-2023-06-04 23:30:13 WARNING Table Mission cleared.
-2023-06-04 23:30:13 WARNING Table ParentObject cleared.
-2023-06-04 23:30:13 WARNING Table SecondaryObject cleared.
-2023-06-04 23:30:13 WARNING Table PrimaryObject cleared.
-2023-06-04 23:30:13 WARNING Table Event cleared.
-2023-06-04 23:30:13 WARNING All table data cleared.
-2023-06-04 23:30:13 INFO Processing file named data/M8.xml.
-2023-06-04 23:30:13 INFO Attempting to parse XML in data/M8.xml.
-2023-06-04 23:30:13 INFO XML parsed successfully.
-2023-06-04 23:30:13 INFO Checking if Op_Sand_Scorpion_-_Part_8_v1.0 already in database.
-2023-06-04 23:30:13 INFO Attempting to add mission named Op_Sand_Scorpion_-_Part_8_v1.0 to database.
-2023-06-04 23:30:13 INFO Created mission in database.
-2023-06-04 23:30:13 INFO Processing event records.
-2023-06-04 23:30:14 INFO Successfully processed 486 event records, 486 primary records, 406 secondary records and 151 parent records.
-2023-06-04 23:30:14 INFO Processing file named data/M7.xml.
-2023-06-04 23:30:14 INFO Attempting to parse XML in data/M7.xml.
-2023-06-04 23:30:14 INFO XML parsed successfully.
-2023-06-04 23:30:14 INFO Checking if Op_Sand_Scorpion_-_Part_7_v1.0 already in database.
-2023-06-04 23:30:14 INFO Attempting to add mission named Op_Sand_Scorpion_-_Part_7_v1.0 to database.
-2023-06-04 23:30:14 INFO Created mission in database.
-2023-06-04 23:30:14 INFO Processing event records.
-2023-06-04 23:30:15 INFO Successfully processed 302 event records, 302 primary records, 191 secondary records and 62 parent records.
-2023-06-04 23:30:15 INFO 2 files processed successfully in 2.116 seconds. 0 files were not found.
+2023-06-05 03:43:50 INFO Attempting to connect to database /Users/Jason.VanLint/Documents/Projects/Python/tacview2db/tacview2db/database/pytacview.db.
+2023-06-05 03:43:50 INFO Database connection made.
+2023-06-05 03:43:50 WARNING Clearing out database before import of tacview data.
+2023-06-05 03:43:50 WARNING Table Mission cleared.
+2023-06-05 03:43:50 WARNING Table ParentObject cleared.
+2023-06-05 03:43:50 WARNING Table SecondaryObject cleared.
+2023-06-05 03:43:50 WARNING Table PrimaryObject cleared.
+2023-06-05 03:43:50 WARNING Table Event cleared.
+2023-06-05 03:43:50 WARNING All table data cleared.
+2023-06-05 03:43:50 INFO Processing file named data/M8.xml.
+2023-06-05 03:43:50 INFO Attempting to parse XML in data/M8.xml.
+2023-06-05 03:43:50 INFO XML parsed successfully.
+2023-06-05 03:43:50 INFO Checking if Op_Sand_Scorpion_-_Part_8_v1.0 already in database.
+2023-06-05 03:43:50 INFO Attempting to add mission named Op_Sand_Scorpion_-_Part_8_v1.0 to database.
+2023-06-05 03:43:50 INFO Created mission in database.
+2023-06-05 03:43:50 INFO Processing event records.
+2023-06-05 03:43:51 INFO Successfully processed 486 event records, 486 primary records, 406 secondary records and 151 parent records.
+2023-06-05 03:43:51 INFO Processing file named data/M7.xml.
+2023-06-05 03:43:51 INFO Attempting to parse XML in data/M7.xml.
+2023-06-05 03:43:51 INFO XML parsed successfully.
+2023-06-05 03:43:51 INFO Checking if Op_Sand_Scorpion_-_Part_7_v1.0 already in database.
+2023-06-05 03:43:51 INFO Attempting to add mission named Op_Sand_Scorpion_-_Part_7_v1.0 to database.
+2023-06-05 03:43:51 INFO Created mission in database.
+2023-06-05 03:43:51 INFO Processing event records.
+2023-06-05 03:43:52 INFO Successfully processed 302 event records, 302 primary records, 191 secondary records and 62 parent records.
+2023-06-05 03:43:52 INFO 2 files processed successfully in 2.227 seconds. 0 files were not found.
