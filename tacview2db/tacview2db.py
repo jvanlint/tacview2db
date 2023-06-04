@@ -1,7 +1,6 @@
 import argparse, os, time, sys, logging
 from colorama import Fore, Back, Style
 from services.tacview_engine import process_all_tacview_files
-from views.tacview_gui import TacviewGUI
 from views.tacview_gui_grid import TacviewGUIGrid
 from models.database import Database
 
