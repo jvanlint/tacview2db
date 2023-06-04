@@ -62,7 +62,8 @@ def main(argv):
     # Set start time of processing to calculate total time taken.
     start = time.perf_counter()
 
-    # This code is for determining UI or command line
+    # This code is for determining if the user wants to launch UI or command line.
+    # Providing no arguments assumes the UI is required.
     if args.files:
         # Files provided through command-line arguments
         stats = process_all_tacview_files(db, args.cleardb, args.files)
