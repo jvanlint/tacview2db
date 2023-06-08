@@ -1,4 +1,6 @@
 import logging
+from logging import StreamHandler
+import tkinter as tk
 
 
 class TacviewLogger:
@@ -35,3 +37,27 @@ class TacviewLogger:
 
     def critical(self, message):
         self.logger.critical(message)
+
+
+class TVLogger(StreamHandler):
+    def __init__(self, text_widget):
+        super().__init__()
+        self.text_widget = text_widget
+
+        format = "%(asctime)s %(levelname)s %(message)s"
+        datefmt = "%Y-%m-%d %H:%M:%S"
+
+        formatter = logging.Formatter(format, datefmt)
+
+        self.setFormatter(formatter)
+        self.setFormatter()
+
+    def emit(self, record):
+        try:
+            msg = self.format(record)
+            self.text_widget.configure(state="normal")
+            self.text_widget.insert("end", msg + "\n")
+            self.text_widget.configure(state="disabled")
+            self.text_widget.see("end")
+        except Exception:
+            self.handleError(record)

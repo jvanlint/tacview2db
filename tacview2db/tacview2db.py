@@ -75,8 +75,9 @@ def main(argv):
 
         print("-" * 80)
         print(f"{Fore.GREEN}*** Export to database complete! ***")
-        print(f"Processed {stats[0]} of {stats[1]} files.{Style.RESET_ALL}")
-        print(f"The script took {end - start:.3f} seconds to finish.")
+        print(
+            f"Processed {Fore.YELLOW}{stats[0]}{Fore.GREEN} of {Fore.YELLOW}{stats[1]}{Fore.GREEN} files in {Fore.YELLOW}{end - start:.3f}{Fore.GREEN} seconds.{Style.RESET_ALL} "
+        )
         print(
             f"{Fore.MAGENTA}Please refer to app.log file for more detailed information.{Style.RESET_ALL}"
         )
