@@ -1,4 +1,4 @@
-import sqlite3, logging, time
+import sqlite3, logging, time, os
 
 from models.mission import Mission
 from models.event import Event
@@ -8,6 +8,20 @@ from models.parent import Parent
 from models.database import Database
 from models.tacview_data import Tacview
 from pathlib import Path
+from tqdm import tqdm
+
+
+def calculate_total_bytes(files: str):
+    total_bytes = 0
+
+    for file in files:
+        total_bytes += os.path.getsize(file)
+
+    return total_bytes
+
+
+def calculate_file_size(file: str):
+    return os.path.getsize(file)
 
 
 def process_all_tacview_files(
@@ -16,19 +30,38 @@ def process_all_tacview_files(
     # Set start time of processing to calculate total time taken.
     start = time.perf_counter()
 
+    file_counter = 0
+    total_bytes = calculate_total_bytes(mission_filenames)
+    total_files = len(mission_filenames)
+    total_bytes_processed = 0
+
     # If the -c option was passed (or checkbox ticked in GUI) in then clear the DB before importing any data.
     if clear_db:
         db.clear_table_data()
 
-    file_counter = 0
+    # Create a progress bar object
+    progress_bar = tqdm(
+        total=total_bytes,
+        ncols=80,
+        unit="kb",
+        bar_format="{l_bar}{bar}| {n_fmt}/{total_fmt}",
+    )
+
     for file in mission_filenames:
         if Path(file).exists():
             process_tacview_file(db, file)
             file_counter += 1
+            progress_bar.set_postfix_str(file)
+            # progress_bar.set_description("Processing...")
+            progress_bar.update(calculate_file_size(file))
         else:
             logging.error(
                 f"File name {file} does not exist and being skipped for processing."
             )
+
+    # Close the progress bar
+    progress_bar.close()
+
     end = time.perf_counter()
     logging.info(
         f"{file_counter} files processed successfully in {end - start:.3f} seconds. {len(mission_filenames) - file_counter} files were not found."
