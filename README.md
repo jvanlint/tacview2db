@@ -2,7 +2,7 @@
 A Python script that will process a TacView XML log file derived from a Digital Combat Simulator (DCS) mission. It processes this file to create a SQLite3 relational database of objects that can be used for analysis and queries.
 
 # What is Digital Combat Simulator?
-Digital Combat Simulator (DCS) is a flight simulation game that offer high fidleity modeling of several military aircraft. In addition, it models the combat systems of these aircraft and enables users to not only fly aircraft but use the weapons on the aircraft to achieve goals within a mission. The game ships with a mission editor to create scenarios for players and simulates dozens of aircraft from around the world.
+Digital Combat Simulator (DCS) is a flight simulation game that offer high fidelity modeling of several military aircraft. In addition, it models the combat systems of these aircraft and enables users to not only fly aircraft but use the weapons on the aircraft to achieve goals within a mission. The game ships with a mission editor to create scenarios for players and simulates dozens of aircraft from around the world.
 [Digital Combat Simulator](https://www.digitalcombatsimulator.com)
 
 # What is TacView?
