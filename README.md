@@ -13,7 +13,7 @@ Tacview is software that is able to hook into DCS using a Lua hook to extract li
 # Why **tacview2db**?
 TacView provides an excellent way of visualising and capturing telemetry in chronological order. However, if you would like to keep track of statistics over time, or identify the effectiveness of weapons, it is best to have a relational database that would provide the ability to query this information.
 
-**tacview2db** stores all TacView data to provide you with the ability to query a rich set of events. Using this data you can answer questions such as:
+**tacview2db** processes TacView data in the form of XML and stores it in an SQLite database to provide you with the ability to query a rich set of events. Using this data you can answer questions such as:
 
 - What is the hit rate of weapon X?
 - Which call sign has the most kills over the course of a campaign on missions?
