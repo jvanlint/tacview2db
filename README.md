@@ -25,7 +25,7 @@ In short, it provides a rich relational database that can provide statistics ove
 > A sample dashboard built using Django that references a DB built with tacview2db.
 
 ## How To Use It
-Tacview has the ability to export it's native Tacview file format into XML. 
+Tacview has the ability to export its native Tacview file format into XML. 
 1. Use the File menu in Tacview to export a currently viewed file as XML. (the Tacview file should preferably be from the server and not a client in the recently flown mission)
 2. Place the XML file in the same directory as tacview2db.py. Or you can specify a path to the file when calling the command in the terminal.
 3. Run the Python script passing it the name of your xml file. (eg. ```python tacview2db.py mymission.xml```)
@@ -44,6 +44,10 @@ optional arguments:
   -c, --cleardb Clears the database of any existing data before importing the XML file.
   -v, --verbose Turn on verbose logging for the command line.
   ```
+
+>Whilst tacview2db is essentially a command line tool it also has a GUI.
+If you do not provide files as parameters to the tacview2db.py command it will launch with a GUI that will help you select files for import.
+
 ## How It Works
 The TacView XML is basically a list of events. An event consists of an action and several objects. Each event will have an action and a Primary Object as a minimum. Depending on the type of action, the event may also contain a Secondary Object and a Parent Object.
 
