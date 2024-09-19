@@ -10,10 +10,10 @@ Tacview is software that is able to hook into DCS using a Lua hook to extract li
 ![TacView Example](docs/images/tacviewimage.png)
 [TacView](https://www.tacview.net/product/about/en/)
 
-# Why tacview2db?
-TacView provides an excellent way of visualising and capturing telemetry in chronological order. However, if you would like to keep track of statistics over time, or identify the effectiveness of weapons, it is best to have a relational database that would provide teh ability to query this information.
+# Why **tacview2db**?
+TacView provides an excellent way of visualising and capturing telemetry in chronological order. However, if you would like to keep track of statistics over time, or identify the effectiveness of weapons, it is best to have a relational database that would provide the ability to query this information.
 
-tacview2db stores all TacView data to provide you with the ability to query a rich set of events. Using this data you can answer questions such as:
+**tacview2db** stores all TacView data to provide you with the ability to query a rich set of events. Using this data you can answer questions such as:
 
 - What is the hit rate of weapon X?
 - Which call sign has the most kills over the course of a campaign on missions?
@@ -24,10 +24,10 @@ In short, it provides a rich relational database that can provide statistics ove
 ![Sample Campaign Dashboard](docs/images/campaign_dashboard.png "Sample dashboard built in Django")
 > A sample dashboard built using Django that references a DB built with tacview2db.
 
-## How To Use It
+## How To Use **tacview2db**
 Tacview has the ability to export its native Tacview file format into XML. 
-1. Use the File menu in Tacview to export a currently viewed file as XML. (the Tacview file should preferably be from the server and not a client in the recently flown mission)
-2. Place the XML file in the same directory as tacview2db.py. Or you can specify a path to the file when calling the command in the terminal.
+1. Use the File menu in Tacview to export a currently viewed Tacview file as XML. (the Tacview file should preferably be from the server and not a client in the recently flown mission)
+2. Place the XML file in the same directory as ```tacview2db.py```. Or you can specify a path to the file when calling the command in the terminal.
 3. Run the Python script passing it the name of your xml file. (eg. ```python tacview2db.py mymission.xml```)
 
 Typing ```python tacview2db.py -h``` will give you some help.
@@ -45,8 +45,8 @@ optional arguments:
   -v, --verbose Turn on verbose logging for the command line.
   ```
 
->Whilst tacview2db is essentially a command line tool it also has a GUI.
-If you do not provide files as parameters to the tacview2db.py command it will launch with a GUI that will help you select files for import.
+>Whilst **tacview2db** is essentially a command line tool it also has a GUI.
+If you do not provide files as parameters to the ```tacview2db.py``` command it will launch with a GUI that will help you select files for import.
 
 ## How It Works
 The TacView XML is basically a list of events. An event consists of an action and several objects. Each event will have an action and a Primary Object as a minimum. Depending on the type of action, the event may also contain a Secondary Object and a Parent Object.
