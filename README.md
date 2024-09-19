@@ -22,6 +22,7 @@ tacview2db stores all TacView data to provide you with the ability to query a ri
 
 In short, it provides a rich relational database that can provide statistics over a period of time. This data could then further be visualised in a website dashboard or some other reporting tool.
 ![Sample Campaign Dashboard](docs/images/campaign_dashboard.png "Sample dashboard built in Django")
+> A sample dashboard built using Django that references a DB built with tacview2db.
 
 ## How To Use It
 Tacview has the ability to export it's native Tacview file format into XML. 
