@@ -1,2 +1,18 @@
-2025-04-23 00:42:38 INFO Attempting to connect to database /workspaces/tacview2db/tacview2db/database/pytacview.db.
-2025-04-23 00:42:38 INFO Database connection made.
+2025-04-23 01:28:14 INFO Attempting to connect to database /workspaces/tacview2db/tacview2db/database/pytacview.db.
+2025-04-23 01:28:14 INFO Database connection made.
+2025-04-23 01:28:14 WARNING Clearing out database before import of tacview data.
+2025-04-23 01:28:14 WARNING Table Mission cleared.
+2025-04-23 01:28:14 WARNING Table ParentObject cleared.
+2025-04-23 01:28:14 WARNING Table SecondaryObject cleared.
+2025-04-23 01:28:14 WARNING Table PrimaryObject cleared.
+2025-04-23 01:28:14 WARNING Table Event cleared.
+2025-04-23 01:28:14 WARNING All table data cleared.
+2025-04-23 01:28:14 INFO Processing file named sample_data_files/M6.xml.
+2025-04-23 01:28:14 INFO Attempting to parse XML in sample_data_files/M6.xml.
+2025-04-23 01:28:14 INFO XML parsed successfully.
+2025-04-23 01:28:14 INFO Checking if Op_Sand_Scorpion_-_Part_6_v2.1 already in database.
+2025-04-23 01:28:14 INFO Attempting to add mission named Op_Sand_Scorpion_-_Part_6_v2.1 to database.
+2025-04-23 01:28:14 INFO Created mission in database.
+2025-04-23 01:28:14 INFO Processing event records.
+2025-04-23 01:28:14 INFO Successfully processed 79 event records, 79 primary records, 44 secondary records and 3 parent records.
+2025-04-23 01:28:14 INFO 1 files processed successfully in 0.367 seconds. 0 files were not found.
