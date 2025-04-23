@@ -1,0 +1,24 @@
+{
+  "name": "Tacview2DB Development",
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": ".."
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "charliermarsh.ruff",
+        "alexcvzz.vscode-sqlite",
+        "yzhang.markdown-all-in-one",
+        "aaron-bond.better-comments"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      }
+    }
+  },
+  "forwardPorts": [],
+  "remoteUser": "appuser",
+}

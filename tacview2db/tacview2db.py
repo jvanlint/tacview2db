@@ -1,6 +1,10 @@
-import argparse, os, time, sys, logging
-from art import *
-from colorama import Fore, Back, Style
+import argparse
+import os
+import time
+import sys
+import logging
+from art import tprint
+from colorama import Fore, Style
 from services.tacview_engine import process_all_tacview_files
 from views.tacview_gui_grid import TacviewGUIGrid
 from models.database import Database

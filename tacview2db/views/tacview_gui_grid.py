@@ -4,7 +4,8 @@ from tkinter import filedialog
 from services.tacview_engine import process_tacview_file
 from models.database import Database
 
-import os, time
+import os
+import time
 
 
 class TacviewGUIGrid:

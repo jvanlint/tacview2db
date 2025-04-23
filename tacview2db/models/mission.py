@@ -39,7 +39,7 @@ class Mission:
 
         self.id = db.execute_sql_statement(sql, db_values)
 
-        logging.info(f"Created mission in database.")
+        logging.info("Created mission in database.")
 
         # Return the id of the newly created Mission record.
         return self.id

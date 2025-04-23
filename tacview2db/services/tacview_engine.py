@@ -1,4 +1,6 @@
-import sqlite3, logging, time, os
+import logging
+import time
+import os
 
 from models.mission import Mission
 from models.event import Event
@@ -32,8 +34,9 @@ def process_all_tacview_files(
 
     file_counter = 0
     total_bytes = calculate_total_bytes(mission_filenames)
-    total_files = len(mission_filenames)
-    total_bytes_processed = 0
+    #! Remove this code
+    # total_files = len(mission_filenames)
+    # total_bytes_processed = 0
 
     # If the -c option was passed (or checkbox ticked in GUI) in then clear the DB before importing any data.
     if clear_db:

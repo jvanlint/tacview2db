@@ -1,6 +1,5 @@
 import logging
 from logging import StreamHandler
-import tkinter as tk
 
 
 class TacviewLogger:

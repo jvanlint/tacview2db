@@ -1,5 +1,5 @@
 # For more information, please refer to https://aka.ms/vscode-docker-python
-FROM python:3.11-slim
+FROM python:3.12-slim-bullseye
 
 # Keeps Python from generating .pyc files in the container
 ENV PYTHONDONTWRITEBYTECODE=1
@@ -7,16 +7,17 @@ ENV PYTHONDONTWRITEBYTECODE=1
 # Turns off buffering for easier container logging
 ENV PYTHONUNBUFFERED=1
 
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    sqlite3 \
+    tk \
+    git \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
 # Install pip requirements
 COPY requirements.txt .
 RUN python -m pip install -r requirements.txt
-
-# Download Package Information
-RUN apt-get update -y
-
-
-# Install Tkinter
-RUN apt-get install tk -y
 
 WORKDIR /app
 COPY . /app

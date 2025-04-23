@@ -14,7 +14,7 @@ class Tacview:
             tree = ET.parse(xml_file)
             self.xml_full_data = tree.getroot()
             self.xml_event_data = self.xml_full_data[2].findall("Event")
-            logging.info(f"XML parsed successfully.")
+            logging.info("XML parsed successfully.")
 
         except FileNotFoundError:
             logging.error("The XML file was not found.")

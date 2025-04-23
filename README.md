@@ -6,9 +6,10 @@ Digital Combat Simulator (DCS) is a flight simulation game that offer high fidel
 [Digital Combat Simulator](https://www.digitalcombatsimulator.com)
 
 # What is TacView?
-Tacview is software that is able to hook into DCS using a Lua hook to extract live telemetry from DCS as it is being played. This enables TacView to visually represent missions so that players can debrief and examine tactics and learn lessons.
+Tacview is software that is able to record activity in a DCS mission using a Lua hook to extract live telemetry as it is being played. This enables TacView to visually represent missions so that players can debrief, examine tactics and learn lessons.
+
 ![TacView Example](docs/images/tacviewimage.png)
-[TacView](https://www.tacview.net/product/about/en/)
+[A TacView file showing an air defence sites and various players in the air.](https://www.tacview.net/product/about/en/)
 
 # Why **tacview2db**?
 TacView provides an excellent way of visualising and capturing telemetry in chronological order. However, if you would like to keep track of statistics over time, or identify the effectiveness of weapons, it is best to have a relational database that would provide the ability to query this information.
@@ -16,13 +17,72 @@ TacView provides an excellent way of visualising and capturing telemetry in chro
 **tacview2db** processes TacView data in the form of XML and stores it in an SQLite database to provide you with the ability to query a rich set of events. Using this data you can answer questions such as:
 
 - What is the hit rate of weapon X?
-- Which call sign has the most kills over the course of a campaign on missions?
-- Which aircraft is most effective at Air to Air?
+- Which call sign has the most kills during over the course of a campaign?
+- Which aircraft/player is most effective at Air to Air?
 - How many ground targets were hit in a mission or campaign?
 
 In short, it provides a rich relational database that can provide statistics over a period of time. This data could then further be visualised in a website dashboard or some other reporting tool.
+
 ![Sample Campaign Dashboard](docs/images/campaign_dashboard.png "Sample dashboard built in Django")
 > A sample dashboard built using Django that references a DB built with tacview2db.
+
+## How to install
+
+### Prerequisites
+- Python 3.7 or newer
+- Internet connection for downloading packages
+
+### Installation Steps
+
+#### 1. Clone the repository
+```bash
+git clone https://github.com/username/tacview2db.git
+cd tacview2db
+```
+
+#### 2. Set up a Python virtual environment
+A virtual environment keeps your project dependencies isolated.
+
+**On Windows:**
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+**On macOS/Linux:**
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+When successful, you'll see `(venv)` at the beginning of your command prompt.
+
+#### 3. Install dependencies using pip
+Once your virtual environment is activated:
+
+**On Windows:**
+```bash
+pip install -r requirements.txt
+```
+
+**On macOS/Linux:**
+```bash
+pip3 install -r requirements.txt
+```
+
+#### 4. Verify installation
+To verify everything is working properly:
+```bash
+python tacview2db.py --help
+```
+
+You should see the help information displayed as shown below.
+
+### Troubleshooting
+
+- **"Command not found" errors**: Make sure you've activated the virtual environment
+- **Import errors**: Try reinstalling the requirements with `pip install -r requirements.txt --force-reinstall`
+- **Permission issues**: On Linux/macOS, you might need to use `sudo` or adjust file permissions
 
 ## How To Use **tacview2db**
 Tacview has the ability to export its native Tacview file format into XML. 
