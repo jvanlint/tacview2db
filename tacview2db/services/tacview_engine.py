@@ -34,9 +34,6 @@ def process_all_tacview_files(
 
     file_counter = 0
     total_bytes = calculate_total_bytes(mission_filenames)
-    #! Remove this code
-    # total_files = len(mission_filenames)
-    # total_bytes_processed = 0
 
     # If the -c option was passed (or checkbox ticked in GUI) in then clear the DB before importing any data.
     if clear_db:

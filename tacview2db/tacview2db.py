@@ -64,6 +64,8 @@ def main(argv):
     current_dir = os.path.dirname(os.path.abspath(__file__))
     database_file = DATABASE_NAME
     database_path = os.path.join(current_dir, database_file)
+
+    # Create a database connection
     db = Database(database_path)
 
     # Set start time of processing to calculate total time taken.
