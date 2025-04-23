@@ -25,44 +25,74 @@ def parse_command_line_args():
         action="store_true",
         help="Clear the database before processing data file(s).",
     )
+    # Add argument for verbose logging
     parser.add_argument(
         "-v",
         "--verbose",
-        action="store_true",
+        action="store_true",  # Flag argument, will be True if specified
         help="Enable verbose logging to console.",
     )
     return parser.parse_args()
 
 
 def setup_logging(verbose_logging):
-    # Set up logging configuration
+    """
+    Configure the logging system for the application
+
+    Args:
+        verbose_logging: Boolean flag to determine if logs should also be output to console
+
+    This function sets up:
+    1. File logging (always enabled, writes to app.log)
+    2. Console logging (only when verbose_logging is True)
+    """
+    # Set up logging configuration with a file handler by default
+    # Level DEBUG ensures all log messages are captured
+    # The 'w' mode overwrites previous log files on each run
     logging.basicConfig(
         level=logging.DEBUG,
         format="%(asctime)s %(levelname)s %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
         handlers=[
             logging.FileHandler("app.log", mode="w"),
-            # logging.StreamHandler(),
+            # logging.StreamHandler(),  # Commented out to prevent duplicate logs
         ],
     )
 
+    # Only add console logging if verbose flag was set
     if verbose_logging:
+        # Create a handler for console output
         console = logging.StreamHandler()
+        # Define the format for console messages
         formatter = logging.Formatter("%(asctime)s -  %(levelname)s - %(message)s")
         console.setFormatter(formatter)
+        # Add the console handler to the root logger
         logging.getLogger("").addHandler(console)
 
 
 def main(argv):
-    # Parse command-line arguments.
+    """
+    Main entry point for the application
+
+    Args:
+        argv: Command line arguments passed to the script
+
+    Handles:
+    1. Command-line argument parsing
+    2. Logging setup
+    3. Database initialization
+    4. Choosing between CLI or GUI mode based on arguments
+    """
+    # Parse command-line arguments
     args = parse_command_line_args()
 
-    # Set up logging
+    # Configure the logging based on verbose flag
     setup_logging(args.verbose)
 
-    # Read environment variables
+    # Set up database path relative to script location
+    # This ensures database is properly located regardless of where script is called from
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    database_file = DATABASE_NAME
+    database_file = DATABASE_NAME  # Imported from config module
     database_path = os.path.join(current_dir, database_file)
 
     # Create a database connection

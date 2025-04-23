@@ -14,6 +14,16 @@ from tqdm import tqdm
 
 
 def calculate_total_bytes(files: str):
+    """
+    Calculate the total size in bytes of all files to be processed.
+    This is used to provide accurate progress tracking.
+
+    Args:
+        files: A collection of file paths to measure
+
+    Returns:
+        The sum of all file sizes in bytes
+    """
     total_bytes = 0
 
     for file in files:
@@ -23,12 +33,34 @@ def calculate_total_bytes(files: str):
 
 
 def calculate_file_size(file: str):
+    """
+    Calculate the size of a single file in bytes.
+    Used for updating the progress bar after each file is processed.
+
+    Args:
+        file: The path to the file
+
+    Returns:
+        The file size in bytes
+    """
     return os.path.getsize(file)
 
 
 def process_all_tacview_files(
     db: Database, clear_db: bool, mission_filenames: tuple[str]
 ) -> tuple[int]:
+    """
+    Main function to process all provided Tacview XML files.
+    This orchestrates the entire processing workflow.
+
+    Args:
+        db: Database object for storing extracted data
+        clear_db: Boolean indicating whether to clear existing database data
+        mission_filenames: Collection of Tacview XML file paths to process
+
+    Returns:
+        A tuple containing (number of files processed, total number of files)
+    """
     # Set start time of processing to calculate total time taken.
     start = time.perf_counter()
 
@@ -71,6 +103,14 @@ def process_all_tacview_files(
 
 
 def process_tacview_file(db: Database, filename: str):
+    """
+    Process a single Tacview XML file.
+    This function extracts and stores mission, event, primary, secondary, and parent data.
+
+    Args:
+        db: Database object for storing extracted data
+        filename: Path to the Tacview XML file to process
+    """
     logging.info(f"Processing file named {filename}.")
     # Parse the XML file by creating a Tacview object with the xml filename.
     tacview_parsed_data = Tacview(filename)
@@ -86,9 +126,9 @@ def process_tacview_file(db: Database, filename: str):
     logging.info("Processing event records.")
 
     # Initialise counter variables to 0. These are used to display the amount of records processed for logging.
-    event_counter = (
-        primary_object_counter
-    ) = secondary_object_counter = parent_object_counter = 0
+    event_counter = primary_object_counter = secondary_object_counter = (
+        parent_object_counter
+    ) = 0
 
     # Process all the events contained with the parsed data. This loop also processes the Primary, Secondary and Parent object associated with an Event.
     for event in event_data:
