@@ -12,7 +12,9 @@
         "charliermarsh.ruff",
         "alexcvzz.vscode-sqlite",
         "yzhang.markdown-all-in-one",
-        "aaron-bond.better-comments"
+        "aaron-bond.better-comments",
+        "ms-vscode-remote.remote-containers",
+        "PKief.material-icon-theme"
       ],
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python"
