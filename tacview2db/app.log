@@ -1,34 +1,34 @@
-2025-04-23 06:31:44 INFO Attempting to connect to database /workspaces/tacview2db/tacview2db/database/pytacview.db.
-2025-04-23 06:31:44 INFO Database connection made.
-2025-04-23 06:31:44 WARNING Clearing out database before import of tacview data.
-2025-04-23 06:31:44 WARNING Table Mission cleared.
-2025-04-23 06:31:44 WARNING Table ParentObject cleared.
-2025-04-23 06:31:44 WARNING Table SecondaryObject cleared.
-2025-04-23 06:31:44 WARNING Table PrimaryObject cleared.
-2025-04-23 06:31:44 WARNING Table Event cleared.
-2025-04-23 06:31:44 WARNING All table data cleared.
-2025-04-23 06:31:44 INFO Processing file named sample_data_files/M6.xml.
-2025-04-23 06:31:44 INFO Attempting to parse XML in sample_data_files/M6.xml.
-2025-04-23 06:31:44 INFO XML parsed successfully.
-2025-04-23 06:31:44 INFO Checking if Op_Sand_Scorpion_-_Part_6_v2.1 already in database.
-2025-04-23 06:31:44 INFO Attempting to add mission named Op_Sand_Scorpion_-_Part_6_v2.1 to database.
-2025-04-23 06:31:44 INFO Created mission in database.
-2025-04-23 06:31:44 INFO Processing event records.
-2025-04-23 06:31:44 INFO Successfully processed 79 event records, 79 primary records, 44 secondary records and 3 parent records.
-2025-04-23 06:31:44 INFO Processing file named sample_data_files/M7.xml.
-2025-04-23 06:31:44 INFO Attempting to parse XML in sample_data_files/M7.xml.
-2025-04-23 06:31:44 INFO XML parsed successfully.
-2025-04-23 06:31:44 INFO Checking if Op_Sand_Scorpion_-_Part_7_v1.0 already in database.
-2025-04-23 06:31:44 INFO Attempting to add mission named Op_Sand_Scorpion_-_Part_7_v1.0 to database.
-2025-04-23 06:31:44 INFO Created mission in database.
-2025-04-23 06:31:44 INFO Processing event records.
-2025-04-23 06:31:45 INFO Successfully processed 302 event records, 302 primary records, 191 secondary records and 62 parent records.
-2025-04-23 06:31:45 INFO Processing file named sample_data_files/M8.xml.
-2025-04-23 06:31:45 INFO Attempting to parse XML in sample_data_files/M8.xml.
-2025-04-23 06:31:45 INFO XML parsed successfully.
-2025-04-23 06:31:45 INFO Checking if Op_Sand_Scorpion_-_Part_8_v1.0 already in database.
-2025-04-23 06:31:45 INFO Attempting to add mission named Op_Sand_Scorpion_-_Part_8_v1.0 to database.
-2025-04-23 06:31:45 INFO Created mission in database.
-2025-04-23 06:31:45 INFO Processing event records.
-2025-04-23 06:31:47 INFO Successfully processed 486 event records, 486 primary records, 406 secondary records and 151 parent records.
-2025-04-23 06:31:47 INFO 3 files processed successfully in 3.467 seconds. 0 files were not found.
+2025-04-23 23:17:41 INFO Attempting to connect to database /workspaces/tacview2db/tacview2db/database/pytacview.db.
+2025-04-23 23:17:41 INFO Database connection made.
+2025-04-23 23:17:41 WARNING Clearing out database before import of tacview data.
+2025-04-23 23:17:41 WARNING Table Mission cleared.
+2025-04-23 23:17:41 WARNING Table ParentObject cleared.
+2025-04-23 23:17:41 WARNING Table SecondaryObject cleared.
+2025-04-23 23:17:41 WARNING Table PrimaryObject cleared.
+2025-04-23 23:17:41 WARNING Table Event cleared.
+2025-04-23 23:17:41 WARNING All table data cleared.
+2025-04-23 23:17:41 INFO Processing file named sample_data_files/M6.xml.
+2025-04-23 23:17:41 INFO Attempting to parse XML in sample_data_files/M6.xml.
+2025-04-23 23:17:41 INFO XML parsed successfully.
+2025-04-23 23:17:41 INFO Checking if Op_Sand_Scorpion_-_Part_6_v2.1 already in database.
+2025-04-23 23:17:41 INFO Attempting to add mission named Op_Sand_Scorpion_-_Part_6_v2.1 to database.
+2025-04-23 23:17:41 INFO Created mission in database.
+2025-04-23 23:17:41 INFO Processing event records.
+2025-04-23 23:17:41 INFO Successfully processed 79 event records, 79 primary records, 44 secondary records and 3 parent records.
+2025-04-23 23:17:41 INFO Processing file named sample_data_files/M7.xml.
+2025-04-23 23:17:41 INFO Attempting to parse XML in sample_data_files/M7.xml.
+2025-04-23 23:17:41 INFO XML parsed successfully.
+2025-04-23 23:17:41 INFO Checking if Op_Sand_Scorpion_-_Part_7_v1.0 already in database.
+2025-04-23 23:17:41 INFO Attempting to add mission named Op_Sand_Scorpion_-_Part_7_v1.0 to database.
+2025-04-23 23:17:41 INFO Created mission in database.
+2025-04-23 23:17:41 INFO Processing event records.
+2025-04-23 23:17:42 INFO Successfully processed 302 event records, 302 primary records, 191 secondary records and 62 parent records.
+2025-04-23 23:17:42 INFO Processing file named sample_data_files/M8.xml.
+2025-04-23 23:17:42 INFO Attempting to parse XML in sample_data_files/M8.xml.
+2025-04-23 23:17:42 INFO XML parsed successfully.
+2025-04-23 23:17:42 INFO Checking if Op_Sand_Scorpion_-_Part_8_v1.0 already in database.
+2025-04-23 23:17:42 INFO Attempting to add mission named Op_Sand_Scorpion_-_Part_8_v1.0 to database.
+2025-04-23 23:17:42 INFO Created mission in database.
+2025-04-23 23:17:42 INFO Processing event records.
+2025-04-23 23:17:44 INFO Successfully processed 486 event records, 486 primary records, 406 secondary records and 151 parent records.
+2025-04-23 23:17:44 INFO 3 files processed successfully in 3.265 seconds. 0 files were not found.

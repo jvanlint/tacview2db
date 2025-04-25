@@ -14,7 +14,8 @@
         "yzhang.markdown-all-in-one",
         "aaron-bond.better-comments",
         "ms-vscode-remote.remote-containers",
-        "PKief.material-icon-theme"
+        "PKief.material-icon-theme",
+        "emilast.LogFileHighlighter"
       ],
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python"

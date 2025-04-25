@@ -162,3 +162,4 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 tacview2db/app.log
+tacview2db/app.log
